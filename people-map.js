@@ -51,10 +51,10 @@
       svg.append(g);
     });
     status.textContent=`${people.length} 位人物 · ${count} 组关系 · 拖动 / 双指缩放，点击人物查看资料。连线来自现有资料，并非完整家谱。`;
-    svg.addEventListener('click',e=>{if(gesture?.moved)return;const g=e.target.closest('[data-map-person]');if(g)choose(g.dataset.mapPerson);});
+    svg.addEventListener('click',e=>{if(gesture?.moved)return;const g=e.target.closest('[data-map-person]');const id=g?.dataset.mapPerson||gesture?.person;if(id)choose(id);});
     svg.addEventListener('pointerdown',e=>{
       svg.setPointerCapture(e.pointerId); points.set(e.pointerId,{x:e.clientX,y:e.clientY});
-      gesture={moved:false,start:[e.clientX,e.clientY]};
+      gesture={moved:false,start:[e.clientX,e.clientY],person:e.target.closest('[data-map-person]')?.dataset.mapPerson};
     });
     svg.addEventListener('pointermove',e=>{
       if(!points.has(e.pointerId))return;
