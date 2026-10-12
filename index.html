@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f4ee">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="圣经阅读">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-180.png">
+  <link rel="icon" href="./icons/icon-192.png">
+  <title>圣经一年阅读计划</title>
+  <style>
+    :root{
+      --bg:#f7f4ee;--card:#fffdf8;--text:#2b2a27;--muted:#78736b;
+      --line:#e8e1d6;--accent:#7a6a52;--accent2:#a08b6d;--soft:#eee6da;
+      --ok:#5f7a64;--shadow:0 8px 28px rgba(60,45,25,.08);
+      --safe:env(safe-area-inset-bottom);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    body{min-height:100vh}
+    .app{max-width:760px;margin:auto;padding:18px 14px calc(92px + var(--safe))}
+    .hero{padding:10px 4px 14px}
+    .eyebrow{font-size:13px;color:var(--muted);margin-bottom:4px}
+    h1{font-size:28px;line-height:1.2;margin:0}
+    .theme{display:inline-block;margin-top:10px;padding:6px 10px;border-radius:999px;background:var(--soft);color:var(--accent);font-size:13px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:16px;margin-bottom:14px}
+    .progress{height:10px;background:#ece5da;border-radius:99px;overflow:hidden}
+    .progress>div{height:100%;background:var(--accent);width:0}
+    .progressRow{display:flex;align-items:center;gap:10px}
+    .progressRow strong{min-width:44px;text-align:right}
+    .task{display:flex;gap:12px;padding:14px 0;border-top:1px solid var(--line);align-items:flex-start}
+    .task:first-child{border-top:0}
+    .task input{width:22px;height:22px;accent-color:var(--accent);margin-top:1px}
+    .taskTitle{font-weight:700}
+    .taskDesc{font-size:14px;color:var(--muted);margin-top:4px;line-height:1.6}
+    textarea{width:100%;min-height:110px;border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff;font:inherit;color:var(--text);resize:vertical}
+    .btnrow{display:flex;gap:8px;flex-wrap:wrap}
+    button,.btn{border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 12px;font:inherit;color:var(--text)}
+    button.primary{background:var(--accent);color:white;border-color:var(--accent)}
+    .sectionTitle{font-size:15px;font-weight:700;margin-bottom:10px}
+    .muted{color:var(--muted)}
+    .small{font-size:12px}
+    .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+    .kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px}
+    .kpi b{display:block;font-size:20px;margin-top:3px}
+    .review{background:#f1eee8;border-radius:14px;padding:14px;line-height:1.8}
+    .mapline{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+    .mapchip{padding:6px 9px;border-radius:999px;background:#f0ece5;font-size:13px}
+    .mapchip.active{background:var(--accent);color:#fff}
+    .months{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+    .month{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px}
+    .month.active{outline:2px solid var(--accent);background:var(--soft)}
+    .month strong{display:block}
+    .month span{display:block;margin-top:3px;font-size:12px;color:var(--muted);line-height:1.35}
+    .bottomNav{
+      position:fixed;left:0;right:0;bottom:0;background:rgba(255,253,248,.96);
+      border-top:1px solid var(--line);backdrop-filter:blur(16px);
+      padding:8px 10px calc(8px + var(--safe));display:flex;justify-content:center;z-index:10
+    }
+    .navInner{width:min(760px,100%);display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+    .navBtn{border:0;background:transparent;padding:8px 4px;color:var(--muted);font-size:12px}
+    .navBtn.active{color:var(--accent);font-weight:700}
+    .navIcon{font-size:20px;display:block;margin-bottom:2px}
+    .page{display:none}.page.active{display:block}
+    input[type=date]{width:100%}
+    .installHint{font-size:13px;line-height:1.6;background:#fff8e8;border:1px solid #ead9b6;border-radius:12px;padding:11px}
+
+    .peopleSearch{display:flex;gap:8px;margin-bottom:10px}
+    .peopleSearch input{flex:1;min-width:0;border:1px solid var(--line);background:#fff;border-radius:12px;padding:12px;font:inherit;color:var(--text)}
+    .peopleFilters{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0 12px}
+    .filterChip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 11px;font-size:13px}
+    .filterChip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .selectRow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+    .selectRow select{width:100%;border:1px solid var(--line);border-radius:12px;background:#fff;padding:10px;font:inherit;color:var(--text)}
+    .peopleList{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+    @media(max-width:560px){.peopleList{grid-template-columns:1fr}.selectRow{grid-template-columns:1fr 1fr}}
+    .personCard{border:1px solid var(--line);background:#fff;border-radius:14px;padding:12px;text-align:left;cursor:pointer}
+    .personCard:hover{background:#faf7f1}.personName{font-size:17px;font-weight:750}.personMeta{font-size:12px;color:var(--muted);margin:4px 0 7px}
+    .tagRow{display:flex;gap:5px;flex-wrap:wrap}.tag{font-size:11px;padding:4px 7px;border-radius:999px;background:var(--soft);color:var(--accent)}
+    .personSummary{font-size:13px;color:var(--muted);line-height:1.55;margin-top:8px}
+    .peopleCount{font-size:13px;color:var(--muted);margin-bottom:10px}
+    .personDetail{scroll-margin-top:12px}.detailTitle{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.detailTitle h2{font-size:25px;margin:0}.detailBadge{white-space:nowrap;font-size:12px;padding:5px 8px;border-radius:999px;background:var(--soft);color:var(--accent)}
+    .detailIntro{font-size:14px;line-height:1.7;color:var(--muted);margin-top:10px}
+    .mindBranch{border:1px solid var(--line);border-radius:14px;background:#fff;margin-top:9px;overflow:hidden}
+    .mindBranch summary{cursor:pointer;font-weight:700;padding:12px 14px;list-style:none}.mindBranch summary::-webkit-details-marker{display:none}.mindBranch summary:after{content:'＋';float:right;color:var(--muted)}.mindBranch[open] summary:after{content:'－'}
+    .branchBody{border-top:1px solid var(--line);padding:12px 14px;font-size:14px;line-height:1.75}
+    .timelineList{margin:0;padding-left:20px}.timelineList li{padding:3px 0}
+    .refList{display:flex;gap:6px;flex-wrap:wrap}.refPill{padding:6px 8px;border-radius:9px;background:#f4f0e9;font-size:13px}
+    .relationMap{padding:14px 5px}.relationCenter{margin:0 auto 12px;width:max-content;max-width:90%;padding:10px 16px;border-radius:14px;background:var(--accent);color:#fff;font-weight:750;text-align:center}.relationGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.relationNode{border:1px solid var(--line);background:#fff;border-radius:12px;padding:9px;text-align:center;cursor:pointer}.relationType{font-size:11px;color:var(--muted);display:block;margin-bottom:3px}.relationName{font-weight:700;font-size:13px}
+    .peopleTree details{border-top:1px solid var(--line);padding:8px 0}.peopleTree details:first-child{border-top:0}.peopleTree summary{font-weight:700;cursor:pointer}.treeNames{display:flex;gap:6px;flex-wrap:wrap;padding:9px 0 2px}.treePerson{border:0;background:var(--soft);color:var(--accent);border-radius:999px;padding:6px 9px;font-size:12px}
+    .emptyState{padding:24px 8px;text-align:center;color:var(--muted)}
+  </style>
+</head>
+<body>
+<div class="app">
+  <section id="pageToday" class="page active">
+    <div class="hero">
+      <div class="eyebrow" id="dayMeta"></div>
+      <h1 id="dateTitle"></h1>
+      <div class="theme" id="theme"></div>
+    </div>
+
+    <div class="card">
+      <div class="sectionTitle">今日阅读</div>
+      <div id="tasks"></div>
+    </div>
+
+    <div class="card">
+      <div class="sectionTitle">今天留下的一句话</div>
+      <textarea id="note" placeholder="哪一句经文最触动你？今天你认识到怎样的神、怎样的人？"></textarea>
+      <div class="btnrow" style="margin-top:10px">
+        <button class="primary" id="saveNote">保存</button>
+        <button id="copySummary">复制今日摘要</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="sectionTitle">当前圣经历史位置</div>
+      <div class="mapline" id="historyMap"></div>
+    </div>
+  </section>
+
+  <section id="pagePlan" class="page">
+    <div class="hero"><div class="eyebrow">全年路线</div><h1>一年阅读计划</h1></div>
+    <div class="card">
+      <div class="progressRow"><div class="progress"><div id="progressBar"></div></div><strong id="progressText">0%</strong></div>
+      <div class="kpis">
+        <div class="kpi"><span class="small muted">完成阅读日</span><b id="doneDays">0</b></div>
+        <div class="kpi"><span class="small muted">连续天数</span><b id="streak">0</b></div>
+        <div class="kpi"><span class="small muted">当前周</span><b id="weekNo">1</b></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="sectionTitle">12个月主线</div>
+      <div id="months" class="months"></div>
+    </div>
+  </section>
+
+  <section id="pageNotes" class="page">
+    <div class="hero"><div class="eyebrow">回顾</div><h1>我的笔记</h1></div>
+    <div class="card" id="notesList"></div>
+  </section>
+
+
+
+  <section id="pagePeople" class="page">
+    <div class="hero">
+      <div class="eyebrow">人物 · 经卷 · 关系 · 一生经历</div>
+      <h1>圣经人物知识库</h1>
+      <div class="theme">122位人物 · 旧约77 · 新约45</div>
+    </div>
+    <div class="card">
+      <div class="peopleSearch"><input id="peopleSearch" type="search" placeholder="搜索：大卫 / 彼得 / 撒母耳记 / 金钱 / 十二门徒"></div>
+      <div class="peopleFilters" id="peopleFilters">
+        <button class="filterChip active" data-pfilter="全部">全部</button>
+        <button class="filterChip" data-pfilter="旧约">旧约</button>
+        <button class="filterChip" data-pfilter="新约">新约</button>
+        <button class="filterChip" data-pfilter="十二门徒">十二门徒</button>
+      </div>
+      <div class="selectRow">
+        <select id="peopleEra"><option value="全部">全部时期</option></select>
+        <select id="peopleTheme"><option value="全部">全部主题</option></select>
+      </div>
+      <div class="peopleCount" id="peopleCount"></div>
+      <div class="peopleList" id="peopleList"></div>
+    </div>
+    <div class="card personDetail" id="personDetail" style="display:none"></div>
+    <div class="card">
+      <div class="sectionTitle">按历史时期展开</div>
+      <div class="taskDesc" style="margin-bottom:8px">像思维导图一样，从时期展开人物；点名字进入完整人物卡。</div>
+      <div class="peopleTree" id="peopleTree"></div>
+    </div>
+  </section>
+
+  <section id="pageTopic" class="page">
+    <div class="hero">
+      <div class="eyebrow">专题灵修</div>
+      <h1>30天 · 圣经金钱观</h1>
+      <div class="theme" id="moneyTheme"></div>
+    </div>
+    <div class="card">
+      <div class="progressRow"><div class="progress"><div id="moneyProgressBar"></div></div><strong id="moneyProgressText">0%</strong></div>
+      <div class="kpis">
+        <div class="kpi"><span class="small muted">当前第</span><b id="moneyDayNo">1</b><span class="small muted">天</span></div>
+        <div class="kpi"><span class="small muted">已完成</span><b id="moneyDoneDays">0</b><span class="small muted">天</span></div>
+        <div class="kpi"><span class="small muted">计划长度</span><b>30</b><span class="small muted">天</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="sectionTitle">今日经文</div>
+      <div style="font-size:21px;font-weight:700;line-height:1.5" id="moneyScripture"></div>
+      <div class="taskDesc" id="moneyFocus" style="margin-top:8px"></div>
+    </div>
+    <div class="card">
+      <div class="sectionTitle">今天只想这一个问题</div>
+      <div class="review" id="moneyQuestion"></div>
+    </div>
+    <div class="card">
+      <div class="sectionTitle">三句话灵修</div>
+      <textarea id="moneyNote" placeholder="1. 今天让我看见神是怎样的？&#10;2. 今天让我看见自己里面什么？&#10;3. 今天我要做一个什么具体改变？"></textarea>
+      <div class="btnrow" style="margin-top:10px">
+        <button class="primary" id="moneyCompleteBtn">标记今天完成</button>
+        <button id="moneyPrevBtn">← 前一天</button>
+        <button id="moneyNextBtn">后一天 →</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="sectionTitle">30天总览</div>
+      <div id="moneyOverview"></div>
+    </div>
+  </section>
+
+  <section id="pageMore" class="page">
+    <div class="hero"><div class="eyebrow">设置</div><h1>我的</h1></div>
+    <div class="card">
+      <div class="sectionTitle">开始日期</div>
+      <input type="date" id="startDate" class="btn">
+      <div class="btnrow" style="margin-top:10px">
+        <button id="exportBtn">导出进度</button>
+        <label class="btn">导入进度<input type="file" id="importFile" accept=".json" style="display:none"></label>
+        <button id="resetBtn">清空记录</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="sectionTitle">添加到 iPhone 桌面</div>
+      <div class="installHint">
+        第一次用 Safari 打开这个网页后，点底部“分享” → “添加到主屏幕”。
+        添加后从桌面“圣经阅读”图标进入；首次完整加载后，断网也可以继续使用。
+      </div>
+    </div>
+    <div class="card">
+      <div class="sectionTitle">记录与资料</div>
+      <div class="btnrow"><button id="allNotesBtn">查看全部读经笔记</button></div>
+    </div>
+    <div class="card">
+      <div class="btnrow">
+        <button id="prevBtn">← 前一天</button>
+        <button id="todayBtn">今天</button>
+        <button id="nextBtn">后一天 →</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<nav class="bottomNav">
+  <div class="navInner">
+    <button class="navBtn active" data-page="pageToday"><span class="navIcon">☀️</span>今天</button>
+    <button class="navBtn" data-page="pagePlan"><span class="navIcon">🗓️</span>计划</button>
+    <button class="navBtn" data-page="pagePeople"><span class="navIcon">👥</span>人物</button>
+    <button class="navBtn" data-page="pageTopic"><span class="navIcon">💰</span>专题</button>
+    <button class="navBtn" data-page="pageMore"><span class="navIcon">⚙️</span>我的</button>
+  </div>
+</nav>
+
+<script src="./people-data.js"></script>
+<script>
+const PEOPLE=window.BIBLE_PEOPLE||[];
+const PLAN = [
+ {theme:"创造、堕落、应许与约", old:["创世记",1,50], nt:[["马可福音",1,16],["加拉太书",1,6]], stage:"创造与列祖"},
+ {theme:"出埃及、逾越节、律法与会幕", old:["出埃及记",1,40], nt:[["路加福音",1,24]], stage:"出埃及与旷野"},
+ {theme:"圣洁、旷野与人的悖逆", old:["组合",["利未记",1,4,8,10,16,19,23,25,26],["民数记",1,36]], nt:[["使徒行传",1,28]], stage:"旷野"},
+ {theme:"进入应许之地", old:["组合",["申命记",1,34],["约书亚记",1,24]], nt:[["罗马书",1,16],["哥林多前书",1,16]], stage:"进入迦南"},
+ {theme:"士师时代到扫罗王", old:["组合",["士师记",1,21],["路得记",1,4],["撒母耳记上",1,31]], nt:[["约翰福音",1,21]], stage:"士师与扫罗"},
+ {theme:"大卫、所罗门与王国分裂", old:["组合",["撒母耳记下",1,24],["列王纪上",1,22]], nt:[["哥林多后书",1,13],["以弗所书",1,6],["腓立比书",1,4]], stage:"大卫与所罗门"},
+ {theme:"南北国衰败、先知与被掳", old:["列王纪下",1,25], nt:[["马太福音",1,28]], stage:"南北国"},
+ {theme:"归回、重建与信仰身份", old:["组合",["以斯拉记",1,10],["尼希米记",1,13],["以斯帖记",1,10]], nt:[["希伯来书",1,13],["雅各书",1,5],["彼得前书",1,5],["彼得后书",1,3]], stage:"被掳归回"},
+ {theme:"苦难、敬拜与盼望", old:["组合",["约伯记",1,42],["诗篇",1,20]], nt:[["约翰一书",1,5],["约翰二书",1,1],["约翰三书",1,1],["启示录",1,22]], stage:"智慧与敬拜"},
+ {theme:"智慧、人生与成熟", old:["组合",["箴言",1,31],["传道书",1,12],["雅歌",1,8]], nt:[["帖撒罗尼迦前书",1,5],["帖撒罗尼迦后书",1,3],["提摩太前书",1,6],["提摩太后书",1,4]], stage:"智慧"},
+ {theme:"弥赛亚、审判与拯救", old:["组合",["以赛亚书",1,66],["耶利米书",1,25]], nt:[["约翰福音",1,21]], stage:"先知"},
+ {theme:"被掳、恢复与终末盼望", old:["组合",["以西结书",1,24],["何西阿书",1,14],["约珥书",1,3],["阿摩司书",1,9],["俄巴底亚书",1,1],["约拿书",1,4],["弥迦书",1,7],["那鸿书",1,3],["哈巴谷书",1,3],["西番雅书",1,3],["哈该书",1,2],["撒迦利亚书",1,14],["玛拉基书",1,4]], nt:[["使徒行传",1,28],["腓立比书",1,4]], stage:"先知与盼望"}
+];
+const HISTORY = ["创造与列祖","出埃及与旷野","进入迦南","士师与扫罗","大卫与所罗门","南北国","被掳归回","先知与盼望"];
+
+const MONEY_PLAN = [
+{s:"马太福音 6:19–34",t:"财宝与安全感",q:"我的安全感最容易建立在什么上？"},
+{s:"路加福音 12:13–34",t:"无知的财主",q:"如果财富增加很多，我会觉得自己更安全吗？"},
+{s:"提摩太前书 6:6–19",t:"钱与知足",q:"“想要更多”和“真正需要”有什么区别？"},
+{s:"希伯来书 13:5–6",t:"不贪爱钱财",q:"如果资产减少，我最害怕失去什么？"},
+{s:"腓立比书 4:10–20",t:"处丰富与处缺乏",q:"我是否只有环境顺利才有平安？"},
+{s:"箴言 30:7–9",t:"不贫穷也不富足",q:"我真正想要的是财富，还是一种安全感？"},
+{s:"诗篇 23",t:"神是供应者",q:"我能否真正说“我必不至缺乏”？"},
+{s:"箴言 21:5",t:"筹划与殷勤",q:"谨慎规划和不信靠神有什么区别？"},
+{s:"路加福音 14:28–33",t:"计算代价",q:"做重大财务决定前，我应该计算什么？"},
+{s:"箴言 15:22、20:18",t:"听取意见",q:"我听建议时，是寻求智慧，还是寻找支持自己的人？"},
+{s:"箴言 11:1、16:8",t:"金钱与正直",q:"如果利益和原则冲突，我通常先保护哪个？"},
+{s:"箴言 22:1–9",t:"名声、财富与慷慨",q:"“美名胜过大财”对我的职业选择意味着什么？"},
+{s:"路加福音 16:1–13",t:"忠心的管家",q:"我现在管理的钱，真的只是“我的钱”吗？"},
+{s:"马太福音 25:14–30",t:"才干的比喻",q:"神给我的资源，我是在埋藏还是善用？"},
+{s:"创世记 39:1–6",t:"约瑟的管理",q:"忠心管理和拥有多少资源有关系吗？"},
+{s:"创世记 41:33–57",t:"为未来预备",q:"储蓄和预备是否也可以是信仰的一部分？"},
+{s:"箴言 6:6–11",t:"懒惰与勤劳",q:"我的收入增长主要依靠什么？"},
+{s:"传道书 5:10–20",t:"钱不能使人满足",q:"我有没有想象“达到某个数字以后就安心了”？"},
+{s:"传道书 11:1–6",t:"风险与不确定性",q:"我是不是总想等到所有风险消失才行动？"},
+{s:"雅各书 4:13–17",t:"计划与神的主权",q:"我的五年计划里有没有给“不确定性”留下位置？"},
+{s:"约伯记 1:13–22",t:"财富突然失去",q:"如果失去一些财富，我对神的认识会不会改变？"},
+{s:"哈巴谷书 3:17–19",t:"环境不好仍然喜乐",q:"如果投资失败，我仍能有喜乐吗？"},
+{s:"申命记 8",t:"财富与骄傲",q:"成功以后，我会不会觉得都是自己的能力？"},
+{s:"路加福音 19:1–10",t:"撒该与金钱",q:"真正的悔改如何改变一个人对钱的态度？"},
+{s:"马可福音 10:17–31",t:"富有的少年官",q:"如果神触碰我最舍不得的东西，我会怎样？"},
+{s:"哥林多后书 8",t:"慷慨不是压力",q:"我的给予是出于自由，还是出于罪疚？"},
+{s:"哥林多后书 9",t:"甘心乐意地给予",q:"慷慨如何帮助我摆脱钱的控制？"},
+{s:"使徒行传 4:32–37",t:"财富与群体",q:"钱除了满足自己，还能承担什么责任？"},
+{s:"诗篇 73",t:"看见别人成功时",q:"当别人得到我曾经想要的东西，我里面发生什么？"},
+{s:"马太福音 6:24 + 诗篇 139:23–24",t:"谁是我的主人",q:"钱在我生命里究竟处于什么位置？"}
+];
+function moneyDayState(i){
+  if(!state.money.days[i]) state.money.days[i]={done:false,note:""};
+  return state.money.days[i];
+}
+function renderMoney(){
+  const i=clamp(state.money.current||0,0,29), item=MONEY_PLAN[i], ds=moneyDayState(i);
+  moneyTheme.textContent=item.t; moneyDayNo.textContent=i+1; moneyScripture.textContent=item.s;
+  moneyFocus.textContent=`第 ${i+1} 天 · ${item.t}`; moneyQuestion.textContent=item.q; moneyNote.value=ds.note||"";
+  moneyCompleteBtn.textContent=ds.done?"✓ 今天已完成":"标记今天完成";
+  let done=0; for(let j=0;j<30;j++) if(state.money.days[j]&&state.money.days[j].done) done++;
+  const pct=Math.round(done/30*100);
+  moneyProgressBar.style.width=pct+"%"; moneyProgressText.textContent=pct+"%"; moneyDoneDays.textContent=done;
+  moneyOverview.innerHTML=MONEY_PLAN.map((x,j)=>`<button class="month ${j===i?"active":""}" data-money-day="${j}" style="width:100%;text-align:left;margin-bottom:7px"><strong>${state.money.days[j]&&state.money.days[j].done?"✓ ":""}第${j+1}天 · ${x.t}</strong><span>${x.s}</span></button>`).join("");
+  moneyOverview.querySelectorAll("[data-money-day]").forEach(b=>b.onclick=()=>{state.money.current=Number(b.dataset.moneyDay);save();renderMoney();});
+}
+
+const MONTH_LENGTHS=[31,28,31,30,31,30,31,31,30,31,30,31], TOTAL_DAYS=365, KEY="bible_year_plan_pwa_v1";
+const fmtDate=d=>d.toLocaleDateString("zh-CN",{year:"numeric",month:"long",day:"numeric",weekday:"long"});
+const isoDate=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const fromISO=s=>{let[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const addDays=(d,n)=>{let x=new Date(d);x.setDate(x.getDate()+n);return x};
+const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return {}}}
+let state=load(); if(!state.startDate)state.startDate=isoDate(new Date()); if(!state.days)state.days={}; if(!state.money)state.money={current:0,days:{}};
+let currentIndex=clamp(Math.floor((new Date()-fromISO(state.startDate))/86400000),0,TOTAL_DAYS-1);
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+function expandSpec(spec){
+  if(spec[0]!=="组合"){const [b,a,z]=spec;return Array.from({length:z-a+1},(_,i)=>b+" "+(a+i))}
+  let out=[]; for(let i=1;i<spec.length;i++){const it=spec[i];
+    if(it.length>3){const [b,...chs]=it;chs.forEach(c=>out.push(b+" "+c))}
+    else{const[b,a,z]=it;for(let c=a;c<=z;c++)out.push(b+" "+c)}
+  } return out;
+}
+function expandNT(specs){let out=[];specs.forEach(([b,a,z])=>{for(let c=a;c<=z;c++)out.push(b+" "+c)});return out}
+function monthForDay(idx){let s=0;for(let m=0;m<12;m++){if(idx<s+MONTH_LENGTHS[m])return{m,dayIn:idx-s,offset:s};s+=MONTH_LENGTHS[m]}}
+function readingIdxs(m){let start=MONTH_LENGTHS.slice(0,m).reduce((a,b)=>a+b,0),arr=[];for(let i=0;i<MONTH_LENGTHS[m];i++)if(((start+i+1)%7)!==0)arr.push(start+i);return arr}
+function sliceForDay(items,pos,total){if(!items.length)return[];const a=Math.floor(pos*items.length/total),b=Math.floor((pos+1)*items.length/total);return items.slice(a,Math.max(a+1,b))}
+function spiritual(n){if((n+1)%6===0)return"箴言 "+((Math.floor(n/6)%31)+1);return"诗篇 "+((n-Math.floor(n/6))%150+1)}
+function getPlan(idx){
+  const date=addDays(fromISO(state.startDate),idx), isReview=((idx+1)%7===0), mf=monthForDay(idx), p=PLAN[mf.m], r=readingIdxs(mf.m), pos=r.indexOf(idx);
+  if(isReview)return{date,isReview,theme:p.theme,m:mf.m,stage:p.stage,tasks:[]};
+  const old=sliceForDay(expandSpec(p.old),pos,r.length).join("、"), nt=sliceForDay(expandNT(p.nt),pos,r.length).join("、");
+  let n=0;for(let j=0;j<idx;j++)if((j+1)%7!==0)n++;
+  return{date,isReview,theme:p.theme,m:mf.m,stage:p.stage,tasks:[{id:"old",label:"主线",desc:old},{id:"nt",label:"新约",desc:nt},{id:"sp",label:"灵修线",desc:spiritual(n)}]};
+}
+function dayState(i){if(!state.days[i])state.days[i]={done:{},note:""};return state.days[i]}
+function render(){
+  const p=getPlan(currentIndex),ds=dayState(currentIndex);
+  dayMeta.textContent=`第 ${currentIndex+1} 天 · 第 ${Math.floor(currentIndex/7)+1} 周 · 第 ${p.m+1} 月`;
+  dateTitle.textContent=fmtDate(p.date); theme.textContent=p.theme; tasks.innerHTML="";
+  if(p.isReview){
+    tasks.innerHTML='<div class="review"><b>今天不安排新内容。</b><br>① 这一周发生了什么？<br>② 哪一句经文让我印象最深？<br>③ 有什么事情是我可以实际改变的？<br><span class="muted small">如果漏读，可以补一点；没有漏读，就安静休息。</span></div>';
+  }else{
+    p.tasks.forEach(t=>{const row=document.createElement("label");row.className="task";row.innerHTML=`<input type="checkbox" data-id="${t.id}" ${ds.done[t.id]?"checked":""}><div><div class="taskTitle">${t.label}</div><div class="taskDesc">${t.desc}</div></div>`;tasks.appendChild(row)});
+    tasks.querySelectorAll("input").forEach(cb=>cb.addEventListener("change",e=>{ds.done[e.target.dataset.id]=e.target.checked;save();updateStats()}));
+  }
+  note.value=ds.note||""; startDate.value=state.startDate; weekNo.textContent=Math.floor(currentIndex/7)+1;
+  historyMap.innerHTML=HISTORY.map(s=>`<span class="mapchip ${s===p.stage?"active":""}">${s}</span>`).join("");
+  renderMonths(p.m);renderNotes();renderMoney();updateStats();
+}
+function renderMonths(active){
+  months.innerHTML="";PLAN.forEach((p,i)=>{const d=document.createElement("div");d.className="month"+(i===active?" active":"");d.innerHTML=`<strong>第${i+1}月</strong><span>${p.theme}</span>`;d.onclick=()=>{currentIndex=MONTH_LENGTHS.slice(0,i).reduce((a,b)=>a+b,0);switchPage("pageToday");render()};months.appendChild(d)})
+}
+function isComplete(i){const p=getPlan(i);if(p.isReview)return false;const d=state.days[i];return!!d&&["old","nt","sp"].every(k=>d.done&&d.done[k])}
+function updateStats(){
+  let rd=0,done=0;for(let i=0;i<TOTAL_DAYS;i++)if((i+1)%7!==0){rd++;if(isComplete(i))done++}
+  const pct=Math.round(done/rd*100);progressBar.style.width=pct+"%";progressText.textContent=pct+"%";doneDays.textContent=done;
+  let s=0;for(let i=currentIndex;i>=0;i--){if((i+1)%7===0)continue;if(isComplete(i))s++;else break}streak.textContent=s;
+}
+function renderNotes(){
+  const items=[];Object.keys(state.days).forEach(k=>{const d=state.days[k];if(d.note&&d.note.trim())items.push([Number(k),d.note.trim()])});
+  items.sort((a,b)=>b[0]-a[0]);notesList.innerHTML=items.length?items.map(([i,n])=>`<div style="padding:12px 0;border-top:1px solid var(--line)"><b>${fmtDate(getPlan(i).date)}</b><div class="taskDesc" style="white-space:pre-wrap">${n.replace(/</g,"&lt;")}</div></div>`).join(""):'<div class="muted">还没有笔记。</div>';
+}
+
+let peopleState={filter:'全部',era:'全部',theme:'全部',q:'',selected:null};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function initPeople(){
+  const eras=[...new Set(PEOPLE.map(p=>p.era))];
+  const themes=[...new Set(PEOPLE.flatMap(p=>p.themes||[]))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+  peopleEra.innerHTML='<option value="全部">全部时期</option>'+eras.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
+  peopleTheme.innerHTML='<option value="全部">全部主题</option>'+themes.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
+  peopleSearch.addEventListener('input',e=>{peopleState.q=e.target.value.trim();renderPeople();});
+  peopleEra.addEventListener('change',e=>{peopleState.era=e.target.value;renderPeople();});
+  peopleTheme.addEventListener('change',e=>{peopleState.theme=e.target.value;renderPeople();});
+  peopleFilters.addEventListener('click',e=>{const b=e.target.closest('[data-pfilter]');if(!b)return;peopleState.filter=b.dataset.pfilter;peopleFilters.querySelectorAll('.filterChip').forEach(x=>x.classList.toggle('active',x===b));renderPeople();});
+  peopleList.addEventListener('click',e=>{const b=e.target.closest('[data-person-id]');if(b)openPerson(b.dataset.personId);});
+  personDetail.addEventListener('click',e=>{const b=e.target.closest('[data-related-name]');if(b){const t=findPersonByName(b.dataset.relatedName);if(t)openPerson(t.id);}});
+  peopleTree.addEventListener('click',e=>{const b=e.target.closest('[data-tree-person]');if(b)openPerson(b.dataset.treePerson);});
+  renderPeopleTree(); renderPeople();
+}
+function findPersonByName(name){
+  const clean=name.split('（')[0].split('/')[0].trim();
+  return PEOPLE.find(p=>p.name===name)||PEOPLE.find(p=>p.name.startsWith(clean)||clean.startsWith(p.name.split('（')[0].split('/')[0].trim()));
+}
+function personSearchText(p){return [p.name,p.testament,p.era,...(p.roles||[]),...(p.refs||[]),...(p.timeline||[]),...(p.themes||[]),p.summary,p.note,...(p.relations||[]).flatMap(r=>[r.name,r.type])].join(' ').toLowerCase();}
+function getFilteredPeople(){
+  const q=peopleState.q.toLowerCase();
+  const arr=PEOPLE.filter(p=>{
+    if(peopleState.filter==='旧约'&&p.testament!=='旧约')return false;
+    if(peopleState.filter==='新约'&&p.testament!=='新约')return false;
+    if(peopleState.filter==='十二门徒'&&p.era!=='十二门徒')return false;
+    if(peopleState.era!=='全部'&&p.era!==peopleState.era)return false;
+    if(peopleState.theme!=='全部'&&!(p.themes||[]).includes(peopleState.theme))return false;
+    if(q&&!personSearchText(p).includes(q))return false;
+    return true;
+  });
+  if(q) arr.sort((a,b)=>{
+    const an=a.name.toLowerCase(),bn=b.name.toLowerCase();
+    const score=n=>n===q?0:n.startsWith(q)?1:n.includes(q)?2:3;
+    return score(an)-score(bn)||a.name.localeCompare(b.name,'zh-CN');
+  });
+  return arr;
+}
+function renderPeople(){
+  const arr=getFilteredPeople(); peopleCount.textContent=`找到 ${arr.length} 位人物 · 可直接搜索经卷、主题或关系人物`;
+  peopleList.innerHTML=arr.length?arr.map(p=>`<button class="personCard" data-person-id="${esc(p.id)}"><div class="personName">${esc(p.name)}</div><div class="personMeta">${esc(p.testament)} · ${esc(p.era)} · ${(p.roles||[]).map(esc).join(' / ')}</div><div class="tagRow">${(p.themes||[]).slice(0,4).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="personSummary">${esc(p.summary)}</div></button>`).join(''):'<div class="emptyState">没有找到匹配人物。可以换人物名、经卷名或主题搜索。</div>';
+}
+function renderPeopleTree(){
+  const tests=['旧约','新约']; let out='';
+  tests.forEach(test=>{
+    const ps=PEOPLE.filter(p=>p.testament===test); const eras=[...new Set(ps.map(p=>p.era))];
+    out+=`<details ${test==='新约'?'open':''}><summary>${test} · ${ps.length}位</summary>`;
+    eras.forEach(era=>{const xs=ps.filter(p=>p.era===era);out+=`<details><summary>${esc(era)} · ${xs.length}位</summary><div class="treeNames">${xs.map(x=>`<button class="treePerson" data-tree-person="${esc(x.id)}">${esc(x.name)}</button>`).join('')}</div></details>`;});
+    out+='</details>';
+  }); peopleTree.innerHTML=out;
+}
+function openPerson(id){
+  const p=PEOPLE.find(x=>x.id===id);if(!p)return;peopleState.selected=id;
+  const rels=(p.relations||[]);
+  const related=rels.map(r=>{const found=findPersonByName(r.name);return `<button class="relationNode" ${found?`data-related-name="${esc(r.name)}"`:''}><span class="relationType">${esc(r.type)}</span><span class="relationName">${esc(r.name)}</span></button>`;}).join('');
+  personDetail.innerHTML=`<div class="detailTitle"><div><div class="eyebrow">${esc(p.testament)} · ${esc(p.era)}</div><h2>${esc(p.name)}</h2></div><span class="detailBadge">${(p.roles||[]).map(esc).join(' · ')}</span></div><div class="detailIntro">${esc(p.summary)}</div>
+  <details class="mindBranch" open><summary>📖 主要经卷</summary><div class="branchBody"><div class="refList">${(p.refs||[]).map(x=>`<span class="refPill">${esc(x)}</span>`).join('')}</div>${p.note?`<div class="taskDesc" style="margin-top:10px">注：${esc(p.note)}</div>`:''}</div></details>
+  <details class="mindBranch" open><summary>🧭 一生经历</summary><div class="branchBody"><ol class="timelineList">${(p.timeline||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div></details>
+  <details class="mindBranch" open><summary>👥 人物关系</summary><div class="branchBody"><div class="relationMap"><div class="relationCenter">${esc(p.name)}</div><div class="relationGrid">${related||'<div class="muted">暂无关键关系记录</div>'}</div></div></div></details>
+  <details class="mindBranch" open><summary>💡 导读重点</summary><div class="branchBody"><div class="tagRow">${(p.themes||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div style="margin-top:10px">${esc(p.summary)}</div></div></details>`;
+  personDetail.style.display='block';
+  requestAnimationFrame(()=>personDetail.scrollIntoView({behavior:'smooth',block:'start'}));
+}
+
+function switchPage(id){document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id===id));document.querySelectorAll(".navBtn").forEach(x=>x.classList.toggle("active",x.dataset.page===id))}
+document.querySelectorAll(".navBtn").forEach(b=>b.onclick=()=>switchPage(b.dataset.page));
+allNotesBtn.onclick=()=>switchPage('pageNotes');
+prevBtn.onclick=()=>{currentIndex=clamp(currentIndex-1,0,TOTAL_DAYS-1);switchPage("pageToday");render()};
+nextBtn.onclick=()=>{currentIndex=clamp(currentIndex+1,0,TOTAL_DAYS-1);switchPage("pageToday");render()};
+todayBtn.onclick=()=>{currentIndex=clamp(Math.floor((new Date()-fromISO(state.startDate))/86400000),0,TOTAL_DAYS-1);switchPage("pageToday");render()};
+saveNote.onclick=()=>{dayState(currentIndex).note=note.value;save();renderNotes();alert("已保存")};
+note.addEventListener("input",()=>{dayState(currentIndex).note=note.value;save()});
+startDate.onchange=e=>{state.startDate=e.target.value;save();currentIndex=0;render()};
+copySummary.onclick=async()=>{const p=getPlan(currentIndex),ds=dayState(currentIndex);let t=`${fmtDate(p.date)}\n主题：${p.theme}\n`;if(p.isReview)t+="回顾日";else p.tasks.forEach(x=>t+=`${ds.done[x.id]?"☑":"☐"} ${x.label}：${x.desc}\n`);if(ds.note)t+=`\n笔记：${ds.note}`;try{await navigator.clipboard.writeText(t);alert("已复制")}catch(e){prompt("复制下面内容：",t)}};
+exportBtn.onclick=()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="圣经阅读计划进度.json";a.click();URL.revokeObjectURL(a.href)};
+importFile.onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{state=JSON.parse(r.result);save();currentIndex=0;render();alert("导入完成")}catch(err){alert("文件格式不正确")}};r.readAsText(f)};
+resetBtn.onclick=()=>{if(confirm("确定清空全部勾选和笔记吗？")){localStorage.removeItem(KEY);state={startDate:isoDate(new Date()),days:{}};save();currentIndex=0;render()}};
+
+moneyNote.addEventListener("input",()=>{moneyDayState(state.money.current||0).note=moneyNote.value;save();});
+moneyCompleteBtn.onclick=()=>{const i=state.money.current||0,ds=moneyDayState(i);ds.done=!ds.done;save();renderMoney();};
+moneyPrevBtn.onclick=()=>{state.money.current=clamp((state.money.current||0)-1,0,29);save();renderMoney();};
+moneyNextBtn.onclick=()=>{state.money.current=clamp((state.money.current||0)+1,0,29);save();renderMoney();};
+
+if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}))}
+initPeople();
+render();
+</script>
+</body>
+</html>
