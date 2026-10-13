@@ -92,23 +92,11 @@
     .relationMap{padding:14px 5px}.relationCenter{margin:0 auto 12px;width:max-content;max-width:90%;padding:10px 16px;border-radius:14px;background:var(--accent);color:#fff;font-weight:750;text-align:center}.relationGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.relationNode{border:1px solid var(--line);background:#fff;border-radius:12px;padding:9px;text-align:center;cursor:pointer}.relationType{font-size:11px;color:var(--muted);display:block;margin-bottom:3px}.relationName{font-weight:700;font-size:13px}
     .peopleTree details{border-top:1px solid var(--line);padding:8px 0}.peopleTree details:first-child{border-top:0}.peopleTree summary{font-weight:700;cursor:pointer}.treeNames{display:flex;gap:6px;flex-wrap:wrap;padding:9px 0 2px}.treePerson{border:0;background:var(--soft);color:var(--accent);border-radius:999px;padding:6px 9px;font-size:12px}
     .emptyState{padding:24px 8px;text-align:center;color:var(--muted)}
-    .mapToolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
     .genealogyHome{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;cursor:pointer;padding:14px 16px}
     .genealogyHome strong{color:var(--accent);font-size:16px}.genealogyHome .small{display:block;color:var(--muted);margin-top:4px}.genealogyHome .arrow{color:var(--accent);font-size:24px}
     .genealogyCard{padding:0;overflow:hidden;scroll-margin-top:14px}.genealogyCard>summary{padding:14px 16px;margin:0;cursor:pointer}.genealogyCard>summary:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
     .genealogyFrame{display:block;width:100%;border:0;border-top:1px solid var(--line);background:#fff;height:540px;height:clamp(340px,calc(100svh - 180px),620px)}
-    .mapViewport{height:440px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(135deg,#f8f5ee,#eef6f5);overflow:hidden}
-    .mapViewport svg{width:100%;height:100%;touch-action:none;user-select:none;cursor:grab}
-    .mapViewport svg:active{cursor:grabbing}
-    .mapEdges path{fill:none;stroke:#aabbb5;stroke-width:1.5;opacity:.35}
-    .mapEdges path.mapLinked{stroke:#906530;stroke-width:4;opacity:1}
-    .mapEra{font-size:16px;font-weight:700;fill:#635743}
-    .mapPerson{cursor:pointer}.mapPerson rect{fill:#fffdf5;stroke:#b8a887;stroke-width:1.5}
-    .mapPerson.mapNT rect{fill:#eef6f6;stroke:#80a9a7}
-    .mapPerson text{font-size:17px;fill:#302d27;pointer-events:none}
-    .mapPerson.mapSelected rect,.mapPerson:focus rect{stroke:#8b5527;stroke-width:4;fill:#ffedca}
     .detailBadge{white-space:normal;max-width:45%;overflow-wrap:anywhere}
-    @media(max-width:560px){.mapViewport{height:380px}}
   </style>
 </head>
 <body>
@@ -191,17 +179,7 @@
         <select id="peopleTheme"><option value="全部">全部主题</option></select>
       </div>
       <div class="peopleCount" id="peopleCount"></div>
-      <div class="sectionTitle">人物关系导图</div>
-      <div class="taskDesc">金色人物为旧约，青色人物为新约。点击人物，下面会展开经卷与一生经历。</div>
-      <div class="mapToolbar">
-        <button id="mapZoomIn" aria-label="放大导图">＋ 放大</button>
-        <button id="mapZoomOut" aria-label="缩小导图">－ 缩小</button>
-        <button id="mapReset">回到起点</button>
-        <button id="mapFit">查看全图</button>
-      </div>
-      <div class="mapViewport" id="peopleMap"></div>
-      <p class="taskDesc" id="mapStatus" aria-live="polite"></p>
-      <details><summary class="sectionTitle">人物列表（也可点击查看）</summary>
+      <details><summary class="sectionTitle">人物列表 · 点击查看经卷与经历</summary>
       <div class="peopleList" id="peopleList"></div>
       </details>
     </div>
@@ -294,7 +272,6 @@
 </nav>
 
 <script src="./people-data.js"></script>
-<script src="./people-map.js"></script>
 <script>
 const PEOPLE=window.BIBLE_PEOPLE||[];
 const PLAN = [
@@ -464,7 +441,6 @@ function getFilteredPeople(){
 }
 function renderPeople(){
   const arr=getFilteredPeople(); peopleCount.textContent=`找到 ${arr.length} 位人物 · 可直接搜索经卷、主题或关系人物`;
-  renderPeopleMap(arr);
   peopleList.innerHTML=arr.length?arr.map(p=>`<button class="personCard" data-person-id="${esc(p.id)}"><div class="personName">${esc(p.name)}</div><div class="personMeta">${esc(p.testament)} · ${esc(p.era)} · ${(p.roles||[]).map(esc).join(' / ')}</div><div class="tagRow">${(p.themes||[]).slice(0,4).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="personSummary">${esc(p.summary)}</div></button>`).join(''):'<div class="emptyState">没有找到匹配人物。可以换人物名、经卷名或主题搜索。</div>';
 }
 function renderPeopleTree(){
