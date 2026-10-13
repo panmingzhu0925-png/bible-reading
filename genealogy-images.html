@@ -10,6 +10,7 @@
   <link rel="apple-touch-icon" href="./icons/icon-180.png">
   <link rel="icon" href="./icons/icon-192.png">
   <title>原图家谱 · 圣经阅读</title>
+  <script>if(new URLSearchParams(location.search).get('embed')==='1')document.documentElement.classList.add('embedded');</script>
   <style>
     :root{color-scheme:light;--text:#2b2a27;--muted:#78736b;--accent:#7a6a52;--soft:#eee6da;--line:#e8e1d6}
     *{box-sizing:border-box}
@@ -39,6 +40,11 @@
     [hidden]{display:none!important}
     .footer{flex:none;padding:9px max(16px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));font-size:11px;color:#8d887f;line-height:1.5}
     .footer a{color:inherit;text-underline-offset:3px}
+    html.embedded body{height:100%;min-height:0}
+    html.embedded .header{display:none}
+    html.embedded .controls{width:100%;padding:12px 12px 8px}
+    html.embedded .tool{font-size:13px;padding:9px 8px}
+    html.embedded .footer{padding:7px 12px;font-size:10px}
     @media(min-width:700px){.header,.controls{width:min(960px,100%);align-self:center}.controls .tools{margin-top:0}.controls .row{justify-content:space-between}.footer{text-align:center}h1{font-size:22px}}
     @media(max-height:450px){.header{padding-top:max(5px,env(safe-area-inset-top));padding-bottom:0}.controls{padding-bottom:6px}.row{justify-content:space-between}.tools{margin-top:0}.help{display:none}.footer{padding-top:5px;padding-bottom:max(5px,env(safe-area-inset-bottom))}#viewport{min-height:100px}}
   </style>
