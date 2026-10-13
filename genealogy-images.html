@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-180.png">
+  <link rel="icon" href="./icons/icon-192.png">
+  <title>原图家谱 · 圣经阅读</title>
+  <style>
+    :root{color-scheme:light;--text:#2b2a27;--muted:#78736b;--accent:#7a6a52;--soft:#eee6da;--line:#e8e1d6}
+    *{box-sizing:border-box}
+    html{height:100%;background:#fff}
+    body{height:100vh;height:100dvh;margin:0;display:flex;flex-direction:column;color:var(--text);background:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    button,a{-webkit-tap-highlight-color:transparent}
+    button{font:inherit;cursor:pointer}
+    button:focus-visible,a:focus-visible,#viewport:focus-visible{outline:3px solid #9c7a47;outline-offset:3px}
+    .header{flex:none;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:calc(12px + env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) 10px max(16px,env(safe-area-inset-left))}
+    .back{font-size:14px;color:var(--accent);text-decoration:none;white-space:nowrap;min-height:40px;display:flex;align-items:center}
+    h1{margin:0;font-size:20px;font-weight:700;line-height:1.35}
+    .controls{flex:none;padding:0 max(16px,env(safe-area-inset-right)) 10px max(16px,env(safe-area-inset-left))}
+    .row{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+    .faces{display:inline-flex;gap:3px;padding:3px;border-radius:12px;background:#f4f0e9}
+    .face{min-height:40px;padding:8px 13px;border:0;border-radius:9px;background:transparent;color:var(--muted);font-size:14px;font-weight:600}
+    .face[aria-pressed=true]{background:var(--accent);color:#fff}
+    .tools{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:9px}
+    .tool{min-height:42px;border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:#fff;color:var(--text);font-size:14px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+    .tool:disabled{opacity:.45;cursor:default}
+    .zoomValue{margin-left:auto;min-width:43px;text-align:right;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+    .help{margin:9px 0 0;color:var(--muted);font-size:12px;line-height:1.5}
+    #viewport{position:relative;flex:1;min-height:180px;overflow:hidden;background:#fff;border-block:1px solid var(--line);touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab;overscroll-behavior:none}
+    #viewport.dragging{cursor:grabbing}
+    #chart{position:absolute;left:0;top:0;max-width:none;transform-origin:0 0;will-change:transform;pointer-events:none;user-select:none;-webkit-user-select:none;-webkit-user-drag:none}
+    .notice{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:24px;text-align:center;color:var(--muted);font-size:14px;line-height:1.6;pointer-events:none}
+    .notice button{pointer-events:auto}
+    [hidden]{display:none!important}
+    .footer{flex:none;padding:9px max(16px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));font-size:11px;color:#8d887f;line-height:1.5}
+    .footer a{color:inherit;text-underline-offset:3px}
+    @media(min-width:700px){.header,.controls{width:min(960px,100%);align-self:center}.controls .tools{margin-top:0}.controls .row{justify-content:space-between}.footer{text-align:center}h1{font-size:22px}}
+    @media(max-height:450px){.header{padding-top:max(5px,env(safe-area-inset-top));padding-bottom:0}.controls{padding-bottom:6px}.row{justify-content:space-between}.tools{margin-top:0}.help{display:none}.footer{padding-top:5px;padding-bottom:max(5px,env(safe-area-inset-bottom))}#viewport{min-height:100px}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <a class="back" href="./index.html#pagePeople">‹ 返回人物</a>
+    <h1>圣经家谱 · 原图</h1>
+  </header>
+  <div class="controls">
+    <div class="row">
+      <div class="faces" role="group" aria-label="选择家谱图片">
+        <button class="face" data-face="front" aria-pressed="true">家谱正面</button>
+        <button class="face" data-face="back" aria-pressed="false">支派背面</button>
+      </div>
+      <div class="tools" role="group" aria-label="调整图片大小">
+        <button id="zoomIn" class="tool" aria-label="放大家谱">＋ 放大</button>
+        <button id="zoomOut" class="tool" aria-label="缩小家谱">－ 缩小</button>
+        <button id="fit" class="tool">适合屏幕</button>
+        <a id="openFull" class="tool" href="./assets/genealogy-front-transparent.png" target="_blank" rel="noopener">打开大图 ↗</a>
+      </div>
+    </div>
+    <p class="help">双指缩放，单指拖动；双击放大。<span id="zoomValue" class="zoomValue" aria-label="当前缩放比例"></span></p>
+  </div>
+  <main id="viewport" tabindex="0" aria-label="家谱图片，可拖动、双指缩放，或用方向键移动" aria-busy="true">
+    <img id="chart" width="2880" height="2052" alt="圣经家谱正面，含人物关系与经文出处" draggable="false" hidden>
+    <div id="notice" class="notice" role="status" aria-live="polite"><span id="noticeText">正在载入家谱…</span><button id="retry" class="tool" hidden>重新载入</button></div>
+  </main>
+  <footer class="footer">文逊编制 · 天智出版社 · 图像来源：<a id="sourceLink" href="https://www.51wendang.com/doc/d949d56fd0387edfee8b2911" target="_blank" rel="noopener noreferrer">无忧文档网友转载</a></footer>
+  <script>
+    (() => {
+      'use strict';
+      const charts={
+        front:{src:'./assets/genealogy-front-transparent.png',alt:'圣经家谱正面，含人物关系与经文出处',source:'https://www.51wendang.com/doc/d949d56fd0387edfee8b2911'},
+        back:{src:'./assets/genealogy-back-transparent.png',alt:'圣经家谱背面，含利未及其他支派的家族关系与经文出处',source:'https://www.51wendang.com/doc/d949d56fd0387edfee8b2911/2'}
+      };
+      const viewport=document.getElementById('viewport'),img=document.getElementById('chart');
+      const notice=document.getElementById('notice'),noticeText=document.getElementById('noticeText'),retry=document.getElementById('retry');
+      const zoomIn=document.getElementById('zoomIn'),zoomOut=document.getElementById('zoomOut'),fitButton=document.getElementById('fit'),zoomValue=document.getElementById('zoomValue');
+      const openFull=document.getElementById('openFull'),sourceLink=document.getElementById('sourceLink');
+      const points=new Map(),savedViews=new Map();
+      let current='front',ready=false,width=2880,height=2052,scale=1,x=0,y=0,fitScale=1,lastViewport=null,tapCandidate=null,lastTap=null,lastTouchDouble=0;
+      const limit=(value,min,max)=>Math.min(max,Math.max(min,value));
+      function size(){return {w:viewport.clientWidth,h:viewport.clientHeight};}
+      function scaleBounds(){return {min:Math.max(.025,fitScale/2),max:Math.max(4,fitScale*8)};}
+      function contain(){
+        const {w,h}=size(),iw=width*scale,ih=height*scale;
+        x=iw<=w?(w-iw)/2:limit(x,w-iw-24,24);
+        y=ih<=h?(h-ih)/2:limit(y,h-ih-24,24);
+      }
+      function draw(){
+        if(!ready)return;
+        contain();img.style.transform=`translate(${x}px,${y}px) scale(${scale})`;
+        zoomValue.textContent=` · ${Math.round(scale*100)}%`;
+        const {min,max}=scaleBounds();zoomIn.disabled=scale>=max-.001;zoomOut.disabled=scale<=min+.001;
+        savedViews.set(current,{scale,x,y});
+      }
+      function fit(){
+        if(!ready)return;
+        const {w,h}=size();fitScale=Math.min(Math.max(1,w-24)/width,Math.max(1,h-24)/height);
+        scale=fitScale;x=(w-width*scale)/2;y=(h-height*scale)/2;draw();
+      }
+      function zoomAt(nextScale,cx,cy){
+        if(!ready)return;
+        const {min,max}=scaleBounds(),newScale=limit(nextScale,min,max);
+        x=cx-(cx-x)*newScale/scale;y=cy-(cy-y)*newScale/scale;scale=newScale;draw();
+      }
+      function zoom(factor){const {w,h}=size();zoomAt(scale*factor,w/2,h/2);}
+      function doubleZoomAt(point){if(scale>fitScale*1.5)fit();else zoomAt(Math.max(fitScale*3,.7),point.x,point.y);}
+      function showChart(face){
+        current=face;ready=false;points.clear();tapCandidate=null;lastTap=null;viewport.classList.remove('dragging');
+        img.hidden=true;notice.hidden=false;retry.hidden=true;noticeText.textContent='正在载入家谱…';viewport.setAttribute('aria-busy','true');
+        [zoomIn,zoomOut,fitButton].forEach(b=>b.disabled=true);
+        document.querySelectorAll('[data-face]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.face===face)));
+        img.alt=charts[face].alt;openFull.href=charts[face].src;sourceLink.href=charts[face].source;img.src=charts[face].src;
+      }
+      img.addEventListener('load',()=>{
+        width=img.naturalWidth;height=img.naturalHeight;if(!width||!height)return;
+        img.style.width=`${width}px`;img.style.height=`${height}px`;ready=true;img.hidden=false;notice.hidden=true;viewport.setAttribute('aria-busy','false');fitButton.disabled=false;
+        const {w,h}=size();fitScale=Math.min(Math.max(1,w-24)/width,Math.max(1,h-24)/height);
+        const saved=savedViews.get(current);if(saved){({scale,x,y}=saved);draw();}else fit();
+        lastViewport={w,h};
+      });
+      img.addEventListener('error',()=>{ready=false;img.hidden=true;notice.hidden=false;retry.hidden=false;noticeText.textContent='图片暂时未能载入，请检查网络后重试。';viewport.setAttribute('aria-busy','false');zoomValue.textContent='';});
+      document.querySelectorAll('[data-face]').forEach(b=>b.addEventListener('click',()=>{if(b.dataset.face!==current)showChart(b.dataset.face);}));
+      retry.addEventListener('click',()=>showChart(current));zoomIn.addEventListener('click',()=>zoom(1.4));zoomOut.addEventListener('click',()=>zoom(1/1.4));fitButton.addEventListener('click',fit);
+      function localPoint(event){const rect=viewport.getBoundingClientRect();return {x:event.clientX-rect.left,y:event.clientY-rect.top};}
+      viewport.addEventListener('pointerdown',event=>{
+        if(!ready||event.button!==0)return;
+        event.preventDefault();viewport.setPointerCapture(event.pointerId);const p=localPoint(event);points.set(event.pointerId,p);viewport.classList.add('dragging');
+        if(points.size===1&&event.pointerType==='touch')tapCandidate={id:event.pointerId,...p,time:Date.now(),moved:false};else{tapCandidate=null;lastTap=null;}
+      });
+      viewport.addEventListener('pointermove',event=>{
+        if(!ready||!points.has(event.pointerId))return;
+        event.preventDefault();const old=points.get(event.pointerId),next=localPoint(event);
+        if(tapCandidate&&Math.hypot(next.x-tapCandidate.x,next.y-tapCandidate.y)>8)tapCandidate.moved=true;
+        if(points.size===2){
+          const other=[...points.entries()].find(([id])=>id!==event.pointerId)[1];
+          const before=Math.hypot(old.x-other.x,old.y-other.y),after=Math.hypot(next.x-other.x,next.y-other.y);
+          if(before>0&&after>0){
+            const oldMid={x:(old.x+other.x)/2,y:(old.y+other.y)/2},newMid={x:(next.x+other.x)/2,y:(next.y+other.y)/2};
+            const {min,max}=scaleBounds(),newScale=limit(scale*after/before,min,max);
+            x=newMid.x-(oldMid.x-x)*newScale/scale;y=newMid.y-(oldMid.y-y)*newScale/scale;scale=newScale;
+          }
+        }else if(points.size===1){x+=next.x-old.x;y+=next.y-old.y;}
+        points.set(event.pointerId,next);draw();
+      });
+      function endPointer(event){
+        if(event.type==='pointerup'&&tapCandidate?.id===event.pointerId&&!tapCandidate.moved&&Date.now()-tapCandidate.time<280){
+          const p=localPoint(event),now=Date.now();
+          if(lastTap&&now-lastTap.time<320&&Math.hypot(p.x-lastTap.x,p.y-lastTap.y)<28){doubleZoomAt(p);lastTap=null;lastTouchDouble=now;}else lastTap={...p,time:now};
+        }else if(tapCandidate?.id===event.pointerId)lastTap=null;
+        if(tapCandidate?.id===event.pointerId)tapCandidate=null;
+        points.delete(event.pointerId);if(points.size===0)viewport.classList.remove('dragging');
+      }
+      ['pointerup','pointercancel','lostpointercapture'].forEach(type=>viewport.addEventListener(type,endPointer));
+      viewport.addEventListener('wheel',event=>{if(!ready)return;event.preventDefault();const p=localPoint(event);zoomAt(scale*Math.exp(-limit(event.deltaY,-180,180)*.003),p.x,p.y);},{passive:false});
+      viewport.addEventListener('dblclick',event=>{if(!ready)return;event.preventDefault();if(Date.now()-lastTouchDouble<450)return;doubleZoomAt(localPoint(event));});
+      viewport.addEventListener('keydown',event=>{
+        if(!ready)return;
+        if(event.key==='+'||event.key==='=')zoom(1.4);else if(event.key==='-')zoom(1/1.4);else if(event.key==='0'||event.key==='Home')fit();
+        else if(event.key==='ArrowLeft')x+=80;else if(event.key==='ArrowRight')x-=80;else if(event.key==='ArrowUp')y+=80;else if(event.key==='ArrowDown')y-=80;else return;
+        event.preventDefault();draw();
+      });
+      function resized(){
+        if(!ready)return;
+        const {w,h}=size();if(lastViewport&&lastViewport.w===w&&lastViewport.h===h)return;
+        const wasFit=Math.abs(scale-fitScale)<.001;
+        if(lastViewport){x+=(w-lastViewport.w)/2;y+=(h-lastViewport.h)/2;}
+        fitScale=Math.min(Math.max(1,w-24)/width,Math.max(1,h-24)/height);lastViewport={w,h};points.clear();
+        if(wasFit)fit();else{const {min,max}=scaleBounds();scale=limit(scale,min,max);draw();}
+      }
+      if('ResizeObserver' in window)new ResizeObserver(resized).observe(viewport);else window.addEventListener('resize',resized);
+      showChart(new URLSearchParams(location.search).get('side')==='back'?'back':'front');
+    })();
+    if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}
+  </script>
+</body>
+</html>
