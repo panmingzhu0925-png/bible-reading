@@ -38,15 +38,12 @@
     .notice{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:24px;text-align:center;color:var(--muted);font-size:14px;line-height:1.6;pointer-events:none}
     .notice button{pointer-events:auto}
     [hidden]{display:none!important}
-    .footer{flex:none;padding:9px max(16px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));font-size:11px;color:#8d887f;line-height:1.5}
-    .footer a{color:inherit;text-underline-offset:3px}
     html.embedded body{height:100%;min-height:0}
     html.embedded .header{display:none}
     html.embedded .controls{width:100%;padding:12px 12px 8px}
     html.embedded .tool{font-size:13px;padding:9px 8px}
-    html.embedded .footer{padding:7px 12px;font-size:10px}
-    @media(min-width:700px){.header,.controls{width:min(960px,100%);align-self:center}.controls .tools{margin-top:0}.controls .row{justify-content:space-between}.footer{text-align:center}h1{font-size:22px}}
-    @media(max-height:450px){.header{padding-top:max(5px,env(safe-area-inset-top));padding-bottom:0}.controls{padding-bottom:6px}.row{justify-content:space-between}.tools{margin-top:0}.help{display:none}.footer{padding-top:5px;padding-bottom:max(5px,env(safe-area-inset-bottom))}#viewport{min-height:100px}}
+    @media(min-width:700px){.header,.controls{width:min(960px,100%);align-self:center}.controls .tools{margin-top:0}.controls .row{justify-content:space-between}h1{font-size:22px}}
+    @media(max-height:450px){.header{padding-top:max(5px,env(safe-area-inset-top));padding-bottom:0}.controls{padding-bottom:6px}.row{justify-content:space-between}.tools{margin-top:0}.help{display:none}#viewport{min-height:100px}}
   </style>
 </head>
 <body>
@@ -73,18 +70,17 @@
     <img id="chart" width="2880" height="2052" alt="圣经家谱正面，含人物关系与经文出处" draggable="false" hidden>
     <div id="notice" class="notice" role="status" aria-live="polite"><span id="noticeText">正在载入家谱…</span><button id="retry" class="tool" hidden>重新载入</button></div>
   </main>
-  <footer class="footer">文逊编制 · 天智出版社 · 图像来源：<a id="sourceLink" href="https://www.51wendang.com/doc/d949d56fd0387edfee8b2911" target="_blank" rel="noopener noreferrer">无忧文档网友转载</a></footer>
   <script>
     (() => {
       'use strict';
       const charts={
-        front:{src:'./assets/genealogy-front-transparent.png',alt:'圣经家谱正面，含人物关系与经文出处',source:'https://www.51wendang.com/doc/d949d56fd0387edfee8b2911'},
-        back:{src:'./assets/genealogy-back-transparent.png',alt:'圣经家谱背面，含利未及其他支派的家族关系与经文出处',source:'https://www.51wendang.com/doc/d949d56fd0387edfee8b2911/2'}
+        front:{src:'./assets/genealogy-front-transparent.png',alt:'圣经家谱正面，含人物关系与经文出处'},
+        back:{src:'./assets/genealogy-back-transparent.png',alt:'圣经家谱背面，含利未及其他支派的家族关系与经文出处'}
       };
       const viewport=document.getElementById('viewport'),img=document.getElementById('chart');
       const notice=document.getElementById('notice'),noticeText=document.getElementById('noticeText'),retry=document.getElementById('retry');
       const zoomIn=document.getElementById('zoomIn'),zoomOut=document.getElementById('zoomOut'),fitButton=document.getElementById('fit'),zoomValue=document.getElementById('zoomValue');
-      const openFull=document.getElementById('openFull'),sourceLink=document.getElementById('sourceLink');
+      const openFull=document.getElementById('openFull');
       const points=new Map(),savedViews=new Map();
       let current='front',ready=false,width=2880,height=2052,scale=1,x=0,y=0,fitScale=1,lastViewport=null,tapCandidate=null,lastTap=null,lastTouchDouble=0;
       const limit=(value,min,max)=>Math.min(max,Math.max(min,value));
@@ -119,7 +115,7 @@
         img.hidden=true;notice.hidden=false;retry.hidden=true;noticeText.textContent='正在载入家谱…';viewport.setAttribute('aria-busy','true');
         [zoomIn,zoomOut,fitButton].forEach(b=>b.disabled=true);
         document.querySelectorAll('[data-face]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.face===face)));
-        img.alt=charts[face].alt;openFull.href=charts[face].src;sourceLink.href=charts[face].source;img.src=charts[face].src;
+        img.alt=charts[face].alt;openFull.href=charts[face].src;img.src=charts[face].src;
       }
       img.addEventListener('load',()=>{
         width=img.naturalWidth;height=img.naturalHeight;if(!width||!height)return;

@@ -1,4 +1,4 @@
-const CACHE="bible-reading-v9-people-list";
+const CACHE="bible-reading-v10-genealogy-clean";
 const ASSETS=["./","./index.html","./genealogy-images.html","./manifest.webmanifest","./people-data.js","./people-data.json","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./assets/genealogy-front-transparent.png","./assets/genealogy-back-transparent.png"];
 const assetURL=path=>new URL(path,self.location.href).href;
 
