@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>圣经人物家谱 · 圣经阅读</title>
+<link rel="stylesheet" href="./app.css">
+</head>
+<body>
+<header><div><h1 id="treeTitle">圣经人物家谱</h1><p class="subtitle" id="treeSubtitle"></p></div><a class="back-link" href="../index.html#pagePeople">返回圣经阅读</a></header>
+<nav class="toolbar" aria-label="家谱工具">
+<button id="mainline" class="active">主线展开</button><button id="overview">支系概览</button><button id="all">全部展开</button>
+<select id="orientation" aria-label="排列方向"><option value="LR">横向 · 左 → 右</option><option value="TB">竖向 · 上 → 下</option></select><button id="fit">适合窗口</button>
+<div class="search"><input id="search" aria-label="搜索人物或族群" placeholder="搜索人物或族群…" autocomplete="off"><div id="results" class="results" role="region" aria-label="搜索结果"></div></div>
+</nav>
+<main class="workbench"><section class="diagram-shell" aria-label="可缩放的圣经家谱">
+<div class="legend"><span><i class="red"></i><span id="mainLegend">家谱主线</span></span><span><i></i>其他亲属</span><span><i class="blue"></i>女性</span><span id="groupLegend"><i class="dash"></i>族群支系 ◇</span></div>
+<div id="viewport"><div id="stage"><div id="chart" role="group" aria-label="挪亚的三支后代，可点击姓名查看经文出处"></div></div></div>
+<div class="diagram-footer"><span id="count"></span><span class="desktop-tip">拖动平移 · 滚轮缩放 · 点击姓名看经文</span><span class="mobile-tip">拖动平移 · 双指缩放</span><div class="zoom"><button id="minus" aria-label="缩小">−</button><span id="zoomLabel">100%</span><button id="plus" aria-label="放大">+</button></div></div>
+</section><aside id="details" aria-label="人物详情"></aside></main>
+<p class="scope"><span id="scopeCount"></span><span class="extra-scope">点击“＋数字”展开旁支；非同代时间轴。</span><button id="sourcesToggle">查看来源与收录说明</button></p>
+<section id="sources" class="source-panel" hidden></section>
+<script src="./vendor/echarts.min.js" defer></script>
+<script src="./data.js" defer></script>
+<script src="./app.js" defer></script>
+</body>
+</html>

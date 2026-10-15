@@ -1,0 +1,897 @@
+{
+  "title": "亚当到挪亚：创世记4–5记名家谱",
+  "version": "2026-10-15",
+  "translation": "简体中文和合本",
+  "scope": "完整收录创世记4、5章家谱中的27位具名人类，包括该隐旁支、塞特主线、配偶及挪亚三子；创2、3补亚当夏娃经历，创6、7、9补挪亚经历与寿数。不补入未具名妻子、儿女或经外传统。",
+  "rootId": "adam",
+  "treeNodeIds": [
+    "adam",
+    "cain",
+    "abel",
+    "enoch_cain",
+    "irad",
+    "mehujael",
+    "methushael",
+    "lamech_cain",
+    "jabal",
+    "jubal",
+    "tubal_cain",
+    "naamah",
+    "seth",
+    "enosh",
+    "kenan",
+    "mahalalel",
+    "jared",
+    "enoch_seth",
+    "methuselah",
+    "lamech_seth",
+    "noah",
+    "shem",
+    "ham",
+    "japheth"
+  ],
+  "nodeKindExplanation": "本段27条均为具名人物，kind=person。配偶档案与父系树节点分开，不能将配偶挂为丈夫之女。",
+  "fatherIdExplanation": "已记名或按明确家庭段落合读的人类父系；亚当及夏娃、亚大、洗拉fatherId为null。只有rootId定义树起点；treeNodeIds定义从亚当沿fatherId可达的24个节点。null不能自动接到亚当名下。",
+  "sources": [
+    {
+      "title": "创世记4：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/4.htm"
+    },
+    {
+      "title": "创世记5：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/5.htm"
+    },
+    {
+      "title": "创世记4：和合本交叉核对（Wordproject）",
+      "url": "https://www.wordproject.org/bibles/gb/01/4.htm"
+    },
+    {
+      "title": "创世记5：和合本交叉核对（Wordproject）",
+      "url": "https://www.wordproject.org/bibles/gb/01/5.htm"
+    },
+    {
+      "title": "创世记2：亚当夏娃及婚姻（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/2.htm"
+    },
+    {
+      "title": "创世记3：伊甸园经历（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/3.htm"
+    },
+    {
+      "title": "创世记6：挪亚与方舟（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/6.htm"
+    },
+    {
+      "title": "创世记7：挪亚600岁进方舟（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/7.htm"
+    },
+    {
+      "title": "创世记9：挪亚950年寿数（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/9.htm"
+    }
+  ],
+  "counts": {
+    "nodes": 27,
+    "personRecords": 27,
+    "groupRecords": 0,
+    "treeNodes": 24,
+    "spouseOnly": 3,
+    "parentEdges": 23,
+    "crossRelations": 10,
+    "spouseRelations": 3,
+    "motherChildRelations": 7,
+    "mainPathNodes": 10
+  },
+  "nodes": [
+    {
+      "id": "adam",
+      "name": "亚当",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "起点",
+      "refs": [
+        "创世记2:7",
+        "创世记4:1–2",
+        "创世记4:25",
+        "创世记5:1–5"
+      ],
+      "events": [
+        {
+          "text": "由神用尘土造成人，被安置在伊甸园看守修理。",
+          "refs": [
+            "创世记2:7–8",
+            "创世记2:15"
+          ]
+        },
+        {
+          "text": "吃了被禁止的果子，后来被遣出伊甸园。",
+          "refs": [
+            "创世记3:6",
+            "创世记3:17",
+            "创世记3:23–24"
+          ]
+        },
+        {
+          "text": "130岁时生塞特；此后又活800年，还有其他未具名儿女。",
+          "refs": [
+            "创世记5:3–4"
+          ]
+        },
+        {
+          "text": "寿命共930年。",
+          "refs": [
+            "创世记5:5"
+          ]
+        }
+      ],
+      "notes": "夏娃是配偶，不是女儿；本图不把创造叙述转换为人类父子关系。只列本段具名子女，该隐、亚伯、塞特不代表亚当全部儿女。"
+    },
+    {
+      "id": "eve",
+      "name": "夏娃",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "配偶档案",
+      "refs": [
+        "创世记2:21–25",
+        "创世记3:20",
+        "创世记4:1–2",
+        "创世记4:25"
+      ],
+      "events": [
+        {
+          "text": "神用从亚当所取的肋骨造女人，带到亚当面前。",
+          "refs": [
+            "创世记2:21–22"
+          ]
+        },
+        {
+          "text": "听信蛇的引诱，吃果子并给丈夫。",
+          "refs": [
+            "创世记3:1–6"
+          ]
+        },
+        {
+          "text": "亚当为妻子起名夏娃。",
+          "refs": [
+            "创世记3:20"
+          ]
+        },
+        {
+          "text": "生该隐、亚伯，后来又生塞特。",
+          "refs": [
+            "创世记4:1–2",
+            "创世记4:25"
+          ]
+        }
+      ],
+      "notes": "她是亚当的妻子，也是该隐、亚伯和塞特的母亲；经文未记她的寿数。"
+    },
+    {
+      "id": "cain",
+      "name": "该隐",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "adam",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:1"
+      ],
+      "events": [
+        {
+          "text": "从事耕种，以地里出产献供物。",
+          "refs": [
+            "创世记4:2–3"
+          ]
+        },
+        {
+          "text": "在田间杀害兄弟亚伯，受责问与惩罚。",
+          "refs": [
+            "创世记4:8–12"
+          ]
+        },
+        {
+          "text": "受记号保护，后来迁居伊甸东面的挪得。",
+          "refs": [
+            "创世记4:15–16"
+          ]
+        },
+        {
+          "text": "与未具名妻子生以诺，并以儿子的名字命名所建之城。",
+          "refs": [
+            "创世记4:17"
+          ]
+        }
+      ],
+      "notes": "妻子未具名，也未在本段说明其父母，不凭推测命名或补出身份。以诺城只作经历，不另画成人物。经文未记该隐寿数。"
+    },
+    {
+      "id": "abel",
+      "name": "亚伯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "adam",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:1–2"
+      ],
+      "events": [
+        {
+          "text": "从事牧羊，将羊群中的供物献给神。",
+          "refs": [
+            "创世记4:2",
+            "创世记4:4"
+          ]
+        },
+        {
+          "text": "在田间被兄弟该隐杀害。",
+          "refs": [
+            "创世记4:8"
+          ]
+        }
+      ],
+      "notes": "经文未记寿数、配偶或子女，不能用空子树断言他终身没有配偶。"
+    },
+    {
+      "id": "enoch_cain",
+      "name": "以诺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "cain",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:17"
+      ],
+      "events": [
+        {
+          "text": "该隐以他的名字命名所建之城。",
+          "refs": [
+            "创世记4:17"
+          ]
+        }
+      ],
+      "notes": "该隐的儿子、以拿的父亲；与创世记5章雅列之子以诺是两位同名人物。本段未记其寿数。"
+    },
+    {
+      "id": "irad",
+      "name": "以拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "enoch_cain",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:18"
+      ],
+      "events": [],
+      "notes": "该隐支系，以诺之子、米户雅利之父。本段未记其寿数或独立经历。"
+    },
+    {
+      "id": "mehujael",
+      "name": "米户雅利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "irad",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:18"
+      ],
+      "events": [],
+      "notes": "该隐支系，以拿之子、玛土撒利之父。本段未记其寿数或独立经历；不与塞特支系的玛勒列合并。"
+    },
+    {
+      "id": "methushael",
+      "name": "玛土撒利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mehujael",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:18"
+      ],
+      "events": [],
+      "notes": "该隐支系，米户雅利之子、拉麦之父；与创世记5章以诺之子玛土撒拉分别建档。本段未记其寿数。"
+    },
+    {
+      "id": "lamech_cain",
+      "name": "拉麦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "methushael",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:18–19",
+        "创世记4:23–24"
+      ],
+      "events": [
+        {
+          "text": "娶亚大、洗拉为妻。",
+          "refs": [
+            "创世记4:19"
+          ]
+        },
+        {
+          "text": "向两位妻子述说杀人及报复的话。",
+          "refs": [
+            "创世记4:23–24"
+          ]
+        }
+      ],
+      "notes": "该隐支系的拉麦，是玛土撒利之子；不是塞特支系玛土撒拉之子、挪亚之父拉麦。本段未记其寿数；四名子女的父系依据4:19–22家庭段落。4:23保留和合本的叙述层级，不为被杀者补出姓名。"
+    },
+    {
+      "id": "adah",
+      "name": "亚大",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "配偶档案",
+      "refs": [
+        "创世记4:19–21"
+      ],
+      "events": [
+        {
+          "text": "为拉麦的妻子；家庭段落记雅八、犹八。",
+          "refs": [
+            "创世记4:19–21"
+          ]
+        }
+      ],
+      "notes": "该隐支系拉麦的妻子；父亲及寿数未记。4:20直接说明雅八之母；犹八归于亚大依据4:20–21连续家庭叙述及兄弟称谓合读。不与后世以扫同名的妻子混同。"
+    },
+    {
+      "id": "zillah",
+      "name": "洗拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "配偶档案",
+      "refs": [
+        "创世记4:19",
+        "创世记4:22"
+      ],
+      "events": [
+        {
+          "text": "为拉麦的妻子，生土八该隐。",
+          "refs": [
+            "创世记4:19",
+            "创世记4:22"
+          ]
+        }
+      ],
+      "notes": "该隐支系拉麦的妻子；父亲及寿数未记。4:22直接说明土八该隐之母；拿玛归于洗拉依据同节家庭叙述和妹子称谓合读。"
+    },
+    {
+      "id": "jabal",
+      "name": "雅八",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "lamech_cain",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:19–20"
+      ],
+      "events": [
+        {
+          "text": "经文以他为住帐棚、牧养牲畜生活的祖师。",
+          "refs": [
+            "创世记4:20"
+          ]
+        }
+      ],
+      "notes": "母亲亚大，创4:20直接记载；父亲拉麦按4:19–20的家庭段落。经文未记寿数。"
+    },
+    {
+      "id": "jubal",
+      "name": "犹八",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "lamech_cain",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:19–21"
+      ],
+      "events": [
+        {
+          "text": "经文以他为弹琴吹箫者的祖师。",
+          "refs": [
+            "创世记4:21"
+          ]
+        }
+      ],
+      "notes": "本节直接称他为雅八的兄弟；父亲拉麦、母亲亚大的归属按4:19–21连续家庭段落合读。经文未记寿数。"
+    },
+    {
+      "id": "tubal_cain",
+      "name": "土八该隐",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "lamech_cain",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:19",
+        "创世记4:22"
+      ],
+      "events": [
+        {
+          "text": "从事铜铁器具的锻造。",
+          "refs": [
+            "创世记4:22"
+          ]
+        }
+      ],
+      "notes": "创4:22直接记母亲洗拉；父亲拉麦按4:19–22家庭段落。拿玛是其妹子，不能把他与祖先该隐合并。经文未记寿数。"
+    },
+    {
+      "id": "naamah",
+      "name": "拿玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "lamech_cain",
+      "relation": "女儿",
+      "refs": [
+        "创世记4:19",
+        "创世记4:22"
+      ],
+      "events": [],
+      "notes": "创4:22直接记为土八该隐的妹子；父亲拉麦、母亲洗拉的归属依4:19–22家庭叙述合读。经文没有把她称作挪亚的妻子，故不添加该配偶关系；本段未记其寿数。"
+    },
+    {
+      "id": "seth",
+      "name": "塞特",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "adam",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:25",
+        "创世记5:3"
+      ],
+      "events": [
+        {
+          "text": "夏娃生他时，将他视为代替被杀亚伯的儿子。",
+          "refs": [
+            "创世记4:25"
+          ]
+        },
+        {
+          "text": "105岁时生以挪士，其后又活807年，并有其他未具名儿女。",
+          "refs": [
+            "创世记5:6–8"
+          ]
+        },
+        {
+          "text": "寿命共912年。",
+          "refs": [
+            "创世记5:6–8"
+          ]
+        }
+      ],
+      "notes": "母亲夏娃。另有未具名儿女，不按本图单一记名主线推断他只有一个孩子。"
+    },
+    {
+      "id": "enosh",
+      "name": "以挪士",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "seth",
+      "relation": "儿子",
+      "refs": [
+        "创世记4:26",
+        "创世记5:6"
+      ],
+      "events": [
+        {
+          "text": "本节在记述其出生后，提到当时的人开始求告耶和华的名。",
+          "refs": [
+            "创世记4:26"
+          ]
+        },
+        {
+          "text": "90岁时生该南，其后又活815年，并有其他未具名儿女。",
+          "refs": [
+            "创世记5:9–11"
+          ]
+        },
+        {
+          "text": "寿命共905年。",
+          "refs": [
+            "创世记5:9–11"
+          ]
+        }
+      ],
+      "notes": "创4:26是该段时代的叙述，不将其扩写为以挪士个人创立了宗教。"
+    },
+    {
+      "id": "kenan",
+      "name": "该南",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "enosh",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:9"
+      ],
+      "events": [
+        {
+          "text": "70岁时生玛勒列，其后又活840年，并有其他未具名儿女。",
+          "refs": [
+            "创世记5:12–14"
+          ]
+        },
+        {
+          "text": "寿命共910年。",
+          "refs": [
+            "创世记5:12–14"
+          ]
+        }
+      ],
+      "notes": "以挪士之子、玛勒列之父；不是该隐，也不与后世另一段家谱中的同名条目合并。"
+    },
+    {
+      "id": "mahalalel",
+      "name": "玛勒列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kenan",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:12"
+      ],
+      "events": [
+        {
+          "text": "65岁时生雅列，其后又活830年，并有其他未具名儿女。",
+          "refs": [
+            "创世记5:15–17"
+          ]
+        },
+        {
+          "text": "寿命共895年。",
+          "refs": [
+            "创世记5:15–17"
+          ]
+        }
+      ],
+      "notes": "塞特支系，该南之子、雅列之父；不与该隐支系米户雅利混同。"
+    },
+    {
+      "id": "jared",
+      "name": "雅列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mahalalel",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:15"
+      ],
+      "events": [
+        {
+          "text": "162岁时生以诺，其后又活800年，并有其他未具名儿女。",
+          "refs": [
+            "创世记5:18–20"
+          ]
+        },
+        {
+          "text": "寿命共962年。",
+          "refs": [
+            "创世记5:18–20"
+          ]
+        }
+      ],
+      "notes": "塞特支系，玛勒列之子、以诺之父。"
+    },
+    {
+      "id": "enoch_seth",
+      "name": "以诺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jared",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:18"
+      ],
+      "events": [
+        {
+          "text": "65岁时生玛土撒拉。",
+          "refs": [
+            "创世记5:21"
+          ]
+        },
+        {
+          "text": "生玛土撒拉以后与神同行300年，并有其他儿女。",
+          "refs": [
+            "创世记5:21–22"
+          ]
+        },
+        {
+          "text": "在世共365年，后来被神取去。",
+          "refs": [
+            "创世记5:23–24"
+          ]
+        }
+      ],
+      "notes": "雅列之子、玛土撒拉之父，与该隐之子以诺不同。经文没有用本章其他人的死亡公式叙述他的结局，不写作365岁去世。"
+    },
+    {
+      "id": "methuselah",
+      "name": "玛土撒拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "enoch_seth",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:21"
+      ],
+      "events": [
+        {
+          "text": "187岁时生拉麦，其后又活782年，并有其他未具名儿女。",
+          "refs": [
+            "创世记5:25–27"
+          ]
+        },
+        {
+          "text": "寿命共969年。",
+          "refs": [
+            "创世记5:25–27"
+          ]
+        }
+      ],
+      "notes": "塞特支系，以诺之子、拉麦之父；与该隐支系的玛土撒利是不同名字、不同人物。不以寿数自行推定其死亡原因。"
+    },
+    {
+      "id": "lamech_seth",
+      "name": "拉麦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "methuselah",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:25"
+      ],
+      "events": [
+        {
+          "text": "为儿子起名挪亚，寄望他为劳苦带来安慰。",
+          "refs": [
+            "创世记5:28–29"
+          ]
+        },
+        {
+          "text": "182岁时生挪亚，其后又活595年，并有其他未具名儿女。",
+          "refs": [
+            "创世记5:28–31"
+          ]
+        },
+        {
+          "text": "寿命共777年。",
+          "refs": [
+            "创世记5:28–31"
+          ]
+        }
+      ],
+      "notes": "塞特支系的拉麦，玛土撒拉之子、挪亚之父；与该隐支系娶亚大洗拉的拉麦分别建档，其妻未具名。"
+    },
+    {
+      "id": "noah",
+      "name": "挪亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "lamech_seth",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:28–29"
+      ],
+      "events": [
+        {
+          "text": "其父拉麦为他起名，表达对劳苦中得安慰的盼望。",
+          "refs": [
+            "创世记5:28–29"
+          ]
+        },
+        {
+          "text": "经文称他与神同行；遵命建造方舟。",
+          "refs": [
+            "创世记6:9",
+            "创世记6:13–22"
+          ]
+        },
+        {
+          "text": "洪水来临时600岁，与妻子、三子及儿妇进入方舟。",
+          "refs": [
+            "创世记7:6–7",
+            "创世记7:13"
+          ]
+        },
+        {
+          "text": "洪水后又活350年，寿命共950年。",
+          "refs": [
+            "创世记9:28–29"
+          ]
+        }
+      ],
+      "notes": "创5:32以500岁与三子合并列记，不由此断定三子同年出生或为三胞胎。挪亚之妻在创6:18、7:13未具名，不把拿玛或其他具名女子补作其妻；本图至三子终端，下一份家谱续展。"
+    },
+    {
+      "id": "shem",
+      "name": "闪",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "noah",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:32",
+        "创世记6:10",
+        "创世记9:18–19"
+      ],
+      "events": [
+        {
+          "text": "与挪亚一家进入方舟。",
+          "refs": [
+            "创世记7:13"
+          ]
+        }
+      ],
+      "notes": "挪亚之子；本图作为终端保留，后代由挪亚至亚伯拉罕家谱续展。母亲及妻子在相关段落未具名；显示次序不表示三子的完整出生顺序。"
+    },
+    {
+      "id": "ham",
+      "name": "含",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "noah",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:32",
+        "创世记6:10",
+        "创世记9:18–19"
+      ],
+      "events": [
+        {
+          "text": "与挪亚一家进入方舟。",
+          "refs": [
+            "创世记7:13"
+          ]
+        }
+      ],
+      "notes": "挪亚之子；本图作为终端保留，后代由挪亚至亚伯拉罕家谱续展。母亲及妻子在相关段落未具名；显示次序不表示三子的完整出生顺序。"
+    },
+    {
+      "id": "japheth",
+      "name": "雅弗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "noah",
+      "relation": "儿子",
+      "refs": [
+        "创世记5:32",
+        "创世记6:10",
+        "创世记9:18–19"
+      ],
+      "events": [
+        {
+          "text": "与挪亚一家进入方舟。",
+          "refs": [
+            "创世记7:13"
+          ]
+        }
+      ],
+      "notes": "挪亚之子；本图作为终端保留，后代由挪亚至亚伯拉罕家谱续展。母亲及妻子在相关段落未具名；显示次序不表示三子的完整出生顺序。"
+    }
+  ],
+  "relations": [
+    {
+      "source": "adam",
+      "target": "eve",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记2:24–25",
+        "创世记4:1"
+      ],
+      "notes": "创造叙述不是父女关系，夏娃不挂为亚当子女。"
+    },
+    {
+      "source": "lamech_cain",
+      "target": "adah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记4:19"
+      ],
+      "notes": "该隐支系拉麦之妻，不连接挪亚之父拉麦。"
+    },
+    {
+      "source": "lamech_cain",
+      "target": "zillah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记4:19"
+      ],
+      "notes": "该隐支系拉麦之妻，不连接挪亚之父拉麦。"
+    },
+    {
+      "source": "eve",
+      "target": "cain",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记4:1"
+      ],
+      "notes": "本节直接记载夏娃生该隐。"
+    },
+    {
+      "source": "eve",
+      "target": "abel",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记4:1–2"
+      ],
+      "notes": "4:2延续夏娃生子的叙述。"
+    },
+    {
+      "source": "eve",
+      "target": "seth",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记4:25"
+      ],
+      "notes": "亚当与妻生塞特；妻子夏娃身份结合4:1。"
+    },
+    {
+      "source": "adah",
+      "target": "jabal",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记4:20"
+      ],
+      "notes": "本节直接记载亚大生雅八。"
+    },
+    {
+      "source": "adah",
+      "target": "jubal",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记4:19–21"
+      ],
+      "notes": "4:21直接称犹八为雅八的兄弟；母亲亚大按相邻家庭叙述合读，本节未再次逐字指明其母。"
+    },
+    {
+      "source": "zillah",
+      "target": "tubal_cain",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记4:22"
+      ],
+      "notes": "本节直接记载洗拉生土八该隐。"
+    },
+    {
+      "source": "zillah",
+      "target": "naamah",
+      "type": "mother-child",
+      "relation": "母女",
+      "refs": [
+        "创世记4:19",
+        "创世记4:22"
+      ],
+      "notes": "4:22直接称拿玛为土八该隐的妹子；母亲洗拉按同节家庭叙述合读，本节未再次逐字指明其母。不得据此将拿玛指认为挪亚妻子。"
+    }
+  ],
+  "mainPath": [
+    "adam",
+    "seth",
+    "enosh",
+    "kenan",
+    "mahalalel",
+    "jared",
+    "enoch_seth",
+    "methuselah",
+    "lamech_seth",
+    "noah"
+  ]
+}
