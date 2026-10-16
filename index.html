@@ -110,7 +110,7 @@
     </div>
 
     <button class="card genealogyHome" id="openOriginalGenealogy" aria-controls="genealogyPanel">
-      <span><strong>圣经家谱</strong><span class="small">亚当到挪亚 · 挪亚到亚伯拉罕 · 原图正背面</span></span>
+      <span><strong>圣经家谱</strong><span class="small">亚当 → 挪亚 → 亚伯拉罕 → 雅各 · 原图正背面</span></span>
       <span class="arrow" aria-hidden="true">›</span>
     </button>
 
@@ -168,6 +168,7 @@
       <div class="genealogyViews" role="group" aria-label="选择家谱">
         <button class="genealogyView" data-genealogy="adam" aria-pressed="true">亚当 → 挪亚</button>
         <button class="genealogyView" data-genealogy="noah" aria-pressed="false">挪亚 → 亚伯拉罕</button>
+        <button class="genealogyView" data-genealogy="abraham" aria-pressed="false">亚伯拉罕 → 雅各</button>
         <button class="genealogyView" data-genealogy="original" aria-pressed="false">原图 · 正背面</button>
         <a class="genealogyFull" id="genealogyFull" href="./family-tree/index.html?tree=adam-noah">全屏查看 ↗</a>
       </div>
@@ -477,6 +478,7 @@ if(location.hash==="#pagePeople")switchPage("pagePeople");
 const genealogyViews={
   adam:{url:"./family-tree/index.html?tree=adam-noah",title:"亚当到挪亚交互家谱，可展开旁支及查看经文"},
   noah:{url:"./family-tree/index.html?tree=noah-abraham",title:"挪亚到亚伯拉罕交互家谱，可展开旁支及查看经文"},
+  abraham:{url:"./family-tree/index.html?tree=abraham-jacob",title:"亚伯拉罕到雅各交互家谱，可查看母亲、配偶与经文出处"},
   original:{url:"./genealogy-images.html",title:"圣经家谱正面与背面，可切换、拖动和放大查看"}
 };
 document.querySelectorAll("[data-genealogy]").forEach(button=>button.onclick=()=>{
@@ -486,6 +488,18 @@ document.querySelectorAll("[data-genealogy]").forEach(button=>button.onclick=()=
   frame.src=view.url+(view.url.includes("?")?"&":"?")+"embed=1";
   frame.title=view.title;
   document.getElementById("genealogyFull").href=view.url;
+});
+window.addEventListener("message",event=>{
+  const frame=document.getElementById("genealogyFrame");
+  if(event.origin!==location.origin||event.source!==frame.contentWindow||event.data?.type!=="bible-family-tree")return;
+  const key={"adam-noah":"adam","noah-abraham":"noah","abraham-jacob":"abraham"}[event.data.tree];
+  if(!key)return;
+  const view=genealogyViews[key];
+  document.querySelectorAll("[data-genealogy]").forEach(item=>item.setAttribute("aria-pressed",String(item.dataset.genealogy===key)));
+  const url=new URL(view.url,location.href);
+  if(typeof event.data.person==="string"&&/^[a-z0-9_]+$/.test(event.data.person))url.searchParams.set("person",event.data.person);
+  document.getElementById("genealogyFull").href=url.href;
+  frame.title=view.title;
 });
 document.getElementById("openOriginalGenealogy").onclick=()=>{
   switchPage("pagePeople");

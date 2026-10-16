@@ -1,10 +1,10 @@
 {
-  "title": "挪亚到亚伯拉罕：创世记10–11记名家谱",
-  "version": "2026-10-15",
+  "title": "挪亚到亚伯拉罕：含拿鹤与哈兰家族支系",
+  "version": "2026-10-16",
   "translation": "简体中文和合本",
-  "scope": "创世记10全列名支系、11:10–32主线及他拉之家；用12章、17章、20:12补充经历、改名和撒莱亲属关系。止于亚伯兰及其父家，不展开亚伯兰以后各代。",
-  "nodeKindExplanation": "person为按经文以单名列出的家谱人物记录，不声称族源名单中每个同名族祖均有独立传记；group为明确宗族称谓及基提、多单等集合名称。不得将group的连线显示为亲生父子。",
-  "fatherIdExplanation": "父系树中的结构父节点。person的儿子/女儿边表示经文亲属关系；group的族群支系/族群出自边仅表示族源联系。撒莱的归属明确标为跨经文合读。",
+  "scope": "保留创世记10全列名支系与11章挪亚至亚伯兰主线；补拿鹤与密迦、流玛的子女，并展开至利百加及拉班之女利亚、拉结；哈兰支保留罗得、密迦、亦迦，补罗得两女、摩押、便亚米及两族群来源。主线止于亚伯兰；亚伯拉罕到雅各页接续亚伯拉罕的家庭及利百加与以撒的两个儿子；利亚、拉结仅衔接与雅各的婚姻，雅各子女留待后续，不声称上述家族在全书的后代已全部穷尽。",
+  "nodeKindExplanation": "人物类与族群分别显示。族源家谱的单名记录未必都有独立传记；摩押人、亚扪人等为族群来源，不能显示为亲生儿子。两位罗得女儿明确标为未具名角色。",
+  "fatherIdExplanation": "父系树从挪亚开始；族群的结构上级只表示族源。流玛之父未记，独立显示为拿鹤的妾，不作其女儿。撒莱归他拉之家是创11:27与20:12合读。",
   "sources": [
     {
       "title": "创世记10：简体中文和合本（CNBible）",
@@ -41,15 +41,51 @@
     {
       "title": "创世记25：同名示巴、底但隔离核对（CNBible）",
       "url": "https://cnbible.com/cus/genesis/25.htm"
+    },
+    {
+      "title": "创世记19：罗得两女及摩押、亚扪来源（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/19.htm"
+    },
+    {
+      "title": "创世记22：拿鹤、密迦与流玛子女（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/22.htm"
+    },
+    {
+      "title": "创世记24：利百加父家及婚姻（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/24.htm"
+    },
+    {
+      "title": "创世记28：拉班父亲为彼土利（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/28.htm"
+    },
+    {
+      "title": "创世记29：利亚、拉结父家及婚姻（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/29.htm"
+    },
+    {
+      "title": "创世记22：和合本名单交叉核对（Wordproject）",
+      "url": "https://www.wordproject.org/bibles/gb/01/22.htm"
+    },
+    {
+      "title": "创世记19：和合本罗得家族交叉核对（Wordproject）",
+      "url": "https://www.wordproject.org/bibles/gb/01/19.htm"
     }
   ],
   "counts": {
-    "nodes": 86,
-    "personRecords": 67,
-    "groupRecords": 19,
+    "nodes": 110,
+    "personRecords": 89,
+    "groupRecords": 21,
+    "unnamedRoleRecords": 2,
+    "originalRecordsPreserved": 86,
+    "addedRecords": 24,
     "genesis10NodesIncludingNoah": 75,
-    "parentEdges": 85,
-    "crossRelations": 3,
+    "treeNodes": 109,
+    "partnerOnly": 1,
+    "parentEdges": 108,
+    "crossRelations": 18,
+    "spouseRelations": 2,
+    "concubineRelations": 1,
+    "motherChildRelations": 14,
     "mainPathNodes": 11
   },
   "nodes": [
@@ -77,7 +113,8 @@
           ]
         }
       ],
-      "notes": "本图从挪亚起，不补画未具名人物；儿子的排列服务主线阅读，不表示长幼顺序。"
+      "notes": "本图从挪亚起，不补画未具名人物；儿子的排列服务主线阅读，不表示长幼顺序。",
+      "gender": "male"
     },
     {
       "id": "shem",
@@ -104,7 +141,8 @@
           ]
         }
       ],
-      "notes": "创世记10:21的和合本称闪为雅弗的哥哥；不据此推定三兄弟的全部出生次序。"
+      "notes": "创世记10:21的和合本称闪为雅弗的哥哥；不据此推定三兄弟的全部出生次序。",
+      "gender": "male"
     },
     {
       "id": "ham",
@@ -117,7 +155,8 @@
         "创世记10:6"
       ],
       "events": [],
-      "notes": "创世记10:6–20列出此支的个人、宗族及疆界；图中的族群节点不等同单个儿子。"
+      "notes": "创世记10:6–20列出此支的个人、宗族及疆界；图中的族群节点不等同单个儿子。",
+      "gender": "male"
     },
     {
       "id": "japheth",
@@ -136,7 +175,8 @@
           ]
         }
       ],
-      "notes": "创世记10采用族源家谱的表达方式；不把各名字自动对应到现代民族。"
+      "notes": "创世记10采用族源家谱的表达方式；不把各名字自动对应到现代民族。",
+      "gender": "male"
     },
     {
       "id": "gomer",
@@ -148,7 +188,8 @@
         "创世记10:2"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "magog",
@@ -160,7 +201,8 @@
         "创世记10:2"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "madai",
@@ -172,7 +214,8 @@
         "创世记10:2"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "javan",
@@ -184,7 +227,8 @@
         "创世记10:2"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "tubal",
@@ -196,7 +240,8 @@
         "创世记10:2"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "meshech",
@@ -208,7 +253,8 @@
         "创世记10:2"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "tiras",
@@ -220,7 +266,8 @@
         "创世记10:2"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "ashkenaz",
@@ -232,7 +279,8 @@
         "创世记10:3"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "riphath",
@@ -244,7 +292,8 @@
         "创世记10:3"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "togarmah",
@@ -256,7 +305,8 @@
         "创世记10:3"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "elishah",
@@ -268,7 +318,8 @@
         "创世记10:4"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "tarshish",
@@ -280,7 +331,8 @@
         "创世记10:4"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "kittim",
@@ -316,7 +368,8 @@
         "创世记10:6"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "mizraim",
@@ -328,7 +381,8 @@
         "创世记10:6"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "put",
@@ -340,7 +394,8 @@
         "创世记10:6"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "canaan",
@@ -352,7 +407,8 @@
         "创世记10:6"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "seba",
@@ -364,7 +420,8 @@
         "创世记10:7"
       ],
       "events": [],
-      "notes": "和合本译名为西巴，不因音近而与示巴合并。"
+      "notes": "和合本译名为西巴，不因音近而与示巴合并。",
+      "gender": "male"
     },
     {
       "id": "havilah_cush",
@@ -376,7 +433,8 @@
         "创世记10:7"
       ],
       "events": [],
-      "notes": "古实的儿子；与创世记10:29约坍支系的同名哈腓拉分别建档。"
+      "notes": "古实的儿子；与创世记10:29约坍支系的同名哈腓拉分别建档。",
+      "gender": "male"
     },
     {
       "id": "sabtah",
@@ -388,7 +446,8 @@
         "创世记10:7"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "raamah",
@@ -400,7 +459,8 @@
         "创世记10:7"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "sabteca",
@@ -412,7 +472,8 @@
         "创世记10:7"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "sheba_raamah",
@@ -424,7 +485,8 @@
         "创世记10:7"
       ],
       "events": [],
-      "notes": "拉玛的儿子；与创世记10:28约坍的儿子示巴分别建档。也不与创世记25:3约珊的儿子示巴合并。"
+      "notes": "拉玛的儿子；与创世记10:28约坍的儿子示巴分别建档。也不与创世记25:3约珊的儿子示巴合并。",
+      "gender": "male"
     },
     {
       "id": "dedan_raamah",
@@ -436,7 +498,8 @@
         "创世记10:7"
       ],
       "events": [],
-      "notes": "拉玛的儿子；不是创世记25:3约珊的同名儿子底但，后者不在本图范围。"
+      "notes": "拉玛的儿子；不是创世记25:3约珊的同名儿子底但，后者不在本图范围。",
+      "gender": "male"
     },
     {
       "id": "nimrod",
@@ -467,7 +530,8 @@
           ]
         }
       ],
-      "notes": "这里的国邑只列于经历，不是他的儿子。10:11的亚述是所往之地，与10:22闪的儿子亚述分开处理。"
+      "notes": "这里的国邑只列于经历，不是他的儿子。10:11的亚述是所往之地，与10:22闪的儿子亚述分开处理。",
+      "gender": "male"
     },
     {
       "id": "ludim",
@@ -575,7 +639,8 @@
         "创世记10:15"
       ],
       "events": [],
-      "notes": "10:15以迦南长子列名；10:19同名地界只作地名，不再另加一个儿子。"
+      "notes": "10:15以迦南长子列名；10:19同名地界只作地名，不再另加一个儿子。",
+      "gender": "male"
     },
     {
       "id": "heth",
@@ -587,7 +652,8 @@
         "创世记10:15"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "jebusites",
@@ -707,7 +773,8 @@
         "创世记10:22"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "asshur",
@@ -719,7 +786,8 @@
         "创世记10:22"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "arphaxad",
@@ -738,7 +806,8 @@
           ]
         }
       ],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "lud",
@@ -750,7 +819,8 @@
         "创世记10:22"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "aram",
@@ -762,7 +832,8 @@
         "创世记10:22"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "uz_aram",
@@ -774,7 +845,8 @@
         "创世记10:23"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "hul",
@@ -786,7 +858,8 @@
         "创世记10:23"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "gether",
@@ -798,7 +871,8 @@
         "创世记10:23"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "mash",
@@ -810,7 +884,8 @@
         "创世记10:23"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "shelah",
@@ -830,7 +905,8 @@
           ]
         }
       ],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "eber",
@@ -850,7 +926,8 @@
           ]
         }
       ],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "peleg",
@@ -876,7 +953,8 @@
           ]
         }
       ],
-      "notes": "不把分地居住解释为经文未明说的大陆分裂，也不据此确定巴别事件的精确年份。"
+      "notes": "不把分地居住解释为经文未明说的大陆分裂，也不据此确定巴别事件的精确年份。",
+      "gender": "male"
     },
     {
       "id": "joktan",
@@ -888,7 +966,8 @@
         "创世记10:25"
       ],
       "events": [],
-      "notes": "本段共列13名儿子；其居地米沙、西发属于地理说明，不作为人物节点。"
+      "notes": "本段共列13名儿子；其居地米沙、西发属于地理说明，不作为人物节点。",
+      "gender": "male"
     },
     {
       "id": "almodad",
@@ -900,7 +979,8 @@
         "创世记10:26"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "sheleph",
@@ -912,7 +992,8 @@
         "创世记10:26"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "hazarmaveth",
@@ -924,7 +1005,8 @@
         "创世记10:26"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "jerah",
@@ -936,7 +1018,8 @@
         "创世记10:26"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "hadoram",
@@ -948,7 +1031,8 @@
         "创世记10:27"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "uzal",
@@ -960,7 +1044,8 @@
         "创世记10:27"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "diklah",
@@ -972,7 +1057,8 @@
         "创世记10:27"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "obal",
@@ -984,7 +1070,8 @@
         "创世记10:28"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "abimael",
@@ -996,7 +1083,8 @@
         "创世记10:28"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "sheba_joktan",
@@ -1008,7 +1096,8 @@
         "创世记10:28"
       ],
       "events": [],
-      "notes": "约坍的儿子；与创世记10:7拉玛的儿子示巴分别建档。也不与创世记25:3约珊的儿子示巴合并。"
+      "notes": "约坍的儿子；与创世记10:7拉玛的儿子示巴分别建档。也不与创世记25:3约珊的儿子示巴合并。",
+      "gender": "male"
     },
     {
       "id": "ophir",
@@ -1020,7 +1109,8 @@
         "创世记10:29"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "havilah_joktan",
@@ -1032,7 +1122,8 @@
         "创世记10:29"
       ],
       "events": [],
-      "notes": "约坍的儿子；与创世记10:7古实支系的同名哈腓拉分别建档。"
+      "notes": "约坍的儿子；与创世记10:7古实支系的同名哈腓拉分别建档。",
+      "gender": "male"
     },
     {
       "id": "jobab",
@@ -1044,7 +1135,8 @@
         "创世记10:29"
       ],
       "events": [],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "reu",
@@ -1063,7 +1155,8 @@
           ]
         }
       ],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "serug",
@@ -1082,7 +1175,8 @@
           ]
         }
       ],
-      "notes": ""
+      "notes": "",
+      "gender": "male"
     },
     {
       "id": "nahor_ancestor",
@@ -1101,7 +1195,8 @@
           ]
         }
       ],
-      "notes": "西鹿的儿子、他拉的父亲；与他拉的儿子拿鹤为两位同名人物。"
+      "notes": "西鹿的儿子、他拉的父亲；与他拉的儿子拿鹤为两位同名人物。",
+      "gender": "male"
     },
     {
       "id": "terah",
@@ -1132,7 +1227,8 @@
           ]
         }
       ],
-      "notes": "11:26提到70岁并列三子的家谱写法，不等于三子为三胞胎，也不足以单独确定三人的出生先后。撒莱挂于他拉名下是11:27与20:12合读的亲属结论。"
+      "notes": "11:26提到70岁并列三子的家谱写法，不等于三子为三胞胎，也不足以单独确定三人的出生先后。撒莱挂于他拉名下是11:27与20:12合读的亲属结论。",
+      "gender": "male"
     },
     {
       "id": "abraham",
@@ -1164,7 +1260,15 @@
           ]
         }
       ],
-      "notes": "亚伯兰与亚伯拉罕是同一人。本图止于亚伯兰及其父家，不继续展开他的妻妾、子孙。"
+      "notes": "亚伯兰与亚伯拉罕是同一人。本图止于亚伯兰及其父家，不继续展开他的妻妾、子孙。",
+      "gender": "male",
+      "crossPageLinks": [
+        {
+          "tree": "abraham-jacob",
+          "personId": "abraham",
+          "label": "查看亚伯拉罕到雅各的家谱"
+        }
+      ]
     },
     {
       "id": "nahor_brother",
@@ -1173,10 +1277,19 @@
       "fatherId": "terah",
       "relation": "儿子",
       "refs": [
-        "创世记11:26–27"
+        "创世记11:26–27",
+        "创世记22:20–24"
       ],
-      "events": [],
-      "notes": "他拉的儿子、亚伯兰的兄弟、密迦的丈夫；不是西鹿所生的同名拿鹤。"
+      "events": [
+        {
+          "text": "经文列出他与密迦所生八人，以及妾流玛所生四人。",
+          "refs": [
+            "创世记22:20–24"
+          ]
+        }
+      ],
+      "notes": "他拉的儿子、亚伯兰的兄弟、密迦的丈夫；不是西鹿所生的同名拿鹤。另有妾流玛；本页按经文列出这两支记名子女，并非穷尽其后各代。",
+      "gender": "male"
     },
     {
       "id": "haran_person",
@@ -1195,7 +1308,8 @@
           ]
         }
       ],
-      "notes": "此处是人物；11:31–32迁居和去世地点哈兰是地名，不新增为他拉的儿子。"
+      "notes": "此处是人物；11:31–32迁居和去世地点哈兰是地名，不新增为他拉的儿子。",
+      "gender": "male"
     },
     {
       "id": "lot",
@@ -1204,7 +1318,10 @@
       "fatherId": "haran_person",
       "relation": "儿子",
       "refs": [
-        "创世记11:27"
+        "创世记11:27",
+        "创世记19:15–16",
+        "创世记19:26",
+        "创世记19:30–38"
       ],
       "events": [
         {
@@ -1218,9 +1335,23 @@
           "refs": [
             "创世记12:4–5"
           ]
+        },
+        {
+          "text": "与妻子、两个女儿离开所多玛；妻子途中回望，变成盐柱。",
+          "refs": [
+            "创世记19:15–16",
+            "创世记19:26"
+          ]
+        },
+        {
+          "text": "后来与两个女儿住在山洞；经文记两女从他怀孕，分别生摩押与便亚米。",
+          "refs": [
+            "创世记19:30–38"
+          ]
         }
       ],
-      "notes": "哈兰的儿子、他拉的孙子，亚伯兰的侄儿；不是亚伯兰的亲生儿子。"
+      "notes": "哈兰的儿子、他拉的孙子，亚伯兰的侄儿；不是亚伯兰的亲生儿子。妻子与两女均未具名。两女的儿子在经文中也以罗得为父；不把父女关系改作夫妻关系。",
+      "gender": "male"
     },
     {
       "id": "milcah",
@@ -1229,10 +1360,19 @@
       "fatherId": "haran_person",
       "relation": "女儿",
       "refs": [
-        "创世记11:29"
+        "创世记11:29",
+        "创世记22:20–23"
       ],
-      "events": [],
-      "notes": "哈兰的女儿，亦迦的姐妹，拿鹤（他拉之子）的妻子。配偶关系另存于relations，不改变父系归属。"
+      "events": [
+        {
+          "text": "为亚伯拉罕的兄弟拿鹤生八名儿子。",
+          "refs": [
+            "创世记22:20–23"
+          ]
+        }
+      ],
+      "notes": "哈兰的女儿，亦迦的姐妹，拿鹤（他拉之子）的妻子。她是八名儿子的母亲、彼土利之母及利百加的祖母，不是利百加的母亲。",
+      "gender": "female"
     },
     {
       "id": "iscah",
@@ -1244,7 +1384,8 @@
         "创世记11:29"
       ],
       "events": [],
-      "notes": "本节只明确她的父亲为哈兰；不依经文以外的传统将她与撒莱合并。"
+      "notes": "本节只明确她的父亲为哈兰；不依经文以外的传统将她与撒莱合并。",
+      "gender": "female"
     },
     {
       "id": "sarai",
@@ -1278,7 +1419,425 @@
           ]
         }
       ],
-      "notes": "11:29明确为亚伯兰之妻；20:12中亚伯拉罕说明二人同父异母，结合11:27其父为他拉，将撒莱归入他拉之家。这是经文合读，并非11章直接列名的女儿。母亲未具名；撒莱不与亦迦合并。11:30不是终身无子的结论。"
+      "notes": "11:29明确为亚伯兰之妻；20:12中亚伯拉罕说明二人同父异母，结合11:27其父为他拉，将撒莱归入他拉之家。这是经文合读，并非11章直接列名的女儿。母亲未具名；撒莱不与亦迦合并。11:30不是终身无子的结论。",
+      "gender": "female"
+    },
+    {
+      "id": "uz_nahor",
+      "name": "乌斯",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "长子",
+      "refs": [
+        "创世记22:20–21"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。他是拿鹤的长子，与创10:23亚兰之子乌斯分开。",
+      "gender": "male"
+    },
+    {
+      "id": "buz_nahor",
+      "name": "布斯",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:21"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。",
+      "gender": "male"
+    },
+    {
+      "id": "kemuel_nahor",
+      "name": "基母利",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:21"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。",
+      "gender": "male"
+    },
+    {
+      "id": "chesed_nahor",
+      "name": "基薛",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:22–23"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。",
+      "gender": "male"
+    },
+    {
+      "id": "hazo_nahor",
+      "name": "哈琐",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:22–23"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。这里是人物，不是其他章节同名的城邑。",
+      "gender": "male"
+    },
+    {
+      "id": "pildash_nahor",
+      "name": "必达",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:22–23"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。",
+      "gender": "male"
+    },
+    {
+      "id": "jidlaph_nahor",
+      "name": "益拉",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:22–23"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。",
+      "gender": "male"
+    },
+    {
+      "id": "bethuel",
+      "name": "彼土利",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:22–23"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕的兄弟拿鹤与密迦所生；本段没有另记其寿数。",
+      "gender": "male"
+    },
+    {
+      "id": "aram_kemuel",
+      "name": "亚兰",
+      "kind": "person",
+      "fatherId": "kemuel_nahor",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:21"
+      ],
+      "events": [],
+      "notes": "基母利的儿子、拿鹤的孙子；不是创10:22闪的儿子亚兰，也不是同名地域或泛称的亚兰人。",
+      "gender": "male"
+    },
+    {
+      "id": "reumah",
+      "name": "流玛",
+      "kind": "person",
+      "fatherId": null,
+      "relation": "妾",
+      "refs": [
+        "创世记22:24"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕兄弟拿鹤的妾；本节未记她的父亲或寿数，不将她作为拿鹤的女儿。",
+      "gender": "female"
+    },
+    {
+      "id": "tebah_reumah",
+      "name": "提八",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:24"
+      ],
+      "events": [],
+      "notes": "拿鹤与妾流玛所生；本段没有另记其后代、寿数或独立经历。",
+      "gender": "male"
+    },
+    {
+      "id": "gaham_reumah",
+      "name": "迦含",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:24"
+      ],
+      "events": [],
+      "notes": "拿鹤与妾流玛所生；本段没有另记其后代、寿数或独立经历。",
+      "gender": "male"
+    },
+    {
+      "id": "tahash_reumah",
+      "name": "他辖",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "儿子",
+      "refs": [
+        "创世记22:24"
+      ],
+      "events": [],
+      "notes": "拿鹤与妾流玛所生；本段没有另记其后代、寿数或独立经历。",
+      "gender": "male"
+    },
+    {
+      "id": "maacah_reumah",
+      "name": "玛迦",
+      "kind": "person",
+      "fatherId": "nahor_brother",
+      "relation": "子女（性别未明）",
+      "refs": [
+        "创世记22:24"
+      ],
+      "events": [],
+      "notes": "拿鹤与妾流玛所生。本节未明确说明其男女，不凭其他同名人物推定性别，也不与后世同名王后或其他玛迦合并。",
+      "gender": "unknown"
+    },
+    {
+      "id": "laban",
+      "name": "拉班",
+      "kind": "person",
+      "fatherId": "bethuel",
+      "relation": "儿子",
+      "refs": [
+        "创世记24:29",
+        "创世记25:20",
+        "创世记28:5"
+      ],
+      "events": [
+        {
+          "text": "接待为以撒求婚的亚伯拉罕仆人，与彼土利回应婚事。",
+          "refs": [
+            "创世记24:29–32",
+            "创世记24:50–51"
+          ]
+        },
+        {
+          "text": "后来迎接外甥雅各；他的两位女儿是利亚与拉结。",
+          "refs": [
+            "创世记29:13",
+            "创世记29:16"
+          ]
+        }
+      ],
+      "notes": "彼土利之子、利百加的哥哥、利亚与拉结之父。创28:5直接说明彼土利是其父，不能只按兄妹称谓省略核对。本页在两女的婚姻交接处收束，不声称拉班只有两个孩子。",
+      "gender": "male"
+    },
+    {
+      "id": "rebecca",
+      "name": "利百加",
+      "kind": "person",
+      "fatherId": "bethuel",
+      "relation": "女儿",
+      "refs": [
+        "创世记22:22",
+        "创世记24:15",
+        "创世记25:20",
+        "创世记25:24–26"
+      ],
+      "events": [
+        {
+          "text": "在井旁为仆人和骆驼打水。",
+          "refs": [
+            "创世记24:15–20"
+          ]
+        },
+        {
+          "text": "同意前往迦南，后来嫁给以撒。",
+          "refs": [
+            "创世记24:58–61",
+            "创世记24:67"
+          ]
+        }
+      ],
+      "notes": "彼土利之女、拿鹤与密迦的孙女、拉班的妹妹。母亲在创24:28、53未具名，不把祖母密迦当作她的母亲。她与以撒的婚姻及两子以扫、雅各在亚伯拉罕到雅各页继续。",
+      "gender": "female",
+      "crossPageLinks": [
+        {
+          "tree": "abraham-jacob",
+          "personId": "rebecca",
+          "label": "查看利百加的婚姻与两个儿子"
+        }
+      ]
+    },
+    {
+      "id": "leah",
+      "name": "利亚",
+      "kind": "person",
+      "fatherId": "laban",
+      "relation": "大女儿",
+      "refs": [
+        "创世记29:16"
+      ],
+      "events": [
+        {
+          "text": "拉班在婚筵后将她送给雅各，成为雅各的妻子。",
+          "refs": [
+            "创世记29:22–26"
+          ]
+        }
+      ],
+      "notes": "拉班的大女儿、拉结的姐姐；母亲未在相关经文具名。亚伯拉罕到雅各页仅展示她与雅各的婚姻，雅各子女留待后续。",
+      "gender": "female",
+      "crossPageLinks": [
+        {
+          "tree": "abraham-jacob",
+          "personId": "leah",
+          "label": "查看利亚与雅各的婚姻"
+        }
+      ]
+    },
+    {
+      "id": "rachel",
+      "name": "拉结",
+      "kind": "person",
+      "fatherId": "laban",
+      "relation": "小女儿",
+      "refs": [
+        "创世记29:6",
+        "创世记29:16"
+      ],
+      "events": [
+        {
+          "text": "为父亲牧羊，在井旁与雅各相遇。",
+          "refs": [
+            "创世记29:6–12"
+          ]
+        },
+        {
+          "text": "利亚婚期七日满后，拉班也将她给雅各为妻。",
+          "refs": [
+            "创世记29:27–30"
+          ]
+        }
+      ],
+      "notes": "拉班的小女儿、利亚的妹妹；母亲未在相关经文具名。亚伯拉罕到雅各页仅展示她与雅各的婚姻，雅各子女留待后续。",
+      "gender": "female",
+      "crossPageLinks": [
+        {
+          "tree": "abraham-jacob",
+          "personId": "rachel",
+          "label": "查看拉结与雅各的婚姻"
+        }
+      ]
+    },
+    {
+      "id": "lot_daughter_elder",
+      "name": "罗得的长女（未具名）",
+      "kind": "person",
+      "fatherId": "lot",
+      "relation": "长女",
+      "refs": [
+        "创世记19:30–37"
+      ],
+      "events": [
+        {
+          "text": "与父亲及妹妹住在山洞，后来从父亲怀孕，生摩押。",
+          "refs": [
+            "创世记19:30–37"
+          ]
+        }
+      ],
+      "notes": "经文按长幼称呼她，未记姓名；这是未具名角色，不是补出的专名。摩押的父亲是罗得，母亲是这位长女；经文没有将二人称作夫妻。",
+      "gender": "female",
+      "isUnnamed": true
+    },
+    {
+      "id": "lot_daughter_younger",
+      "name": "罗得的次女（未具名）",
+      "kind": "person",
+      "fatherId": "lot",
+      "relation": "次女",
+      "refs": [
+        "创世记19:30–38"
+      ],
+      "events": [
+        {
+          "text": "与父亲及姐姐住在山洞，后来从父亲怀孕，生便亚米。",
+          "refs": [
+            "创世记19:30–38"
+          ]
+        }
+      ],
+      "notes": "经文按长幼称呼她，未记姓名；这是未具名角色，不是补出的专名。便亚米的父亲是罗得，母亲是这位次女；经文没有将二人称作夫妻。",
+      "gender": "female",
+      "isUnnamed": true
+    },
+    {
+      "id": "moab",
+      "name": "摩押",
+      "kind": "person",
+      "fatherId": "lot",
+      "relation": "儿子（长女所生）",
+      "refs": [
+        "创世记19:36–37"
+      ],
+      "events": [
+        {
+          "text": "罗得的长女为他起名摩押；经文以他为摩押人的始祖。",
+          "refs": [
+            "创世记19:37"
+          ]
+        }
+      ],
+      "notes": "父亲罗得，母亲是罗得未具名的长女；与后世摩押人族群分别记载。",
+      "gender": "male"
+    },
+    {
+      "id": "ben_ammi",
+      "name": "便亚米",
+      "kind": "person",
+      "fatherId": "lot",
+      "relation": "儿子（次女所生）",
+      "refs": [
+        "创世记19:36",
+        "创世记19:38"
+      ],
+      "events": [
+        {
+          "text": "罗得的次女为他起名便亚米；经文以他为亚扪人的始祖。",
+          "refs": [
+            "创世记19:38"
+          ]
+        }
+      ],
+      "notes": "父亲罗得，母亲是罗得未具名的次女；与后世亚扪人族群分别记载。",
+      "gender": "male"
+    },
+    {
+      "id": "moabites",
+      "name": "摩押人",
+      "kind": "group",
+      "fatherId": "moab",
+      "relation": "族群支系",
+      "refs": [
+        "创世记19:37"
+      ],
+      "events": [],
+      "notes": "本节记摩押为摩押人的始祖；这里表示族群来源，不是一个叫摩押人的儿子。"
+    },
+    {
+      "id": "ammonites",
+      "name": "亚扪人",
+      "kind": "group",
+      "fatherId": "ben_ammi",
+      "relation": "族群支系",
+      "refs": [
+        "创世记19:38"
+      ],
+      "events": [],
+      "notes": "本节记便亚米为亚扪人的始祖；这里表示族群来源，不是一个叫亚扪人的儿子。"
     }
   ],
   "relations": [
@@ -1312,6 +1871,157 @@
         "创世记20:12"
       ],
       "notes": "以本节亚伯拉罕的陈述为据；双方母亲均未具名，不增设母亲节点。"
+    },
+    {
+      "source": "milcah",
+      "target": "uz_nahor",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "milcah",
+      "target": "buz_nahor",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "milcah",
+      "target": "kemuel_nahor",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "milcah",
+      "target": "chesed_nahor",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "milcah",
+      "target": "hazo_nahor",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "milcah",
+      "target": "pildash_nahor",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "milcah",
+      "target": "jidlaph_nahor",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "milcah",
+      "target": "bethuel",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:20–23"
+      ],
+      "notes": "创22:23将这八人明确归于拿鹤与密迦。"
+    },
+    {
+      "source": "nahor_brother",
+      "target": "reumah",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "创世记22:24"
+      ],
+      "notes": "经文直接称流玛为拿鹤的妾，与密迦的妻子身份分别记载。"
+    },
+    {
+      "source": "reumah",
+      "target": "tebah_reumah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:24"
+      ],
+      "notes": "本节直接记流玛所生的子女。"
+    },
+    {
+      "source": "reumah",
+      "target": "gaham_reumah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:24"
+      ],
+      "notes": "本节直接记流玛所生的子女。"
+    },
+    {
+      "source": "reumah",
+      "target": "tahash_reumah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记22:24"
+      ],
+      "notes": "本节直接记流玛所生的子女。"
+    },
+    {
+      "source": "reumah",
+      "target": "maacah_reumah",
+      "type": "mother-child",
+      "relation": "母亲与子女",
+      "refs": [
+        "创世记22:24"
+      ],
+      "notes": "本节直接记流玛生玛迦；性别未在本稿断定。"
+    },
+    {
+      "source": "lot_daughter_elder",
+      "target": "moab",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记19:36–37"
+      ],
+      "notes": "长女直接生摩押；未具名，不添加传说姓名。"
+    },
+    {
+      "source": "lot_daughter_younger",
+      "target": "ben_ammi",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记19:36",
+        "创世记19:38"
+      ],
+      "notes": "次女直接生便亚米；未具名，不添加传说姓名。"
     }
   ],
   "mainPath": [
@@ -1326,5 +2036,117 @@
     "nahor_ancestor",
     "terah",
     "abraham"
+  ],
+  "rootId": "noah",
+  "treeNodeIds": [
+    "noah",
+    "shem",
+    "ham",
+    "japheth",
+    "gomer",
+    "magog",
+    "madai",
+    "javan",
+    "tubal",
+    "meshech",
+    "tiras",
+    "ashkenaz",
+    "riphath",
+    "togarmah",
+    "elishah",
+    "tarshish",
+    "kittim",
+    "dodanim",
+    "cush",
+    "mizraim",
+    "put",
+    "canaan",
+    "seba",
+    "havilah_cush",
+    "sabtah",
+    "raamah",
+    "sabteca",
+    "sheba_raamah",
+    "dedan_raamah",
+    "nimrod",
+    "ludim",
+    "anamim",
+    "lehabim",
+    "naphtuhim",
+    "pathrusim",
+    "casluhim",
+    "caphtorim",
+    "philistines",
+    "sidon",
+    "heth",
+    "jebusites",
+    "amorites",
+    "girgashites",
+    "hivites",
+    "arkites",
+    "sinites",
+    "arvadites",
+    "zemarites",
+    "hamathites",
+    "elam",
+    "asshur",
+    "arphaxad",
+    "lud",
+    "aram",
+    "uz_aram",
+    "hul",
+    "gether",
+    "mash",
+    "shelah",
+    "eber",
+    "peleg",
+    "joktan",
+    "almodad",
+    "sheleph",
+    "hazarmaveth",
+    "jerah",
+    "hadoram",
+    "uzal",
+    "diklah",
+    "obal",
+    "abimael",
+    "sheba_joktan",
+    "ophir",
+    "havilah_joktan",
+    "jobab",
+    "reu",
+    "serug",
+    "nahor_ancestor",
+    "terah",
+    "abraham",
+    "nahor_brother",
+    "haran_person",
+    "lot",
+    "milcah",
+    "iscah",
+    "sarai",
+    "uz_nahor",
+    "buz_nahor",
+    "kemuel_nahor",
+    "chesed_nahor",
+    "hazo_nahor",
+    "pildash_nahor",
+    "jidlaph_nahor",
+    "bethuel",
+    "aram_kemuel",
+    "tebah_reumah",
+    "gaham_reumah",
+    "tahash_reumah",
+    "maacah_reumah",
+    "laban",
+    "rebecca",
+    "leah",
+    "rachel",
+    "lot_daughter_elder",
+    "lot_daughter_younger",
+    "moab",
+    "ben_ammi",
+    "moabites",
+    "ammonites"
   ]
 }
