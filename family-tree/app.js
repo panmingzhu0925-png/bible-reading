@@ -20,6 +20,7 @@
   const expanded = new Set(db.nodes.map(n=>n.id));
   let selected = rootId, direction = matchMedia('(max-width:600px)').matches ? 'TB' : 'LR', scale = 1, tx = 0, ty = 0, width = 1000, height = 700;
   let labelScale=1;
+  let frame={left:80,right:80,top:80,bottom:30};
   let visibleIds = [], lastMode = 'all';
   const viewport = document.getElementById('viewport');
   const stage = document.getElementById('stage');
@@ -35,6 +36,8 @@
   document.getElementById('chart').setAttribute('aria-label',isAdam?'亚当到挪亚的家谱，可点击姓名查看经文出处':'挪亚到亚伯拉罕的家谱，可点击姓名查看经文出处');
   document.getElementById('orientation').value=direction;
   const chart = echarts.init(document.getElementById('chart'), null, {renderer:'svg'});
+  const labelFont=getComputedStyle(document.getElementById('chart')).fontFamily;
+  const measureContext=document.createElement('canvas').getContext('2d');
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const displayName = n => n.id === 'abraham' ? '亚伯兰（亚伯拉罕）' : n.id === 'sarai' ? '撒莱（撒拉）' : n.name;
   const labelName = n => n.id === 'abraham' ? '亚伯拉罕' : n.name;
@@ -79,15 +82,55 @@
     const sub=cs.map(c=>measure(c,depth+1));
     return {leaves:sub.reduce((a,s)=>a+s.leaves,0),depth:Math.max(...sub.map(s=>s.depth))};
   }
+  function labelContent(id){
+    const n=byId.get(id);
+    return {name:labelName(n),ref:id==='sarai'?'创11:27 / 20:12':refShort(n.refs[0])+(n.kind==='group'?' · 族群':''),partners:sideSpouses(id),closed:children.get(id).length&&!expanded.has(id)};
+  }
+  function textWidth(text,size,weight=400){
+    if(!measureContext)return [...text].reduce((sum,c)=>sum+(c.charCodeAt(0)>255?size:size*.6),0);
+    measureContext.font=`${weight} ${size}px ${labelFont}`;
+    return measureContext.measureText(text).width;
+  }
+  function labelSpace(){
+    let w=0,h=0;
+    for(const id of visibleIds){
+      const content=labelContent(id), more=content.closed?textWidth(` ＋${descendants(id)}`,10):0;
+      const spouseLine=content.partners.length?'配偶：'+content.partners.map(p=>p.name).join(' / '):'';
+      w=Math.max(w,textWidth(content.name,14,mainPath.has(id)?600:400)+more,textWidth(content.ref,10),textWidth(spouseLine,11));
+      h=Math.max(h,18+14+(spouseLine?16:0));
+    }
+    return {width:Math.ceil(w)+10,height:h+6};
+  }
+  function branchSlots(){
+    const leaves=visibleIds.filter(id=>!expanded.has(id)||!children.get(id).length);
+    if(leaves.length<2)return 2;
+    // ECharts gives cousins twice the separation of siblings. Include that
+    // space before normalising the canvas so sibling labels stay apart.
+    let slots=byId.get(leaves[0]).fatherId===byId.get(leaves[leaves.length-1]).fatherId?1:2;
+    for(let i=1;i<leaves.length;i++)slots+=byId.get(leaves[i]).fatherId===byId.get(leaves[i-1]).fatherId?1:2;
+    return slots;
+  }
   function tree(id) {
     const n=byId.get(id), cs=ordered(id), closed=cs.length&&!expanded.has(id), primary=mainPath.has(id), female=women.has(id);
     const color = female?'#477aae':primary?'#b64c40':'#6e8577';
     const kind = n.kind==='group';
-    const nodeName = labelName(n), nodeRef = id==='sarai'?'创11:27 / 20:12':refShort(n.refs[0]), partners=sideSpouses(id);
+    const {name:nodeName,ref:nodeRef,partners}=labelContent(id);
     return {id,name:n.name,collapsed:!!closed,children:cs.map(tree),symbol:kind?'diamond':'circle',symbolSize:primary?8:7,
       itemStyle:{color:closed?color:'#fff',borderColor:color,borderWidth:id===selected?3:1.6},
       lineStyle:{color:primary?'#b64c40':female?'#7296b6':kind?'#a4b3a8':'#bfcbc1',width:primary?2:1.1,type:kind?'dashed':'solid'},
-      label:{color,fontSize:14/labelScale,lineHeight:18/labelScale,position:'right',distance:6/labelScale,align:'left',verticalAlign:'middle',formatter:()=>`{name|${nodeName}}${closed?` {more|＋${descendants(id)}}`:''}\n{ref|${nodeRef}${kind?' · 族群':''}}${partners.length?'\n{wife|配偶：}'+partners.map(p=>`{wife|${p.name}}`).join('{wife| / }'):''}`,rich:{name:{fontSize:14/labelScale,fontWeight:primary?600:400,lineHeight:18/labelScale},ref:{fontSize:10/labelScale,color:'#8a978c',lineHeight:14/labelScale},wife:{fontSize:11/labelScale,color:'#477aae',lineHeight:16/labelScale},more:{fontSize:10/labelScale,color:'#8c9a8c',lineHeight:14/labelScale}}}
+      label:{
+        color,fontFamily:labelFont,fontSize:14/labelScale,lineHeight:18/labelScale,
+        position:direction==='LR'?'top':'right',distance:8/labelScale,
+        align:direction==='LR'?'center':'left',verticalAlign:direction==='LR'?'bottom':'middle',
+        backgroundColor:'#fff',padding:[3/labelScale,5/labelScale],borderRadius:3/labelScale,
+        formatter:()=>`{name|${nodeName}}${closed?` {more|＋${descendants(id)}}`:''}\n{ref|${nodeRef}}${partners.length?'\n{wife|配偶：}'+partners.map(p=>`{wife|${p.name}}`).join('{wife| / }'):''}`,
+        rich:{
+          name:{fontSize:14/labelScale,fontWeight:primary?600:400,lineHeight:18/labelScale},
+          ref:{fontSize:10/labelScale,color:'#8a978c',lineHeight:14/labelScale},
+          wife:{fontSize:11/labelScale,color:'#477aae',lineHeight:16/labelScale},
+          more:{fontSize:10/labelScale,color:'#8c9a8c',lineHeight:14/labelScale}
+        }
+      }
     };
   }
   function transform() {
@@ -99,10 +142,10 @@
     // removal diff can otherwise retain edges from collapsed parent nodes.
     chart.clear();
     chart.setOption({animation:false,tooltip:{show:false},series:[{type:'tree',data:[tree(rootId)],orient:direction,
-      left:direction==='LR'?30:75,right:direction==='LR'?160:115,top:isAdam?70:45,bottom:35,
+      ...frame,
       edgeShape:'curve',edgeForkPosition:'50%',initialTreeDepth:-1,expandAndCollapse:false,roam:false,
       emphasis:{focus:'none'},animationDuration:0,animationDurationUpdate:0,silent:false,
-      lineStyle:{curveness:.5},label:{position:'right'},leaves:{label:{position:'right'}}}]}, {notMerge:true});
+      lineStyle:{curveness:.5}}]}, {notMerge:true});
     decorateNodes();
   }
   function decorateNodes() {
@@ -122,14 +165,29 @@
   function render(fit=false) {
     if(viewport.clientWidth===0||viewport.clientHeight===0)return;
     visibleIds=[]; const size=measure(rootId);
-    width=direction==='LR'? Math.max(820,(size.depth+1)*114+190):Math.max(620,size.leaves*116+190);
-    height=direction==='LR'?Math.max(350,size.leaves*(isAdam?96:67)+70):Math.max(450,(size.depth+1)*(isAdam?78:65)+70);
-    stage.style.width=width+'px'; stage.style.height=height+'px'; chart.clear();chart.resize({width,height});
+    const label=labelSpace(),slots=branchSlots();
+    const margins=direction==='LR'
+      ?{left:label.width/2+24,right:label.width/2+24,top:label.height+24,bottom:32}
+      :{left:28,right:label.width+32,top:label.height/2+24,bottom:label.height/2+24};
+    const nominalWidth=direction==='LR'
+      ?margins.left+Math.max(1,size.depth)*(label.width+44)+margins.right
+      :margins.left+slots*(label.width+28)+margins.right;
+    const nominalHeight=direction==='LR'
+      ?margins.top+slots*(label.height+24)+margins.bottom
+      :margins.top+Math.max(1,size.depth)*(label.height+44)+margins.bottom;
     if(fit) {
       const r=viewport.getBoundingClientRect();
-      // Extremely large views remain pannable so the names stay readable.
-      scale=Math.max(.5,Math.min(1.15,(r.width-32)/width,(r.height-24)/height));
+      scale=Math.max(.5,Math.min(1.15,(r.width-32)/nominalWidth,(r.height-24)/nominalHeight));
       labelScale=scale;
+    }
+    // Font sizes and every spacing dimension use the same scale. Fitting or
+    // changing orientation must never squeeze generations underneath labels.
+    width=Math.ceil(nominalWidth/labelScale);
+    height=Math.ceil(nominalHeight/labelScale);
+    frame=Object.fromEntries(Object.entries(margins).map(([key,value])=>[key,value/labelScale]));
+    stage.style.width=width+'px';stage.style.height=height+'px';chart.clear();chart.resize({width,height});
+    if(fit){
+      const r=viewport.getBoundingClientRect();
       tx=direction==='TB'?(r.width-width*scale)/2:Math.max(12,(r.width-width*scale)/2);
       ty=Math.max(12,(r.height-height*scale)/2);
     }
