@@ -17,10 +17,10 @@
   const spouseOnly=db.nodes.filter(n=>!treeIds.has(n.id));
   function spousesOf(id){return db.relations.filter(r=>r.type==='spouse'&&(r.source===id||r.target===id)).map(r=>byId.get(r.source===id?r.target:r.source));}
   function sideSpouses(id){return spousesOf(id).filter(n=>!treeIds.has(n.id));}
-  const expanded = new Set(db.mainPath);
+  const expanded = new Set(db.nodes.map(n=>n.id));
   let selected = rootId, direction = matchMedia('(max-width:600px)').matches ? 'TB' : 'LR', scale = 1, tx = 0, ty = 0, width = 1000, height = 700;
   let labelScale=1;
-  let visibleIds = [], lastMode = 'mainline';
+  let visibleIds = [], lastMode = 'all';
   const viewport = document.getElementById('viewport');
   const stage = document.getElementById('stage');
   const detail = document.getElementById('details');
@@ -136,6 +136,7 @@
     drawLabels();transform();
     document.getElementById('count').textContent=`显示 ${visibleIds.length} / ${treeIds.size} ${isAdam?'位家谱人物':'条目'}${spouseOnly.length?` · 另有 ${spouseOnly.length} 位配偶资料`:''}`;
     ['mainline','overview','all'].forEach(mode=>document.getElementById(mode).classList.toggle('active',mode===lastMode));
+    if(fit&&lastMode==='all')focusNode(rootId);
   }
   function reveal(id) { ancestors(id).slice(0,-1).forEach(p=>expanded.add(p)); }
   function focusNode(id) {

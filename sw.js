@@ -1,5 +1,5 @@
-const CACHE="bible-reading-v11-interactive-family-trees-r2";
-const ASSETS=["./","./index.html","./genealogy-images.html","./family-tree/index.html","./family-tree/app.css","./family-tree/app.js","./family-tree/data.js","./family-tree/vendor/echarts.min.js","./manifest.webmanifest","./people-data.js","./people-data.json","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./assets/genealogy-front-transparent.png","./assets/genealogy-back-transparent.png"];
+const CACHE="bible-reading-v12-family-trees-expanded";
+const ASSETS=["./","./index.html","./genealogy-images.html","./family-tree/index.html","./family-tree/app.css","./family-tree/app.js?v=12","./family-tree/data.js","./family-tree/vendor/echarts.min.js","./manifest.webmanifest","./people-data.js","./people-data.json","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./assets/genealogy-front-transparent.png","./assets/genealogy-back-transparent.png"];
 const assetURL=path=>new URL(path,self.location.href).href;
 
 self.addEventListener("install",event=>{
