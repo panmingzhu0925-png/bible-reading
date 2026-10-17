@@ -1,0 +1,4534 @@
+{
+  "rootId": "levi",
+  "nodes": [
+    {
+      "id": "levi",
+      "name": "利未",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "本段起点",
+      "refs": [
+        "创世记29:34",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:11"
+      ],
+      "events": [
+        {
+          "text": "利未人被分别事奉，产业安排与其他支派不同。",
+          "refs": [
+            "申命记10:8–9",
+            "约书亚记14:3–4"
+          ]
+        }
+      ],
+      "notes": "雅各与利亚之子；本页列革顺、哥辖、米拉利，不继续展开更后世的祭司家谱。",
+      "sonOrder": 3,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "利未支派",
+        "ancestralRefs": [
+          "创世记49:5–7",
+          "创世记49:28"
+        ],
+        "landMode": "levitical-cities",
+        "landLabel": "无成片支派地业，分得城邑与郊野",
+        "landRefs": [
+          "约书亚记14:3–4",
+          "约书亚记21:1–3",
+          "约书亚记21:41–42"
+        ],
+        "note": "利未没有和其他支派相同的成片地业，但有居住城邑和郊野，不能概括成没有土地或产业。"
+      }
+    },
+    {
+      "id": "gershon_levi",
+      "name": "革顺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "levi",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "kohath_levi",
+      "name": "哥辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "levi",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "merari_levi",
+      "name": "米拉利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "levi",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "libni_gershon",
+      "name": "立尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gershon_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shimei_gershon",
+      "name": "示每",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gershon_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "amram",
+      "name": "暗兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kohath_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "izhar_levi",
+      "name": "以斯哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kohath_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hebron_levi",
+      "name": "希伯伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kohath_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "uzziel_levi",
+      "name": "乌薛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kohath_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mahli_merari",
+      "name": "抹利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "merari_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mushi_merari",
+      "name": "母示",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "merari_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jochebed",
+      "name": "约基别",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "levi",
+      "relation": "女儿",
+      "refs": [
+        "出埃及记6:20",
+        "民数记26:59"
+      ],
+      "events": [],
+      "notes": "暗兰之妻，也是其父亲哥辖的妹妹；依出6:20记载连接利未父家。民26:59称利未女子、生在埃及。"
+    },
+    {
+      "id": "miriam",
+      "name": "米利暗",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "amram",
+      "relation": "女儿",
+      "refs": [
+        "历代志上6:3",
+        "民数记26:59"
+      ],
+      "events": [
+        {
+          "text": "被称为女先知，领妇女击鼓跳舞。",
+          "refs": [
+            "出埃及记15:20–21"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "aaron",
+      "name": "亚伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amram",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:3",
+        "民数记26:59"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "moses",
+      "name": "摩西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amram",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:3",
+        "民数记26:59"
+      ],
+      "events": [],
+      "notes": "暗兰和约基别之子。两位妻子身份分别按出2、18和民12记录；不擅自断言古实女子就是西坡拉，也不推断婚姻先后。"
+    },
+    {
+      "id": "amminadab",
+      "name": "亚米拿达",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "出埃及记6:23",
+        "历代志上2:10"
+      ],
+      "events": [],
+      "notes": "亚兰之子、以利沙巴与拿顺之父，属于犹大家系，是亚伦的岳家；不是利未后裔。父亲亚兰及其上代在犹大分支查看。",
+      "crossPageLinks": [
+        {
+          "tree": "judah-jesus",
+          "personId": "amminadab",
+          "label": "查看犹大主线中的亚米拿达"
+        }
+      ]
+    },
+    {
+      "id": "elisheba",
+      "name": "以利沙巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "amminadab",
+      "relation": "女儿",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "events": [],
+      "notes": "亚伦之妻，亚米拿达之女、拿顺之妹。"
+    },
+    {
+      "id": "nahshon",
+      "name": "拿顺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amminadab",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "events": [],
+      "notes": "以利沙巴的兄弟，犹大支派首领；列为关联亲属，不属于利未。"
+    },
+    {
+      "id": "nadab_aaron",
+      "name": "拿答",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "aaron",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:23",
+        "民数记3:4",
+        "历代志上24:2"
+      ],
+      "events": [],
+      "notes": "献凡火而死，在父亲以前去世，没有留下儿子；不为其虚构后裔。",
+      "treeNote": "无子而死"
+    },
+    {
+      "id": "abihu",
+      "name": "亚比户",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "aaron",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:23",
+        "民数记3:4",
+        "历代志上24:2"
+      ],
+      "events": [],
+      "notes": "献凡火而死，在父亲以前去世，没有留下儿子；不为其虚构后裔。",
+      "treeNote": "无子而死"
+    },
+    {
+      "id": "eleazar_aaron",
+      "name": "以利亚撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "aaron",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ithamar",
+      "name": "以他玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "aaron",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "putiel",
+      "name": "普铁",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "出埃及记6:25"
+      ],
+      "events": [],
+      "notes": "以利亚撒岳父；经文未说明他的父系或支派。"
+    },
+    {
+      "id": "putiel_daughter",
+      "name": "普铁之女（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "putiel",
+      "relation": "女儿",
+      "refs": [
+        "出埃及记6:25"
+      ],
+      "events": [],
+      "notes": "以利亚撒之妻、非尼哈之母；普铁是其父名，她自己没有具名。",
+      "isUnnamed": true,
+      "graphLabel": "普铁之女"
+    },
+    {
+      "id": "phinehas_eleazar",
+      "name": "非尼哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eleazar_aaron",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:25",
+        "历代志上6:4"
+      ],
+      "events": [],
+      "notes": "以利亚撒之子，勿与以利之子非尼哈混同。"
+    },
+    {
+      "id": "abishua_priest",
+      "name": "亚比书",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "phinehas_eleazar",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:4"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "bukki_priest",
+      "name": "布基",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abishua_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:5"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "uzzi_priest",
+      "name": "乌西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "bukki_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:5"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "zerahiah_priest",
+      "name": "西拉希雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzzi_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:6"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "meraioth_priest",
+      "name": "米拉约",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerahiah_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:6"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "amariah_priest_1",
+      "name": "亚玛利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meraioth_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:7"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "ahitub_priest_1",
+      "name": "亚希突",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amariah_priest_1",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:7"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "zadok_priest_1",
+      "name": "撒督",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahitub_priest_1",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:8"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "ahimaaz_priest",
+      "name": "亚希玛斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zadok_priest_1",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:8"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "azariah_priest_1",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahimaaz_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:9"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "johanan_priest",
+      "name": "约哈难",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "azariah_priest_1",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:9"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "azariah_priest_2",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "johanan_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:10"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "amariah_priest_2",
+      "name": "亚玛利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "azariah_priest_2",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:11"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "ahitub_priest_2",
+      "name": "亚希突",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amariah_priest_2",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:11"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "zadok_priest_2",
+      "name": "撒督",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahitub_priest_2",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:12"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "shallum_priest",
+      "name": "沙龙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zadok_priest_2",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:12"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "hilkiah_priest",
+      "name": "希勒家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shallum_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:13"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "azariah_priest_3",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hilkiah_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:13"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "seraiah_priest",
+      "name": "西莱雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "azariah_priest_3",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:14"
+      ],
+      "events": [],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "jehozadak",
+      "name": "约萨答",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "seraiah_priest",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:14–15"
+      ],
+      "events": [
+        {
+          "text": "耶路撒冷被掳时也被掳去。",
+          "refs": [
+            "历代志上6:15"
+          ]
+        }
+      ],
+      "notes": "按历代志上6:4–15所列祭司家谱连接；同名的不同代人物分别建档，家谱次序不自动等于历任大祭司完整任职表。"
+    },
+    {
+      "id": "jeshua_high_priest",
+      "name": "约书亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehozadak",
+      "relation": "儿子",
+      "refs": [
+        "以斯拉记3:2",
+        "哈该书1:1"
+      ],
+      "events": [],
+      "notes": "约萨答之子，大祭司；以斯拉记作耶书亚，哈该书作约书亚。与嫩的儿子约书亚及祭司第九班耶书亚分开。",
+      "aliases": [
+        "耶书亚"
+      ]
+    },
+    {
+      "id": "ezra_scribe",
+      "name": "以斯拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "以斯拉记7:1–6"
+      ],
+      "events": [],
+      "notes": "拉7家谱称西莱雅之子，上溯亚伦；这类跨时代谱系可能省略世代，本页不将以斯拉强画成代上6被掳前西莱雅的直接亲生儿子。另以支派关联展示，并在说明保留拉7原有谱系。",
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 拉7祖谱"
+    },
+    {
+      "id": "reuel_midian",
+      "name": "流珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "出埃及记2:18–21",
+        "民数记10:29"
+      ],
+      "events": [],
+      "notes": "米甸人，西坡拉与何巴之父。出18称摩西岳父叶忒罗；正文未在同一句明确将流珥、叶忒罗、何巴等名字等同，本页分别记录称谓，不生造彼此代次。"
+    },
+    {
+      "id": "jethro_midian",
+      "name": "叶忒罗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "出埃及记18:1–6"
+      ],
+      "events": [],
+      "notes": "米甸祭司，摩西的岳父。与出2流珥的名字关系在说明并列，不据此增加两位不同生父。"
+    },
+    {
+      "id": "zipporah",
+      "name": "西坡拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "reuel_midian",
+      "relation": "女儿",
+      "refs": [
+        "出埃及记2:21–22",
+        "出埃及记18:2–4"
+      ],
+      "events": [],
+      "notes": "摩西之妻，流珥的女儿；出18明确称两个儿子为西坡拉的儿子。"
+    },
+    {
+      "id": "moses_cushite_wife",
+      "name": "古实女子（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "民数记12:1"
+      ],
+      "events": [],
+      "notes": "经文说摩西娶古实女子为妻，但没有记其名或在本节确认她与西坡拉是否同一人；不擅自合并，也不为其指派儿女。",
+      "isUnnamed": true,
+      "graphLabel": "古实女子"
+    },
+    {
+      "id": "gershom_moses",
+      "name": "革舜",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "moses",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记18:3–4",
+        "历代志上23:15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "eliezer_moses",
+      "name": "以利以谢",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "moses",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记18:3–4",
+        "历代志上23:15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shebuel_gershom",
+      "name": "细布业",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gershom_moses",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:16",
+        "历代志上26:24"
+      ],
+      "events": [],
+      "notes": "摩西之孙，革舜之子，管理府库。代上24:20列暗兰后裔书巴业，名字与本名存在异写对应；该段后裔不直接接作暗兰亲生儿子。",
+      "aliases": [
+        "书巴业（代上24:20）"
+      ]
+    },
+    {
+      "id": "jehdeiah_shebuel",
+      "name": "耶希底亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上24:20"
+      ],
+      "events": [],
+      "notes": "代上24列在书巴业的子孙中；没有确认省略多少世代，不直接当作儿子。",
+      "treeParentId": "shebuel_gershom",
+      "lineageKind": "tribal",
+      "lineageLabel": "书巴业（细布业）后裔 · 世代未接续"
+    },
+    {
+      "id": "rehabiah",
+      "name": "利哈比雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliezer_moses",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:17",
+        "历代志上26:25"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jeshaiah_rehabiah",
+      "name": "耶筛亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehabiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:25",
+        "历代志上24:21"
+      ],
+      "events": [],
+      "notes": "代上26:25的耶筛亚；代上24:21另列利哈比雅后裔中的长子伊示雅。本页主系按26章明说的父子连接，24章对应列名在说明保留。",
+      "aliases": [
+        "伊示雅（代上24:21）"
+      ]
+    },
+    {
+      "id": "joram_rehabiah",
+      "name": "约兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeshaiah_rehabiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:25"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zichri_joram",
+      "name": "细基利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joram_rehabiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:25"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shelomith_zichri",
+      "name": "示罗密",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zichri_joram",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:25–28"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hobab_reuel",
+      "name": "何巴",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuel_midian",
+      "relation": "儿子",
+      "refs": [
+        "民数记10:29"
+      ],
+      "events": [],
+      "notes": "流珥之子；和合本译摩西岳父，附或译内兄。本页不把这一译法分歧变成确定的父亲或兄长断言。"
+    },
+    {
+      "id": "heber_kenite",
+      "name": "希百",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "后裔（世代未接续）",
+      "refs": [
+        "士师记4:11"
+      ],
+      "events": [],
+      "notes": "基尼人，是何巴后裔，具体世代未记；不是利未后裔。",
+      "treeParentId": "hobab_reuel",
+      "lineageKind": "genealogy",
+      "lineageLabel": "何巴后裔 · 世代未接续"
+    },
+    {
+      "id": "jael",
+      "name": "雅亿",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "士师记4:17–21"
+      ],
+      "events": [],
+      "notes": "基尼人希百之妻。"
+    },
+    {
+      "id": "korah_izhar",
+      "name": "可拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "izhar_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:21"
+      ],
+      "events": [],
+      "notes": "以斯哈之子（出6:21；代上6:38）。代上6:22另列亚米拿达—可拉，本页不将亚米拿达默认为以斯哈的另名；原图若将可拉三子串代，依出6:24纠正为并列。"
+    },
+    {
+      "id": "nepheg_izhar",
+      "name": "尼斐",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "izhar_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zichri_izhar",
+      "name": "细基利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "izhar_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mishael_uzziel",
+      "name": "米沙利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzziel_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:22"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "elzaphan_uzziel",
+      "name": "以利撒反",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzziel_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:22"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zithri_uzziel",
+      "name": "西提利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzziel_levi",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:22"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "assir_korah",
+      "name": "亚惜",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "korah_izhar",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:24"
+      ],
+      "events": [],
+      "notes": "按出6:24同列可拉众子，不能将这三个名字画成连续三代。代上6:22–23另表的父子列名不同，分别在说明保留。"
+    },
+    {
+      "id": "elkanah_korah",
+      "name": "以利加拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "korah_izhar",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:24"
+      ],
+      "events": [],
+      "notes": "按出6:24同列可拉众子，不能将这三个名字画成连续三代。代上6:22–23另表的父子列名不同，分别在说明保留。"
+    },
+    {
+      "id": "abiasaph_korah",
+      "name": "亚比亚撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "korah_izhar",
+      "relation": "儿子",
+      "refs": [
+        "出埃及记6:24",
+        "历代志上6:37"
+      ],
+      "events": [],
+      "notes": "按出6:24同列可拉众子，不能将这三个名字画成连续三代。代上6:22–23另表的父子列名不同，分别在说明保留。",
+      "aliases": [
+        "以比雅撒（代上6:37）"
+      ]
+    },
+    {
+      "id": "amminadab_levi_list",
+      "name": "亚米拿达",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kohath_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:22"
+      ],
+      "events": [],
+      "notes": "代上6:22列哥辖—亚米拿达—可拉；出6:18、21和代上6:38列哥辖—以斯哈—可拉。此处保留该表的人名，不断言等同以斯哈或添加可拉第二位生父。",
+      "treeNote": "代上6:22异表"
+    },
+    {
+      "id": "assir_abiasaph",
+      "name": "亚惜",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abiasaph_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:37"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "tahath_korah",
+      "name": "他哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "assir_abiasaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:37"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "zephaniah_korah",
+      "name": "西番雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "tahath_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:36–37"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "azariah_korah",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zephaniah_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:36"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "joel_korah",
+      "name": "约珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "azariah_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:36"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "elkanah_amasai_father",
+      "name": "以利加拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joel_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:36"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "amasai_korah",
+      "name": "亚玛赛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elkanah_amasai_father",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:35–36"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "mahath_korah",
+      "name": "玛哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amasai_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:35"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "elkanah_zuph_father",
+      "name": "以利加拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mahath_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:35"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "zuph_samuel",
+      "name": "苏弗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elkanah_zuph_father",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:35"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "toah_samuel",
+      "name": "陀亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zuph_samuel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:34–35"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "eliel_samuel",
+      "name": "以列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "toah_samuel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:34"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "jeroham_samuel",
+      "name": "耶罗罕",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliel_samuel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:34"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "elkanah_samuel_father",
+      "name": "以利加拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeroham_samuel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:34",
+        "撒母耳记上1:1–2"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "samuel",
+      "name": "撒母耳",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elkanah_samuel_father",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:33–34",
+        "撒母耳记上1:19–20"
+      ],
+      "events": [
+        {
+          "text": "立两个儿子约珥、亚比亚在别是巴作士师，他们却不行他的道。",
+          "refs": [
+            "撒母耳记上8:1–3"
+          ]
+        }
+      ],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "joel_samuel",
+      "name": "约珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "samuel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:28",
+        "历代志上6:33",
+        "撒母耳记上8:2"
+      ],
+      "events": [],
+      "notes": "本条父系按代上6:33–38的歌唱者希幔祖谱；6:22–28与撒上1:1有名字、列名次序差异，另附说明而不盲目拼接。"
+    },
+    {
+      "id": "heman_singer",
+      "name": "希幔",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joel_samuel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:33"
+      ],
+      "events": [],
+      "notes": "约珥之子、撒母耳之孙；作王的先见。代上25称有十四个儿子和三个女儿，三个女儿未具名，不编名字。"
+    },
+    {
+      "id": "abijah_samuel",
+      "name": "亚比亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "samuel",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上8:2",
+        "历代志上6:28"
+      ],
+      "events": [],
+      "notes": "撒母耳的次子，勿与祭司第八班亚比雅或犹大王亚比雅混同。"
+    },
+    {
+      "id": "hannah",
+      "name": "哈拿",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记上1:1–2"
+      ],
+      "events": [],
+      "notes": "以利加拿之妻，撒母耳之母；其父未具名。"
+    },
+    {
+      "id": "peninnah",
+      "name": "毗尼拿",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记上1:2–4"
+      ],
+      "events": [],
+      "notes": "以利加拿另一位妻子，有儿女但本段未列其儿女名字；不将撒母耳分给她。"
+    },
+    {
+      "id": "uriel_six24",
+      "name": "乌列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "tahath_korah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:24"
+      ],
+      "events": [],
+      "notes": "代上6:24另一支列名；不将乌列、乌西雅、少罗擅自等同6:36–37的西番雅、亚撒利雅、约珥。"
+    },
+    {
+      "id": "uzziah_six24",
+      "name": "乌西雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uriel_six24",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:24"
+      ],
+      "events": [],
+      "notes": "代上6:24另一支列名；不将乌列、乌西雅、少罗擅自等同6:36–37的西番雅、亚撒利雅、约珥。"
+    },
+    {
+      "id": "shaul_six24",
+      "name": "少罗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzziah_six24",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:24"
+      ],
+      "events": [],
+      "notes": "代上6:24另一支列名；不将乌列、乌西雅、少罗擅自等同6:36–37的西番雅、亚撒利雅、约珥。"
+    },
+    {
+      "id": "jeriah_hebron",
+      "name": "耶利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:19"
+      ],
+      "events": [],
+      "notes": "家谱按代上23列名；族名延续的跨度不据图上代次推算年份。"
+    },
+    {
+      "id": "amariah_hebron",
+      "name": "亚玛利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:19"
+      ],
+      "events": [],
+      "notes": "家谱按代上23列名；族名延续的跨度不据图上代次推算年份。"
+    },
+    {
+      "id": "jahaziel_hebron",
+      "name": "雅哈悉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:19"
+      ],
+      "events": [],
+      "notes": "家谱按代上23列名；族名延续的跨度不据图上代次推算年份。"
+    },
+    {
+      "id": "jekameam_hebron",
+      "name": "耶加面",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:19"
+      ],
+      "events": [],
+      "notes": "家谱按代上23列名；族名延续的跨度不据图上代次推算年份。"
+    },
+    {
+      "id": "shelomith_izhar",
+      "name": "示罗密",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "izhar_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:18"
+      ],
+      "events": [],
+      "notes": "以斯哈的长子；与摩西后裔细基利之子示罗密分开。代上24:22另有示罗摩后裔雅哈，作为同宗异写参照保留，不强当作出埃及时的同代亲子。"
+    },
+    {
+      "id": "shelomoth_24",
+      "name": "示罗摩",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上24:22"
+      ],
+      "events": [],
+      "notes": "列在以斯哈的子孙中，代上23:18另作示罗密；为避免在数百年跨代名单间硬接，本条按24章独立列名，可能对应同名族祖或其家族称名。",
+      "treeNote": "代上24列名",
+      "treeParentId": "izhar_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "以斯哈后裔 · 按代上24"
+    },
+    {
+      "id": "jahath_shelomoth",
+      "name": "雅哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上24:22"
+      ],
+      "events": [],
+      "notes": "示罗摩的子孙，未注明中间代数；不当作利未的直接子孙某一代。",
+      "treeParentId": "shelomoth_24",
+      "lineageKind": "tribal",
+      "lineageLabel": "示罗摩后裔 · 世代未接续"
+    },
+    {
+      "id": "micah_uzziel",
+      "name": "米迦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzziel_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:20"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "isshiah_uzziel",
+      "name": "耶西雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzziel_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:20",
+        "历代志上24:25"
+      ],
+      "events": [],
+      "notes": "",
+      "aliases": [
+        "伊示雅（代上24:25）"
+      ]
+    },
+    {
+      "id": "shamir_micah",
+      "name": "沙密",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上24:24"
+      ],
+      "events": [],
+      "notes": "列在米迦的子孙中，不擅自断定没有省代。",
+      "treeParentId": "micah_uzziel",
+      "lineageKind": "tribal",
+      "lineageLabel": "米迦后裔 · 世代未接续"
+    },
+    {
+      "id": "zechariah_isshiah",
+      "name": "撒迦利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上24:25"
+      ],
+      "events": [],
+      "notes": "列在伊示雅的子孙中，与利未其他同名者区别。",
+      "treeParentId": "isshiah_uzziel",
+      "lineageKind": "tribal",
+      "lineageLabel": "伊示雅（耶西雅）后裔 · 世代未接续"
+    },
+    {
+      "id": "jahath_libni",
+      "name": "雅哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "libni_gershon",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:20"
+      ],
+      "events": [],
+      "notes": "按代上6:20–21家谱列名，与6:39–43亚萨歌唱祖谱保持各自的列名次序。"
+    },
+    {
+      "id": "zimmah_libni",
+      "name": "薪玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jahath_libni",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:20"
+      ],
+      "events": [],
+      "notes": "按代上6:20–21家谱列名，与6:39–43亚萨歌唱祖谱保持各自的列名次序。"
+    },
+    {
+      "id": "joah_zimmah",
+      "name": "约亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zimmah_libni",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:21"
+      ],
+      "events": [],
+      "notes": "按代上6:20–21家谱列名，与6:39–43亚萨歌唱祖谱保持各自的列名次序。"
+    },
+    {
+      "id": "iddo_joah",
+      "name": "易多",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joah_zimmah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:21"
+      ],
+      "events": [],
+      "notes": "按代上6:20–21家谱列名，与6:39–43亚萨歌唱祖谱保持各自的列名次序。"
+    },
+    {
+      "id": "zerah_iddo",
+      "name": "谢拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "iddo_joah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:21"
+      ],
+      "events": [],
+      "notes": "按代上6:20–21家谱列名，与6:39–43亚萨歌唱祖谱保持各自的列名次序。"
+    },
+    {
+      "id": "jeatherai_zerah",
+      "name": "耶特赖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_iddo",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:21"
+      ],
+      "events": [],
+      "notes": "按代上6:20–21家谱列名，与6:39–43亚萨歌唱祖谱保持各自的列名次序。"
+    },
+    {
+      "id": "jahath_asaph",
+      "name": "雅哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gershon_levi",
+      "relation": "谱系列名（见差异说明）",
+      "refs": [
+        "历代志上6:43"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。",
+      "treeNote": "歌唱祖谱列名",
+      "lineageKind": "genealogy",
+      "lineageLabel": "按代上6歌唱祖谱"
+    },
+    {
+      "id": "shimei_asaph",
+      "name": "示每",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jahath_asaph",
+      "relation": "谱系列名（见差异说明）",
+      "refs": [
+        "历代志上6:42–43"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。",
+      "treeNote": "歌唱祖谱列名",
+      "lineageKind": "genealogy",
+      "lineageLabel": "按代上6歌唱祖谱"
+    },
+    {
+      "id": "zimmah_asaph",
+      "name": "薪玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_asaph",
+      "relation": "谱系列名（见差异说明）",
+      "refs": [
+        "历代志上6:42"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。",
+      "treeNote": "歌唱祖谱列名",
+      "lineageKind": "genealogy",
+      "lineageLabel": "按代上6歌唱祖谱"
+    },
+    {
+      "id": "ethan_asaph_ancestor",
+      "name": "以探",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zimmah_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:42"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "adaiah_asaph",
+      "name": "亚大雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ethan_asaph_ancestor",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:41–42"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "zerah_asaph",
+      "name": "谢拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "adaiah_asaph",
+      "relation": "谱系列名（见差异说明）",
+      "refs": [
+        "历代志上6:41"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。",
+      "treeNote": "歌唱祖谱列名",
+      "lineageKind": "genealogy",
+      "lineageLabel": "按代上6歌唱祖谱"
+    },
+    {
+      "id": "ethni_asaph",
+      "name": "伊特尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:41"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "malchijah_asaph",
+      "name": "玛基雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ethni_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:40–41"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "baaseiah_asaph",
+      "name": "巴西雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "malchijah_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:40"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "michael_asaph",
+      "name": "米迦勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "baaseiah_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:40"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "shimeah_asaph",
+      "name": "示米亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "michael_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:39–40"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "berechiah_asaph",
+      "name": "比利家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimeah_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:39"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "asaph_singer",
+      "name": "亚萨",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "berechiah_asaph",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:39"
+      ],
+      "events": [],
+      "notes": "本条是代上6:39–43亚萨歌唱祖谱中的列名位置，保留与6:17、20–21次序的差异。对雅哈、示每、薪玛、谢拉等同名，不据名字自动认定就是另一段同名者，也不声称必定是不同历史人物。"
+    },
+    {
+      "id": "laadan_gershon",
+      "name": "拉但",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上23:7"
+      ],
+      "events": [],
+      "notes": "革顺的子孙之一，原图以立尼（拉但）合写；出6立尼与此处拉但经文没有直接说是同一人，且名单可能跨代，故不擅自合并。",
+      "treeParentId": "gershon_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "革顺后裔 · 按代上23"
+    },
+    {
+      "id": "jehiel_laadan",
+      "name": "耶歇",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "laadan_gershon",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:8"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zetham_laadan",
+      "name": "细坦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "laadan_gershon",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:8"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "joel_laadan",
+      "name": "约珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "laadan_gershon",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:8"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shimei_laadan_clan",
+      "name": "示每",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上23:9"
+      ],
+      "events": [],
+      "notes": "本节三子被称拉但族族长，不应与23:10列四子的另一示每强行合并，亦不直接当作出6中示每的同代儿子。",
+      "treeParentId": "laadan_gershon",
+      "lineageKind": "tribal",
+      "lineageLabel": "拉但族 · 世代未接续"
+    },
+    {
+      "id": "shelomith_shimei",
+      "name": "示罗密",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_laadan_clan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:9"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "haziel_shimei",
+      "name": "哈薛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_laadan_clan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:9"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "haran_shimei",
+      "name": "哈兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_laadan_clan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:9"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shimei_gershon_23",
+      "name": "示每",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上23:7",
+        "历代志上23:10–11"
+      ],
+      "events": [],
+      "notes": "代上23在革顺子孙中列名，并列四子；23:9的拉但族示每另条记录，不强制合并为同人。",
+      "treeParentId": "gershon_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "革顺后裔 · 按代上23"
+    },
+    {
+      "id": "jahath_shimei23",
+      "name": "雅哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_gershon_23",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:10–11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zina_shimei23",
+      "name": "细拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_gershon_23",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:10–11"
+      ],
+      "events": [],
+      "notes": "",
+      "aliases": [
+        "细撒（23:11）"
+      ]
+    },
+    {
+      "id": "jeush_shimei23",
+      "name": "耶乌施",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_gershon_23",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:10–11"
+      ],
+      "events": [],
+      "notes": "耶乌施与比利亚子孙不多，合算为一族；不表示两人是同一人。"
+    },
+    {
+      "id": "beriah_shimei23",
+      "name": "比利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_gershon_23",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:10–11"
+      ],
+      "events": [],
+      "notes": "耶乌施与比利亚子孙不多，合算为一族；不表示两人是同一人。"
+    },
+    {
+      "id": "jehieli_treasurer",
+      "name": "耶希伊利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:21–22"
+      ],
+      "events": [],
+      "notes": "革顺族拉但子孙中的族长；与代上23:8耶歇的异写/家族对应关系在注释并列，不强造两者父子。",
+      "treeParentId": "laadan_gershon",
+      "lineageKind": "tribal",
+      "lineageLabel": "拉但后裔 · 世代未接续"
+    },
+    {
+      "id": "zetham_treasurer",
+      "name": "西坦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehieli_treasurer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:22"
+      ],
+      "events": [],
+      "notes": "掌管圣殿府库；与代上23拉但三子的细坦、约珥分段列名，不据异写自动多算或硬合并身份。"
+    },
+    {
+      "id": "joel_treasurer",
+      "name": "约珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehieli_treasurer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:22"
+      ],
+      "events": [],
+      "notes": "掌管圣殿府库；与代上23拉但三子的细坦、约珥分段列名，不据异写自动多算或硬合并身份。"
+    },
+    {
+      "id": "eleazar_mahli",
+      "name": "以利亚撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mahli_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:21",
+        "历代志上23:22"
+      ],
+      "events": [],
+      "notes": "抹利之子，死后没有儿子，只有女儿，女儿的名字未记；本族基士的儿子娶了她们。不可与亚伦之子以利亚撒混同，也不虚构女儿姓名。"
+    },
+    {
+      "id": "kish_mahli",
+      "name": "基士",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mahli_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jerahmeel_kish",
+      "name": "耶拉篾",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上24:29"
+      ],
+      "events": [],
+      "notes": "基士的子孙，代数未明；原图将其接到可拉下容易误读，本页按代上24:29置于基士后裔。",
+      "treeParentId": "kish_mahli",
+      "lineageKind": "tribal",
+      "lineageLabel": "基士后裔 · 世代未接续"
+    },
+    {
+      "id": "mahli_mushi",
+      "name": "末力",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mushi_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "eder_mushi",
+      "name": "以得",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mushi_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jeremoth_mushi",
+      "name": "耶利摩",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mushi_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上23:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "libni_mahli",
+      "name": "立尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mahli_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:29"
+      ],
+      "events": [],
+      "notes": "按代上6:29–30抹利家谱列名，勿与革顺支的立尼、示每混同。"
+    },
+    {
+      "id": "shimei_libni_mahli",
+      "name": "示每",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "libni_mahli",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:29"
+      ],
+      "events": [],
+      "notes": "按代上6:29–30抹利家谱列名，勿与革顺支的立尼、示每混同。"
+    },
+    {
+      "id": "uzzah_mahli",
+      "name": "乌撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimei_libni_mahli",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:29"
+      ],
+      "events": [],
+      "notes": "按代上6:29–30抹利家谱列名，勿与革顺支的立尼、示每混同。"
+    },
+    {
+      "id": "shimeah_mahli",
+      "name": "示米亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzzah_mahli",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:30"
+      ],
+      "events": [],
+      "notes": "按代上6:29–30抹利家谱列名，勿与革顺支的立尼、示每混同。"
+    },
+    {
+      "id": "haggiah_mahli",
+      "name": "哈基雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimeah_mahli",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:30"
+      ],
+      "events": [],
+      "notes": "按代上6:29–30抹利家谱列名，勿与革顺支的立尼、示每混同。"
+    },
+    {
+      "id": "asaiah_mahli",
+      "name": "亚帅雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "haggiah_mahli",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:30"
+      ],
+      "events": [],
+      "notes": "按代上6:29–30抹利家谱列名，勿与革顺支的立尼、示每混同。"
+    },
+    {
+      "id": "shamer_ethan",
+      "name": "沙麦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "mahli_mushi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:46–47"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "bani_ethan",
+      "name": "巴尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shamer_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:46"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "amzi_ethan",
+      "name": "暗西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "bani_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:46"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "hilkiah_ethan",
+      "name": "希勒家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amzi_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:45–46"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "amaziah_ethan",
+      "name": "亚玛谢",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hilkiah_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:45"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "hashabiah_ethan",
+      "name": "哈沙比雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amaziah_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:45"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "malluch_ethan",
+      "name": "玛鹿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hashabiah_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:44–45"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "abdi_ethan",
+      "name": "亚伯底",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "malluch_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:44"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "kishi_ethan",
+      "name": "基示",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abdi_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:44"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "ethan_singer",
+      "name": "以探",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kishi_ethan",
+      "relation": "儿子",
+      "refs": [
+        "历代志上6:44"
+      ],
+      "events": [],
+      "notes": "代上6:44–47的米拉利支歌唱祖谱；末力为母示之子，与米拉利的儿子抹利分开。"
+    },
+    {
+      "id": "jaaziah_merari",
+      "name": "雅西雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "merari_levi",
+      "relation": "儿子",
+      "refs": [
+        "历代志上24:26–27"
+      ],
+      "events": [],
+      "notes": "代上24:26–27另列雅西雅与其后裔，出6和代上23只列抹利、母示；保留本段列名，不自造雅西雅是其中一人的别名。"
+    },
+    {
+      "id": "beno_jaaziah",
+      "name": "比挪",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jaaziah_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上24:26–27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shoham_jaaziah",
+      "name": "朔含",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jaaziah_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上24:26–27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zaccur_jaaziah",
+      "name": "撒刻",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jaaziah_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上24:26–27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ibri_jaaziah",
+      "name": "伊比利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jaaziah_merari",
+      "relation": "儿子",
+      "refs": [
+        "历代志上24:26–27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "eli_priest",
+      "name": "以利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "撒母耳记上1:3",
+        "撒母耳记上4:18"
+      ],
+      "events": [],
+      "notes": "示罗祭司，作士师四十年。圣经未提供从以他玛到以利的完整父子序列，本页不画以利为以他玛亲生儿子。",
+      "treeParentId": "levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "利未支派 · 世代未接续"
+    },
+    {
+      "id": "hophni_eli",
+      "name": "何弗尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eli_priest",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上1:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "phinehas_eli",
+      "name": "非尼哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eli_priest",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上1:3"
+      ],
+      "events": [],
+      "notes": "以利之子，不是亚伦之孙、以利亚撒之子非尼哈。"
+    },
+    {
+      "id": "ichabod",
+      "name": "以迦博",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "phinehas_eli",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上4:19–22",
+        "撒母耳记上14:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ahitub_eli",
+      "name": "亚希突",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "phinehas_eli",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上14:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "phinehas_eli_wife",
+      "name": "非尼哈之妻（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记上4:19–22"
+      ],
+      "events": [],
+      "notes": "以利的儿妇，生以迦博后将死；经文未记其名，不推定她也是亚希突生母。",
+      "isUnnamed": true,
+      "graphLabel": "未具名妻"
+    },
+    {
+      "id": "ahijah_ahitub_eli",
+      "name": "亚希亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahitub_eli",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上14:3"
+      ],
+      "events": [],
+      "notes": "亚希突之子，在扫罗时穿以弗得；与亚希米勒是否同人不能仅以职位或父名就强合并。"
+    },
+    {
+      "id": "ahimelech_nob",
+      "name": "亚希米勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahitub_eli",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上22:9–11"
+      ],
+      "events": [],
+      "notes": "挪伯祭司、亚希突之子；另一个亚希米勒是代上24所记亚比亚他的儿子，二者不可因同名倒接为循环。"
+    },
+    {
+      "id": "abiathar",
+      "name": "亚比亚他",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahimelech_nob",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记上22:20"
+      ],
+      "events": [],
+      "notes": "挪伯灾难中逃脱的亚希米勒之子。"
+    },
+    {
+      "id": "jonathan_abiathar",
+      "name": "约拿单",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abiathar",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上1:42"
+      ],
+      "events": [],
+      "notes": "祭司亚比亚他之子，勿与扫罗之子约拿单混同。"
+    },
+    {
+      "id": "ahimelech_abiathar",
+      "name": "亚希米勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abiathar",
+      "relation": "儿子",
+      "refs": [
+        "历代志上24:6",
+        "历代志上24:3"
+      ],
+      "events": [],
+      "notes": "代上24:6明确列亚比亚他的儿子亚希米勒；与撒上22挪伯祭司亚比亚他之父亚希米勒分开列名，亦不把经文的先后差异消除为一个人。代上24:3称以他玛的子孙，不补造中间父系。"
+    },
+    {
+      "id": "priest_course_01",
+      "name": "耶何雅立",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:7"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第1班",
+      "courseOrder": 1,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第1班"
+    },
+    {
+      "id": "priest_course_02",
+      "name": "耶大雅",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:7"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第2班",
+      "courseOrder": 2,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第2班"
+    },
+    {
+      "id": "priest_course_03",
+      "name": "哈琳",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:8"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第3班",
+      "courseOrder": 3,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第3班"
+    },
+    {
+      "id": "priest_course_04",
+      "name": "梭琳",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:8"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第4班",
+      "courseOrder": 4,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第4班"
+    },
+    {
+      "id": "priest_course_05",
+      "name": "玛基雅",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:9"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第5班",
+      "courseOrder": 5,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第5班"
+    },
+    {
+      "id": "priest_course_06",
+      "name": "米雅民",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:9"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第6班",
+      "courseOrder": 6,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第6班"
+    },
+    {
+      "id": "priest_course_07",
+      "name": "哈歌斯",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:10"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第7班",
+      "courseOrder": 7,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第7班"
+    },
+    {
+      "id": "priest_course_08",
+      "name": "亚比雅",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:10"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第8班",
+      "courseOrder": 8,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第8班"
+    },
+    {
+      "id": "priest_course_09",
+      "name": "耶书亚",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:11"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第9班",
+      "courseOrder": 9,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第9班"
+    },
+    {
+      "id": "priest_course_10",
+      "name": "示迦尼",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:11"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第10班",
+      "courseOrder": 10,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第10班"
+    },
+    {
+      "id": "priest_course_11",
+      "name": "以利亚实",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:12"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第11班",
+      "courseOrder": 11,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第11班"
+    },
+    {
+      "id": "priest_course_12",
+      "name": "雅金",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:12"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第12班",
+      "courseOrder": 12,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第12班"
+    },
+    {
+      "id": "priest_course_13",
+      "name": "胡巴",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:13"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第13班",
+      "courseOrder": 13,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第13班"
+    },
+    {
+      "id": "priest_course_14",
+      "name": "耶是比押",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:13"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第14班",
+      "courseOrder": 14,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第14班"
+    },
+    {
+      "id": "priest_course_15",
+      "name": "璧迦",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:14"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第15班",
+      "courseOrder": 15,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第15班"
+    },
+    {
+      "id": "priest_course_16",
+      "name": "音麦",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:14"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第16班",
+      "courseOrder": 16,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第16班"
+    },
+    {
+      "id": "priest_course_17",
+      "name": "希悉",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:15"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第17班",
+      "courseOrder": 17,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第17班"
+    },
+    {
+      "id": "priest_course_18",
+      "name": "哈辟悉",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:15"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第18班",
+      "courseOrder": 18,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第18班"
+    },
+    {
+      "id": "priest_course_19",
+      "name": "毗他希雅",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:16"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第19班",
+      "courseOrder": 19,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第19班"
+    },
+    {
+      "id": "priest_course_20",
+      "name": "以西结",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:16"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第20班",
+      "courseOrder": 20,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第20班"
+    },
+    {
+      "id": "priest_course_21",
+      "name": "雅斤",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:17"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第21班",
+      "courseOrder": 21,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第21班"
+    },
+    {
+      "id": "priest_course_22",
+      "name": "迦末",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:17"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第22班",
+      "courseOrder": 22,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第22班"
+    },
+    {
+      "id": "priest_course_23",
+      "name": "第来雅",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:18"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第23班",
+      "courseOrder": 23,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第23班"
+    },
+    {
+      "id": "priest_course_24",
+      "name": "玛西亚",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "祭司班名（非直接父子）",
+      "refs": [
+        "历代志上24:18"
+      ],
+      "events": [],
+      "notes": "历代志上24掣签分班名号，表示祭司班／族长家名；不据班名断言一个可明确生父的特定个人，也不作亚伦亲生儿子或连续世代。经文整体列以利亚撒十六家、以他玛八家，但没有逐班给出完整父系。",
+      "treeNote": "祭司第24班",
+      "courseOrder": 24,
+      "treeParentId": "aaron",
+      "lineageKind": "tribal",
+      "lineageLabel": "亚伦后裔 · 祭司第24班"
+    },
+    {
+      "id": "nethanel_scribe",
+      "name": "拿坦业",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上24:6"
+      ],
+      "events": [],
+      "notes": "书记示玛雅之父，利未身份据该节，父系未接续；与亚萨/守门家不同名者分开。",
+      "treeParentId": "levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "利未支派 · 世代未接续"
+    },
+    {
+      "id": "shemaiah_scribe",
+      "name": "示玛雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nethanel_scribe",
+      "relation": "儿子",
+      "refs": [
+        "历代志上24:6"
+      ],
+      "events": [],
+      "notes": "记录祭司分班的书记。"
+    },
+    {
+      "id": "zaccur_asaph",
+      "name": "撒刻",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asaph_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:2"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "joseph_asaph",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asaph_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:2"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nethaniah_asaph",
+      "name": "尼探雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asaph_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:2"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "asharelah_asaph",
+      "name": "亚萨利拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asaph_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:2",
+        "历代志上25:14"
+      ],
+      "events": [],
+      "notes": "",
+      "aliases": [
+        "耶萨利拉（代上25:14）"
+      ]
+    },
+    {
+      "id": "bukkiah_heman",
+      "name": "布基雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mattaniah_heman",
+      "name": "玛探雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "uzziel_heman",
+      "name": "乌薛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5",
+        "历代志上25:18"
+      ],
+      "events": [],
+      "notes": "25:4列乌薛，第十一班25:18列亚萨烈；列名差异在此并列，不凭差异另造一名第十五子。",
+      "aliases": [
+        "亚萨烈（代上25:18）"
+      ]
+    },
+    {
+      "id": "shebuel_heman",
+      "name": "细布业",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5",
+        "历代志上25:20"
+      ],
+      "events": [],
+      "notes": "",
+      "aliases": [
+        "书巴业（代上25:20）"
+      ]
+    },
+    {
+      "id": "jerimoth_heman",
+      "name": "耶利摩",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hananiah_heman",
+      "name": "哈拿尼雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hanani_heman",
+      "name": "哈拿尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "eliathah_heman",
+      "name": "以利亚他",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "giddalti_heman",
+      "name": "基大利提",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "romamtiezer_heman",
+      "name": "罗幔提以谢",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "joshbekashah_heman",
+      "name": "约施比加沙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mallothi_heman",
+      "name": "玛罗提",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hothir_heman",
+      "name": "何提",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mahazioth_heman",
+      "name": "玛哈秀",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "heman_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jeduthun_singer",
+      "name": "耶杜顿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上25:1",
+        "历代志上25:3"
+      ],
+      "events": [],
+      "notes": "歌唱、称谢赞美职分的领袖。代上6列以探，25列耶杜顿；经文没有直接一句断言二人同一，本页分条记录，不把其父基示套给耶杜顿。",
+      "treeParentId": "levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "利未支派 · 世代未接续"
+    },
+    {
+      "id": "gedaliah_jeduthun",
+      "name": "基大利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeduthun_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zeri_jeduthun",
+      "name": "西利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeduthun_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:3",
+        "历代志上25:11"
+      ],
+      "events": [],
+      "notes": "",
+      "aliases": [
+        "伊洗利（代上25:11）"
+      ]
+    },
+    {
+      "id": "jeshaiah_jeduthun",
+      "name": "耶筛亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeduthun_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hashabiah_jeduthun",
+      "name": "哈沙比雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeduthun_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mattithiah_jeduthun",
+      "name": "玛他提雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeduthun_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shimei_jeduthun",
+      "name": "示每",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeduthun_singer",
+      "relation": "儿子",
+      "refs": [
+        "历代志上25:3",
+        "历代志上25:17"
+      ],
+      "events": [],
+      "notes": "本页采用的CNBible和Wordproject简体和合本25:3都列示每在耶杜顿六子中；25:17另记第十班示每。部分译本25:3仅写五个人名而称六人，属于名单文本差异，不能据此编出第六个未知名字。"
+    },
+    {
+      "id": "asaph_korah_gate",
+      "name": "亚萨",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:1"
+      ],
+      "events": [],
+      "notes": "本节是可拉族守门家中的亚萨；歌唱领袖亚萨在代上6上溯革顺，不能不加说明地把同名者合并。",
+      "treeParentId": "korah_izhar",
+      "lineageKind": "tribal",
+      "lineageLabel": "可拉族 · 世代未接续"
+    },
+    {
+      "id": "kore_gate",
+      "name": "可利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:1",
+        "历代志上9:19"
+      ],
+      "events": [],
+      "notes": "代上26称守门家为可拉族亚萨后裔，其中可利之子米施利米雅；代上9:19另列以比雅撒—可利—沙龙。本条不将可利强作26:1亚萨的直接儿子，亦不直接合并9:19异名祖谱。",
+      "treeParentId": "asaph_korah_gate",
+      "lineageKind": "tribal",
+      "lineageLabel": "可拉族亚萨后裔 · 世代未接续"
+    },
+    {
+      "id": "meshelemiah_gate",
+      "name": "米施利米雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kore_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:1"
+      ],
+      "events": [],
+      "notes": "守门家族父亲，26:14称示利米雅；不是亚萨歌唱家的儿子。",
+      "aliases": [
+        "示利米雅（代上26:14）"
+      ]
+    },
+    {
+      "id": "zechariah_gate",
+      "name": "撒迦利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshelemiah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:2–3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jediael_gate",
+      "name": "耶叠",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshelemiah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:2–3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zebadiah_gate",
+      "name": "西巴第雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshelemiah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:2–3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jathniel_gate",
+      "name": "耶提聂",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshelemiah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:2–3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "elam_gate",
+      "name": "以拦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshelemiah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:2–3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jehohanan_gate",
+      "name": "约哈难",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshelemiah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:2–3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "eliehoenai_gate",
+      "name": "以利约乃",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshelemiah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:2–3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ebiasaph_gate9",
+      "name": "以比雅撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "korah_izhar",
+      "relation": "儿子（按代上9:19列名）",
+      "refs": [
+        "历代志上9:19"
+      ],
+      "events": [],
+      "notes": "代上9:19明说可拉—以比雅撒—可利—沙龙的四代次序，按这一段定位；与出6:24亚比亚撒有异写对应可能，但跨段是否同一个历史人物不靠同名硬判。"
+    },
+    {
+      "id": "kore_gate9",
+      "name": "可利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ebiasaph_gate9",
+      "relation": "儿子",
+      "refs": [
+        "历代志上9:19"
+      ],
+      "events": [],
+      "notes": "按代上9:19沙龙祖谱列名；与代上26:1可利有对应可能，本文不擅自合并其未说明的上代。"
+    },
+    {
+      "id": "shallum_gate",
+      "name": "沙龙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kore_gate9",
+      "relation": "儿子",
+      "refs": [
+        "历代志上9:19"
+      ],
+      "events": [],
+      "notes": "可拉人守门者，勿与祭司主线的撒督之子沙龙混同。"
+    },
+    {
+      "id": "mattithiah_shallum",
+      "name": "玛他提雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shallum_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上9:31"
+      ],
+      "events": [],
+      "notes": "可拉族沙龙的长子，管理盘中烤的物。"
+    },
+    {
+      "id": "obed_edom_gate",
+      "name": "俄别以东",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:4–8"
+      ],
+      "events": [],
+      "notes": "守门家族之父；与撒下6基提人俄别以东是否同一身份不凭同名强判，其通往三大宗族的父系未明。",
+      "treeParentId": "levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "利未支派 · 世代未接续"
+    },
+    {
+      "id": "shemaiah_obed",
+      "name": "示玛雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jehozabad_obed",
+      "name": "约萨拔",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "joah_obed",
+      "name": "约亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "sacar_obed",
+      "name": "沙甲",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nethanel_obed",
+      "name": "拿坦业",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ammiel_obed",
+      "name": "亚米利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "issachar_obed",
+      "name": "以萨迦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "peullethai_obed",
+      "name": "毗乌利太",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_edom_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:4–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "othni_shemaiah",
+      "name": "俄得尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:6–7"
+      ],
+      "events": [],
+      "notes": "按代上26:7示玛雅之子名单及本族弟兄列名；末两位在和合本句法称以利萨巴弟兄，按同父兄弟归本家，不另造生母。"
+    },
+    {
+      "id": "rephael_shemaiah",
+      "name": "利法益",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:6–7"
+      ],
+      "events": [],
+      "notes": "按代上26:7示玛雅之子名单及本族弟兄列名；末两位在和合本句法称以利萨巴弟兄，按同父兄弟归本家，不另造生母。"
+    },
+    {
+      "id": "obed_shemaiah",
+      "name": "俄备得",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:6–7"
+      ],
+      "events": [],
+      "notes": "按代上26:7示玛雅之子名单及本族弟兄列名；末两位在和合本句法称以利萨巴弟兄，按同父兄弟归本家，不另造生母。"
+    },
+    {
+      "id": "elzabad_shemaiah",
+      "name": "以利萨巴",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:6–7"
+      ],
+      "events": [],
+      "notes": "按代上26:7示玛雅之子名单及本族弟兄列名；末两位在和合本句法称以利萨巴弟兄，按同父兄弟归本家，不另造生母。"
+    },
+    {
+      "id": "elihu_shemaiah",
+      "name": "以利户",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:6–7"
+      ],
+      "events": [],
+      "notes": "按代上26:7示玛雅之子名单及本族弟兄列名；末两位在和合本句法称以利萨巴弟兄，按同父兄弟归本家，不另造生母。"
+    },
+    {
+      "id": "semachiah_shemaiah",
+      "name": "西玛迦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:6–7"
+      ],
+      "events": [],
+      "notes": "按代上26:7示玛雅之子名单及本族弟兄列名；末两位在和合本句法称以利萨巴弟兄，按同父兄弟归本家，不另造生母。"
+    },
+    {
+      "id": "hosah_gate",
+      "name": "何萨",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:10–11"
+      ],
+      "events": [],
+      "notes": "米拉利子孙，具体中间父系未记。",
+      "treeParentId": "merari_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "米拉利后裔 · 世代未接续"
+    },
+    {
+      "id": "shimri_hosah",
+      "name": "申利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hosah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:10–11"
+      ],
+      "events": [],
+      "notes": "原不是长子，是父亲立他作长子；不据职分改写其实际出生排行。"
+    },
+    {
+      "id": "hilkiah_hosah",
+      "name": "希勒家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hosah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:10–11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "tebaliah_hosah",
+      "name": "底巴利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hosah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:10–11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zechariah_hosah",
+      "name": "撒迦利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hosah_gate",
+      "relation": "儿子",
+      "refs": [
+        "历代志上26:10–11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shuppim_gate",
+      "name": "书聘",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:16"
+      ],
+      "events": [],
+      "notes": "与何萨守西门，本节未记其父亲与所属支族；不擅自接成何萨之子。",
+      "treeParentId": "levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "利未支派 · 世代未接续"
+    },
+    {
+      "id": "ahijah_treasury",
+      "name": "亚希雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:20"
+      ],
+      "events": [],
+      "notes": "掌管圣殿府库和圣物府库的利未人；本节未记完整父系，与扫罗时代祭司亚希亚分开。",
+      "treeParentId": "levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "利未支派 · 世代未接续"
+    },
+    {
+      "id": "chenaniah_izhar",
+      "name": "基拿尼雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:29"
+      ],
+      "events": [],
+      "notes": "以斯哈族，和众子作官长和士师管理外事；众子未具名，不编写。",
+      "treeParentId": "izhar_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "以斯哈后裔 · 世代未接续"
+    },
+    {
+      "id": "hashabiah_hebron",
+      "name": "哈沙比雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "历代志上26:30"
+      ],
+      "events": [],
+      "notes": "希伯伦族，和弟兄办理约旦河西事务；与歌唱者、以探祖先同名者分开。",
+      "treeParentId": "hebron_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "希伯伦后裔 · 世代未接续"
+    },
+    {
+      "id": "lael_gershon",
+      "name": "拉伊勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "民数记3:24"
+      ],
+      "events": [],
+      "notes": "革顺族首领以利雅萨之父，通往革顺的世代未续。",
+      "treeParentId": "gershon_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "革顺族 · 世代未接续"
+    },
+    {
+      "id": "eliasaph_lael",
+      "name": "以利雅萨",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "lael_gershon",
+      "relation": "儿子",
+      "refs": [
+        "民数记3:24"
+      ],
+      "events": [],
+      "notes": "革顺人宗族首领，与迦得首领以利雅萨分开。"
+    },
+    {
+      "id": "abihail_merari",
+      "name": "亚比亥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派关联（非直接父子）",
+      "refs": [
+        "民数记3:35"
+      ],
+      "events": [],
+      "notes": "米拉利族首领苏列之父，通往米拉利世代未接续。",
+      "treeParentId": "merari_levi",
+      "lineageKind": "tribal",
+      "lineageLabel": "米拉利族 · 世代未接续"
+    },
+    {
+      "id": "zuriel_abihail",
+      "name": "苏列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abihail_merari",
+      "relation": "儿子",
+      "refs": [
+        "民数记3:35"
+      ],
+      "events": [],
+      "notes": "米拉利二宗族首领。"
+    }
+  ],
+  "relations": [
+    {
+      "source": "amram",
+      "target": "jochebed",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "出埃及记6:20"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jochebed",
+      "target": "aaron",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "民数记26:59"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jochebed",
+      "target": "moses",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "民数记26:59"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jochebed",
+      "target": "miriam",
+      "type": "mother-child",
+      "relation": "母女",
+      "refs": [
+        "民数记26:59"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "aaron",
+      "target": "elisheba",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "elisheba",
+      "target": "nadab_aaron",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "elisheba",
+      "target": "abihu",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "elisheba",
+      "target": "eleazar_aaron",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "elisheba",
+      "target": "ithamar",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "出埃及记6:23"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "eleazar_aaron",
+      "target": "putiel_daughter",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "出埃及记6:25"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "putiel_daughter",
+      "target": "phinehas_eleazar",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "出埃及记6:25"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "moses",
+      "target": "zipporah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "出埃及记2:21"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "moses",
+      "target": "moses_cushite_wife",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "民数记12:1"
+      ],
+      "notes": "两个身份分条记录不证明同时有两段婚姻；与西坡拉是否同一人及先后均未断言。"
+    },
+    {
+      "source": "moses",
+      "target": "jethro_midian",
+      "type": "father-in-law",
+      "relation": "岳家关联",
+      "refs": [
+        "出埃及记18:1"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "moses",
+      "target": "reuel_midian",
+      "type": "father-in-law",
+      "relation": "岳家关联",
+      "refs": [
+        "出埃及记2:18–21"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "zipporah",
+      "target": "gershom_moses",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "出埃及记18:2–4"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "zipporah",
+      "target": "eliezer_moses",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "出埃及记18:2–4"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "heber_kenite",
+      "target": "jael",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "士师记4:17"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "amminadab_levi_list",
+      "target": "korah_izhar",
+      "type": "genealogy-variant",
+      "relation": "异表谱系",
+      "refs": [
+        "历代志上6:22"
+      ],
+      "notes": "异表谱系，仅文字参照；不覆盖出6的以斯哈父系。"
+    },
+    {
+      "source": "elkanah_samuel_father",
+      "target": "hannah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记上1:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "elkanah_samuel_father",
+      "target": "peninnah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记上1:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "hannah",
+      "target": "samuel",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "撒母耳记上1:19–20"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "phinehas_eli",
+      "target": "phinehas_eli_wife",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记上4:19"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "phinehas_eli_wife",
+      "target": "ichabod",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "撒母耳记上4:19–22"
+      ],
+      "notes": ""
+    }
+  ],
+  "mainPath": [
+    "levi",
+    "kohath_levi",
+    "amram",
+    "aaron",
+    "eleazar_aaron",
+    "phinehas_eleazar",
+    "abishua_priest",
+    "bukki_priest",
+    "uzzi_priest",
+    "zerahiah_priest",
+    "meraioth_priest",
+    "amariah_priest_1",
+    "ahitub_priest_1",
+    "zadok_priest_1",
+    "ahimaaz_priest",
+    "azariah_priest_1",
+    "johanan_priest",
+    "azariah_priest_2",
+    "amariah_priest_2",
+    "ahitub_priest_2",
+    "zadok_priest_2",
+    "shallum_priest",
+    "hilkiah_priest",
+    "azariah_priest_3",
+    "seraiah_priest",
+    "jehozadak"
+  ],
+  "quickFocus": [
+    "levi",
+    "aaron",
+    "moses",
+    "samuel",
+    "asaph_singer",
+    "heman_singer",
+    "eli_priest"
+  ],
+  "sources": [
+    {
+      "title": "出埃及记2：简体中文和合本",
+      "url": "https://cnbible.com/cus/exodus/2.htm"
+    },
+    {
+      "title": "出埃及记6：简体中文和合本",
+      "url": "https://cnbible.com/cus/exodus/6.htm"
+    },
+    {
+      "title": "出埃及记15：简体中文和合本",
+      "url": "https://cnbible.com/cus/exodus/15.htm"
+    },
+    {
+      "title": "出埃及记18：简体中文和合本",
+      "url": "https://cnbible.com/cus/exodus/18.htm"
+    },
+    {
+      "title": "民数记3：简体中文和合本",
+      "url": "https://cnbible.com/cus/numbers/3.htm"
+    },
+    {
+      "title": "民数记10：简体中文和合本",
+      "url": "https://cnbible.com/cus/numbers/10.htm"
+    },
+    {
+      "title": "民数记12：简体中文和合本",
+      "url": "https://cnbible.com/cus/numbers/12.htm"
+    },
+    {
+      "title": "民数记26：简体中文和合本",
+      "url": "https://cnbible.com/cus/numbers/26.htm"
+    },
+    {
+      "title": "历代志上6：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/6.htm"
+    },
+    {
+      "title": "历代志上9：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/9.htm"
+    },
+    {
+      "title": "历代志上23：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/23.htm"
+    },
+    {
+      "title": "历代志上24：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/24.htm"
+    },
+    {
+      "title": "历代志上25：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/25.htm"
+    },
+    {
+      "title": "历代志上26：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/26.htm"
+    },
+    {
+      "title": "撒母耳记上1：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_samuel/1.htm"
+    },
+    {
+      "title": "撒母耳记上4：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_samuel/4.htm"
+    },
+    {
+      "title": "撒母耳记上8：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_samuel/8.htm"
+    },
+    {
+      "title": "撒母耳记上14：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_samuel/14.htm"
+    },
+    {
+      "title": "撒母耳记上22：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_samuel/22.htm"
+    },
+    {
+      "title": "撒母耳记下15：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/15.htm"
+    },
+    {
+      "title": "列王纪上1：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_kings/1.htm"
+    },
+    {
+      "title": "士师记4：简体中文和合本",
+      "url": "https://cnbible.com/cus/judges/4.htm"
+    },
+    {
+      "title": "以斯拉记3：简体中文和合本",
+      "url": "https://cnbible.com/cus/ezra/3.htm"
+    },
+    {
+      "title": "以斯拉记7：简体中文和合本",
+      "url": "https://cnbible.com/cus/ezra/7.htm"
+    },
+    {
+      "title": "哈该书1：简体中文和合本",
+      "url": "https://cnbible.com/cus/haggai/1.htm"
+    },
+    {
+      "title": "历代志上25：Wordproject简体和合本，交叉核对耶杜顿六子",
+      "url": "https://www.wordproject.org/bibles/gb/13/25.htm"
+    },
+    {
+      "title": "历代志上25:3：中英文平行经文，核对六子列名差异",
+      "url": "https://cnbible.com/1_chronicles/25-3.htm"
+    }
+  ],
+  "scope": "利未单支扩展：三大宗族、摩西与亚伦家庭、亚伦祭司家谱至被掳及归回、撒母耳祖系、歌唱者及图示守门/府库家、24祭司班。不同章的家谱列名差异分别说明；不假造失落世代，不将族长、班次当成直接儿子。姻亲外族家仅为关联档案，非利未后裔。部分同名条目用于保留经文不同段落的列名位置，身份能否合并尚未断定，因此档案条目数不能直接当作独立历史人物总数。二十四祭司班为班次／家名类型，与人物档案区别展示。",
+  "lineageExplanation": [
+    {
+      "text": "父系树以出6、代上6各段、代上23–26为依据。虚线的“后裔/支派关联”表示世代未接续，不能当作直接生父；祭司与歌唱、守门、府库的分班名单也不是同一代兄弟或连续任职表。",
+      "refs": [
+        "出埃及记6:16–25",
+        "历代志上23:6",
+        "历代志上24:1–6",
+        "历代志上25:1",
+        "历代志上26:1"
+      ]
+    },
+    {
+      "text": "可拉父系出6:21及代上6:38列以斯哈，代上6:22列亚米拿达；出6:24列亚惜、以利加拿、亚比亚撒为并列众子，代上6:22–23又有串代写法。主树按出6保留三子并列，希幔祖谱按代上6:33–38另向下接，不用同名强行抹平异表。",
+      "refs": [
+        "出埃及记6:21–24",
+        "历代志上6:22–28",
+        "历代志上6:33–38"
+      ]
+    },
+    {
+      "text": "革顺后裔的代上6:17、20–21与6:39–43，示每、雅哈、薪玛、谢拉等列名次序不完全相同。本页按段区分谱系位置并附注，不宣称相同名字一定是同一人或一定是不同人；也不把拉但直接改名为立尼。",
+      "refs": [
+        "出埃及记6:17",
+        "历代志上6:17–21",
+        "历代志上6:39–43",
+        "历代志上23:7–11"
+      ]
+    },
+    {
+      "text": "撒母耳的祖系按代上6:33–38展开；代上6:26–27及撒上1:1有苏弗/琐菲、陀亚/托户/拿哈、以列/以利户/以利押等不同列名，保留各处原文，不编造其间婚姻、第二生父或确定的改名故事。",
+      "refs": [
+        "历代志上6:26–27",
+        "历代志上6:33–38",
+        "撒母耳记上1:1"
+      ]
+    },
+    {
+      "text": "以利、何弗尼、非尼哈、以迦博、亚希突及挪伯祭司家按撒上1、4、14、22连接；未补出以他玛到以利的失落世代。以利之子非尼哈与以利亚撒之子非尼哈为不同人物。",
+      "refs": [
+        "撒母耳记上1:3",
+        "撒母耳记上4:19–22",
+        "撒母耳记上14:3",
+        "撒母耳记上22:9–20",
+        "出埃及记6:25"
+      ]
+    },
+    {
+      "text": "代上24列24个祭司班名，整体来自以利亚撒16家、以他玛8家，但未逐一交代每个班名的完整父系，因此以虚线归亚伦后裔；不把24班都直接画成以利亚撒或以他玛的儿子。",
+      "refs": [
+        "历代志上24:3–19"
+      ]
+    },
+    {
+      "text": "代上6的以探与代上25的耶杜顿分别记录；两处没有直接宣告二人同一。亚萨歌唱家上溯革顺，代上26可拉族守门祖名亚萨另列，避免以同名混族。",
+      "refs": [
+        "历代志上6:39–47",
+        "历代志上25:1–6",
+        "历代志上26:1"
+      ]
+    },
+    {
+      "text": "摩西古实女子未具名，不能用“古实”充作姓名或直接断言就是西坡拉。流珥、叶忒罗、何巴按各段记载分别列称谓；何巴的“岳父/内兄”译法与希百后裔关系保留，不擅自认作连续直系三代。",
+      "refs": [
+        "出埃及记2:18–22",
+        "出埃及记18:1–4",
+        "民数记10:29",
+        "民数记12:1",
+        "士师记4:11"
+      ]
+    },
+    {
+      "text": "耶杜顿六子按本页所用简体和合本25:3，示每并由25:17交叉证明。部分译本25:3只列五名而称六人，名单文本差异保留，不制造第六位未记名人物。",
+      "refs": [
+        "历代志上25:3",
+        "历代志上25:17"
+      ]
+    }
+  ],
+  "imageCoverage": [
+    {
+      "section": "三大宗族与约基别",
+      "status": "covered",
+      "note": "利未三子、约基别、暗兰、以斯哈、希伯伦、乌薛及抹利母示均已记录；约基别的母家依出6:20，没有将其当哥辖女儿。",
+      "refs": [
+        "出埃及记6:16–20",
+        "民数记26:59"
+      ]
+    },
+    {
+      "section": "亚伦四子与祭司主线至约萨答",
+      "status": "covered",
+      "note": "四子及以利亚撒—非尼哈到约萨答逐名覆盖；同名亚玛利雅、亚希突、撒督、亚撒利雅各代分档。",
+      "refs": [
+        "出埃及记6:23–25",
+        "历代志上6:3–15"
+      ]
+    },
+    {
+      "section": "摩西妻儿孙与府库后裔",
+      "status": "covered",
+      "note": "西坡拉、古实女子、革舜、以利以谢、细布业/书巴业、耶希底亚、利哈比雅、耶筛亚/伊示雅、约兰、细基利、示罗密。后裔名单未明亲子者使用虚线。",
+      "refs": [
+        "出埃及记2:21–22",
+        "出埃及记18:2–4",
+        "民数记12:1",
+        "历代志上23:15–17",
+        "历代志上24:20–21",
+        "历代志上26:24–28"
+      ]
+    },
+    {
+      "section": "摩西岳家、何巴、希百雅亿",
+      "status": "corrected",
+      "note": "原图称“吐忒罗（流珥）”及何巴、希百简接；依简体和合本用叶忒罗，流珥与叶忒罗并列说明，何巴与摩西亲属称谓保留译法，希百仅明何巴后裔不画直接儿子。",
+      "refs": [
+        "出埃及记2:18–21",
+        "出埃及记18:1",
+        "民数记10:29",
+        "士师记4:11",
+        "士师记4:17"
+      ]
+    },
+    {
+      "section": "可拉三子与撒母耳祖系",
+      "status": "corrected",
+      "note": "原图可拉下的亚惜—以利加拿—亚比亚撒串代，按出6:24纠正为三子并列；希幔祖谱按代上6:33–38，异表不抹平。",
+      "refs": [
+        "出埃及记6:24",
+        "历代志上6:22–28",
+        "历代志上6:33–38"
+      ]
+    },
+    {
+      "section": "哥辖旁支与各代职分名单",
+      "status": "covered",
+      "note": "以斯哈三子、希伯伦四子、乌薛三子及代上23的米迦/耶西雅、代上24沙密/撒迦利雅、示罗摩/雅哈；同名异写与后裔代次逐条注释。",
+      "refs": [
+        "出埃及记6:21–22",
+        "历代志上23:18–20",
+        "历代志上24:22–25"
+      ]
+    },
+    {
+      "section": "原图基士后裔耶拉篾",
+      "status": "corrected",
+      "note": "图中线位容易将耶拉篾接到可拉；据代上24:29是基士的子孙，归抹利—基士一支，后裔用虚线。",
+      "refs": [
+        "历代志上23:21",
+        "历代志上24:29"
+      ]
+    },
+    {
+      "section": "革顺立尼示每与拉但族",
+      "status": "corrected",
+      "note": "原图“立尼（拉但）”未证实即同人；分段保留。代上23:9拉但族示每与23:10四子示每分别列档，子女未强并同代。",
+      "refs": [
+        "出埃及记6:17",
+        "历代志上23:7–11"
+      ]
+    },
+    {
+      "section": "米拉利抹利母示各支",
+      "status": "covered",
+      "note": "抹利两子及无名女儿事实在注释；母示三子、雅西雅四名后裔、以探祖系、何萨守门家均覆盖；不编无名女儿姓名。",
+      "refs": [
+        "历代志上23:21–23",
+        "历代志上24:26–30",
+        "历代志上6:29–30",
+        "历代志上6:44–47",
+        "历代志上26:10–11"
+      ]
+    },
+    {
+      "section": "以利家、以迦博、挪伯家",
+      "status": "covered",
+      "note": "以利、二子、以迦博、亚希突、亚希亚、亚希米勒、亚比亚他、约拿单及代上24反向同名亚希米勒分档；未补造以他玛到以利世代。",
+      "refs": [
+        "撒母耳记上1:3",
+        "撒母耳记上4:19–22",
+        "撒母耳记上14:3",
+        "撒母耳记上22:9–20",
+        "列王纪上1:42",
+        "历代志上24:6"
+      ]
+    },
+    {
+      "section": "撒母耳家庭与希幔",
+      "status": "covered",
+      "note": "哈拿、毗尼拿、以利加拿、撒母耳、约珥、亚比亚、希幔及完整歌唱祖系均展开；未为毗尼拿未具名子女造名。",
+      "refs": [
+        "撒母耳记上1:1–4",
+        "撒母耳记上1:19–20",
+        "撒母耳记上8:2",
+        "历代志上6:33–38"
+      ]
+    },
+    {
+      "section": "二十四祭司班",
+      "status": "corrected",
+      "note": "原图24班竖排易误作连续父子；按代上24:7–18逐班列名，使用亚伦后裔虚线并标班号，不串成24代。",
+      "refs": [
+        "历代志上24:3–19"
+      ]
+    },
+    {
+      "section": "亚萨、希幔、以探与耶杜顿",
+      "status": "covered",
+      "note": "扩展三组歌唱谱、亚萨四子、希幔十四子、耶杜顿六子。以探与耶杜顿不同档，相关名字在不同班次的异写附注；不擅自给希幔三位女儿命名。",
+      "refs": [
+        "历代志上6:33–47",
+        "历代志上25:1–31"
+      ]
+    },
+    {
+      "section": "守门家、府库与官长",
+      "status": "covered",
+      "note": "米施利米雅七子、俄别以东八子、示玛雅一支、何萨四子、沙龙和玛他提雅、耶希伊利/西坦/约珥、基拿尼雅、哈沙比雅等；不把守门与歌唱同名亚萨混为同人。",
+      "refs": [
+        "历代志上9:19",
+        "历代志上9:31",
+        "历代志上26:1–32"
+      ]
+    },
+    {
+      "section": "原图小字和经节不可辨处",
+      "status": "uncertain",
+      "note": "原图个别极小经节或异译名不作逐字无误承诺；按上述已核经文覆盖人物/家族分区，原图若含未能分辨的附名保留待核，不能据模糊字形补造人物。",
+      "refs": [
+        "历代志上6:1–53",
+        "历代志上23:7–23",
+        "历代志上24:1–31"
+      ]
+    }
+  ]
+}

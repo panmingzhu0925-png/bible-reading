@@ -1,0 +1,7723 @@
+{
+  "version": "2026-10-17",
+  "translation": "简体中文和合本",
+  "branches": {
+    "tribe-reuben": {
+      "rootId": "reuben",
+      "title": "流便支派",
+      "nodes": [
+        {
+          "id": "eliab_pallu",
+          "name": "以利押",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "pallu_reuben",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_eliab_尼母利",
+          "name": "尼母利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "eliab_pallu",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:9"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_eliab_大坍",
+          "name": "大坍",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "eliab_pallu",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:9"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_eliab_亚比兰",
+          "name": "亚比兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "eliab_pallu",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:9"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_约珥",
+          "name": "约珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "reuben",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "reuben_示玛雅",
+          "name": "示玛雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_约珥",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_歌革",
+          "name": "歌革",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_示玛雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_示每",
+          "name": "示每",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_歌革",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_米迦",
+          "name": "米迦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_示每",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_利亚雅",
+          "name": "利亚雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_米迦",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_巴力",
+          "name": "巴力",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_利亚雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_备拉",
+          "name": "备拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:4–6"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_示玛",
+          "name": "示玛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_约珥",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_亚撒",
+          "name": "亚撒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_示玛",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_比拉",
+          "name": "比拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_亚撒",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "reuben_耶利",
+          "name": "耶利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:7"
+          ],
+          "events": [],
+          "notes": "经文只列为作族长的同族弟兄，没有给出其父名。",
+          "treeParentId": "reuben",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "reuben_撒迦利雅",
+          "name": "撒迦利雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:7"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "reuben",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "reuben_示丢珥",
+          "name": "示丢珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:5"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "reuben",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "reuben_以利蓿",
+          "name": "以利蓿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_示丢珥",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:5"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "reuben_撒刻",
+          "name": "撒刻",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:4"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "reuben",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "reuben_沙母亚",
+          "name": "沙母亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_撒刻",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:4"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "reuben_比勒",
+          "name": "比勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记16:1"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "reuben",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "reuben_安",
+          "name": "安",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "reuben_比勒",
+          "relation": "儿子",
+          "refs": [
+            "民数记16:1"
+          ],
+          "events": [],
+          "notes": "可拉事件相关人物",
+          "treeNote": "可拉事件相关人物"
+        }
+      ],
+      "relations": [],
+      "mainPath": [
+        "reuben"
+      ],
+      "quickFocus": [
+        "reuben",
+        "reuben_以利蓿",
+        "reuben_沙母亚",
+        "reuben_安"
+      ],
+      "sources": [
+        {
+          "title": "民数记26：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/26.htm"
+        },
+        {
+          "title": "历代志上5：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/5.htm"
+        },
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记16：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/16.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：四子、法路后家、约珥家与独立首领。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "流便：四子、法路后家、约珥家与独立首领",
+          "status": "covered",
+          "note": "四子保留；补以利押三子、约珥至备拉与比拉旁系；民1、13、16父子各自接续，不冒接四子。",
+          "refs": [
+            "民数记26:5–9",
+            "历代志上5:3–8",
+            "民数记1:5",
+            "民数记13:4",
+            "民数记16:1"
+          ]
+        }
+      ]
+    },
+    "tribe-simeon": {
+      "rootId": "simeon",
+      "title": "西缅支派",
+      "nodes": [
+        {
+          "id": "simeon_沙龙",
+          "name": "沙龙",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "shaul_simeon",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_米比衫",
+          "name": "米比衫",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_沙龙",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_米施玛",
+          "name": "米施玛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_米比衫",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_哈母利",
+          "name": "哈母利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_米施玛",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_撒刻",
+          "name": "撒刻",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_哈母利",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_示每",
+          "name": "示每",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_撒刻",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_chief_米所巴",
+          "name": "米所巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_雅米勒",
+          "name": "雅米勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_约珥",
+          "name": "约珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_以利约乃",
+          "name": "以利约乃",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_雅哥巴",
+          "name": "雅哥巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_约朔海",
+          "name": "约朔海",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_亚帅雅",
+          "name": "亚帅雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_亚底业",
+          "name": "亚底业",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_耶西篾",
+          "name": "耶西篾",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_chief_比拿雅",
+          "name": "比拿雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34–38"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_亚玛谢",
+          "name": "亚玛谢",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:34"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_约沙",
+          "name": "约沙",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_亚玛谢",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:34"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_亚薛",
+          "name": "亚薛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:35"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_西莱雅",
+          "name": "西莱雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_亚薛",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_约示比",
+          "name": "约示比",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_西莱雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_耶户",
+          "name": "耶户",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_约示比",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_示玛雅",
+          "name": "示玛雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:37"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_申利",
+          "name": "申利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_示玛雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_耶大雅",
+          "name": "耶大雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_申利",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_亚龙",
+          "name": "亚龙",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_耶大雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_示非",
+          "name": "示非",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_亚龙",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_细撒",
+          "name": "细撒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_示非",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_以示",
+          "name": "以示",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上4:42"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_以示_毗拉提",
+          "name": "毗拉提",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_以示",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:42"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_以示_尼利雅",
+          "name": "尼利雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_以示",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:42"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_以示_利法雅",
+          "name": "利法雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_以示",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:42"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_以示_乌薛",
+          "name": "乌薛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_以示",
+          "relation": "儿子",
+          "refs": [
+            "历代志上4:42"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "simeon_苏利沙代",
+          "name": "苏利沙代",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:6"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_示路蔑",
+          "name": "示路蔑",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_苏利沙代",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:6"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "simeon_何利",
+          "name": "何利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:5"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_沙法",
+          "name": "沙法",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_何利",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:5"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "simeon_亚米忽",
+          "name": "亚米忽",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记34:20"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_示母利",
+          "name": "示母利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_亚米忽",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:20"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        },
+        {
+          "id": "simeon_撒路",
+          "name": "撒路",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记25:14"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "simeon",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "simeon_心利",
+          "name": "心利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "simeon_撒路",
+          "relation": "儿子",
+          "refs": [
+            "民数记25:14"
+          ],
+          "events": [],
+          "notes": "西缅宗族首领",
+          "treeNote": "西缅宗族首领"
+        }
+      ],
+      "relations": [],
+      "mainPath": [
+        "simeon"
+      ],
+      "quickFocus": [
+        "simeon",
+        "simeon_示路蔑",
+        "simeon_沙法",
+        "simeon_示母利",
+        "simeon_心利"
+      ],
+      "sources": [
+        {
+          "title": "历代志上4：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/4.htm"
+        },
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        },
+        {
+          "title": "民数记25：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/25.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：扫罗家及代上4诸族长；首领、探子与分地首领。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "西缅：扫罗家及代上4诸族长",
+          "status": "covered",
+          "note": "扫罗至示每六代、代上4:34–38全部具名族长及其父家、以示四子均补；原图把这一族长列长排，改为明确父系与未接续家并列。",
+          "refs": [
+            "历代志上4:25–27",
+            "历代志上4:34–43"
+          ]
+        },
+        {
+          "section": "西缅：首领、探子与分地首领",
+          "status": "covered",
+          "note": "示路蔑、沙法、示母利及各父已补；另收心利父家。",
+          "refs": [
+            "民数记1:6",
+            "民数记13:5",
+            "民数记34:20",
+            "民数记25:14"
+          ]
+        }
+      ]
+    },
+    "tribe-issachar": {
+      "rootId": "issachar",
+      "title": "以萨迦支派",
+      "nodes": [
+        {
+          "id": "issachar_tola_乌西",
+          "name": "乌西",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "tola_issachar",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_tola_利法雅",
+          "name": "利法雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "tola_issachar",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_tola_耶勒",
+          "name": "耶勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "tola_issachar",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_tola_雅买",
+          "name": "雅买",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "tola_issachar",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_tola_易伯散",
+          "name": "易伯散",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "tola_issachar",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_tola_示母利",
+          "name": "示母利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "tola_issachar",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_伊斯拉希",
+          "name": "伊斯拉希",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_tola_乌西",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:3"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_伊斯拉希_米迦勒",
+          "name": "米迦勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_伊斯拉希",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:3"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_伊斯拉希_俄巴底亚",
+          "name": "俄巴底亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_伊斯拉希",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:3"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_伊斯拉希_约珥",
+          "name": "约珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_伊斯拉希",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:3"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_伊斯拉希_伊示雅",
+          "name": "伊示雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_伊斯拉希",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:3"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_judge_朵多",
+          "name": "朵多",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "士师记10:1–2"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "issachar",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "issachar_judge_普瓦",
+          "name": "普瓦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_judge_朵多",
+          "relation": "儿子",
+          "refs": [
+            "士师记10:1–2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "issachar_judge_陀拉",
+          "name": "陀拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_judge_普瓦",
+          "relation": "儿子",
+          "refs": [
+            "士师记10:1–2"
+          ],
+          "events": [],
+          "notes": "以萨迦人、士师，住以法莲山地。与创46始祖陀拉、普瓦年代不同，不能合为同一父子家。"
+        },
+        {
+          "id": "issachar_苏押",
+          "name": "苏押",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:8"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "issachar",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "issachar_拿坦业",
+          "name": "拿坦业",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_苏押",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:8"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "issachar_约色",
+          "name": "约色",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:7"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "issachar",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "issachar_以迦",
+          "name": "以迦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_约色",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:7"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "issachar_阿散",
+          "name": "阿散",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记34:26"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "issachar",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "issachar_帕铁",
+          "name": "帕铁",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "issachar_阿散",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:26"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        }
+      ],
+      "relations": [],
+      "mainPath": [
+        "issachar"
+      ],
+      "quickFocus": [
+        "issachar",
+        "issachar_judge_陀拉",
+        "issachar_拿坦业",
+        "issachar_以迦",
+        "issachar_帕铁"
+      ],
+      "sources": [
+        {
+          "title": "历代志上7：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/7.htm"
+        },
+        {
+          "title": "士师记10：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/10.htm"
+        },
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：陀拉后家与士师陀拉；首领与探子。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "以萨迦：陀拉后家与士师陀拉",
+          "status": "covered",
+          "note": "代上7:2–3陀拉六子、乌西后家完整；士10朵多—普瓦—陀拉单列不与始祖同名人物合并。",
+          "refs": [
+            "历代志上7:1–3",
+            "士师记10:1–2"
+          ]
+        },
+        {
+          "section": "以萨迦：首领与探子",
+          "status": "covered",
+          "note": "补民1、13、34三组父子，修正图中把约色/以迦顺序倒读的风险。",
+          "refs": [
+            "民数记1:8",
+            "民数记13:7",
+            "民数记34:26"
+          ]
+        }
+      ]
+    },
+    "tribe-naphtali": {
+      "rootId": "naphtali",
+      "title": "拿弗他利支派",
+      "nodes": [
+        {
+          "id": "naphtali_以南",
+          "name": "以南",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:15"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "naphtali",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "naphtali_亚希拉",
+          "name": "亚希拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "naphtali_以南",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:15"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "naphtali_缚西",
+          "name": "缚西",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:14"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "naphtali",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "naphtali_拿比",
+          "name": "拿比",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "naphtali_缚西",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:14"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "naphtali_亚米忽",
+          "name": "亚米忽",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记34:28"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "naphtali",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "naphtali_比大黑",
+          "name": "比大黑",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "naphtali_亚米忽",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:28"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        },
+        {
+          "id": "naphtali_亚比挪庵",
+          "name": "亚比挪庵",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "士师记4:6"
+          ],
+          "events": [],
+          "notes": "经文记巴拉来自拿弗他利的基低斯，未给出其父家到支派先祖的族谱，地点不直接等同已证父系。",
+          "treeParentId": "naphtali",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "naphtali_巴拉",
+          "name": "巴拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "naphtali_亚比挪庵",
+          "relation": "儿子",
+          "refs": [
+            "士师记4:6"
+          ],
+          "events": [],
+          "notes": "基低斯的领袖",
+          "treeNote": "基低斯的领袖"
+        }
+      ],
+      "relations": [],
+      "mainPath": [
+        "naphtali"
+      ],
+      "quickFocus": [
+        "naphtali",
+        "naphtali_亚希拉",
+        "naphtali_拿比",
+        "naphtali_比大黑",
+        "naphtali_巴拉"
+      ],
+      "sources": [
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        },
+        {
+          "title": "士师记4：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/4.htm"
+        },
+        {
+          "title": "创世记46：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/genesis/46.htm"
+        },
+        {
+          "title": "历代志上7：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/7.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：四子与首领。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "拿弗他利：四子与首领",
+          "status": "covered",
+          "note": "保留创46四子；代上7:13的沙龙与创46示冷异记在说明中保留；民1、13和图外民34首领三组父子补全。",
+          "refs": [
+            "创世记46:24",
+            "历代志上7:13",
+            "民数记1:15",
+            "民数记13:14",
+            "民数记34:28"
+          ]
+        }
+      ]
+    },
+    "tribe-gad": {
+      "rootId": "gad",
+      "title": "迦得支派",
+      "nodes": [
+        {
+          "id": "gad_丢珥",
+          "name": "丢珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:14"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_以利雅萨",
+          "name": "以利雅萨",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_丢珥",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:14"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "gad_玛基",
+          "name": "玛基",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:15"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_臼利",
+          "name": "臼利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_玛基",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:15"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "gad_chief_约珥",
+          "name": "约珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:12"
+          ],
+          "events": [],
+          "notes": "迦得人族长；父名未记。",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_chief_沙番",
+          "name": "沙番",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:12"
+          ],
+          "events": [],
+          "notes": "迦得人族长；父名未记。",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_chief_雅乃",
+          "name": "雅乃",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:12"
+          ],
+          "events": [],
+          "notes": "迦得人族长；父名未记。",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_chief_沙法",
+          "name": "沙法",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:12"
+          ],
+          "events": [],
+          "notes": "迦得人族长；父名未记。",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_布斯",
+          "name": "布斯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_耶哈多",
+          "name": "耶哈多",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_布斯",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_耶示筛",
+          "name": "耶示筛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_耶哈多",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_米迦勒",
+          "name": "米迦勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_耶示筛",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_基列",
+          "name": "基列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_米迦勒",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_耶罗亚",
+          "name": "耶罗亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_基列",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_户利",
+          "name": "户利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_耶罗亚",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩",
+          "name": "亚比孩",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_户利",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩_米迦勒",
+          "name": "米迦勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_亚比孩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩_米书兰",
+          "name": "米书兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_亚比孩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩_示巴",
+          "name": "示巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_亚比孩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩_约赖",
+          "name": "约赖",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_亚比孩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩_雅干",
+          "name": "雅干",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_亚比孩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩_细亚",
+          "name": "细亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_亚比孩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚比孩_希伯",
+          "name": "希伯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_亚比孩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:13–14"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_古尼",
+          "name": "古尼",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上5:15"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "gad",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gad_押比叠",
+          "name": "押比叠",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_古尼",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:15"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gad_亚希",
+          "name": "亚希",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gad_押比叠",
+          "relation": "儿子",
+          "refs": [
+            "历代志上5:15"
+          ],
+          "events": [],
+          "notes": ""
+        }
+      ],
+      "relations": [],
+      "mainPath": [
+        "gad"
+      ],
+      "quickFocus": [
+        "gad",
+        "gad_以利雅萨",
+        "gad_臼利"
+      ],
+      "sources": [
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "历代志上5：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/5.htm"
+        },
+        {
+          "title": "创世记46：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/genesis/46.htm"
+        },
+        {
+          "title": "民数记26：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/26.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：七子与旷野首领。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "迦得：七子与旷野首领",
+          "status": "covered",
+          "note": "创46七子保留，与民26洗分/阿斯尼/亚律异记分别说明；首领与探子父子补全，并补代上5具名家。",
+          "refs": [
+            "创世记46:16",
+            "民数记26:15–17",
+            "民数记1:14",
+            "民数记13:15",
+            "历代志上5:11–15"
+          ]
+        }
+      ]
+    },
+    "tribe-asher": {
+      "rootId": "asher",
+      "title": "亚设支派",
+      "nodes": [
+        {
+          "id": "asher_heber_雅弗勒",
+          "name": "雅弗勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "heber_beriah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:32"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_朔默",
+          "name": "朔默",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "heber_beriah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:32"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_何坦",
+          "name": "何坦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "heber_beriah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:32"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_书雅",
+          "name": "书雅",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "heber_beriah",
+          "relation": "女儿",
+          "refs": [
+            "历代志上7:32"
+          ],
+          "events": [],
+          "notes": "希别的女儿。"
+        },
+        {
+          "id": "asher_比撒威",
+          "name": "比撒威",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "malchiel_beriah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:31"
+          ],
+          "events": [],
+          "notes": "玛结的儿子；不把此处当作确定城市名而删去人物。"
+        },
+        {
+          "id": "asher_heber_雅弗勒_巴萨",
+          "name": "巴萨",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_heber_雅弗勒",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:33"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_雅弗勒_宾哈",
+          "name": "宾哈",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_heber_雅弗勒",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:33"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_雅弗勒_亚施法",
+          "name": "亚施法",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_heber_雅弗勒",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:33"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_朔默_亚希",
+          "name": "亚希",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_heber_朔默",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:34"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_朔默_罗迦",
+          "name": "罗迦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_heber_朔默",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:34"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_朔默_耶户巴",
+          "name": "耶户巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_heber_朔默",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:34"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_heber_朔默_亚兰",
+          "name": "亚兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_heber_朔默",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:34"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连",
+          "name": "希连",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上7:35"
+          ],
+          "events": [],
+          "notes": "经文称朔默的兄弟，未明确写其父；不未经说明就把希连改名合为何坦。",
+          "treeParentId": "asher",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "asher_希连_琐法",
+          "name": "琐法",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_音那",
+          "name": "音那",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_示利斯",
+          "name": "示利斯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_亚抹",
+          "name": "亚抹",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_书亚",
+          "name": "书亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_哈尼弗",
+          "name": "哈尼弗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_书阿勒",
+          "name": "书阿勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_比利",
+          "name": "比利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_音拉",
+          "name": "音拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_比悉",
+          "name": "比悉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_河得",
+          "name": "河得",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_珊玛",
+          "name": "珊玛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_施沙",
+          "name": "施沙",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_益兰",
+          "name": "益兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_希连_琐法_比拉",
+          "name": "比拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_希连_琐法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_益帖",
+          "name": "益帖",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上7:38"
+          ],
+          "events": [],
+          "notes": "父名未记，不因与益兰相邻便合并。",
+          "treeParentId": "asher",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "asher_益帖_耶孚尼",
+          "name": "耶孚尼",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_益帖",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_益帖_毗斯巴",
+          "name": "毗斯巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_益帖",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_益帖_亚拉",
+          "name": "亚拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_益帖",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_乌拉",
+          "name": "乌拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "历代志上7:39"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "asher",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "asher_乌拉_亚拉",
+          "name": "亚拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_乌拉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:39"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_乌拉_汉尼业",
+          "name": "汉尼业",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_乌拉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:39"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_乌拉_利写",
+          "name": "利写",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_乌拉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:39"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "asher_俄兰",
+          "name": "俄兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:13"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "asher",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "asher_帕结",
+          "name": "帕结",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_俄兰",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:13"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "asher_米迦勒",
+          "name": "米迦勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:13"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "asher",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "asher_西帖",
+          "name": "西帖",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_米迦勒",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:13"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "asher_示罗米",
+          "name": "示罗米",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记34:27"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "asher",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "asher_亚希忽",
+          "name": "亚希忽",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "asher_示罗米",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:27"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        }
+      ],
+      "relations": [],
+      "mainPath": [
+        "asher"
+      ],
+      "quickFocus": [
+        "asher",
+        "asher_帕结",
+        "asher_西帖",
+        "asher_亚希忽"
+      ],
+      "sources": [
+        {
+          "title": "历代志上7：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/7.htm"
+        },
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：希别、玛结及代上7全家族；首领与探子。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "亚设：希别、玛结及代上7全家族",
+          "status": "corrected",
+          "note": "代上7:30–39全部具名人物收录；希连、益帖、乌拉父名或衔接不明，保留独立本支关联家，不照原图推断为同名异写。",
+          "refs": [
+            "历代志上7:30–40"
+          ]
+        },
+        {
+          "section": "亚设：首领与探子",
+          "status": "covered",
+          "note": "补民1、13、34三组父子。",
+          "refs": [
+            "民数记1:13",
+            "民数记13:13",
+            "民数记34:27"
+          ]
+        }
+      ]
+    },
+    "tribe-zebulun": {
+      "rootId": "zebulun",
+      "title": "西布伦支派",
+      "nodes": [
+        {
+          "id": "zebulun_希伦",
+          "name": "希伦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:9"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "zebulun",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "zebulun_以利押",
+          "name": "以利押",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "zebulun_希伦",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:9"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "zebulun_梭底",
+          "name": "梭底",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:10"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "zebulun",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "zebulun_迦叠",
+          "name": "迦叠",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "zebulun_梭底",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:10"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "zebulun_帕纳",
+          "name": "帕纳",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记34:25"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "zebulun",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "zebulun_以利撒番",
+          "name": "以利撒番",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "zebulun_帕纳",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:25"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        },
+        {
+          "id": "zebulun_elon_judge",
+          "name": "以伦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "士师记12:11–12"
+          ],
+          "events": [],
+          "notes": "西布伦人士师，与创46的支派先祖之子以伦分为两人。",
+          "treeParentId": "zebulun",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "zebulun_ibzan",
+          "name": "以比赞",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "士师记12:8–10"
+          ],
+          "events": [],
+          "notes": "原图列在西布伦区；经文只称伯利恒人，没有明说西布伦支派，故仅保留相关士师，不确认为西布伦族谱。",
+          "treeParentId": "zebulun",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        }
+      ],
+      "relations": [],
+      "mainPath": [
+        "zebulun"
+      ],
+      "quickFocus": [
+        "zebulun",
+        "zebulun_以利押",
+        "zebulun_迦叠",
+        "zebulun_以利撒番"
+      ],
+      "sources": [
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        },
+        {
+          "title": "士师记12：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/12.htm"
+        },
+        {
+          "title": "创世记46：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/genesis/46.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：三子、士师与首领。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "西布伦：三子、士师与首领",
+          "status": "corrected",
+          "note": "保留三子；另列西布伦人士师以伦；以比赞族籍没有经文明确依据，改用背景关联而不画亲生父系。",
+          "refs": [
+            "创世记46:14",
+            "士师记12:8–12",
+            "民数记1:9",
+            "民数记13:10",
+            "民数记34:25"
+          ]
+        }
+      ]
+    },
+    "tribe-dan": {
+      "rootId": "dan",
+      "title": "但支派",
+      "nodes": [
+        {
+          "id": "dan_亚米沙代",
+          "name": "亚米沙代",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记1:12"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "dan",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "dan_亚希以谢",
+          "name": "亚希以谢",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "dan_亚米沙代",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:12"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "dan_基玛利",
+          "name": "基玛利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记13:12"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "dan",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "dan_亚米利",
+          "name": "亚米利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "dan_基玛利",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:12"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "dan_约利",
+          "name": "约利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "民数记34:22"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "dan",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "dan_布基",
+          "name": "布基",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "dan_约利",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:22"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        },
+        {
+          "id": "dan_亚希撒抹",
+          "name": "亚希撒抹",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "出埃及记31:6"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "dan",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "dan_亚何利亚伯",
+          "name": "亚何利亚伯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "dan_亚希撒抹",
+          "relation": "儿子",
+          "refs": [
+            "出埃及记31:6"
+          ],
+          "events": [],
+          "notes": "会幕工匠",
+          "treeNote": "会幕工匠"
+        },
+        {
+          "id": "dan_manoah",
+          "name": "玛挪亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "士师记13:2"
+          ],
+          "events": [],
+          "notes": "琐拉的但族人。",
+          "treeParentId": "dan",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "dan_samson",
+          "name": "参孙",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "dan_manoah",
+          "relation": "儿子",
+          "refs": [
+            "士师记13:2",
+            "士师记13:24"
+          ],
+          "events": [],
+          "notes": "但族、拿细耳人。"
+        },
+        {
+          "id": "dan_manoah_wife",
+          "name": "玛挪亚之妻（未具名）",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "妻",
+          "refs": [
+            "士师记13:2",
+            "士师记13:24"
+          ],
+          "events": [],
+          "notes": "经文未记名字，不据传统补名。",
+          "graphLabel": "未具名妻子",
+          "isUnnamed": true,
+          "relatedOnly": true
+        },
+        {
+          "id": "dan_delilah",
+          "name": "大利拉",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "支派关联人物",
+          "refs": [
+            "士师记16:4"
+          ],
+          "events": [],
+          "notes": "参孙爱梭烈谷妇人大利拉；经文没有说她是参孙妻子，不添加夫妻关系。",
+          "treeParentId": "dan_samson",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        }
+      ],
+      "relations": [
+        {
+          "source": "dan_manoah",
+          "target": "dan_manoah_wife",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "士师记13:2"
+          ]
+        },
+        {
+          "source": "dan_manoah_wife",
+          "target": "dan_samson",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "士师记13:24"
+          ]
+        }
+      ],
+      "mainPath": [
+        "dan"
+      ],
+      "quickFocus": [
+        "dan",
+        "dan_亚希以谢",
+        "dan_亚米利",
+        "dan_布基",
+        "dan_亚何利亚伯",
+        "dan_samson"
+      ],
+      "sources": [
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        },
+        {
+          "title": "出埃及记31：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/exodus/31.htm"
+        },
+        {
+          "title": "士师记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/13.htm"
+        },
+        {
+          "title": "士师记16：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/16.htm"
+        },
+        {
+          "title": "创世记46：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/genesis/46.htm"
+        },
+        {
+          "title": "民数记26：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/26.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：户伸、参孙及工匠和首领。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "但：户伸、参孙及工匠和首领",
+          "status": "corrected",
+          "note": "保留户伸与民26书含差异；补玛挪亚—参孙及未具名生母，工匠亚何利亚伯父家、民1/13/34首领父家；大利拉按感情相关人物展示而非妻子。",
+          "refs": [
+            "创世记46:23",
+            "民数记26:42",
+            "士师记13:2–24",
+            "士师记16:4",
+            "出埃及记31:6",
+            "民数记1:12",
+            "民数记13:12",
+            "民数记34:22"
+          ]
+        }
+      ]
+    },
+    "tribe-joseph": {
+      "rootId": "joseph_patriarch",
+      "title": "约瑟：玛拿西与以法莲",
+      "nodes": [
+        {
+          "id": "manasseh_machir",
+          "name": "玛吉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh",
+          "relation": "儿子",
+          "refs": [
+            "创世记50:23",
+            "民数记26:29",
+            "历代志上7:14"
+          ],
+          "events": [],
+          "notes": "基列之父。"
+        },
+        {
+          "id": "manasseh_gilead",
+          "name": "基列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_machir",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:29",
+            "历代志上7:17"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "manasseh_asriel",
+          "name": "亚斯列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:14"
+          ],
+          "events": [],
+          "notes": "代上7:14在玛拿西儿子项下列亚斯列；民26:31在基列众子项下记亚斯烈族。两处代次不同，本图不擅定二者为两个不同人或把两个父系强行合一。"
+        },
+        {
+          "id": "manasseh_aramean_concubine",
+          "name": "玛拿西之妾（亚兰女子，未具名）",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:14"
+          ],
+          "events": [],
+          "notes": "代上7:14简体和合本记亚斯列与玛吉为其亚兰妾所生。",
+          "isUnnamed": true,
+          "graphLabel": "亚兰女子",
+          "relatedOnly": true
+        },
+        {
+          "id": "machir_maacah",
+          "name": "玛迦",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:15–16"
+          ],
+          "events": [],
+          "notes": "玛吉之妻，户品、书品的姐妹；不因同名与扫罗祖家玛迦混为一人。",
+          "relatedOnly": true
+        },
+        {
+          "id": "machir_peresh",
+          "name": "毗利施",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_machir",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "machir_sheresh",
+          "name": "示利施",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_machir",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:16"
+          ],
+          "events": [],
+          "notes": "经文称毗利施的兄弟。"
+        },
+        {
+          "id": "machir_sheresh_乌兰",
+          "name": "乌兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "machir_sheresh",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "machir_sheresh_利金",
+          "name": "利金",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "machir_sheresh",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "manasseh_bedan",
+          "name": "比但",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "machir_sheresh_乌兰",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:17"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "machir_shuppim",
+          "name": "书品",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:15"
+          ],
+          "events": [],
+          "notes": "玛迦的兄弟。经文未在此明确其父，不与便雅悯其他同名人自动合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "machir_huppim",
+          "name": "户品",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:15"
+          ],
+          "events": [],
+          "notes": "玛迦的兄弟。经文未在此明确其父，不与创46户平自动合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "gilead_iezer",
+          "name": "伊以谢",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_gilead",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:30"
+          ],
+          "events": [],
+          "notes": "按民26的基列宗族谱列名，不推算未记的历史年代。"
+        },
+        {
+          "id": "gilead_helek",
+          "name": "希勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_gilead",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:30"
+          ],
+          "events": [],
+          "notes": "按民26的基列宗族谱列名，不推算未记的历史年代。"
+        },
+        {
+          "id": "gilead_shechem",
+          "name": "示剑",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_gilead",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:31"
+          ],
+          "events": [],
+          "notes": "按民26的基列宗族谱列名，不推算未记的历史年代。"
+        },
+        {
+          "id": "gilead_shemida",
+          "name": "示米大",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_gilead",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:32"
+          ],
+          "events": [],
+          "notes": "按民26的基列宗族谱列名，不推算未记的历史年代。"
+        },
+        {
+          "id": "gilead_hepher",
+          "name": "希弗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_gilead",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:32"
+          ],
+          "events": [],
+          "notes": "按民26的基列宗族谱列名，不推算未记的历史年代。"
+        },
+        {
+          "id": "gilead_zelophehad",
+          "name": "西罗非哈",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gilead_hepher",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:33",
+            "民数记27:1"
+          ],
+          "events": [],
+          "notes": "按民27:1明确父系希弗—基列—玛吉—玛拿西接续。代上7:15的次子称谓不据以改接为玛拿西直接亲生儿子。"
+        },
+        {
+          "id": "zelophehad_玛拉",
+          "name": "玛拉",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "gilead_zelophehad",
+          "relation": "女儿",
+          "refs": [
+            "民数记26:33",
+            "民数记27:1"
+          ],
+          "events": [],
+          "notes": "西罗非哈五女之一，继承父亲产业。"
+        },
+        {
+          "id": "zelophehad_挪阿",
+          "name": "挪阿",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "gilead_zelophehad",
+          "relation": "女儿",
+          "refs": [
+            "民数记26:33",
+            "民数记27:1"
+          ],
+          "events": [],
+          "notes": "西罗非哈五女之一，继承父亲产业。"
+        },
+        {
+          "id": "zelophehad_曷拉",
+          "name": "曷拉",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "gilead_zelophehad",
+          "relation": "女儿",
+          "refs": [
+            "民数记26:33",
+            "民数记27:1"
+          ],
+          "events": [],
+          "notes": "西罗非哈五女之一，继承父亲产业。"
+        },
+        {
+          "id": "zelophehad_密迦",
+          "name": "密迦",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "gilead_zelophehad",
+          "relation": "女儿",
+          "refs": [
+            "民数记26:33",
+            "民数记27:1"
+          ],
+          "events": [],
+          "notes": "西罗非哈五女之一，继承父亲产业。"
+        },
+        {
+          "id": "zelophehad_得撒",
+          "name": "得撒",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "gilead_zelophehad",
+          "relation": "女儿",
+          "refs": [
+            "民数记26:33",
+            "民数记27:1"
+          ],
+          "events": [],
+          "notes": "西罗非哈五女之一，继承父亲产业。"
+        },
+        {
+          "id": "machir_hammoleketh",
+          "name": "哈摩利吉",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "基列的妹子",
+          "refs": [
+            "历代志上7:18"
+          ],
+          "events": [],
+          "notes": "经文称基列的妹子；未直接明记其父名，因此以亲属背景关联，不补造生父。",
+          "treeParentId": "manasseh_machir",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "hammoleketh_伊施荷",
+          "name": "伊施荷",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:18"
+          ],
+          "events": [],
+          "notes": "哈摩利吉所生，生父未记。",
+          "treeParentId": "machir_hammoleketh",
+          "lineageKind": "maternal",
+          "lineageLabel": "经文明记母子"
+        },
+        {
+          "id": "hammoleketh_亚比以谢",
+          "name": "亚比以谢",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:18"
+          ],
+          "events": [],
+          "notes": "哈摩利吉所生，生父未记。",
+          "treeParentId": "machir_hammoleketh",
+          "lineageKind": "maternal",
+          "lineageLabel": "经文明记母子"
+        },
+        {
+          "id": "hammoleketh_玛拉",
+          "name": "玛拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:18"
+          ],
+          "events": [],
+          "notes": "哈摩利吉所生，生父未记。",
+          "treeParentId": "machir_hammoleketh",
+          "lineageKind": "maternal",
+          "lineageLabel": "经文明记母子"
+        },
+        {
+          "id": "gilead_shemida_亚现",
+          "name": "亚现",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gilead_shemida",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:19"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gilead_shemida_示剑",
+          "name": "示剑",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gilead_shemida",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:19"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gilead_shemida_利克希",
+          "name": "利克希",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gilead_shemida",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:19"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gilead_shemida_阿尼安",
+          "name": "阿尼安",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gilead_shemida",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:19"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "manasseh_joash_gideon",
+          "name": "约阿施",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "士师记6:11",
+            "士师记6:15"
+          ],
+          "events": [],
+          "notes": "玛拿西支派亚比以谢族人。士6未交代他到代上7亚比以谢的中间世代，不能接作亚比以谢的直接儿子。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "gideon",
+          "name": "基甸",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "manasseh_joash_gideon",
+          "relation": "儿子",
+          "refs": [
+            "士师记6:11",
+            "士师记6:32"
+          ],
+          "events": [],
+          "notes": "又名耶路巴力；原图从亚比以谢直连约阿施，现保留宗族归属与未接续世代说明。",
+          "aliases": [
+            "耶路巴力"
+          ]
+        },
+        {
+          "id": "gideon_益帖",
+          "name": "益帖",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gideon",
+          "relation": "儿子",
+          "refs": [
+            "士师记8:20",
+            "士师记8:31",
+            "士师记9:5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gideon_亚比米勒",
+          "name": "亚比米勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gideon",
+          "relation": "儿子",
+          "refs": [
+            "士师记8:20",
+            "士师记8:31",
+            "士师记9:5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gideon_约坦",
+          "name": "约坦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gideon",
+          "relation": "儿子",
+          "refs": [
+            "士师记8:20",
+            "士师记8:31",
+            "士师记9:5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "gideon_concubine_shechem",
+          "name": "基甸之妾（示剑妇人，未具名）",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "士师记8:31"
+          ],
+          "events": [],
+          "notes": "亚比米勒之母，未具名。",
+          "graphLabel": "示剑的妾",
+          "isUnnamed": true,
+          "relatedOnly": true
+        },
+        {
+          "id": "machir_unnamed_daughter",
+          "name": "玛吉之女（未具名）",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "manasseh_machir",
+          "relation": "女儿",
+          "refs": [
+            "历代志上2:21"
+          ],
+          "events": [],
+          "notes": "希斯仑六十岁娶她；父系属玛吉家，不能把其子孙睚珥直接改为玛吉之子。",
+          "graphLabel": "玛吉之女",
+          "isUnnamed": true
+        },
+        {
+          "id": "hezron_perez",
+          "name": "希斯仑",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上2:21"
+          ],
+          "events": [],
+          "notes": "犹大支派希斯仑；此处因娶玛吉之女作为关联父亲保留，不变为玛拿西后裔。",
+          "treeParentId": "manasseh_machir",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "segub",
+          "name": "西割",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "hezron_perez",
+          "relation": "儿子",
+          "refs": [
+            "历代志上2:21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "jair_segub",
+          "name": "睚珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "segub",
+          "relation": "儿子",
+          "refs": [
+            "历代志上2:22"
+          ],
+          "events": [],
+          "notes": "父系希斯仑—西割，母系玛吉家；民32:41称玛拿西的子孙，不能据此抹去父系属犹大的记载。"
+        },
+        {
+          "id": "jair_judge",
+          "name": "睚珥（士师）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "士师记10:3–5"
+          ],
+          "events": [],
+          "notes": "经文称基列人、士师，父亲未记；不能仅因与民32、代上2的睚珥同名便合为一人。",
+          "treeParentId": "manasseh",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "gilead_jephthah_father",
+          "name": "基列（耶弗他之父）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "士师记11:1"
+          ],
+          "events": [],
+          "notes": "与玛吉之子基列的同一性未由经文确定，不合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "jephthah",
+          "name": "耶弗他",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "gilead_jephthah_father",
+          "relation": "儿子",
+          "refs": [
+            "士师记11:1"
+          ],
+          "events": [],
+          "notes": "基列人；没有完整支派父系，不能强接玛吉之子基列。"
+        },
+        {
+          "id": "jephthah_mother",
+          "name": "耶弗他之母（妓女，未具名）",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "士师记11:1"
+          ],
+          "events": [],
+          "notes": "生母身份明记、名字未记；不写作其父的妻子。",
+          "graphLabel": "未具名生母",
+          "isUnnamed": true,
+          "relatedOnly": true
+        },
+        {
+          "id": "jephthah_daughter",
+          "name": "耶弗他之女（未具名）",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "jephthah",
+          "relation": "女儿",
+          "refs": [
+            "士师记11:34"
+          ],
+          "events": [],
+          "notes": "独生女，名字未记。",
+          "graphLabel": "独生女",
+          "isUnnamed": true
+        },
+        {
+          "id": "joseph_比大蓿_迦玛列",
+          "name": "比大蓿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "民数记1:10"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "joseph_迦玛列",
+          "name": "迦玛列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "joseph_比大蓿_迦玛列",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:10"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "joseph_稣西_迦底",
+          "name": "稣西",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "民数记13:11"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "joseph_迦底",
+          "name": "迦底",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "joseph_稣西_迦底",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:11"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "joseph_以弗_汉聂",
+          "name": "以弗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "民数记34:23"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "joseph_汉聂",
+          "name": "汉聂",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "joseph_以弗_汉聂",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:23"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        },
+        {
+          "id": "ephraim_shuthelah_1",
+          "name": "书提拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:20",
+            "民数记26:35"
+          ],
+          "events": [],
+          "notes": "代上7长系的第一位书提拉；后有同名后裔，不合并。"
+        },
+        {
+          "id": "ephraim_shuthelah_比列",
+          "name": "比列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_shuthelah_1",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:20–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_tahath_1",
+          "name": "他哈",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_shuthelah_比列",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:20–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_shuthelah_以拉大",
+          "name": "以拉大",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_tahath_1",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:20–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_tahath_2",
+          "name": "他哈",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_shuthelah_以拉大",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:20–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_shuthelah_撒拔",
+          "name": "撒拔",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_tahath_2",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:20–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_shuthelah_书提拉",
+          "name": "书提拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_shuthelah_撒拔",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:20–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_loss_以谢",
+          "name": "以谢",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:21"
+          ],
+          "events": [],
+          "notes": "夺取迦特人的牲畜时被杀；保留经文事件，不把他们自动合为民26其他异名。"
+        },
+        {
+          "id": "ephraim_loss_以列",
+          "name": "以列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:21"
+          ],
+          "events": [],
+          "notes": "夺取迦特人的牲畜时被杀；保留经文事件，不把他们自动合为民26其他异名。"
+        },
+        {
+          "id": "ephraim_beriah",
+          "name": "比利亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:23"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_sheerah",
+          "name": "舍伊拉",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "ephraim",
+          "relation": "女儿",
+          "refs": [
+            "历代志上7:24"
+          ],
+          "events": [],
+          "notes": "以法莲的女儿，建筑上、下伯和仑与乌羡舍伊拉。"
+        },
+        {
+          "id": "ephraim_rephah",
+          "name": "利法",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_beriah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_joshua_利悉",
+          "name": "利悉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_beriah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_joshua_他拉",
+          "name": "他拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_joshua_利悉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_joshua_他罕",
+          "name": "他罕",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_joshua_他拉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_joshua_拉但",
+          "name": "拉但",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_joshua_他罕",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_joshua_亚米忽",
+          "name": "亚米忽",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_joshua_拉但",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_joshua_以利沙玛",
+          "name": "以利沙玛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_joshua_亚米忽",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27",
+            "民数记1:10"
+          ],
+          "events": [],
+          "notes": "",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "ephraim_joshua_嫩",
+          "name": "嫩",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_joshua_以利沙玛",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ephraim_joshua_约书亚",
+          "name": "约书亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_joshua_嫩",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:25–27",
+            "民数记13:8",
+            "民数记13:16"
+          ],
+          "events": [],
+          "notes": "嫩之子，又称何西阿；摩西改称约书亚。代上7父系接续与民13探子身份为同一人，不重复建档。",
+          "aliases": [
+            "何西阿"
+          ]
+        },
+        {
+          "id": "ephraim_becher_census",
+          "name": "比结",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:35"
+          ],
+          "events": [],
+          "notes": "民26记比结族；不未经论证将其改名为代上7的比列、以谢或以列。"
+        },
+        {
+          "id": "ephraim_tahan_census",
+          "name": "他罕（民26谱）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:35"
+          ],
+          "events": [],
+          "notes": "民26族名记录的他罕，与代上7:25长系同名者位置不同；按两份谱记录区分，不断言是确定不同历史人物。",
+          "graphLabel": "他罕 · 民26谱"
+        },
+        {
+          "id": "ephraim_eran",
+          "name": "以兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_shuthelah_1",
+          "relation": "儿子",
+          "refs": [
+            "民数记26:36"
+          ],
+          "events": [],
+          "notes": "民26书提拉族下的以兰。"
+        },
+        {
+          "id": "joseph_拾弗但_基母利",
+          "name": "拾弗但",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "民数记34:24"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "ephraim",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "joseph_基母利",
+          "name": "基母利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "joseph_拾弗但_基母利",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:24"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        },
+        {
+          "id": "manasseh_half_chief_以弗",
+          "name": "以弗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上5:23–24"
+          ],
+          "events": [],
+          "notes": "玛拿西半支派族长；父名未记，不因与早世代同名合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "manasseh_half_chief_以示",
+          "name": "以示",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上5:23–24"
+          ],
+          "events": [],
+          "notes": "玛拿西半支派族长；父名未记，不因与早世代同名合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "manasseh_half_chief_以列",
+          "name": "以列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上5:23–24"
+          ],
+          "events": [],
+          "notes": "玛拿西半支派族长；父名未记，不因与早世代同名合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "manasseh_half_chief_亚斯列",
+          "name": "亚斯列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上5:23–24"
+          ],
+          "events": [],
+          "notes": "玛拿西半支派族长；父名未记，不因与早世代同名合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "manasseh_half_chief_耶利米",
+          "name": "耶利米",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上5:23–24"
+          ],
+          "events": [],
+          "notes": "玛拿西半支派族长；父名未记，不因与早世代同名合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "manasseh_half_chief_何达威雅",
+          "name": "何达威雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上5:23–24"
+          ],
+          "events": [],
+          "notes": "玛拿西半支派族长；父名未记，不因与早世代同名合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "manasseh_half_chief_雅叠",
+          "name": "雅叠",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上5:23–24"
+          ],
+          "events": [],
+          "notes": "玛拿西半支派族长；父名未记，不因与早世代同名合并。",
+          "treeParentId": "manasseh",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ephraim_hillel",
+          "name": "希列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "士师记12:13–15"
+          ],
+          "events": [],
+          "notes": "比拉顿人士师押顿之父；经文记葬在以法莲地，不仅凭居地强定完整父系。",
+          "treeParentId": "ephraim",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "abdon_judge",
+          "name": "押顿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ephraim_hillel",
+          "relation": "儿子",
+          "refs": [
+            "士师记12:13–15"
+          ],
+          "events": [],
+          "notes": "比拉顿人士师；四十子三十孙未具名，不创造名字。"
+        },
+        {
+          "id": "potiphera_asenath_father",
+          "name": "波提非拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "亚西纳的父亲",
+          "treeParentId": "joseph_patriarch",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱",
+          "refs": [
+            "创世记41:45",
+            "创世记41:50"
+          ],
+          "events": [],
+          "notes": "埃及安城祭司、亚西纳之父，非约瑟父系后代，不与约瑟主人波提乏混为一人。"
+        },
+        {
+          "id": "asenath",
+          "name": "亚西纳",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "potiphera_asenath_father",
+          "relation": "妻",
+          "refs": [
+            "创世记41:45",
+            "创世记41:50"
+          ],
+          "events": [],
+          "notes": "约瑟之妻，安城祭司波提非拉之女，玛拿西、以法莲的母亲。妻家通过背景关联显示，非约瑟亲生后裔。",
+          "originNote": "安城祭司波提非拉的女儿",
+          "relatedOnly": true
+        }
+      ],
+      "relations": [
+        {
+          "source": "manasseh",
+          "target": "manasseh_aramean_concubine",
+          "type": "concubine",
+          "relation": "妾",
+          "refs": [
+            "历代志上7:14"
+          ]
+        },
+        {
+          "source": "manasseh_aramean_concubine",
+          "target": "manasseh_asriel",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上7:14"
+          ]
+        },
+        {
+          "source": "manasseh_aramean_concubine",
+          "target": "manasseh_machir",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上7:14"
+          ]
+        },
+        {
+          "source": "manasseh_machir",
+          "target": "machir_maacah",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "历代志上7:15–16"
+          ]
+        },
+        {
+          "source": "machir_maacah",
+          "target": "machir_peresh",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上7:16"
+          ]
+        },
+        {
+          "source": "machir_hammoleketh",
+          "target": "hammoleketh_伊施荷",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上7:18"
+          ]
+        },
+        {
+          "source": "machir_hammoleketh",
+          "target": "hammoleketh_亚比以谢",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上7:18"
+          ]
+        },
+        {
+          "source": "machir_hammoleketh",
+          "target": "hammoleketh_玛拉",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上7:18"
+          ]
+        },
+        {
+          "source": "gideon",
+          "target": "gideon_concubine_shechem",
+          "type": "concubine",
+          "relation": "妾",
+          "refs": [
+            "士师记8:31"
+          ]
+        },
+        {
+          "source": "gideon_concubine_shechem",
+          "target": "gideon_亚比米勒",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "士师记8:31"
+          ]
+        },
+        {
+          "source": "hezron_perez",
+          "target": "machir_unnamed_daughter",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "历代志上2:21"
+          ]
+        },
+        {
+          "source": "machir_unnamed_daughter",
+          "target": "segub",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上2:21"
+          ]
+        },
+        {
+          "source": "jephthah_mother",
+          "target": "jephthah",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "士师记11:1"
+          ]
+        }
+      ],
+      "mainPath": [
+        "joseph_patriarch",
+        "ephraim",
+        "ephraim_beriah",
+        "ephraim_joshua_利悉",
+        "ephraim_joshua_他拉",
+        "ephraim_joshua_他罕",
+        "ephraim_joshua_拉但",
+        "ephraim_joshua_亚米忽",
+        "ephraim_joshua_以利沙玛",
+        "ephraim_joshua_嫩",
+        "ephraim_joshua_约书亚"
+      ],
+      "quickFocus": [
+        "joseph_patriarch",
+        "manasseh",
+        "ephraim",
+        "gideon",
+        "gilead_zelophehad",
+        "ephraim_joshua_约书亚"
+      ],
+      "sources": [
+        {
+          "title": "创世记50：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/genesis/50.htm"
+        },
+        {
+          "title": "民数记26：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/26.htm"
+        },
+        {
+          "title": "历代志上7：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/7.htm"
+        },
+        {
+          "title": "民数记27：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/27.htm"
+        },
+        {
+          "title": "士师记6：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/6.htm"
+        },
+        {
+          "title": "士师记8：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/8.htm"
+        },
+        {
+          "title": "士师记9：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/9.htm"
+        },
+        {
+          "title": "历代志上2：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/2.htm"
+        },
+        {
+          "title": "士师记10：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/10.htm"
+        },
+        {
+          "title": "士师记11：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/11.htm"
+        },
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        },
+        {
+          "title": "历代志上5：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/5.htm"
+        },
+        {
+          "title": "士师记12：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/12.htm"
+        },
+        {
+          "title": "创世记41：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/genesis/41.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：玛吉、玛迦、基列及西罗非哈五女；基甸、睚珥与耶弗他；以法莲长谱到约书亚；两支首领与探子；约瑟妻家。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。",
+        "玛拿西谱：民27明确西罗非哈为希弗之子；代上7的次子称谓另作提示，不把两处代次硬并。亚斯列/亚斯烈在代上7与民26的代次差异保留。",
+        "基甸是亚比以谢族人，约阿施为其父；经文未连出到宗族祖先亚比以谢的逐代父系。睚珥按代上2保留父系犹大、母系玛吉，不画作玛吉直接儿子。",
+        "以法莲谱按代上7与民26分别标出同名/异名记录；不把代上7的书提拉前后两人合并，不把他哈前后两代合并。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "约瑟：玛吉、玛迦、基列及西罗非哈五女",
+          "status": "corrected",
+          "note": "补代上7:14–19及民26/27具名家；西罗非哈接希弗，纠正原图容易误读的直接玛拿西之子；哈摩利吉三子按母子关系接续。",
+          "refs": [
+            "历代志上7:14–19",
+            "民数记26:29–33",
+            "民数记27:1"
+          ]
+        },
+        {
+          "section": "约瑟：基甸、睚珥与耶弗他",
+          "status": "corrected",
+          "note": "基甸父家、三位具名儿子及亚比米勒生母补；睚珥父系西割/希斯仑与玛吉女儿母系并存；士师睚珥和耶弗他父家另作背景关联，不强接早世代同名人。",
+          "refs": [
+            "士师记6:11–15",
+            "士师记8:20–31",
+            "士师记9:5",
+            "历代志上2:21–22",
+            "士师记10:3–5",
+            "士师记11:1–2"
+          ]
+        },
+        {
+          "section": "约瑟：以法莲长谱到约书亚",
+          "status": "covered",
+          "note": "代上7:20–27全具名人物、民26以法莲各族均补；两位书提拉、两位他哈不合并。",
+          "refs": [
+            "历代志上7:20–27",
+            "民数记26:35–36"
+          ]
+        },
+        {
+          "section": "约瑟：两支首领与探子",
+          "status": "covered",
+          "note": "玛拿西民1/13/34与以法莲民1/13/34均补，约书亚探子不重建；代上5半支派族长亦收。",
+          "refs": [
+            "民数记1:10",
+            "民数记13:8–16",
+            "民数记34:23–24",
+            "历代志上5:23–24"
+          ]
+        },
+        {
+          "section": "约瑟妻家",
+          "status": "covered",
+          "note": "原图安城祭司波提非拉—亚西纳父女关系补入；不与波提乏混同。",
+          "refs": [
+            "创世记41:45",
+            "创世记41:50"
+          ]
+        }
+      ]
+    },
+    "tribe-benjamin": {
+      "rootId": "benjamin",
+      "title": "便雅悯支派",
+      "nodes": [
+        {
+          "id": "ben_bela7_以斯本",
+          "name": "以斯本",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela7_乌西",
+          "name": "乌西",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela7_乌薛",
+          "name": "乌薛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela7_耶利摩",
+          "name": "耶利摩",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela7_以利",
+          "name": "以利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_细米拉",
+          "name": "细米拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_约阿施",
+          "name": "约阿施",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_以利以谢",
+          "name": "以利以谢",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_以利约乃",
+          "name": "以利约乃",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_暗利",
+          "name": "暗利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_耶利摩",
+          "name": "耶利摩",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_亚比雅",
+          "name": "亚比雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_亚拿突",
+          "name": "亚拿突",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_becher7_亚拉篾",
+          "name": "亚拉篾",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "becher_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jediael",
+          "name": "耶叠",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:6"
+          ],
+          "events": [],
+          "notes": "代上7另列耶叠；不未经证明把创46其他名字改成耶叠。"
+        },
+        {
+          "id": "ben_bilhan",
+          "name": "比勒罕",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jediael",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bilhan7_耶乌施",
+          "name": "耶乌施",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_bilhan",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bilhan7_便雅悯",
+          "name": "便雅悯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_bilhan",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bilhan7_以忽",
+          "name": "以忽",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_bilhan",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bilhan7_基拿拿",
+          "name": "基拿拿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_bilhan",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bilhan7_细坦",
+          "name": "细坦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_bilhan",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bilhan7_他施",
+          "name": "他施",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_bilhan",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bilhan7_亚希沙哈",
+          "name": "亚希沙哈",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_bilhan",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_ir",
+          "name": "以珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:12"
+          ],
+          "events": [],
+          "notes": "代上7只记其儿子书品、户品，未记其父，不与比拉或某个同名异写自动合并。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_ir_书品",
+          "name": "书品",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_ir",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:12"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_ir_户品",
+          "name": "户品",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_ir",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:12"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_aher",
+          "name": "亚黑",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上7:12"
+          ],
+          "events": [],
+          "notes": "代上7:12户伸之父。此节语境与但的户伸对应关系并不明确，不因此改接但支派的户伸。",
+          "treeParentId": "benjamin",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "ben_aher_hushim",
+          "name": "户伸（代上7）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_aher",
+          "relation": "儿子",
+          "refs": [
+            "历代志上7:12"
+          ],
+          "events": [],
+          "notes": "与创46但之子户伸分作经文记录，不推定同一人。",
+          "graphLabel": "户伸 · 代上7"
+        },
+        {
+          "id": "ben_aharah",
+          "name": "亚哈拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:1"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_nohah",
+          "name": "挪哈",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_rapha_root",
+          "name": "拉法",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:2"
+          ],
+          "events": [],
+          "notes": "代上8便雅悯众子之一，与后世比尼亚的儿子拉法不同。"
+        },
+        {
+          "id": "ben_bela8_亚大",
+          "name": "亚大",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:3–5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela8_基拉",
+          "name": "基拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:3",
+            "历代志上8:5"
+          ],
+          "events": [],
+          "notes": "代上8:3、5两处重复基拉之名，此处合并重复列名而不增造第二个确定人物；不与创46基拉或以笏之父强行合并。"
+        },
+        {
+          "id": "ben_bela8_亚比忽",
+          "name": "亚比忽",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:3–5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela8_亚比书",
+          "name": "亚比书",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:3–5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela8_亚何亚",
+          "name": "亚何亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:3–5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela8_示孚汛",
+          "name": "示孚汛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:3–5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_bela8_户兰",
+          "name": "户兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "bela_benjamin",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:3–5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_ehud8",
+          "name": "以忽（代上8）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:6–7"
+          ],
+          "events": [],
+          "notes": "代上8家族首领，未据同名合为士师记3的以笏。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_ehud8_乃幔",
+          "name": "乃幔",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_ehud8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_ehud8_亚希亚",
+          "name": "亚希亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_ehud8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_ehud8_基拉",
+          "name": "基拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_ehud8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_ehud8_基拉_乌撒",
+          "name": "乌撒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_ehud8_基拉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_ehud8_基拉_亚希忽",
+          "name": "亚希忽",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_ehud8_基拉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim",
+          "name": "沙哈连",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:8"
+          ],
+          "events": [],
+          "notes": "休户伸、巴拉之后，在摩押地与贺得生子。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_hushim_wife",
+          "name": "户伸",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:8"
+          ],
+          "events": [],
+          "notes": "沙哈连之妻；户伸与巴拉后来被休，关系时间写在说明。",
+          "relatedOnly": true
+        },
+        {
+          "id": "ben_baara",
+          "name": "巴拉",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:8"
+          ],
+          "events": [],
+          "notes": "沙哈连之妻；户伸与巴拉后来被休，关系时间写在说明。",
+          "relatedOnly": true
+        },
+        {
+          "id": "ben_hodesh",
+          "name": "贺得",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:9"
+          ],
+          "events": [],
+          "notes": "沙哈连之妻；户伸与巴拉后来被休，关系时间写在说明。",
+          "relatedOnly": true
+        },
+        {
+          "id": "ben_shaharaim_约巴",
+          "name": "约巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:9–10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_洗比雅",
+          "name": "洗比雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:9–10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_米沙",
+          "name": "米沙",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:9–10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_玛拉干",
+          "name": "玛拉干",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:9–10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_耶乌斯",
+          "name": "耶乌斯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:9–10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_沙迦",
+          "name": "沙迦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:9–10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_米玛",
+          "name": "米玛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:9–10"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_亚比突",
+          "name": "亚比突",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:11"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shaharaim_以利巴力",
+          "name": "以利巴力",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:11"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal12_希伯",
+          "name": "希伯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:12",
+            "历代志上8:17–18"
+          ],
+          "events": [],
+          "notes": "代上8:12与8:17同父名单重复列名，仅保留一条人物记录。"
+        },
+        {
+          "id": "ben_elpaal12_米珊",
+          "name": "米珊",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:12"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal12_沙麦",
+          "name": "沙麦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:12"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal17_西巴第雅",
+          "name": "西巴第雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:17–18"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal17_米书兰",
+          "name": "米书兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:17–18"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal17_希西基",
+          "name": "希西基",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:17–18"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal17_伊施米莱",
+          "name": "伊施米莱",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:17–18"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal17_伊斯利亚",
+          "name": "伊斯利亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:17–18"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_elpaal17_约巴",
+          "name": "约巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shaharaim_以利巴力",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:17–18"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8",
+          "name": "比利亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:13"
+          ],
+          "events": [],
+          "notes": "亚雅仑居民的族长；经文没有明确说此处比利亚是以利巴力亲生儿子，不按版面相邻推造。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_shema8",
+          "name": "示玛",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:13"
+          ],
+          "events": [],
+          "notes": "与比利亚同列的族长；不未经证明合为8:21示每。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_beriah8_亚希约",
+          "name": "亚希约",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_沙煞",
+          "name": "沙煞",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_耶利末",
+          "name": "耶利末",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_西巴第雅",
+          "name": "西巴第雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_亚拉得",
+          "name": "亚拉得",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_亚得",
+          "name": "亚得",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_米迦勒",
+          "name": "米迦勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_伊施巴",
+          "name": "伊施巴",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_beriah8_约哈",
+          "name": "约哈",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:14–16"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8",
+          "name": "示每",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_shimei8_雅金",
+          "name": "雅金",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_细基利",
+          "name": "细基利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_撒底",
+          "name": "撒底",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_以利乃",
+          "name": "以利乃",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_洗勒太",
+          "name": "洗勒太",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_以列",
+          "name": "以列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_亚大雅",
+          "name": "亚大雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_比拉雅",
+          "name": "比拉雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimei8_申拉",
+          "name": "申拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_shimei8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:19–21"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_伊施班",
+          "name": "伊施班",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_希伯",
+          "name": "希伯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_以列",
+          "name": "以列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_亚伯顿",
+          "name": "亚伯顿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_细基利",
+          "name": "细基利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_哈难",
+          "name": "哈难",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_哈拿尼雅",
+          "name": "哈拿尼雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_以拦",
+          "name": "以拦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_安陀提雅",
+          "name": "安陀提雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_伊弗底雅",
+          "name": "伊弗底雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shashak_毗努伊勒",
+          "name": "毗努伊勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_beriah8_沙煞",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:22–25"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeroham8",
+          "name": "耶罗罕",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:26–27"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_jeroham8_珊示莱",
+          "name": "珊示莱",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeroham8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:26–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeroham8_示哈利",
+          "name": "示哈利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeroham8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:26–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeroham8_亚他利雅",
+          "name": "亚他利雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeroham8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:26–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeroham8_雅利西",
+          "name": "雅利西",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeroham8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:26–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeroham8_以利亚",
+          "name": "以利亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeroham8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:26–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeroham8_细基利",
+          "name": "细基利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeroham8",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:26–27"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel",
+          "name": "耶利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:29",
+            "历代志上9:35"
+          ],
+          "events": [],
+          "notes": "住基遍的父亲；不能据同名直接接成便雅悯的亲生儿子。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_jeiel_maacah",
+          "name": "玛迦",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:29",
+            "历代志上9:35"
+          ],
+          "events": [],
+          "notes": "耶利之妻；不与玛吉之妻玛迦合并。",
+          "relatedOnly": true
+        },
+        {
+          "id": "ben_jeiel_亚伯顿",
+          "name": "亚伯顿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel_苏珥",
+          "name": "苏珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel_基士",
+          "name": "基士",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": "耶利之子基士，原谱列名与尼珥之子基士不能不加说明就合为一人。"
+        },
+        {
+          "id": "ben_jeiel_巴力",
+          "name": "巴力",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel_尼珥",
+          "name": "尼珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": "代上9:39记尼珥生基士；撒上14:50–51另记押尼珥之父尼珥为扫罗叔叔、亚别之子。两份谱不能硬接为无争议的一条父系。"
+        },
+        {
+          "id": "ben_jeiel_拿答",
+          "name": "拿答",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel_基多",
+          "name": "基多",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel_亚希约",
+          "name": "亚希约",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel_撒迦利雅",
+          "name": "撒迦利雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_jeiel_米基罗",
+          "name": "米基罗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:36–37"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_shimeam",
+          "name": "示米暗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_jeiel_米基罗",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:32",
+            "历代志上9:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_anc_亚斐亚",
+          "name": "亚斐亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "撒母耳记上9:1"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "saul_anc_比歌拉",
+          "name": "比歌拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_anc_亚斐亚",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上9:1"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_anc_洗罗",
+          "name": "洗罗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_anc_比歌拉",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上9:1"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_anc_亚别",
+          "name": "亚别",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_anc_洗罗",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上9:1"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_kish",
+          "name": "基士",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_anc_亚别",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上9:1",
+            "撒母耳记上14:51"
+          ],
+          "events": [],
+          "notes": "父名按撒上9/14亚别；代上8:33及9:39记尼珥生基士，两谱差异保留。"
+        },
+        {
+          "id": "saul_king",
+          "name": "扫罗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_kish",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上9:2",
+            "历代志上8:33"
+          ],
+          "events": [],
+          "notes": "以色列第一位君王，便雅悯支派；与西缅之子扫罗不是同一人。"
+        },
+        {
+          "id": "ner_abner_father",
+          "name": "尼珥（押尼珥之父）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_anc_亚别",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上14:50–51"
+          ],
+          "events": [],
+          "notes": "撒上14记尼珥是扫罗叔叔、亚别之子。与代上9基士之父尼珥只作不同经文谱位置标识，不断言是确定两名历史人物。",
+          "graphLabel": "尼珥 · 撒上14谱"
+        },
+        {
+          "id": "abner",
+          "name": "押尼珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ner_abner_father",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上14:50"
+          ],
+          "events": [],
+          "notes": "扫罗的元帅。"
+        },
+        {
+          "id": "saul_ahimaaz",
+          "name": "亚希玛斯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "撒母耳记上14:50"
+          ],
+          "events": [],
+          "notes": "扫罗妻亚希暖之父；妻家族籍未明，不因此定为便雅悯父系。",
+          "treeParentId": "benjamin",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "saul_ahinoam",
+          "name": "亚希暖",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "saul_ahimaaz",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上14:50"
+          ],
+          "events": [],
+          "notes": "扫罗之妻，与大卫的耶斯列人之妻亚希暖不同。经文未逐一明确她为扫罗哪些儿女的生母，不把妻子身份自动转为所有儿女生母。",
+          "relatedOnly": true
+        },
+        {
+          "id": "rizpah_aiah",
+          "name": "爱亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "撒母耳记下3:7",
+            "撒母耳记下21:8"
+          ],
+          "events": [],
+          "notes": "利斯巴之父；族籍不明。",
+          "treeParentId": "benjamin",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "rizpah",
+          "name": "利斯巴",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "rizpah_aiah",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下3:7",
+            "撒母耳记下21:8"
+          ],
+          "events": [],
+          "notes": "扫罗之妾；只按明确经文标为亚摩尼与米非波设之母。",
+          "relatedOnly": true
+        },
+        {
+          "id": "jonathan",
+          "name": "约拿单",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_king",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:33"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_malchishua",
+          "name": "麦基舒亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_king",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:33"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_abinadab",
+          "name": "亚比拿达",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_king",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:33"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ishbosheth",
+          "name": "伊施波设",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_king",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下2:8",
+            "历代志上8:33"
+          ],
+          "events": [],
+          "notes": "代上8:33记伊施巴力，撒下记伊施波设。",
+          "aliases": [
+            "伊施巴力"
+          ]
+        },
+        {
+          "id": "saul_ishvi",
+          "name": "亦施韦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_king",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上14:49"
+          ],
+          "events": [],
+          "notes": "撒上14:49列亦施韦；与代上8的亚比拿达是否同一人，本图不作无依据的确定断言。"
+        },
+        {
+          "id": "saul_merab",
+          "name": "米拉",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "saul_king",
+          "relation": "女儿",
+          "refs": [
+            "撒母耳记上14:49"
+          ],
+          "events": [],
+          "notes": "扫罗之女。"
+        },
+        {
+          "id": "saul_michal",
+          "name": "米甲",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "saul_king",
+          "relation": "女儿",
+          "refs": [
+            "撒母耳记上14:49"
+          ],
+          "events": [],
+          "notes": "扫罗之女。"
+        },
+        {
+          "id": "saul_armoni",
+          "name": "亚摩尼",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_king",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下21:8"
+          ],
+          "events": [],
+          "notes": "与约拿单之子米非波设分开记录。",
+          "graphLabel": "亚摩尼"
+        },
+        {
+          "id": "saul_mephibosheth",
+          "name": "米非波设（利斯巴之子）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_king",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下21:8"
+          ],
+          "events": [],
+          "notes": "与约拿单之子米非波设分开记录。",
+          "graphLabel": "米非波设 · 扫罗子"
+        },
+        {
+          "id": "mephibosheth_jonathan",
+          "name": "米非波设",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "jonathan",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下4:4",
+            "历代志上8:34"
+          ],
+          "events": [],
+          "notes": "又称米力巴力；约拿单之子，非扫罗与利斯巴所生的同名儿子。",
+          "aliases": [
+            "米力巴力"
+          ]
+        },
+        {
+          "id": "micah_mephibosheth",
+          "name": "米迦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "mephibosheth_jonathan",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下9:12",
+            "历代志上8:34"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_micah_毗敦",
+          "name": "毗敦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "micah_mephibosheth",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_micah_米勒",
+          "name": "米勒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "micah_mephibosheth",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_micah_他利亚",
+          "name": "他利亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "micah_mephibosheth",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_micah_亚哈斯",
+          "name": "亚哈斯",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "micah_mephibosheth",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:35"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_jehoaddah",
+          "name": "耶何阿达",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_micah_亚哈斯",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36",
+            "历代志上9:42"
+          ],
+          "events": [],
+          "notes": "代上9:42作雅拉。",
+          "aliases": [
+            "雅拉"
+          ]
+        },
+        {
+          "id": "saul_jehoaddah_亚拉篾",
+          "name": "亚拉篾",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_jehoaddah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_jehoaddah_亚斯玛威",
+          "name": "亚斯玛威",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_jehoaddah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_jehoaddah_心利",
+          "name": "心利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_jehoaddah",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_摩撒",
+          "name": "摩撒",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_jehoaddah_心利",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36–38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_比尼亚",
+          "name": "比尼亚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_摩撒",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36–38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_拉法",
+          "name": "拉法",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_比尼亚",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36–38",
+            "历代志上9:43"
+          ],
+          "events": [],
+          "notes": "代上9:43作利法雅。",
+          "aliases": [
+            "利法雅"
+          ]
+        },
+        {
+          "id": "saul_desc_以利亚萨",
+          "name": "以利亚萨",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_拉法",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36–38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_亚悉",
+          "name": "亚悉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_以利亚萨",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:36–38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_亚悉_亚斯利干",
+          "name": "亚斯利干",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_亚悉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_亚悉_波基路",
+          "name": "波基路",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_亚悉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_亚悉_以实玛利",
+          "name": "以实玛利",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_亚悉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_亚悉_示亚利雅",
+          "name": "示亚利雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_亚悉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_亚悉_俄巴底雅",
+          "name": "俄巴底雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_亚悉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_desc_亚悉_哈难",
+          "name": "哈难",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_desc_亚悉",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:38"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_eshek",
+          "name": "以设",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上8:39"
+          ],
+          "events": [],
+          "notes": "经文称亚悉的兄弟，未在本句直接明记其父；不增加未经说明的生父断言。",
+          "treeParentId": "saul_desc_以利亚萨",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "saul_eshek_乌兰",
+          "name": "乌兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_eshek",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:39"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_eshek_耶乌施",
+          "name": "耶乌施",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_eshek",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:39"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "saul_eshek_以利法列",
+          "name": "以利法列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "saul_eshek",
+          "relation": "儿子",
+          "refs": [
+            "历代志上8:39"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_barzillai_meholathite",
+          "name": "巴西莱（米何拉人）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "撒母耳记下21:8"
+          ],
+          "events": [],
+          "notes": "亚得列之父，与大卫恩人基列人巴西莱分开。",
+          "treeParentId": "benjamin",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "ben_adriel",
+          "name": "亚得列",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_barzillai_meholathite",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上18:19",
+            "撒母耳记下21:8"
+          ],
+          "events": [],
+          "notes": "米拉之夫；其五子未具名，不编造五个人名。"
+        },
+        {
+          "id": "david",
+          "name": "大卫",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "撒母耳记上18:27"
+          ],
+          "events": [],
+          "notes": "犹大支派耶西之子，此处仅为米甲之夫的关联档案。",
+          "relatedOnly": true,
+          "crossPageLinks": [
+            {
+              "tree": "judah-jesus",
+              "personId": "david",
+              "label": "查看犹大大卫主线"
+            }
+          ]
+        },
+        {
+          "id": "ben_laish",
+          "name": "拉亿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "撒母耳记上25:44",
+            "撒母耳记下3:15"
+          ],
+          "events": [],
+          "notes": "帕提/帕铁之父，迦琳人，族籍经文未明。",
+          "treeParentId": "benjamin",
+          "lineageKind": "context",
+          "lineageLabel": "经文相关人物 · 非确定族谱"
+        },
+        {
+          "id": "ben_palti",
+          "name": "帕提",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_laish",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记上25:44",
+            "撒母耳记下3:15"
+          ],
+          "events": [],
+          "notes": "撒下3作帕铁。扫罗曾把米甲给他为妻，后米甲被带回大卫处。",
+          "aliases": [
+            "帕铁"
+          ]
+        },
+        {
+          "id": "ben_rimmon",
+          "name": "临门",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "撒母耳记下4:2"
+          ],
+          "events": [],
+          "notes": "比录人，属便雅悯。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_rimmon_巴拿",
+          "name": "巴拿",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_rimmon",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下4:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_rimmon_利甲",
+          "name": "利甲",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_rimmon",
+          "relation": "儿子",
+          "refs": [
+            "撒母耳记下4:2"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ehud_gera_father",
+          "name": "基拉（以笏之父）",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "士师记3:15"
+          ],
+          "events": [],
+          "notes": "便雅悯人；不与创46基拉、代上8基拉强行合并。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ehud_judge",
+          "name": "以笏",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ehud_gera_father",
+          "relation": "儿子",
+          "refs": [
+            "士师记3:15"
+          ],
+          "events": [],
+          "notes": "左手便利的士师；与代上7/8以忽的同一性未由经文证明，不按同名改接。"
+        },
+        {
+          "id": "esther_基士",
+          "name": "基士",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "以斯帖记2:5"
+          ],
+          "events": [],
+          "notes": "以斯帖记所列便雅悯先祖；不按同名直接合为扫罗父亲基士。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "esther_示每",
+          "name": "示每",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "esther_基士",
+          "relation": "儿子",
+          "refs": [
+            "以斯帖记2:5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "esther_睚珥",
+          "name": "睚珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "esther_示每",
+          "relation": "儿子",
+          "refs": [
+            "以斯帖记2:5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "esther_末底改",
+          "name": "末底改",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "esther_睚珥",
+          "relation": "儿子",
+          "refs": [
+            "以斯帖记2:5"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "esther_abihail",
+          "name": "亚比孩",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "以斯帖记2:15"
+          ],
+          "events": [],
+          "notes": "末底改叔叔、以斯帖的父亲。经文未在此直接写他的父亲，不把推断当明确父子。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "esther",
+          "name": "以斯帖",
+          "kind": "person",
+          "gender": "female",
+          "fatherId": "esther_abihail",
+          "relation": "女儿",
+          "refs": [
+            "以斯帖记2:7",
+            "以斯帖记2:15"
+          ],
+          "events": [],
+          "notes": "原名哈大沙；末底改叔叔的女儿，父母去世后由末底改收养，不能画作末底改亲生女儿。",
+          "aliases": [
+            "哈大沙"
+          ]
+        },
+        {
+          "id": "paul_apostle",
+          "name": "保罗",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "腓立比书3:5",
+            "罗马书11:1",
+            "使徒行传13:9"
+          ],
+          "events": [],
+          "notes": "又名扫罗，自述便雅悯支派。圣经未给出其到古代扫罗王或其他便雅悯人物的父系，不因同名将其硬连扫罗王家。",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续",
+          "aliases": [
+            "扫罗（使徒）"
+          ]
+        },
+        {
+          "id": "benjamin_role_基多尼",
+          "name": "基多尼",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "民数记1:11"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "benjamin_role_亚比但",
+          "name": "亚比但",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "benjamin_role_基多尼",
+          "relation": "儿子",
+          "refs": [
+            "民数记1:11"
+          ],
+          "events": [],
+          "notes": "旷野数点首领",
+          "treeNote": "旷野数点首领"
+        },
+        {
+          "id": "benjamin_role_拉孚",
+          "name": "拉孚",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "民数记13:9"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "benjamin_role_帕提",
+          "name": "帕提",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "benjamin_role_拉孚",
+          "relation": "儿子",
+          "refs": [
+            "民数记13:9"
+          ],
+          "events": [],
+          "notes": "窥探迦南的探子",
+          "treeNote": "窥探迦南的探子"
+        },
+        {
+          "id": "benjamin_role_基斯伦",
+          "name": "基斯伦",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "民数记34:21"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "benjamin_role_以利达",
+          "name": "以利达",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "benjamin_role_基斯伦",
+          "relation": "儿子",
+          "refs": [
+            "民数记34:21"
+          ],
+          "events": [],
+          "notes": "分地首领",
+          "treeNote": "分地首领"
+        },
+        {
+          "id": "ben_return_sallu_哈西努",
+          "name": "哈西努",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上9:7"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_return_sallu_何达威雅",
+          "name": "何达威雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_sallu_哈西努",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_sallu_米书兰",
+          "name": "米书兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_sallu_何达威雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_sallu_撒路",
+          "name": "撒路",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_sallu_米书兰",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:7"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_ibneiah_耶罗罕",
+          "name": "耶罗罕",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_return_ibneiah_伊比尼雅",
+          "name": "伊比尼雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_ibneiah_耶罗罕",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_elah_米基立",
+          "name": "米基立",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_return_elah_乌西",
+          "name": "乌西",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_elah_米基立",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_elah_以拉",
+          "name": "以拉",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_elah_乌西",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_meshullam_伊比尼雅",
+          "name": "伊比尼雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": null,
+          "relation": "关联人物",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": "",
+          "treeParentId": "benjamin",
+          "lineageKind": "tribal",
+          "lineageLabel": "本支归属 · 世代未接续"
+        },
+        {
+          "id": "ben_return_meshullam_流珥",
+          "name": "流珥",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_meshullam_伊比尼雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_meshullam_示法提雅",
+          "name": "示法提雅",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_meshullam_流珥",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": ""
+        },
+        {
+          "id": "ben_return_meshullam_米书兰",
+          "name": "米书兰",
+          "kind": "person",
+          "gender": "male",
+          "fatherId": "ben_return_meshullam_示法提雅",
+          "relation": "儿子",
+          "refs": [
+            "历代志上9:8"
+          ],
+          "events": [],
+          "notes": ""
+        }
+      ],
+      "relations": [
+        {
+          "source": "bela_benjamin",
+          "target": "naaman_benjamin",
+          "type": "genealogy-variant",
+          "relation": "经文关系对照",
+          "refs": [
+            "民数记26:40",
+            "历代志上8:4"
+          ],
+          "note": "另谱列在比拉儿子项下；图中原创46便雅悯直属位置不默改。"
+        },
+        {
+          "source": "bela_benjamin",
+          "target": "ard_benjamin",
+          "type": "genealogy-variant",
+          "relation": "经文关系对照",
+          "refs": [
+            "民数记26:40"
+          ],
+          "note": "民26列在比拉儿子项下；创46切面保留。"
+        },
+        {
+          "source": "ben_shaharaim",
+          "target": "ben_hushim_wife",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "历代志上8:8"
+          ]
+        },
+        {
+          "source": "ben_shaharaim",
+          "target": "ben_baara",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "历代志上8:8"
+          ]
+        },
+        {
+          "source": "ben_shaharaim",
+          "target": "ben_hodesh",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "历代志上8:9"
+          ]
+        },
+        {
+          "source": "ben_hodesh",
+          "target": "ben_shaharaim_约巴",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:9–10"
+          ]
+        },
+        {
+          "source": "ben_hodesh",
+          "target": "ben_shaharaim_洗比雅",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:9–10"
+          ]
+        },
+        {
+          "source": "ben_hodesh",
+          "target": "ben_shaharaim_米沙",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:9–10"
+          ]
+        },
+        {
+          "source": "ben_hodesh",
+          "target": "ben_shaharaim_玛拉干",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:9–10"
+          ]
+        },
+        {
+          "source": "ben_hodesh",
+          "target": "ben_shaharaim_耶乌斯",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:9–10"
+          ]
+        },
+        {
+          "source": "ben_hodesh",
+          "target": "ben_shaharaim_沙迦",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:9–10"
+          ]
+        },
+        {
+          "source": "ben_hodesh",
+          "target": "ben_shaharaim_米玛",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:9–10"
+          ]
+        },
+        {
+          "source": "ben_hushim_wife",
+          "target": "ben_shaharaim_亚比突",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:11"
+          ]
+        },
+        {
+          "source": "ben_hushim_wife",
+          "target": "ben_shaharaim_以利巴力",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "历代志上8:11"
+          ]
+        },
+        {
+          "source": "ben_jeiel",
+          "target": "ben_jeiel_maacah",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "历代志上9:35"
+          ]
+        },
+        {
+          "source": "ben_jeiel_尼珥",
+          "target": "saul_kish",
+          "type": "genealogy-variant",
+          "relation": "经文关系对照",
+          "refs": [
+            "历代志上8:33",
+            "历代志上9:39"
+          ],
+          "note": "代上谱列尼珥生基士；撒上谱列亚别为父，此处不擅自排成连续父子。"
+        },
+        {
+          "source": "saul_king",
+          "target": "saul_ahinoam",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "撒母耳记上14:50"
+          ]
+        },
+        {
+          "source": "saul_king",
+          "target": "rizpah",
+          "type": "concubine",
+          "relation": "妾",
+          "refs": [
+            "撒母耳记下3:7"
+          ]
+        },
+        {
+          "source": "rizpah",
+          "target": "saul_armoni",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "撒母耳记下21:8"
+          ]
+        },
+        {
+          "source": "rizpah",
+          "target": "saul_mephibosheth",
+          "type": "mother-child",
+          "relation": "母子",
+          "refs": [
+            "撒母耳记下21:8"
+          ]
+        },
+        {
+          "source": "ben_adriel",
+          "target": "saul_merab",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "撒母耳记上18:19"
+          ]
+        },
+        {
+          "source": "david",
+          "target": "saul_michal",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "撒母耳记上18:27"
+          ]
+        },
+        {
+          "source": "ben_palti",
+          "target": "saul_michal",
+          "type": "spouse",
+          "relation": "夫妻",
+          "refs": [
+            "撒母耳记上25:44",
+            "撒母耳记下3:15"
+          ]
+        },
+        {
+          "source": "esther_末底改",
+          "target": "esther",
+          "type": "adoption",
+          "relation": "经文关系对照",
+          "refs": [
+            "以斯帖记2:7"
+          ],
+          "note": "末底改收为女儿，属抚养/收养关系。"
+        }
+      ],
+      "mainPath": [
+        "benjamin"
+      ],
+      "quickFocus": [
+        "benjamin",
+        "bela_benjamin",
+        "saul_king",
+        "jonathan",
+        "ehud_judge",
+        "esther",
+        "paul_apostle"
+      ],
+      "sources": [
+        {
+          "title": "历代志上7：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/7.htm"
+        },
+        {
+          "title": "历代志上8：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/8.htm"
+        },
+        {
+          "title": "历代志上9：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_chronicles/9.htm"
+        },
+        {
+          "title": "撒母耳记上9：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_samuel/9.htm"
+        },
+        {
+          "title": "撒母耳记上14：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_samuel/14.htm"
+        },
+        {
+          "title": "撒母耳记下3：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/2_samuel/3.htm"
+        },
+        {
+          "title": "撒母耳记下21：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/2_samuel/21.htm"
+        },
+        {
+          "title": "撒母耳记下2：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/2_samuel/2.htm"
+        },
+        {
+          "title": "撒母耳记下4：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/2_samuel/4.htm"
+        },
+        {
+          "title": "撒母耳记下9：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/2_samuel/9.htm"
+        },
+        {
+          "title": "撒母耳记上18：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_samuel/18.htm"
+        },
+        {
+          "title": "撒母耳记上25：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/1_samuel/25.htm"
+        },
+        {
+          "title": "士师记3：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/judges/3.htm"
+        },
+        {
+          "title": "以斯帖记2：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/esther/2.htm"
+        },
+        {
+          "title": "腓立比书3：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/philippians/3.htm"
+        },
+        {
+          "title": "罗马书11：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/romans/11.htm"
+        },
+        {
+          "title": "使徒行传13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/acts/13.htm"
+        },
+        {
+          "title": "民数记1：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/1.htm"
+        },
+        {
+          "title": "民数记13：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/13.htm"
+        },
+        {
+          "title": "民数记34：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/34.htm"
+        },
+        {
+          "title": "民数记26：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/numbers/26.htm"
+        },
+        {
+          "title": "创世记46：简体中文和合本，经文核对",
+          "url": "https://cnbible.com/cus/genesis/46.htm"
+        }
+      ],
+      "scope": "依据原正背面家谱中本支具名人物，核查圣经后补入：创46及代上7/8前段家谱；沙哈连等各家与基遍耶利家；扫罗王家、押尼珥与后裔；以笏、末底改、以斯帖、保罗及首领。既有创46起初名单保留；后世家谱另按经文接续。支派归属、母系、背景人物与实际父子分别标注，不把缺少的世代补成直接父子。本页不以记录总数代表圣经某次人口普查人数。",
+      "lineageExplanation": [
+        "创46起初名单保留；后世父家未接续至支派始祖者，以支派归属关联，不能读作始祖的亲生儿子。",
+        "便雅悯的创46、民26、代上7/8名单和代次不完全一致。本图保留原创46十人位置；代上7/8新增名另列，同名不当作足够证据，亚勒/乃幔另谱列在比拉下的记载在详情对照。",
+        "扫罗上代以撒上9:1、14:50–51亚别家接续；代上8:33/9:39的尼珥生基士另外保留关系差异。尼珥的两种谱位置不能通过改名或省略说明消失。",
+        "扫罗妻亚希暖与妾利斯巴分开；明确生母只有利斯巴二子；米非波设（扫罗之子）与米非波设（约拿单之子）分开。以斯帖为亚比孩之女、末底改养女，保罗仅明记便雅悯支派。"
+      ],
+      "imageCoverage": [
+        {
+          "section": "便雅悯：创46及代上7/8前段家谱",
+          "status": "corrected",
+          "note": "保留原创46十人，补代上7比拉、比结、耶叠各家，代上8亚哈拉/挪哈/拉法与比拉后家；亚勒、乃幔谱位差异明确，未自动合并各处基拉或以忽。",
+          "refs": [
+            "创世记46:21",
+            "民数记26:38–40",
+            "历代志上7:6–12",
+            "历代志上8:1–7"
+          ]
+        },
+        {
+          "section": "便雅悯：沙哈连等各家与基遍耶利家",
+          "status": "covered",
+          "note": "代上8:8–32全部具名妻与儿子补；代上9:35–38补尼珥和撒迦利雅；未具明父名的比利亚/示玛/示每/耶罗罕独立接本支。",
+          "refs": [
+            "历代志上8:8–32",
+            "历代志上9:35–38"
+          ]
+        },
+        {
+          "section": "便雅悯：扫罗王家、押尼珥与后裔",
+          "status": "corrected",
+          "note": "扫罗先祖、妻妾、儿女、约拿单后家至亚悉六子及以设三子补；父系差异明确；不将扫罗的妻一概当作每位儿女的生母。",
+          "refs": [
+            "撒母耳记上9:1–2",
+            "撒母耳记上14:49–51",
+            "撒母耳记下3:7",
+            "撒母耳记下21:8",
+            "历代志上8:33–40",
+            "历代志上9:39–44"
+          ]
+        },
+        {
+          "section": "便雅悯：以笏、末底改、以斯帖、保罗及首领",
+          "status": "covered",
+          "note": "全部补名与经文；已知父系分别接续，收养另记；未知到支派先祖世代只表示属籍；探子帕提与米甲丈夫帕提不同。",
+          "refs": [
+            "士师记3:15",
+            "以斯帖记2:5–15",
+            "腓立比书3:5",
+            "民数记1:11",
+            "民数记13:9",
+            "民数记34:21"
+          ]
+        }
+      ]
+    }
+  }
+}

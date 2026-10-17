@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-17",
+  "conclusion": "尚不能证明所有圣经人物已有中文资料或已画入家谱。",
+  "scope": "66卷圣经；详见SOURCE.md",
+  "biographies": {
+    "records": 222,
+    "oldTestament": 110,
+    "newTestament": 112,
+    "addedThisAudit": 100,
+    "note": "包含三人合传，条数不是独立人物数。"
+  },
+  "trees": {
+    "adam-noah": {
+      "title": "亚当到挪亚：创世记4–5记名家谱",
+      "records": 27,
+      "treeNodes": 24,
+      "persons": 27,
+      "groups": 0
+    },
+    "noah-abraham": {
+      "title": "挪亚到亚伯拉罕：含拿鹤与哈兰家族支系",
+      "records": 110,
+      "treeNodes": 109,
+      "persons": 89,
+      "groups": 21
+    },
+    "abraham-jacob": {
+      "title": "亚伯拉罕、以扫与雅各诸子：十二支派来源预览",
+      "records": 76,
+      "treeNodes": 64,
+      "persons": 73,
+      "groups": 3
+    },
+    "jacob-tribes": {
+      "title": "雅各十二子与十二支派总览",
+      "records": 20,
+      "treeNodes": 14,
+      "persons": 20,
+      "groups": 0
+    },
+    "tribe-reuben": {
+      "title": "流便支派与起初家族",
+      "records": 30,
+      "treeNodes": 28,
+      "persons": 30,
+      "groups": 0
+    },
+    "tribe-simeon": {
+      "title": "西缅支派与起初家族",
+      "records": 51,
+      "treeNodes": 48,
+      "persons": 51,
+      "groups": 0
+    },
+    "tribe-levi": {
+      "title": "利未支派与起初家族",
+      "records": 276,
+      "treeNodes": 259,
+      "persons": 252,
+      "groups": 24
+    },
+    "tribe-dan": {
+      "title": "但支派与起初家族",
+      "records": 16,
+      "treeNodes": 13,
+      "persons": 16,
+      "groups": 0
+    },
+    "tribe-naphtali": {
+      "title": "拿弗他利支派与起初家族",
+      "records": 15,
+      "treeNodes": 13,
+      "persons": 15,
+      "groups": 0
+    },
+    "tribe-gad": {
+      "title": "迦得支派与起初家族",
+      "records": 36,
+      "treeNodes": 34,
+      "persons": 36,
+      "groups": 0
+    },
+    "tribe-asher": {
+      "title": "亚设支派与起初家族",
+      "records": 52,
+      "treeNodes": 50,
+      "persons": 52,
+      "groups": 0
+    },
+    "tribe-issachar": {
+      "title": "以萨迦支派与起初家族",
+      "records": 27,
+      "treeNodes": 25,
+      "persons": 27,
+      "groups": 0
+    },
+    "tribe-zebulun": {
+      "title": "西布伦支派与起初家族",
+      "records": 14,
+      "treeNodes": 12,
+      "persons": 14,
+      "groups": 0
+    },
+    "tribe-joseph": {
+      "title": "约瑟支派与起初家族",
+      "records": 93,
+      "treeNodes": 86,
+      "persons": 93,
+      "groups": 0
+    },
+    "tribe-benjamin": {
+      "title": "便雅悯支派与起初家族",
+      "records": 213,
+      "treeNodes": 204,
+      "persons": 213,
+      "groups": 0
+    },
+    "judah-jesus": {
+      "title": "犹大、大卫到耶稣：马太家谱主线",
+      "records": 360,
+      "treeNodes": 323,
+      "persons": 355,
+      "groups": 5
+    },
+    "judah-luke": {
+      "title": "犹大至耶稣：路加家谱独立对照",
+      "records": 63,
+      "treeNodes": 53,
+      "persons": 63,
+      "groups": 0
+    }
+  },
+  "scriptureIndex": {
+    "title": "圣经人物英文经文索引",
+    "source": "STEPBible TIPNR",
+    "author": "STEPBible / Tyndale House Cambridge",
+    "sourceUrl": "https://github.com/STEPBible/STEPBible-Data/blob/master/Proper%20Nouns/TIPNR%20-%20Translators%20Individualised%20Proper%20Names%20with%20all%20References%20-%20STEPBible.org%20CC%20BY.txt",
+    "sourceApiUrl": "https://api.github.com/repos/STEPBible/STEPBible-Data/git/blobs/01c6ea0ca3098f53783f1994106d7e4b06566a4c",
+    "sourceBlob": "01c6ea0ca3098f53783f1994106d7e4b06566a4c",
+    "sourceSha256": "2f4695da58e7ac5a9e477c1bcb590d52bf3e119d4e640844ae7f45d218c204d8",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved": "2026-10-17",
+    "scope": "以66卷圣经为范围，提取源索引 PERSON(s) 中 Male/Female 且具有具名、译名或称谓形式及经文引用的记录。英文索引名沿用来源；中文译名尚未逐人映射。",
+    "limits": "这不是所有中文人物传记已完成的声明。源索引的同一人物归并与译本取舍属于编者判断；未具名角色没有系统收录（少数源标作称谓者保留），民族/班次、神与灵体称号、地点与人物不明条目、只见于七十士译本的条目不计入。中文简介及家谱人物另列，数量不可直接相加。",
+    "changes": "仅抽取标识、英文名称/别名、性别分类和明列经文；不导入父母、配偶、后裔、Description、Summary、Brief、Short、Article 等字段。不导入 Group/Mentioned/LXX addition 形式；明确排除 Unnamed# 与 Strong 0000 的匿名或假设连接人。合并同节单词出现序号 a/b；展开 Num.13.8,16 为两个节号；丢弃 LXX 前缀引用。诗篇 verse=0 保留为题注。经文沿用源索引的标准英文章节编号，和合本译名与题注编号可能有差别。对 Demetrius/G1216 添加人工核查警注：源归并不等于圣经已确认同一身份。",
+    "count": 2995,
+    "referenceCount": 20399,
+    "sourcePersonRecords": 3129,
+    "sourceHumanRecords": 3054,
+    "excludedHumanRecords": 59,
+    "excludedGroups": 75,
+    "byTestament": {
+      "旧约": 2734,
+      "新约": 374,
+      "两约均见": 113
+    },
+    "discarded": {
+      "groupForms": 108,
+      "lxxRefs": 0,
+      "wordOccurrencesCollapsed": 2148
+    },
+    "excludedCategories": {
+      "PLACE / Place": 997,
+      "PLACE+PERSON / Place": 10,
+      "OTHER / Supernatural": 36,
+      "OTHER / Time": 18,
+      "OTHER / Musical": 16,
+      "OTHER / Other": 12,
+      "OTHER / Title": 4,
+      "OTHER / Star": 4,
+      "OTHER / Group": 12,
+      "EXCLUDED OTHER / Language": 4,
+      "EXCLUDED OTHER / Group": 1,
+      "EXCLUDED OTHER / Title": 3,
+      "EXCLUDED OTHER / Supernatural": 3
+    }
+  },
+  "remaining": [
+    "中文译名与原名索引的逐人身份映射尚未完成。",
+    "家谱之外人物不强接血缘线。",
+    "缺少名字的角色、灵体和有争议人物/地点不在英文具名索引人数中。",
+    "来源索引的人物归并属于编者判断，不能作为无误的圣经总人数。"
+  ],
+  "biographyVerification": {
+    "namedInCitedChapter": 100,
+    "checkedAdditions": 100,
+    "distinctChapters": 48,
+    "identityReviews": 48,
+    "scope": "章内姓名命中加特殊身份人工对照，不等于逐人生平所有叙述无争议。"
+  }
+}

@@ -1,0 +1,2963 @@
+{
+  "date": "2026-10-17",
+  "method": "直接下载已列圣经章节的HTML；CNBible直连失败时改读同章Wordproject简体和合本并记录resolvedUrl。Wordproject只提取textBody经文区域，排除网页书名导航；移除script/style、注释与标签，不执行页面JavaScript；姓名匹配前去除中文排版空白和中点。",
+  "entries": 100,
+  "passed": 100,
+  "failed": 0,
+  "manualIdentityReviews": [
+    {
+      "id": "joel_prophet",
+      "result": "约珥书1:1明确为毗土珥之子约珥；与撒母耳之子等家谱同名者不自动合并。"
+    },
+    {
+      "id": "obadiah_prophet",
+      "result": "俄巴底亚书1:1只记得默示者的名字；没有经文依据将他确定为亚哈家宰或家谱同名者。"
+    },
+    {
+      "id": "zephaniah_prophet",
+      "result": "西番雅书1:1明确列古示等先祖及约西亚时代；资料未强行接到可拉家谱同名者，也未断言希西家先祖必为犹大王。"
+    },
+    {
+      "id": "othniel_judge",
+      "result": "士师记3:9–11直接称基纳斯之子为拯救者和士师；不从短译名额外推断亲属称谓中的歧义。"
+    },
+    {
+      "id": "ehud_judge",
+      "result": "士师记3:15直接说明便雅悯人、基拉之子和左手便利；与历代志同名记录不自动合并。"
+    },
+    {
+      "id": "shamgar_judge",
+      "result": "士师记3:31明确为亚拿之子、用赶牛棍救以色列；原文段落未给支派，本条未补支派。"
+    },
+    {
+      "id": "tola_judge",
+      "result": "士师记10:1明确为以萨迦人普瓦之子、朵多之孙；时间身份不同于以萨迦之子陀拉。"
+    },
+    {
+      "id": "jair_judge",
+      "result": "士师记10:3–5明确基列人、士师二十二年、三十子；不与西割之子睚珥强行同定。"
+    },
+    {
+      "id": "ibzan_judge",
+      "result": "士师记12:8–10只称伯利恒人，未称所属支派；简介未从伯利恒地名推论支派。"
+    },
+    {
+      "id": "elon_judge",
+      "result": "士师记12:11–12明确西布伦人、士师十年；不与西布伦亲生子以伦强行同定。"
+    },
+    {
+      "id": "eliphaz_job",
+      "result": "约伯记2:11–13明确提幔人、约伯友人；没有将他接作以扫儿子。"
+    },
+    {
+      "id": "bildad_job",
+      "result": "约伯记2:11–13明确书亚人、约伯友人；未把地族称谓当直接生父关系。"
+    },
+    {
+      "id": "zophar_job",
+      "result": "约伯记2:11–13明确拿玛人、约伯友人；不与亚设家谱同名者合并。"
+    },
+    {
+      "id": "elihu_job",
+      "result": "约伯记32:2–6明确布西人兰族巴拉迦之子；未与历代志以利户合并。"
+    },
+    {
+      "id": "ahasuerus_esther",
+      "result": "以斯帖记1:1–3给出书珊和一百二十七省背景；资料用经卷身份限定，未强定其他经卷同王号为同一人。"
+    },
+    {
+      "id": "belshazzar_king",
+      "result": "但以理书5章的伯沙撒与5:12但以理别名伯提沙撒不同；未将“父/祖”注释转为确定直接生父。"
+    },
+    {
+      "id": "darius_mede",
+      "result": "但以理书5:31称玛代人，6:1–3记总督与总长；与以斯拉记的大利乌分开保留。"
+    },
+    {
+      "id": "artaxerxes_ezra",
+      "result": "以斯拉记7:11–26明确给以斯拉的诏令；用第7章之王限定身份，未声称所有同王号提及均已历史去重。"
+    },
+    {
+      "id": "ebed_melech",
+      "result": "耶利米书38:7–13记古实太监及援救耶利米；和合本作以伯米勒，未采用误拼作主名。"
+    },
+    {
+      "id": "gedaliah_ahikam",
+      "result": "耶利米书40:5–10明确亚希甘之子、沙番之孙、受委任治理者；未与乐师同名者合并。"
+    },
+    {
+      "id": "jethro_midian",
+      "result": "出埃及记18:1–12明确摩西岳父、米甸祭司；未从其他名字传统强作同一身份。"
+    },
+    {
+      "id": "simeon_temple",
+      "result": "路加福音2:25–35明确圣殿迎见婴孩的西面；与路加福音3家谱西面及西门彼得均未合并。"
+    },
+    {
+      "id": "anna_prophetess",
+      "result": "路加福音2:36–38直接记女先知、亚设支派、法内力之女；本条族属有明确经文，不是推算。"
+    },
+    {
+      "id": "joseph_arimathea",
+      "result": "马太福音27:57–60明确亚利马太、财主、门徒、取耶稣身体；不与马利亚丈夫约瑟合并。"
+    },
+    {
+      "id": "annas_high_priest",
+      "result": "约翰福音18:13明确该亚法岳父；18:24记转送该亚法，简介没有将亚那和该亚法混为同一位。"
+    },
+    {
+      "id": "ananias_sapphira",
+      "result": "使徒行传5:1–6明确撒非喇丈夫与田价事件；与大马色门徒同名者分开。"
+    },
+    {
+      "id": "ananias_damascus",
+      "result": "使徒行传9:10–18明确大马色门徒与为扫罗按手；与撒非喇丈夫和大祭司同名者分开。"
+    },
+    {
+      "id": "mary_mark_mother",
+      "result": "使徒行传12:12直接称约翰马可母亲马利亚；未与耶稣母亲或伯大尼马利亚合并。"
+    },
+    {
+      "id": "sergius_paulus",
+      "result": "使徒行传13:7–12明确方伯士求保罗；同段另说扫罗又名保罗，因此两人不可按保罗名字合并。"
+    },
+    {
+      "id": "bar_jesus_elymas",
+      "result": "使徒行传13:6–11上下文连续描述同一术士先称巴耶稣、后称以吕马；没有错误宣称以吕马就是巴耶稣姓名的字面翻译。"
+    },
+    {
+      "id": "titius_justus",
+      "result": "使徒行传18:7明确提多犹士都、敬拜神、家近会堂；与保罗同工提多、歌罗西书耶数犹士都分开。"
+    },
+    {
+      "id": "sosthenes_acts",
+      "result": "使徒行传18:17记管会堂、在公堂前被打；未断言与哥林多前书1:1的所提尼必为同一个人。"
+    },
+    {
+      "id": "demetrius_silversmith",
+      "result": "使徒行传19:24–28明确银匠、亚底米神龛、煽动同行；与约翰三书受称许者分开。"
+    },
+    {
+      "id": "sceva",
+      "result": "使徒行传19:13–16记犹太祭司长及其七子；事迹主体是七子，简介未虚构七子姓名。"
+    },
+    {
+      "id": "agrippa_acts25",
+      "result": "使徒行传25:13–22明确此处亚基帕和百尼基；资料按段落限定，没有把福音书及使徒行传所有希律合成一人。"
+    },
+    {
+      "id": "publius_malta",
+      "result": "使徒行传28:7–10记岛长及其父获医治；28:1岛名和合本作米利大，资料已按经文改名。"
+    },
+    {
+      "id": "junia",
+      "result": "罗马书16:7明确与安多尼古同被问安、亲属、同囚、比保罗先在基督里；没有为争议性性别及使徒称谓另作定论。"
+    },
+    {
+      "id": "mary_romans16",
+      "result": "罗马书16:6只记为收信者多劳苦；保持独立身份，不擅定为福音书某位马利亚。"
+    },
+    {
+      "id": "rufus_romans16",
+      "result": "罗马书16:13明确鲁孚和母亲受问安；未推定就是古利奈西门之子，也未将“他的母亲就是我的母亲”误写成保罗亲生母亲。"
+    },
+    {
+      "id": "gaius_romans16",
+      "result": "罗马书16:23明确接待保罗和全教会；未把新约所有该犹记录强行合并。"
+    },
+    {
+      "id": "erastus_romans16",
+      "result": "下载的和合本将管银库以拉都列在16:24，有其他版本列16:23；资料用23–24并列，未把无同定依据的其他以拉都自动合并。"
+    },
+    {
+      "id": "clement_philippians",
+      "result": "腓立比书4:3明确同工革利免；未据教会传统直接认作后来的罗马主教。"
+    },
+    {
+      "id": "epaphroditus",
+      "result": "腓立比书2:25–30明确腓立比差遣、供给需用、患病几死；与歌罗西书以巴弗分开。"
+    },
+    {
+      "id": "epaphras",
+      "result": "歌罗西书4:12–13明确祷告与为当地信徒劳苦；与以巴弗提分开。"
+    },
+    {
+      "id": "jesus_justus",
+      "result": "歌罗西书4:11直接说耶数又称犹士都；同节合名有据，未与使徒行传提多犹士都合并。"
+    },
+    {
+      "id": "nymphas",
+      "result": "歌罗西书4:15和合本作宁法及他家教会；资料保留译本差异提示，未以中文代词推定性别。"
+    },
+    {
+      "id": "alexander_coppersmith",
+      "result": "提摩太后书4:14–15明确铜匠亚力山大；姓名字形已对齐和合本，并与其他同名亚力山大分开。"
+    },
+    {
+      "id": "demetrius_3john",
+      "result": "约翰三书1:12明确低米丢行善及众人见证；未与以弗所银匠底米丢合并。"
+    }
+  ],
+  "manualIdentityReviewCount": 48,
+  "chapterDownloads": [
+    {
+      "url": "https://cnbible.com/cus/hosea/1.htm",
+      "status": "cached",
+      "bytes": 12881,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/28/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/joel/1.htm",
+      "status": "cached",
+      "bytes": 13397,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/29/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/amos/1.htm",
+      "status": "cached",
+      "bytes": 13034,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/30/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/obadiah/1.htm",
+      "status": "cached",
+      "bytes": 13858,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/31/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/micah/1.htm",
+      "status": "cached",
+      "bytes": 13242,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/33/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/nahum/1.htm",
+      "status": "cached",
+      "bytes": 12788,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/34/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/habakkuk/1.htm",
+      "status": "cached",
+      "bytes": 12873,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/35/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/zephaniah/1.htm",
+      "status": "cached",
+      "bytes": 13457,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/36/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/judges/3.htm",
+      "status": "cached",
+      "bytes": 15848,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/07/3.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/judges/10.htm",
+      "status": "cached",
+      "bytes": 13860,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/07/10.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/judges/12.htm",
+      "status": "cached",
+      "bytes": 13577,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/07/12.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/job/2.htm",
+      "status": "cached",
+      "bytes": 14013,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/18/2.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/job/32.htm",
+      "status": "cached",
+      "bytes": 14588,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/18/32.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/esther/1.htm",
+      "status": "cached",
+      "bytes": 14193,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/17/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/esther/3.htm",
+      "status": "cached",
+      "bytes": 13361,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/17/3.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/daniel/5.htm",
+      "status": "cached",
+      "bytes": 15948,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/27/5.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/daniel/6.htm",
+      "status": "cached",
+      "bytes": 15564,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/27/6.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/ezra/1.htm",
+      "status": "cached",
+      "bytes": 12620,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/15/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://www.wordproject.org/bibles/gb/15/1.htm",
+      "status": "cached",
+      "bytes": 12620
+    },
+    {
+      "url": "https://cnbible.com/cus/ezra/7.htm",
+      "status": "cached",
+      "bytes": 15327,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/15/7.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/jeremiah/36.htm",
+      "status": "cached",
+      "bytes": 18114,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/24/36.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/jeremiah/38.htm",
+      "status": "cached",
+      "bytes": 17557,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/24/38.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/jeremiah/40.htm",
+      "status": "cached",
+      "bytes": 15934,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/24/40.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/exodus/18.htm",
+      "status": "cached",
+      "bytes": 16157,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/02/18.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/numbers/22.htm",
+      "status": "cached",
+      "bytes": 18015,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/04/22.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/luke/2.htm",
+      "status": "cached",
+      "bytes": 18289,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/42/2.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/luke/8.htm",
+      "status": "cached",
+      "bytes": 20215,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/42/8.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/mark/10.htm",
+      "status": "cached",
+      "bytes": 18883,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/41/10.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/matthew/27.htm",
+      "status": "cached",
+      "bytes": 20343,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/40/27.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/john/18.htm",
+      "status": "cached",
+      "bytes": 17398,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/43/18.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/5.htm",
+      "status": "cached",
+      "bytes": 17506,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/5.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/9.htm",
+      "status": "cached",
+      "bytes": 17753,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/9.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/6.htm",
+      "status": "cached",
+      "bytes": 13630,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/6.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/12.htm",
+      "status": "cached",
+      "bytes": 15074,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/12.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/13.htm",
+      "status": "cached",
+      "bytes": 19087,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/13.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/17.htm",
+      "status": "cached",
+      "bytes": 16632,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/17.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/18.htm",
+      "status": "cached",
+      "bytes": 15682,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/18.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/19.htm",
+      "status": "cached",
+      "bytes": 17550,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/19.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/24.htm",
+      "status": "cached",
+      "bytes": 15426,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/24.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/25.htm",
+      "status": "cached",
+      "bytes": 15816,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/25.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/acts/28.htm",
+      "status": "cached",
+      "bytes": 16242,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/44/28.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/romans/16.htm",
+      "status": "cached",
+      "bytes": 14747,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/philippians/4.htm",
+      "status": "cached",
+      "bytes": 13894,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/50/4.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/philippians/2.htm",
+      "status": "cached",
+      "bytes": 14551,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/50/2.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/colossians/4.htm",
+      "status": "cached",
+      "bytes": 13180,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/51/4.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/2_timothy/1.htm",
+      "status": "cached",
+      "bytes": 13256,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/55/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/2_timothy/2.htm",
+      "status": "cached",
+      "bytes": 13958,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/55/2.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/2_timothy/4.htm",
+      "status": "cached",
+      "bytes": 13561,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/55/4.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    },
+    {
+      "url": "https://cnbible.com/cus/3_john/1.htm",
+      "status": "cached",
+      "bytes": 12472,
+      "fallbackUrl": "https://www.wordproject.org/bibles/gb/64/1.htm",
+      "requestedUrlError": "CNBible直连先前失败；使用已下载的同章备用源"
+    }
+  ],
+  "results": [
+    {
+      "id": "hosea_prophet",
+      "name": "何西阿（先知）",
+      "refs": [
+        "何西阿书1:1–3"
+      ],
+      "aliases": [
+        "何西阿"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/hosea/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/28/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "何西阿"
+          ],
+          "nameInChapter": true,
+          "context": "西雅，约坦，亚哈斯，希西家作犹大王，约阿施的儿子耶罗波安，作以色列王的时候，耶和华的话临到备利的儿子何西阿。2耶和华初次与何西阿说话，对他说，你去娶淫妇为妻，也收那从淫乱所生的儿女，因为这地大行淫乱，离弃耶和华。3于是，何西阿去娶了滴拉音的女儿歌篾。这妇人怀孕，给他生了一个儿子。4耶和华对何西阿说，给他起名叫耶斯列，因为再过片时，我必讨耶户家在耶斯列杀人流血的罪，也必使以色列家"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "joel_prophet",
+      "name": "约珥（先知）",
+      "refs": [
+        "约珥书1:1"
+      ],
+      "aliases": [
+        "约珥"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/joel/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/29/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "约珥"
+          ],
+          "nameInChapter": true,
+          "context": "第一章耶和华的话临到毗土珥的儿子约珥。2老年人哪，当听我的话。国中的居民哪，都要侧耳而听。在你们的日子，或你们列祖的日子，曾有这样的事吗？3你们要将这事传与子，子传与孙，孙传与后代。4剪虫剩下的，蝗虫来吃。蝗虫剩下的，蝻子来吃。蝻子剩下的，蚂蚱来吃。5酒醉的人哪，要清醒哭泣。好酒的人哪，都要为甜酒哀号。因为从你"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "amos_prophet",
+      "name": "阿摩司（先知）",
+      "refs": [
+        "阿摩司书1:1"
+      ],
+      "aliases": [
+        "阿摩司"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/amos/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/30/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "阿摩司"
+          ],
+          "nameInChapter": true,
+          "context": "第一章当犹大王乌西雅，以色列王约阿施的儿子，耶罗波安在位的时候，大地震前二年，提哥亚牧人中的阿摩司得默示论以色列。2他说，耶和华必从锡安吼叫，从耶路撒冷发声。牧人的草场要悲哀，迦密的山顶要枯干。3耶和华如此说，大马色三番四次地犯罪，我必不免去她的刑罚。因为她以打粮食的铁器打过基列。4我却要降火在哈薛的家中，烧灭便哈达的宫殿。5我必折断大马色的门闩，剪除亚文平原的居民，和"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "obadiah_prophet",
+      "name": "俄巴底亚（先知）",
+      "refs": [
+        "俄巴底亚书1:1"
+      ],
+      "aliases": [
+        "俄巴底亚"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/obadiah/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/31/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "俄巴底亚"
+          ],
+          "nameInChapter": true,
+          "context": "第一章俄巴底亚得了耶和华的默示。论以东，说，我从耶和华那里听见信息，并有使者被差往列国去，说，起来吧，一同起来与以东争战。2我使你以东在列国中为最小的，被人大大藐视。3住在山穴中，居所在高处的啊，你因狂傲自欺，心里说，谁能将我拉下地去呢？4你虽如大鹰高飞，在星宿之间搭窝，我必从那里拉下"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "micah_prophet",
+      "name": "弥迦（先知）",
+      "refs": [
+        "弥迦书1:1"
+      ],
+      "aliases": [
+        "弥迦"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/micah/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/33/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "弥迦"
+          ],
+          "nameInChapter": true,
+          "context": "第一章当犹大王约坦，亚哈斯，希西家在位的时候，摩利沙人弥迦得耶和华的默示，论撒玛利亚和耶路撒冷。2万民哪，你们都要听。地和其上所有的，也都要侧耳而听。主耶和华从他的圣殿，要见证你们的不是。3看哪，耶和华出了他的居所，降临步行地的高处。4众山在他以下必消化，诸谷必崩裂，如蜡化在火中，如水冲下山坡。5这都因雅各的罪过，以色列家的罪恶。雅"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "nahum_prophet",
+      "name": "那鸿（先知）",
+      "refs": [
+        "那鸿书1:1"
+      ],
+      "aliases": [
+        "那鸿"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/nahum/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/34/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "那鸿"
+          ],
+          "nameInChapter": true,
+          "context": "第一章论尼尼微的默示，就是伊勒歌斯人那鸿所得的默示。2耶和华是忌邪施报的神。耶和华施报大有忿怒。向他的敌人施报，向他的仇敌怀怒。3耶和华不轻易发怒，大有能力，万不以有罪的为无罪。他乘旋风和暴风而来，云彩为他脚下的尘土。4他斥责海，使海干了，使一切江河干涸。巴珊和迦密的树林衰残，利巴嫩的花草也衰残了。5大山因他震动，"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "habakkuk_prophet",
+      "name": "哈巴谷（先知）",
+      "refs": [
+        "哈巴谷书1:1–4"
+      ],
+      "aliases": [
+        "哈巴谷"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/habakkuk/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/35/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "哈巴谷"
+          ],
+          "nameInChapter": true,
+          "context": "第一章先知哈巴谷所得的默示。2他说，耶和华啊，我呼求你，你不应允，要到几时呢？我因强暴哀求你，你还不拯救。3你为何使我看见罪孽？你为何看着奸恶而不理呢？毁灭和强暴在我面前。又起了争端和相斗的事。4因此律法放松，公理也不显明。恶人围困义人。所以公理显然颠倒。5耶和华说，你们要向列国中观看，大"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "zephaniah_prophet",
+      "name": "西番雅（先知）",
+      "refs": [
+        "西番雅书1:1"
+      ],
+      "aliases": [
+        "西番雅"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/zephaniah/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/36/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "西番雅"
+          ],
+          "nameInChapter": true,
+          "context": "大王亚们的儿子约西亚在位的时候，耶和华的话临到希西家的玄孙，亚玛利雅的曾孙，基大利的孙子，古示的儿子西番雅。2耶和华说，我必从地上除灭万类。3我必除灭人和牲畜，与空中的鸟，海里的鱼，以及绊脚石和恶人。我必将人从地上剪除。这是耶和华说的。4我必伸手攻击犹大和耶路撒冷的一切居民。也必从这地方剪除所剩下的巴力，并基玛林的名和祭司，5与那些在房顶上敬拜天上万象的，并那些敬拜耶和华指着他"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "othniel_judge",
+      "name": "俄陀聂（士师）",
+      "refs": [
+        "士师记3:9–11"
+      ],
+      "aliases": [
+        "俄陀聂"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/3.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/3.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "俄陀聂"
+          ],
+          "nameInChapter": true,
+          "context": "利萨田八年。9以色列人呼求耶和华的时候，耶和华就为他们兴起一位拯救者救他们，就是迦勒兄弟基纳斯的儿子俄陀聂。10耶和华的灵降在他身上，他就作了以色列的士师，出去争战。耶和华将米所波大米王古珊利萨田交在他手中，他便胜了古珊利萨田。11于是国中太平四十年。基纳斯的儿子俄陀聂死了。12以色列人又行耶和华眼中看为恶的事，耶和华就使摩押王伊矶伦强盛，攻击以色列人。13伊矶伦招聚亚扪人和亚"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "ehud_judge",
+      "name": "以笏（士师）",
+      "refs": [
+        "士师记3:15–30"
+      ],
+      "aliases": [
+        "以笏"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/3.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/3.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以笏"
+          ],
+          "nameInChapter": true,
+          "context": "押王伊矶伦十八年。15以色列人呼求耶和华的时候，耶和华就为他们兴起一位拯救者，就是便雅悯人基拉的儿子以笏。他是左手便利的。以色列人托他送礼物给摩押王伊矶伦。16以笏打了一把两刃的剑，长一肘，带在右腿上衣服里面。17他将礼物献给摩押王伊矶伦，原来伊矶伦极其肥胖。18以笏献完礼物，便将抬礼物的人打发走了，19自己却从靠近吉甲凿石之地回来，说，王啊，我有一件机密事奏告你。王说，回避吧"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "shamgar_judge",
+      "name": "珊迦（亚拿之子）",
+      "refs": [
+        "士师记3:31"
+      ],
+      "aliases": [
+        "珊迦"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/3.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/3.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "珊迦"
+          ],
+          "nameInChapter": true,
+          "context": "壮的勇士，没有一人逃脱。30这样，摩押就被以色列人制伏了。国中太平八十年。31以笏之后，有亚拿的儿子珊迦，他用赶牛的棍子打死六百非利士人。他也救了以色列人。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "tola_judge",
+      "name": "陀拉（士师）",
+      "refs": [
+        "士师记10:1–2"
+      ],
+      "aliases": [
+        "陀拉"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/10.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/10.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "陀拉"
+          ],
+          "nameInChapter": true,
+          "context": "第十章亚比米勒以后，有以萨迦人朵多的孙子，普瓦的儿子陀拉兴起，拯救以色列人。他住在以法莲山地的沙密。2陀拉作以色列的士师二十三年，就死了，葬在沙密。3在他以后有基列人睚珥兴起，作以色列的士师二十二年。4他有三十个儿子，骑着三十匹驴驹。他们有三十座城邑，叫作哈倭特睚珥，直到如今，都是在基列地。5睚珥死了，就葬在加们。6以色列人又行耶"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "jair_judge",
+      "name": "睚珥（士师）",
+      "refs": [
+        "士师记10:3–5"
+      ],
+      "aliases": [
+        "睚珥"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/10.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/10.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "睚珥"
+          ],
+          "nameInChapter": true,
+          "context": "以色列人。他住在以法莲山地的沙密。2陀拉作以色列的士师二十三年，就死了，葬在沙密。3在他以后有基列人睚珥兴起，作以色列的士师二十二年。4他有三十个儿子，骑着三十匹驴驹。他们有三十座城邑，叫作哈倭特睚珥，直到如今，都是在基列地。5睚珥死了，就葬在加们。6以色列人又行耶和华眼中看为恶的事，去事奉诸巴力和亚斯他录，并亚兰的神，西顿的神，摩押的神，亚扪人的神，非利士人的神，离弃耶和华，"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "ibzan_judge",
+      "name": "以比赞（士师）",
+      "refs": [
+        "士师记12:8–10"
+      ],
+      "aliases": [
+        "以比赞"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/12.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/12.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以比赞"
+          ],
+          "nameInChapter": true,
+          "context": "万二千人。7耶弗他作以色列的士师六年。基列人耶弗他死了，葬在基列的一座城里。8耶弗他以后，有伯利恒人以比赞作以色列的士师。9他有三十个儿子，三十个女儿。女儿都嫁出去了。他给众子从外乡娶了三十个媳妇。他作以色列的士师七年。10以比赞死了，葬在伯利恒。11以比赞之后，有西布伦人以伦，作以色列的士师十年。12西布伦人以伦死了，葬在西布伦地的亚雅仑。13以伦之后，有比拉顿人希列的儿子押"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "elon_judge",
+      "name": "以伦（士师）",
+      "refs": [
+        "士师记12:11–12"
+      ],
+      "aliases": [
+        "以伦"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/12.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/12.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以伦"
+          ],
+          "nameInChapter": true,
+          "context": "子从外乡娶了三十个媳妇。他作以色列的士师七年。10以比赞死了，葬在伯利恒。11以比赞之后，有西布伦人以伦，作以色列的士师十年。12西布伦人以伦死了，葬在西布伦地的亚雅仑。13以伦之后，有比拉顿人希列的儿子押顿作以色列的士师。14他有四十个儿子，三十个孙子，骑着七十匹驴驹。押顿作以色列的士师八年。15比拉顿人希列的儿子押顿死了，葬在以法莲地的比拉顿，在亚玛力人的山地。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "abdon_judge",
+      "name": "押顿（士师）",
+      "refs": [
+        "士师记12:13–15"
+      ],
+      "aliases": [
+        "押顿"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/judges/12.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/07/12.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "押顿"
+          ],
+          "nameInChapter": true,
+          "context": "，作以色列的士师十年。12西布伦人以伦死了，葬在西布伦地的亚雅仑。13以伦之后，有比拉顿人希列的儿子押顿作以色列的士师。14他有四十个儿子，三十个孙子，骑着七十匹驴驹。押顿作以色列的士师八年。15比拉顿人希列的儿子押顿死了，葬在以法莲地的比拉顿，在亚玛力人的山地。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "eliphaz_job",
+      "name": "以利法（约伯友人）",
+      "refs": [
+        "约伯记2:11–13"
+      ],
+      "aliases": [
+        "以利法"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/job/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/18/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以利法"
+          ],
+          "nameInChapter": true,
+          "context": "一样。嗳，难道我们从神手里得福，不也受祸吗？在这一切的事上约伯并不以口犯罪。11约伯的三个朋友提幔人以利法，书亚人比勒达，拿玛人琐法，听说有这一切的灾祸临到他身上，各人就从本处约会同来，为他悲伤，安慰他。12他们远远地举目观看，认不出他来，就放声大哭。各人撕裂外袍，把尘土向天扬起来，落在自己的头上。13他们就同他七天七夜坐在地上，一个人也不向他说句话，因为他极其痛苦。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "bildad_job",
+      "name": "比勒达（约伯友人）",
+      "refs": [
+        "约伯记2:11–13"
+      ],
+      "aliases": [
+        "比勒达"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/job/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/18/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "比勒达"
+          ],
+          "nameInChapter": true,
+          "context": "我们从神手里得福，不也受祸吗？在这一切的事上约伯并不以口犯罪。11约伯的三个朋友提幔人以利法，书亚人比勒达，拿玛人琐法，听说有这一切的灾祸临到他身上，各人就从本处约会同来，为他悲伤，安慰他。12他们远远地举目观看，认不出他来，就放声大哭。各人撕裂外袍，把尘土向天扬起来，落在自己的头上。13他们就同他七天七夜坐在地上，一个人也不向他说句话，因为他极其痛苦。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "zophar_job",
+      "name": "琐法（约伯友人）",
+      "refs": [
+        "约伯记2:11–13"
+      ],
+      "aliases": [
+        "琐法"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/job/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/18/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "琐法"
+          ],
+          "nameInChapter": true,
+          "context": "福，不也受祸吗？在这一切的事上约伯并不以口犯罪。11约伯的三个朋友提幔人以利法，书亚人比勒达，拿玛人琐法，听说有这一切的灾祸临到他身上，各人就从本处约会同来，为他悲伤，安慰他。12他们远远地举目观看，认不出他来，就放声大哭。各人撕裂外袍，把尘土向天扬起来，落在自己的头上。13他们就同他七天七夜坐在地上，一个人也不向他说句话，因为他极其痛苦。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "elihu_job",
+      "name": "以利户（约伯记发言者）",
+      "refs": [
+        "约伯记32:2–6"
+      ],
+      "aliases": [
+        "以利户"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/job/32.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/18/32.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以利户"
+          ],
+          "nameInChapter": true,
+          "context": "第三十二章于是这三个人，因约伯自以为义就不再回答他。2那时有布西人，兰族巴拉迦的儿子，以利户向约伯发怒。因约伯自以为义，不以神为义。3他又向约伯的三个朋友发怒。因为他们想不出回答的话来，仍以约伯为有罪。4以利户要与约伯说话，就等候他们，因为他们比自己年老。5以利户见这三个人口中无话回答，就怒气发作。6布西人，巴拉迦的儿子，以利户回答说，我年轻，你们老迈。因此我退让"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "ahasuerus_esther",
+      "name": "亚哈随鲁（以斯帖记之王）",
+      "refs": [
+        "以斯帖记1:1–3"
+      ],
+      "aliases": [
+        "亚哈随鲁"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/esther/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/17/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚哈随鲁"
+          ],
+          "nameInChapter": true,
+          "context": "第一章亚哈随鲁作王，从印度直到古实，统管一百二十七省。2亚哈随鲁王在书珊城的宫登基。3在位第三年，为他一切首领臣仆设摆筵席，有波斯和玛代的权贵，就是各省的贵胄与首领，在他面前。4他把他荣耀之国的丰富，和他美好威严的尊贵，给他们看了许多日，就是一百八十日。5这日子满了，又为所有住书珊城的"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "vashti_queen",
+      "name": "瓦实提（王后）",
+      "refs": [
+        "以斯帖记1:9–22"
+      ],
+      "aliases": [
+        "瓦实提"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/esther/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/17/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "瓦实提"
+          ],
+          "nameInChapter": true,
+          "context": "有不同。御酒甚多，足显王的厚意。8喝酒有例，不准勉强人，因王吩咐宫里的一切臣宰，让人各随己意。9王后瓦实提在亚哈随鲁王的宫内，也为妇女设摆筵席。10第七日，亚哈随鲁王饮酒，心中快乐，就吩咐在他面前侍立的七个太监，米户幔，比斯他，哈波拿，比革他，亚拔他，西达，甲迦，11请王后瓦实提头戴王后的冠冕到王面前，使各等臣民看她的美貌，因为她容貌甚美。12王后瓦实提却不肯遵太监所传的王命而"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "haman_agagite",
+      "name": "哈曼（亚甲族）",
+      "refs": [
+        "以斯帖记3:1–6"
+      ],
+      "aliases": [
+        "哈曼"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/esther/3.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/17/3.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "哈曼"
+          ],
+          "nameInChapter": true,
+          "context": "第三章这事以后，亚哈随鲁王抬举，亚甲族哈米大他的儿子哈曼，使他高升，叫他的爵位超过与他同事的一切臣宰。2在朝门的一切臣仆都跪拜哈曼，因为王如此吩咐。惟独末底改不跪不拜。3在朝门的臣仆问末底改说，你为何违背王的命令呢？4他们天天劝他，他还是不听，他们就告诉哈曼，要看末底改的事站得住站不住，因他已经告诉他们自己是犹大人。5哈曼见末底改"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "belshazzar_king",
+      "name": "伯沙撒（迦勒底王）",
+      "refs": [
+        "但以理书5:1–5"
+      ],
+      "aliases": [
+        "伯沙撒"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/daniel/5.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/27/5.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "伯沙撒"
+          ],
+          "nameInChapter": true,
+          "context": "第五章伯沙撒王为他的一千大臣设摆盛筵，与这一千人对面饮酒。2伯沙撒欢饮之间，吩咐人将他父（父或作祖下同）尼布甲尼撒从耶路撒冷殿中所掠的金银器皿拿来，王与大臣，皇后，妃嫔好用这器皿饮酒。3于是他们把耶路撒冷神殿库房中所掠的金器皿拿来，王和大臣，皇后，妃嫔就用这器皿饮酒。4他们饮酒，赞美金"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "darius_mede",
+      "name": "大利乌（玛代人）",
+      "refs": [
+        "但以理书5:31；6:1–3"
+      ],
+      "aliases": [
+        "大利乌"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/daniel/6.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/27/6.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "大利乌"
+          ],
+          "nameInChapter": true,
+          "context": "第六章大利乌随心所愿，立一百二十个总督，治理通国。2又在他们以上立总长三人（但以理在其中），使总督在他们三人面前回覆事务，免得王受亏损。3因这但以理有美好的灵性，所以显然超乎其余的总长和总督，王又想立他治理通国。4那时，总长和总督寻找但以理误国的把柄，为要参他。只是找不着他的错误过失，"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "cyrus_persia",
+      "name": "古列（波斯王）",
+      "refs": [
+        "以斯拉记1:1–4"
+      ],
+      "aliases": [
+        "古列"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/ezra/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/15/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "古列"
+          ],
+          "nameInChapter": true,
+          "context": "第一章波斯王古列元年，耶和华为要应验借耶利米口所说的话，就激动波斯王古列的心，使他下诏通告全国，说，2波斯王古列如此说，耶和华天上的神，已将天下万国赐给我。又嘱咐我在犹大的耶路撒冷，为他建造殿宇。3在你们中间凡作他子民的，可以上犹大的耶路撒冷，在耶路撒冷重建耶和华以色列神的殿（只有他是神）。"
+        },
+        {
+          "url": "https://www.wordproject.org/bibles/gb/15/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/15/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "古列"
+          ],
+          "nameInChapter": true,
+          "context": "第一章波斯王古列元年，耶和华为要应验借耶利米口所说的话，就激动波斯王古列的心，使他下诏通告全国，说，2波斯王古列如此说，耶和华天上的神，已将天下万国赐给我。又嘱咐我在犹大的耶路撒冷，为他建造殿宇。3在你们中间凡作他子民的，可以上犹大的耶路撒冷，在耶路撒冷重建耶和华以色列神的殿（只有他是神）。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "artaxerxes_ezra",
+      "name": "亚达薛西（以斯拉记7章之王）",
+      "refs": [
+        "以斯拉记7:11–26"
+      ],
+      "aliases": [
+        "亚达薛西"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/ezra/7.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/15/7.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚达薛西"
+          ],
+          "nameInChapter": true,
+          "context": "第七章这事以后，波斯王亚达薛西年间，有个以斯拉，他是西莱雅的儿子，西莱雅是亚撒利雅的儿子，亚撒利雅是希勒家的儿子。2希勒家是沙龙的儿子，沙龙是撒督的儿子，撒督是亚希突的儿子，3亚希突是亚玛利雅的儿子，亚玛利雅是亚撒利雅的儿子，亚撒利雅是米拉约的儿子，4米拉约是西拉希雅的儿子，西拉希雅是乌西的儿子，乌西"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "baruch_neriah",
+      "name": "巴录（尼利亚之子）",
+      "refs": [
+        "耶利米书36:4–8"
+      ],
+      "aliases": [
+        "巴录"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/jeremiah/36.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/24/36.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "巴录"
+          ],
+          "nameInChapter": true,
+          "context": "要降与他们的一切灾祸，各人就回头，离开恶道，我好赦免他们的罪孽和罪恶。4所以，耶利米召了尼利亚的儿子巴录来。巴录就从耶利米口中，将耶和华对耶利米所说的一切话写在书卷上。5耶利米吩咐巴录说，我被拘管，不能进耶和华的殿。6所以你要去趁禁食的日子，在耶和华殿中将耶和华的话，就是你从我口中所写在书卷上的话，念给百姓和一切从犹大城邑出来的人听。7或者他们在耶和华面前恳求各人回头，离开恶道"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "ebed_melech",
+      "name": "以伯米勒（古实人）",
+      "refs": [
+        "耶利米书38:7–13"
+      ],
+      "aliases": [
+        "以伯米勒"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/jeremiah/38.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/24/38.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以伯米勒"
+          ],
+          "nameInChapter": true,
+          "context": "兵的院中。他们用绳子将耶利米系下去。牢狱里没有水，只有淤泥，耶利米就陷在淤泥中。7在王宫的太监古实人以伯米勒，听见他们将耶利米下了牢狱（那时王坐在便雅悯门口），8以伯米勒就从王宫里出来，对王说，9主我的王啊，这些人向先知耶利米一味地行恶，将他下在牢狱中。他在那里必因饥饿而死，因为城中再没有粮食。10王就吩咐古实人以伯米勒说，你从这里带领三十人，趁着先知耶利米未死以前，将他从牢狱"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "gedaliah_ahikam",
+      "name": "基大利（亚希甘之子）",
+      "refs": [
+        "耶利米书40:5–10"
+      ],
+      "aliases": [
+        "基大利"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/jeremiah/40.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/24/40.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "基大利"
+          ],
+          "nameInChapter": true,
+          "context": "为哪里美好，哪里合宜，只管上那里去吧。5耶利米还没有回去，护卫长说，你可以回到沙番的孙子亚希甘的儿子基大利那里去。现在巴比伦王立他作犹大城邑的省长。你可以在他那里住在民中，不然，你看哪里合宜就可以上那里去。于是护卫长送他粮食和礼物，释放他去了。6耶利米就到米斯巴见亚希甘的儿子基大利，在他那里住在境内剩下的民中。7在田野的一切军长，和属他们的人，听见巴比伦王立了亚希甘的儿子基大利"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "jethro_midian",
+      "name": "叶忒罗（摩西岳父）",
+      "refs": [
+        "出埃及记18:1–12"
+      ],
+      "aliases": [
+        "叶忒罗"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/exodus/18.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/02/18.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "叶忒罗"
+          ],
+          "nameInChapter": true,
+          "context": "第十八章摩西的岳父，米甸祭司叶忒罗，听见神为摩西和神的百姓以色列所行的一切事，就是耶和华将以色列从埃及领出来的事，2便带着摩西的妻子西坡拉，就是摩西从前打发回去的，3又带着西坡拉的两个儿子，一个名叫革舜，因为摩西说，我在外邦作了寄居的，4一个名叫以利以谢，因为他说，我父亲的神帮助了我，救我脱离法老的刀。5摩"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "balak_zippor",
+      "name": "巴勒（摩押王）",
+      "refs": [
+        "民数记22:2–6"
+      ],
+      "aliases": [
+        "巴勒"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/numbers/22.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/04/22.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "巴勒"
+          ],
+          "nameInChapter": true,
+          "context": "二章以色列人起行，在摩押平原，约旦河东，对着耶利哥安营。2以色列人向亚摩利人所行的一切事，西拨的儿子巴勒都看见了。3摩押人因以色列民甚多，就大大惧怕，心内忧急，4对米甸的长老说，现在这众人要把我们四围所有的一概舔尽，就如牛舔尽田间的草一般。那时西拨的儿子巴勒作摩押王。5他差遣使者往大河边的毗夺去，到比珥的儿子巴兰本乡那里，召巴兰来，说，有一宗民从埃及出来，遮满地面，与我对居。6"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "balaam_beor",
+      "name": "巴兰（比珥之子）",
+      "refs": [
+        "民数记22:5–13"
+      ],
+      "aliases": [
+        "巴兰"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/numbers/22.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/04/22.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "巴兰"
+          ],
+          "nameInChapter": true,
+          "context": "舔尽，就如牛舔尽田间的草一般。那时西拨的儿子巴勒作摩押王。5他差遣使者往大河边的毗夺去，到比珥的儿子巴兰本乡那里，召巴兰来，说，有一宗民从埃及出来，遮满地面，与我对居。6这民比我强盛，现在求你来为我咒诅他们，或者我能得胜，攻打他们，赶出此地。因为我知道，你为谁祝福，谁就得福。你咒诅谁，谁就受咒诅。7摩押的长老和米甸的长老手里拿着卦金，到了巴兰那里，将巴勒的话都告诉了他。8巴兰说"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "simeon_temple",
+      "name": "西面（圣殿迎见婴孩者）",
+      "refs": [
+        "路加福音2:25–35"
+      ],
+      "aliases": [
+        "西面"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/luke/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/42/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "西面"
+          ],
+          "nameInChapter": true,
+          "context": "，必称圣归主。）24又要照主的律法上所说，或用一对班鸠，或用两只雏鸽献祭。25在耶路撒冷有一个人名叫西面，这人又公义又虔诚，素常盼望以色列的安慰者来到，又有圣灵在他身上。26他得了圣灵的启示，知道自己未死以前，必看见主所立的基督。27他受了圣灵的感动，进入圣殿。正遇见耶稣的父母抱着孩子进来，要照律法的规矩办理。28西面就用手接过他来，称颂神说，29主啊，如今可以照你的话，释放仆"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "anna_prophetess",
+      "name": "亚拿（女先知）",
+      "refs": [
+        "路加福音2:36–38"
+      ],
+      "aliases": [
+        "亚拿"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/luke/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/42/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚拿"
+          ],
+          "nameInChapter": true,
+          "context": "人兴起。又要作毁谤的话柄。叫许多人心里的意念显露出来。你自己的心也要被刀刺透。3536又有女先知名叫亚拿，是亚设支派法内力的女儿，年纪已经老迈，从作童女出嫁的时候，同丈夫住了七年，就寡居了。37现在已经八十四岁，（或作就寡居了八十四年）并不离开圣殿，禁食祈求，昼夜事奉神。38正当那时，她进前来称谢神，将孩子的事，对一切盼望耶路撒冷得救赎的人讲说。39约瑟和马利亚，照主的律法，办"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "joanna_chuza",
+      "name": "约亚拿（苦撒之妻）",
+      "refs": [
+        "路加福音8:1–3"
+      ],
+      "aliases": [
+        "约亚拿"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/luke/8.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/42/8.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "约亚拿"
+          ],
+          "nameInChapter": true,
+          "context": "，已经治好的几个妇女，内中有称为抹大拉的马利亚，曾有七个鬼从她身上赶出来。3又有希律的家宰苦撒的妻子约亚拿，并苏撒拿，和好些别的妇女，都是用自己的财物供给耶稣和门徒。4当许多人聚集，又有人从各城里出来见耶稣的时候，耶稣就用比喻说，5有一个撒种的出去撒种。撒的时候，有落在路旁的，被人践踏，天上的飞鸟又来吃尽了。6有落在磐石上的，一出来就枯干了，因为得不着滋润。7有落在荆棘里的，荆"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "susanna_gospels",
+      "name": "苏撒拿（跟随耶稣者）",
+      "refs": [
+        "路加福音8:1–3"
+      ],
+      "aliases": [
+        "苏撒拿"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/luke/8.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/42/8.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "苏撒拿"
+          ],
+          "nameInChapter": true,
+          "context": "的几个妇女，内中有称为抹大拉的马利亚，曾有七个鬼从她身上赶出来。3又有希律的家宰苦撒的妻子约亚拿，并苏撒拿，和好些别的妇女，都是用自己的财物供给耶稣和门徒。4当许多人聚集，又有人从各城里出来见耶稣的时候，耶稣就用比喻说，5有一个撒种的出去撒种。撒的时候，有落在路旁的，被人践踏，天上的飞鸟又来吃尽了。6有落在磐石上的，一出来就枯干了，因为得不着滋润。7有落在荆棘里的，荆棘一同生长"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "jairus_synagogue",
+      "name": "睚鲁（管会堂者）",
+      "refs": [
+        "路加福音8:41–42、49–56"
+      ],
+      "aliases": [
+        "睚鲁"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/luke/8.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/42/8.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "睚鲁"
+          ],
+          "nameInChapter": true,
+          "context": "扬耶稣为他作了何等大的事。40耶稣回来的时候，众人迎接他，因为他们都等候他。41有一个管会堂的，名叫睚鲁，来俯伏在耶稣脚前，求耶稣到他家里去。42因他有一个独生女儿，约有十二岁，快要死了。耶稣去的时候，众人拥挤他。43有一个女人，患了十二年的血漏，在医生手里花尽了她一切养生的，并没有一人能医好她。44她来到耶稣背后，摸他的衣裳繸子，血漏立刻就止住了。45耶稣说，摸我的是谁?众人"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "bartimaeus",
+      "name": "巴底买（底买之子）",
+      "refs": [
+        "马可福音10:46–52"
+      ],
+      "aliases": [
+        "巴底买"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/mark/10.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/41/10.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "巴底买"
+          ],
+          "nameInChapter": true,
+          "context": "舍命，作多人的赎价。46到了耶利哥。耶稣同门徒并许多人出耶利哥的时候，有一个讨饭的瞎子，是底买的儿子巴底买，坐在路旁。47他听见是拿撒勒的耶稣，就喊着说，大卫的子孙耶稣啊，可怜我吧。48有许多人责备他，不许他作声，他却越发大声喊着说，大卫的子孙哪，可怜我吧。49耶稣就站住，说，叫过他来。他们就叫那瞎子，对他说，放心，起来，他叫你啦。50瞎子就丢下衣服，跳起来，走到耶稣那里。51"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "joseph_arimathea",
+      "name": "约瑟（亚利马太人）",
+      "refs": [
+        "马太福音27:57–60"
+      ],
+      "aliases": [
+        "约瑟"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/matthew/27.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/40/27.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "约瑟"
+          ],
+          "nameInChapter": true,
+          "context": "抹大拉的马利亚，又有雅各和约西的母亲马利亚，并有西庇太两个儿子的母亲。57到了晚上，有一个财主，名叫约瑟，是亚利马太来的。他也是耶稣的门徒。58这人去见彼拉多，求耶稣的身体。彼拉多就吩咐给他。59约瑟取了身体，用干净细麻布裹好，60安放在自己的新坟墓里，就是他凿在磐石里的。他又把大石头滚到墓门口，就去了。61有抹大拉的马利亚，和那个马利亚在那里，对着坟墓坐着。62次日，就是预备"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "simon_cyrene",
+      "name": "西门（古利奈人）",
+      "refs": [
+        "马太福音27:32"
+      ],
+      "aliases": [
+        "西门"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/matthew/27.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/40/27.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "西门"
+          ],
+          "nameInChapter": true,
+          "context": "就给他脱了袍子，仍穿上他自己的衣服，带他出去，要钉十字架。32他们出来的时候，遇见一个古利奈人，名叫西门，就勉强他同去，好背着耶稣的十字架。33到了一个地方，名叫各各他，意思就是髑髅地。34兵丁拿苦胆调和的酒，给耶稣喝。他尝了，就不肯喝。35他们既将他钉在十字架上，就拈阄分他的衣服。36又坐在那里看守他。37在他头以上，安一个牌子，写着他的罪状，说，这是犹太人的王耶稣。38当时"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "barabbas",
+      "name": "巴拉巴",
+      "refs": [
+        "马太福音27:15–26"
+      ],
+      "aliases": [
+        "巴拉巴"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/matthew/27.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/40/27.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "巴拉巴"
+          ],
+          "nameInChapter": true,
+          "context": "希奇。15巡抚有一个常例，每逢这节期，随众人所要的，释放一个囚犯给他们。16当时，有一个出名的囚犯叫巴拉巴。17众人聚集的时候，彼拉多就对他们说，你们要我释放哪一个给你们？是巴拉巴呢？是称为基督的耶稣呢？18巡抚原知道，他们是因为嫉妒才把他解了来。19正坐堂的时候，他的夫人打发人来说，这义人的事，你一点不可管。因为我今天在梦中，为他受了许多的苦。20祭司长和长老，挑唆众人，求释"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "malchus",
+      "name": "马勒古",
+      "refs": [
+        "约翰福音18:10–11"
+      ],
+      "aliases": [
+        "马勒古"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/john/18.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/43/18.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "马勒古"
+          ],
+          "nameInChapter": true,
+          "context": "，我没有失落一个。10西门彼得带着一把刀，就拔出来，将大祭司的仆人砍了一刀，削掉他的右耳。那仆人名叫马勒古。11耶稣就对彼得说，收刀入鞘吧。我父所给我的那杯，我岂可不喝呢？12那队兵和千夫长并犹太人的差役，就拿住耶稣，把他捆绑了。13先带到亚那面前。因为亚那是本年作大祭司该亚法的岳父。14这该亚法，就是从前向犹太人发议论说，一个人替百姓死是有益的那位。15西门彼得跟着耶稣，还有"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "annas_high_priest",
+      "name": "亚那（该亚法岳父）",
+      "refs": [
+        "约翰福音18:12–13、19–24"
+      ],
+      "aliases": [
+        "亚那"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/john/18.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/43/18.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚那"
+          ],
+          "nameInChapter": true,
+          "context": "我父所给我的那杯，我岂可不喝呢？12那队兵和千夫长并犹太人的差役，就拿住耶稣，把他捆绑了。13先带到亚那面前。因为亚那是本年作大祭司该亚法的岳父。14这该亚法，就是从前向犹太人发议论说，一个人替百姓死是有益的那位。15西门彼得跟着耶稣，还有一个门徒跟着。那门徒是大祭司所认识的。他就同耶稣进了大祭司的院子。16彼得却站在门外。大祭司所认识的那个门徒出来，和看门的使女说了一声，就领"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "ananias_sapphira",
+      "name": "亚拿尼亚（撒非喇丈夫）",
+      "refs": [
+        "使徒行传5:1–6"
+      ],
+      "aliases": [
+        "亚拿尼亚"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/5.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/5.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚拿尼亚"
+          ],
+          "nameInChapter": true,
+          "context": "第五章有一个人，名叫亚拿尼亚，同他的妻子撒非喇，卖了田产。2把价银私自留下几分，他的妻子也知道，其余的几分，拿来放在使徒脚前。3彼得说，亚拿尼亚,为什么撒但充满了你的心，叫你欺哄圣灵，把田地的价银私自留下几分呢？4田地还没有卖，不是你自己的吗？既卖了，价银不是你作主吗？你怎么心里起这意念呢？你不是欺"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "sapphira",
+      "name": "撒非喇",
+      "refs": [
+        "使徒行传5:1–11"
+      ],
+      "aliases": [
+        "撒非喇"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/5.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/5.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "撒非喇"
+          ],
+          "nameInChapter": true,
+          "context": "第五章有一个人，名叫亚拿尼亚，同他的妻子撒非喇，卖了田产。2把价银私自留下几分，他的妻子也知道，其余的几分，拿来放在使徒脚前。3彼得说，亚拿尼亚,为什么撒但充满了你的心，叫你欺哄圣灵，把田地的价银私自留下几分呢？4田地还没有卖，不是你自己的吗？既卖了，价银不是你作主吗？你怎么心里起这意念呢？你不是欺哄人，是欺哄神了。5"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "ananias_damascus",
+      "name": "亚拿尼亚（大马士革门徒）",
+      "refs": [
+        "使徒行传9:10–18"
+      ],
+      "aliases": [
+        "亚拿尼亚"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/9.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/9.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚拿尼亚"
+          ],
+          "nameInChapter": true,
+          "context": "么。有人拉他的手，领他进了大马色。9三日不能看见，也不吃，也不喝。10当下在大马色，有一个门徒，名叫亚拿尼亚。主在异象中对他说，亚拿尼亚。他说，主，我在这里。11主对他说，起来，往直街去，在犹大的家里，访问一个大数人名叫扫罗。他正祷告。12又看见了一个人，名叫亚拿尼亚，进来按手在他身上，叫他能看见。13亚拿尼亚回答说，主啊，我听见许多人说，这人怎样在耶路撒冷多多苦害你的圣徒。1"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "gamaliel_teacher",
+      "name": "迦玛列（教法师）",
+      "refs": [
+        "使徒行传5:34–40"
+      ],
+      "aliases": [
+        "迦玛列"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/5.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/5.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "迦玛列"
+          ],
+          "nameInChapter": true,
+          "context": "给顺从之人的圣灵，也为这事作见证。33公会的人听见就极其恼怒，想要杀他们。34但有一个法利赛人，名叫迦玛列，是众百姓所敬重的教法师，在公会中站起来，吩咐人把使徒暂且带到外面去。35就对众人说，以色列人哪，论到这些人，你们应当小心怎样办理。36从前丢大起来，自夸为大。附从他的人约有四百。他被杀后，附从他的全都散了，归于无有。37此后报名上册的时候，又有加利利的犹大起来，引诱些百姓"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "prochorus",
+      "name": "伯罗哥罗",
+      "refs": [
+        "使徒行传6:1–6"
+      ],
+      "aliases": [
+        "伯罗哥罗"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/6.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/6.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "伯罗哥罗"
+          ],
+          "nameInChapter": true,
+          "context": "我们要专心以祈祷传道为事。5大众都喜悦这话，就拣选了司提反，乃是大有信心，圣灵充满的人，又拣选腓利，伯罗哥罗，尼迦挪，提门，巴米拿，并进犹太教的安提阿人尼哥拉。6叫他们站在使徒面前。使徒祷告了，就按手在他们头上。7神的道兴旺起来。在耶路撒冷门徒数目加增的甚多。也有许多祭司信从了这道。8司提反满得恩惠能力，在民间行了大奇事和神迹。9当时有称利百地拿会堂的几个人，并有古利奈，亚力山"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "nicanor",
+      "name": "尼迦挪",
+      "refs": [
+        "使徒行传6:1–6"
+      ],
+      "aliases": [
+        "尼迦挪"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/6.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/6.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "尼迦挪"
+          ],
+          "nameInChapter": true,
+          "context": "以祈祷传道为事。5大众都喜悦这话，就拣选了司提反，乃是大有信心，圣灵充满的人，又拣选腓利，伯罗哥罗，尼迦挪，提门，巴米拿，并进犹太教的安提阿人尼哥拉。6叫他们站在使徒面前。使徒祷告了，就按手在他们头上。7神的道兴旺起来。在耶路撒冷门徒数目加增的甚多。也有许多祭司信从了这道。8司提反满得恩惠能力，在民间行了大奇事和神迹。9当时有称利百地拿会堂的几个人，并有古利奈，亚力山太，基利家"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "timon",
+      "name": "提门",
+      "refs": [
+        "使徒行传6:1–6"
+      ],
+      "aliases": [
+        "提门"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/6.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/6.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "提门"
+          ],
+          "nameInChapter": true,
+          "context": "道为事。5大众都喜悦这话，就拣选了司提反，乃是大有信心，圣灵充满的人，又拣选腓利，伯罗哥罗，尼迦挪，提门，巴米拿，并进犹太教的安提阿人尼哥拉。6叫他们站在使徒面前。使徒祷告了，就按手在他们头上。7神的道兴旺起来。在耶路撒冷门徒数目加增的甚多。也有许多祭司信从了这道。8司提反满得恩惠能力，在民间行了大奇事和神迹。9当时有称利百地拿会堂的几个人，并有古利奈，亚力山太，基利家，亚西亚"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "parmenas",
+      "name": "巴米拿",
+      "refs": [
+        "使徒行传6:1–6"
+      ],
+      "aliases": [
+        "巴米拿"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/6.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/6.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "巴米拿"
+          ],
+          "nameInChapter": true,
+          "context": "。5大众都喜悦这话，就拣选了司提反，乃是大有信心，圣灵充满的人，又拣选腓利，伯罗哥罗，尼迦挪，提门，巴米拿，并进犹太教的安提阿人尼哥拉。6叫他们站在使徒面前。使徒祷告了，就按手在他们头上。7神的道兴旺起来。在耶路撒冷门徒数目加增的甚多。也有许多祭司信从了这道。8司提反满得恩惠能力，在民间行了大奇事和神迹。9当时有称利百地拿会堂的几个人，并有古利奈，亚力山太，基利家，亚西亚，各处"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "nicolaus_antioch",
+      "name": "尼哥拉（安提阿人）",
+      "refs": [
+        "使徒行传6:1–6"
+      ],
+      "aliases": [
+        "尼哥拉"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/6.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/6.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "尼哥拉"
+          ],
+          "nameInChapter": true,
+          "context": "司提反，乃是大有信心，圣灵充满的人，又拣选腓利，伯罗哥罗，尼迦挪，提门，巴米拿，并进犹太教的安提阿人尼哥拉。6叫他们站在使徒面前。使徒祷告了，就按手在他们头上。7神的道兴旺起来。在耶路撒冷门徒数目加增的甚多。也有许多祭司信从了这道。8司提反满得恩惠能力，在民间行了大奇事和神迹。9当时有称利百地拿会堂的几个人，并有古利奈，亚力山太，基利家，亚西亚，各处会堂的几个人，都起来和司提反"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "tabitha_dorcas",
+      "name": "大比大 / 多加",
+      "refs": [
+        "使徒行传9:36–42"
+      ],
+      "aliases": [
+        "大比大",
+        "多加"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/9.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/9.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "大比大",
+            "多加"
+          ],
+          "nameInChapter": true,
+          "context": "收拾你的褥子。他就立刻起来了。35凡住吕大和沙仑的人都看见了他，就归服主。36在约帕有一个女徒，名叫大比大，翻希利尼话就是多加（多加就是羚羊的意思）:她广行善事，多施周济。37当时，她患病而死。有人把她洗了。停在楼上。38吕大原与约帕相近。门徒听见彼得在那里，就打发两个人去见他，央求他说，快到我们那里去，不要耽延。39彼得就起身和他们同去。到了，便有人领他上楼。众寡妇都站在彼得"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "aeneas_lydda",
+      "name": "以尼雅",
+      "refs": [
+        "使徒行传9:32–35"
+      ],
+      "aliases": [
+        "以尼雅"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/9.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/9.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以尼雅"
+          ],
+          "nameInChapter": true,
+          "context": "，蒙圣灵的安慰，人数就增多了。32彼得周流四方的时候，也到了居住吕大的圣徒那里。33遇见一个人，名叫以尼雅，得了瘫痪，在褥子上躺卧八年。34彼得对他说，以尼雅，耶稣基督医好你了。起来收拾你的褥子。他就立刻起来了。35凡住吕大和沙仑的人都看见了他，就归服主。36在约帕有一个女徒，名叫大比大，翻希利尼话就是多加（多加就是羚羊的意思）:她广行善事，多施周济。37当时，她患病而死。有人"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "rhoda",
+      "name": "罗大",
+      "refs": [
+        "使徒行传12:12–16"
+      ],
+      "aliases": [
+        "罗大"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/12.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/12.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "罗大"
+          ],
+          "nameInChapter": true,
+          "context": "一想，就往那称呼马可的约翰他母亲马利亚家去。在那里有好些人聚集祷告。13彼得敲外门，有一个使女，名叫罗大出来探听。14听得是彼得的声音，就欢喜得顾不得开门，跑进去告诉众人说，彼得站在门外。15他们说，你是疯了。使女极力地说，真是他。他们说，必是他的天使。16彼得不住地敲门。他们开了门，看见他，就甚惊奇。17彼得摆手，不要他们作声，就告诉他们主怎样领他出监。又说，你们把这事告诉雅"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "mary_mark_mother",
+      "name": "马利亚（马可母亲）",
+      "refs": [
+        "使徒行传12:12"
+      ],
+      "aliases": [
+        "马利亚"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/12.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/12.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "马利亚"
+          ],
+          "nameInChapter": true,
+          "context": "知道主差遣他的使者，救我脱离希律的手和犹太百姓一切所盼望的。12想了一想，就往那称呼马可的约翰他母亲马利亚家去。在那里有好些人聚集祷告。13彼得敲外门，有一个使女，名叫罗大出来探听。14听得是彼得的声音，就欢喜得顾不得开门，跑进去告诉众人说，彼得站在门外。15他们说，你是疯了。使女极力地说，真是他。他们说，必是他的天使。16彼得不住地敲门。他们开了门，看见他，就甚惊奇。17彼得"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "sergius_paulus",
+      "name": "士求保罗",
+      "refs": [
+        "使徒行传13:6–12"
+      ],
+      "aliases": [
+        "士求保罗"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/13.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/13.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "士求保罗"
+          ],
+          "nameInChapter": true,
+          "context": "作他们的帮手。6经过全岛，直到帕弗，在那里遇见一个有法术假充先知的犹太人，名叫巴耶稣。7这人常和方伯士求保罗同在，士求保罗是个通达人。他请了巴拿巴和扫罗来，要听神的道。8只是那行法术的以吕马（这名翻出来就是行法术的意思）敌挡使徒，要叫方伯不信真道。9扫罗又名保罗，被圣灵充满定睛看他，10说，你这充满各样诡诈奸恶，魔鬼的儿子，众善的仇敌，你混乱主的正道还不止住吗？11现在主的手加"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "bar_jesus_elymas",
+      "name": "巴耶稣 / 以吕马",
+      "refs": [
+        "使徒行传13:6–11"
+      ],
+      "aliases": [
+        "巴耶稣",
+        "以吕马"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/13.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/13.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "巴耶稣",
+            "以吕马"
+          ],
+          "nameInChapter": true,
+          "context": "里传讲神的道。也有约翰作他们的帮手。6经过全岛，直到帕弗，在那里遇见一个有法术假充先知的犹太人，名叫巴耶稣。7这人常和方伯士求保罗同在，士求保罗是个通达人。他请了巴拿巴和扫罗来，要听神的道。8只是那行法术的以吕马（这名翻出来就是行法术的意思）敌挡使徒，要叫方伯不信真道。9扫罗又名保罗，被圣灵充满定睛看他，10说，你这充满各样诡诈奸恶，魔鬼的儿子，众善的仇敌，你混乱主的正道还不止"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "dionysius_areopagus",
+      "name": "丢尼修（亚略巴古官）",
+      "refs": [
+        "使徒行传17:34"
+      ],
+      "aliases": [
+        "丢尼修"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/17.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/17.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "丢尼修"
+          ],
+          "nameInChapter": true,
+          "context": "，我们再听你讲这个吧。33于是保罗从他们当中出去了。34但有几个人贴近他，信了主，其中有亚略巴古的官丢尼修，并一个妇人，名叫大马哩，还有别人一同信从。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "damaris",
+      "name": "大马哩",
+      "refs": [
+        "使徒行传17:34"
+      ],
+      "aliases": [
+        "大马哩"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/17.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/17.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "大马哩"
+          ],
+          "nameInChapter": true,
+          "context": "3于是保罗从他们当中出去了。34但有几个人贴近他，信了主，其中有亚略巴古的官丢尼修，并一个妇人，名叫大马哩，还有别人一同信从。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "titius_justus",
+      "name": "提多犹士都",
+      "refs": [
+        "使徒行传18:7"
+      ],
+      "aliases": [
+        "提多犹士都"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/18.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/18.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "提多犹士都"
+          ],
+          "nameInChapter": true,
+          "context": "与我无干（原文作我却干净）。从今以后,我要往外邦人那里去。7于是离开那里，到了一个人的家中，这人名叫提多犹士都，是敬拜神的，他的家靠近会堂。8管会堂的基利司布和全家都信了主。还有许多哥林多人听了，就相信受洗。9夜间主在异象中对保罗说，不要怕，只管讲，不要闭口。10有我与你同在，必没有人下手害你。因为在这城里我有许多的百姓。11保罗在那里住了一年零六个月，将神的道教训他们。12到"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "crispus_corinth",
+      "name": "基利司布",
+      "refs": [
+        "使徒行传18:8"
+      ],
+      "aliases": [
+        "基利司布"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/18.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/18.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "基利司布"
+          ],
+          "nameInChapter": true,
+          "context": "那里去。7于是离开那里，到了一个人的家中，这人名叫提多犹士都，是敬拜神的，他的家靠近会堂。8管会堂的基利司布和全家都信了主。还有许多哥林多人听了，就相信受洗。9夜间主在异象中对保罗说，不要怕，只管讲，不要闭口。10有我与你同在，必没有人下手害你。因为在这城里我有许多的百姓。11保罗在那里住了一年零六个月，将神的道教训他们。12到迦流作亚该亚方伯的时候，犹太人同心起来攻击保罗，拉"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "sosthenes_acts",
+      "name": "所提尼（管会堂者）",
+      "refs": [
+        "使徒行传18:17"
+      ],
+      "aliases": [
+        "所提尼"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/18.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/18.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "所提尼"
+          ],
+          "nameInChapter": true,
+          "context": "目，和你们的律法，你们自己去办吧。这样的事我不愿意审问。16就把他们撵出公堂。17众人便揪住管会堂的所提尼，在堂前打他。这些事迦流都不管。18保罗又住了多日，就辞别了弟兄，坐船往叙利亚去，百基拉，亚居拉和他同去。他因为许过愿，就在坚革哩剪了头发。19到了以弗所，保罗就把他们留在那里，自己进了会堂，和犹太人辩论。20众人请他多住些日子，他却不允。21就辞别他们说，神若许我，我还要"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "demetrius_silversmith",
+      "name": "底米丢（银匠）",
+      "refs": [
+        "使徒行传19:24–28"
+      ],
+      "aliases": [
+        "底米丢"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/19.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/19.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "底米丢"
+          ],
+          "nameInChapter": true,
+          "context": "太，以拉都二人，往马其顿去。自己暂时等在亚西亚。23那时，因为这道起的扰乱不小。24有一个银匠，名叫底米丢，是制造亚底米神银龛的，他使这样手艺人生意发达。25他聚集他们和同行的工人，说，众位，你们知道我们是倚靠这生意发财。26这保罗不但在以弗所，也几乎在亚西亚全地，引诱迷惑许多人，说，人手所作的不是神，这是你们所看见所听见的。27这样，不独我们这事业被人藐视，就是大女神亚底米的"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "sceva",
+      "name": "士基瓦",
+      "refs": [
+        "使徒行传19:13–16"
+      ],
+      "aliases": [
+        "士基瓦"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/19.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/19.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "士基瓦"
+          ],
+          "nameInChapter": true,
+          "context": "向那被恶鬼附的人，擅自称主耶稣的名，说，我奉保罗所传的耶稣，敕令你们出来。14作这事的，有犹太祭司长士基瓦的七个儿子。15恶鬼回答他们说，耶稣我认识，保罗我也知道。你们却是谁呢？16恶鬼所附的人，就跳在他们身上，胜了其中二人，制伏他们，叫他们赤着身子受了伤，从那房子里逃出去了。17凡住在以弗所的，无论是犹太人，是希利尼人，都知道这事，也都惧怕，主耶稣的名从此就尊大了。18那已经"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "felix_governor",
+      "name": "腓力斯（巡抚）",
+      "refs": [
+        "使徒行传24:22–27"
+      ],
+      "aliases": [
+        "腓力斯"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/24.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/24.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "腓力斯"
+          ],
+          "nameInChapter": true,
+          "context": "祭司亚拿尼亚，同几个长老，和一个辩士帖土罗，下来，向巡抚控告保罗。2保罗被提了来，帖土罗就告他说，3腓力斯大人，我们因你得以大享太平，并且这一国的弊病，因着你的先见，得以更正了。我们随时随地，满心感谢不尽。4惟恐多说，你嫌烦絮，只求你宽容听我们说几句话。5我们看这个人，如同瘟疫一般，是鼓动普天下众犹太人生乱的，又是拿撒勒教党里的一个头目。6连圣殿他也想要污秽。我们把他捉住了。（"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "drusilla",
+      "name": "土西拉",
+      "refs": [
+        "使徒行传24:24"
+      ],
+      "aliases": [
+        "土西拉"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/24.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/24.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "土西拉"
+          ],
+          "nameInChapter": true,
+          "context": "3于是吩咐百夫长看守保罗并且宽待他，也不拦阻他的亲友来供给他。24过了几天，腓力斯和他夫人犹太的女子土西拉，一同来到，就叫了保罗来，听他讲论信基督耶稣的道。25保罗讲论公义，节制，和将来的审判，腓力斯甚觉恐惧，说，你暂且去吧，等我得便再叫你来。26腓力斯又指望保罗送他银钱，所以屡次叫他来，和他谈论。27过了两年，波求非斯都接了腓力斯的任，腓力斯要讨犹太人的喜欢，就留保罗在监里。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "festus_governor",
+      "name": "非斯都（巡抚）",
+      "refs": [
+        "使徒行传25:1–12"
+      ],
+      "aliases": [
+        "非斯都"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/25.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/25.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "非斯都"
+          ],
+          "nameInChapter": true,
+          "context": "第二十五章非斯都到了任，过了三天，就从该撒利亚上耶路撒冷去。2祭司长，和犹太人的首领，向他控告保罗，3又央告他，求他的情，将保罗提到耶路撒冷来。他们要在路上埋伏杀害他。4非斯都却回答说，保罗押在该撒利亚，我自己快要往那里去。5又说，你们中间有权势的人，与我一同下去，那人若有什么不是，就可以"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "agrippa_acts25",
+      "name": "亚基帕王（使徒行传25章）",
+      "refs": [
+        "使徒行传25:13–22"
+      ],
+      "aliases": [
+        "亚基帕王"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/25.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/25.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚基帕王"
+          ],
+          "nameInChapter": true,
+          "context": "们。我要上告于该撒。12非斯都和议会商量了，就说，你既上告于该撒，可以往该撒那里去。13过了些日子，亚基帕王，和百尼基氏，来到该撒利亚，问非斯都安。14在那里住了多日，非斯都将保罗的事告诉王，说，这里有一个人，是腓力斯留在监里的。15我在耶路撒冷的时候，祭司长和犹太的长老，将他的事禀报了我，求我定他的罪。16我对他们说，无论什么人，被告还没有和原告对质，未得机会分诉所告他的事，"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "bernice",
+      "name": "百尼基",
+      "refs": [
+        "使徒行传25:13、23"
+      ],
+      "aliases": [
+        "百尼基"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/25.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/25.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "百尼基"
+          ],
+          "nameInChapter": true,
+          "context": "于该撒。12非斯都和议会商量了，就说，你既上告于该撒，可以往该撒那里去。13过了些日子，亚基帕王，和百尼基氏，来到该撒利亚，问非斯都安。14在那里住了多日，非斯都将保罗的事告诉王，说，这里有一个人，是腓力斯留在监里的。15我在耶路撒冷的时候，祭司长和犹太的长老，将他的事禀报了我，求我定他的罪。16我对他们说，无论什么人，被告还没有和原告对质，未得机会分诉所告他的事，就先定他的罪"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "publius_malta",
+      "name": "部百流",
+      "refs": [
+        "使徒行传28:7–10"
+      ],
+      "aliases": [
+        "部百流"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/acts/28.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/44/28.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "部百流"
+          ],
+          "nameInChapter": true,
+          "context": "他必要肿起来，或是忽然仆倒死了。看了多时，见他无害，就转念说，他是个神。7离那地方不远，有田产是岛长部百流的。他接纳我们，尽情款待三日。8当时，部百流的父亲，患热病和痢疾躺着。保罗进去，为他祷告，按手在他身上，治好了他。9从此，岛上其余的病人，也来得了医治。10他们又多方的尊敬我们。到了开船的时候，也把我们所需用的送到船上。11过了三个月，我们上了亚力山太的船，往前行。这船以丢"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "phoebe",
+      "name": "非比",
+      "refs": [
+        "罗马书16:1–2"
+      ],
+      "aliases": [
+        "非比"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "非比"
+          ],
+          "nameInChapter": true,
+          "context": "第十六章我对你们举荐我们的姊妹非比，她是坚革哩教会中的女执事。2请你们为主接待她，合乎圣徒的体统。她在何事上，要你们帮助，你们就帮助她。因她素来帮助许多人，也帮助了我。3问百基拉和亚居拉安。他们在基督耶稣里与我同工，4也为我的命，将自己的颈项，置之度外。不但我感谢他们，就是外邦的众教会，也感谢他们。5又问在他"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "andronicus",
+      "name": "安多尼古",
+      "refs": [
+        "罗马书16:7"
+      ],
+      "aliases": [
+        "安多尼古"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "安多尼古"
+          ],
+          "nameInChapter": true,
+          "context": "拜尼土安。他在亚西亚是归基督初结的果子。6又问马利亚安。她为你们多受劳苦。7又问我亲属与我一同坐监的安多尼古和犹尼亚安。他们在使徒中是有名望的，也是比我先在基督里。8又问我在主里面所亲爱的暗伯利安。9又问在基督里与我们同工的耳巴奴，并我所亲爱的士大古安。10又问在基督里经过试验的亚比利安。问亚利多布家里的人安。11又问我亲属希罗天安。问拿其数家在主里的人安。12又问为主劳苦的土"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "junia",
+      "name": "犹尼亚",
+      "refs": [
+        "罗马书16:7"
+      ],
+      "aliases": [
+        "犹尼亚"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "犹尼亚"
+          ],
+          "nameInChapter": true,
+          "context": "他在亚西亚是归基督初结的果子。6又问马利亚安。她为你们多受劳苦。7又问我亲属与我一同坐监的安多尼古和犹尼亚安。他们在使徒中是有名望的，也是比我先在基督里。8又问我在主里面所亲爱的暗伯利安。9又问在基督里与我们同工的耳巴奴，并我所亲爱的士大古安。10又问在基督里经过试验的亚比利安。问亚利多布家里的人安。11又问我亲属希罗天安。问拿其数家在主里的人安。12又问为主劳苦的土非拿氏和土"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "mary_romans16",
+      "name": "马利亚（罗马书16章）",
+      "refs": [
+        "罗马书16:6"
+      ],
+      "aliases": [
+        "马利亚"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "马利亚"
+          ],
+          "nameInChapter": true,
+          "context": "，也感谢他们。5又问在他们家中的教会安。问我所亲爱的以拜尼土安。他在亚西亚是归基督初结的果子。6又问马利亚安。她为你们多受劳苦。7又问我亲属与我一同坐监的安多尼古和犹尼亚安。他们在使徒中是有名望的，也是比我先在基督里。8又问我在主里面所亲爱的暗伯利安。9又问在基督里与我们同工的耳巴奴，并我所亲爱的士大古安。10又问在基督里经过试验的亚比利安。问亚利多布家里的人安。11又问我亲属"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "rufus_romans16",
+      "name": "鲁孚（罗马书16章）",
+      "refs": [
+        "罗马书16:13"
+      ],
+      "aliases": [
+        "鲁孚"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "鲁孚"
+          ],
+          "nameInChapter": true,
+          "context": "的人安。12又问为主劳苦的土非拿氏和土富撒氏安。问可亲爱为主多受劳苦的彼息氏安。13又问在主蒙拣选的鲁孚和他母亲安。他的母亲就是我的母亲。14又问亚逊其土，弗勒干，黑米，八罗巴，黑马，并与他们在一处的弟兄们安。15又问非罗罗古，和犹利亚，尼利亚，和他姊妹，同阿林巴，并与他们在一处的众圣徒安。16你们亲嘴问安，彼此务要圣洁。基督的众教会都问你们安。17弟兄们，那些离间你们，叫你们"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "tertius_scribe",
+      "name": "德丢",
+      "refs": [
+        "罗马书16:22"
+      ],
+      "aliases": [
+        "德丢"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "德丢"
+          ],
+          "nameInChapter": true,
+          "context": "恩，常和你们同在。21与我同工的提摩太，和我的亲属路求，耶孙，所西巴德，问你们安。22我这代笔写信的德丢，在主里面问你们安。23那接待我，也接待全教会的该犹，问你们安。24城内管银库的以拉都，和兄弟括土，问你们安。25惟有神能照我所传的福音，和所讲的耶稣基督，并照永古隐藏不言的奥秘，坚固你们的心。26这奥秘如今显明出来，而且按着永生神的命，借众先知的书指示万国的民，使他们信服真"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "gaius_romans16",
+      "name": "该犹（罗马书16章）",
+      "refs": [
+        "罗马书16:23"
+      ],
+      "aliases": [
+        "该犹"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "该犹"
+          ],
+          "nameInChapter": true,
+          "context": "求，耶孙，所西巴德，问你们安。22我这代笔写信的德丢，在主里面问你们安。23那接待我，也接待全教会的该犹，问你们安。24城内管银库的以拉都，和兄弟括土，问你们安。25惟有神能照我所传的福音，和所讲的耶稣基督，并照永古隐藏不言的奥秘，坚固你们的心。26这奥秘如今显明出来，而且按着永生神的命，借众先知的书指示万国的民，使他们信服真道。27愿荣耀因耶稣基督归与独一全智的神，直到永远。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "erastus_romans16",
+      "name": "以拉都（罗马书16章）",
+      "refs": [
+        "罗马书16:23–24"
+      ],
+      "aliases": [
+        "以拉都"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/romans/16.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/45/16.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以拉都"
+          ],
+          "nameInChapter": true,
+          "context": "2我这代笔写信的德丢，在主里面问你们安。23那接待我，也接待全教会的该犹，问你们安。24城内管银库的以拉都，和兄弟括土，问你们安。25惟有神能照我所传的福音，和所讲的耶稣基督，并照永古隐藏不言的奥秘，坚固你们的心。26这奥秘如今显明出来，而且按着永生神的命，借众先知的书指示万国的民，使他们信服真道。27愿荣耀因耶稣基督归与独一全智的神，直到永远。阿们。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "euodia",
+      "name": "友阿爹",
+      "refs": [
+        "腓立比书4:2–3"
+      ],
+      "aliases": [
+        "友阿爹"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/philippians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/50/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "友阿爹"
+          ],
+          "nameInChapter": true,
+          "context": "第四章我所亲爱所想念的弟兄们，你们就是我的喜乐，我的冠冕。我亲爱的弟兄，你们应当靠主站立得稳。2我劝友阿爹和循都基，要在主里同心。3我也求你这真实同负一轭的，帮助这两个女人，因为他们在福音上曾与我一同劳苦。还有革利免，并其余和我一同作工的。他们的名字都在生命册上。4你们要靠主常常喜乐。我再说，你们要喜乐。5当叫众人知道你们谦让的心。主已经近了。6应当一无挂虑，只要凡事借着祷告，"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "syntyche",
+      "name": "循都基",
+      "refs": [
+        "腓立比书4:2–3"
+      ],
+      "aliases": [
+        "循都基"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/philippians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/50/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "循都基"
+          ],
+          "nameInChapter": true,
+          "context": "所亲爱所想念的弟兄们，你们就是我的喜乐，我的冠冕。我亲爱的弟兄，你们应当靠主站立得稳。2我劝友阿爹和循都基，要在主里同心。3我也求你这真实同负一轭的，帮助这两个女人，因为他们在福音上曾与我一同劳苦。还有革利免，并其余和我一同作工的。他们的名字都在生命册上。4你们要靠主常常喜乐。我再说，你们要喜乐。5当叫众人知道你们谦让的心。主已经近了。6应当一无挂虑，只要凡事借着祷告，祈求，和"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "clement_philippians",
+      "name": "革利免（腓立比书）",
+      "refs": [
+        "腓立比书4:3"
+      ],
+      "aliases": [
+        "革利免"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/philippians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/50/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "革利免"
+          ],
+          "nameInChapter": true,
+          "context": "都基，要在主里同心。3我也求你这真实同负一轭的，帮助这两个女人，因为他们在福音上曾与我一同劳苦。还有革利免，并其余和我一同作工的。他们的名字都在生命册上。4你们要靠主常常喜乐。我再说，你们要喜乐。5当叫众人知道你们谦让的心。主已经近了。6应当一无挂虑，只要凡事借着祷告，祈求，和感谢，将你们所要的告诉神。7神所赐出人意外的平安，必在基督耶稣里，保守你们的心怀意念。8弟兄们，我还有"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "epaphroditus",
+      "name": "以巴弗提",
+      "refs": [
+        "腓立比书2:25–30"
+      ],
+      "aliases": [
+        "以巴弗提"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/philippians/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/50/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以巴弗提"
+          ],
+          "nameInChapter": true,
+          "context": "以我一看出我的事要怎样了结，就盼望立刻打发他去。24但我靠着主，自信我也必快去。25然而我想必须打发以巴弗提到你们那里去。他是我的兄弟，与我一同作工，一同当兵，是你们所差遣的，也是供给我需用的。26他很想念你们众人，并且极其难过，因为你们听见他病了。27他实在是病了，几乎要死。然而神怜恤他，不但怜恤他，也怜恤我，免得我忧上加忧。28所以我越发急速打发他去，叫你们再见他，就可以喜"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "epaphras",
+      "name": "以巴弗",
+      "refs": [
+        "歌罗西书4:12–13"
+      ],
+      "aliases": [
+        "以巴弗"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/colossians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/51/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "以巴弗"
+          ],
+          "nameInChapter": true,
+          "context": "，只有这三个人，是为神的国与我一同作工的。也是叫我心里得安慰的。12有你们那里的人，作基督耶稣仆人的以巴弗问你们安。他在祷告之间，常为你们竭力地祈求，愿你们在神一切的旨意上，得以完全。信心充足，能站立得稳。13他为你们和老底嘉并希拉波立的弟兄，多多地劳苦。这是我可以给他作见证的。14所亲爱的医生路加，和底马问你们安。15请问老底嘉的弟兄和宁法，并他家里的教会安。16你们念了这书"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "tychicus",
+      "name": "推基古",
+      "refs": [
+        "歌罗西书4:7–8"
+      ],
+      "aliases": [
+        "推基古"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/colossians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/51/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "推基古"
+          ],
+          "nameInChapter": true,
+          "context": "用智慧与外人交往。6你们的言语要常常带着和气，好像用盐调和，就可知道该怎样回答各人。7有我亲爱的兄弟推基古要将我一切的事都告诉你们。他是忠心的执事，和我一同作主的仆人。8我特意打发他到你们那里去，好叫你们知道我们的光景，又叫他安慰你们的心。9我又打发一位亲爱忠心的兄弟阿尼西母同去。他也是你们那里的人。他们要把这里一切的事都告诉你们。10与我一同坐监的亚里达古问你们安。巴拿巴的表"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "aristarchus",
+      "name": "亚里达古",
+      "refs": [
+        "歌罗西书4:10"
+      ],
+      "aliases": [
+        "亚里达古"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/colossians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/51/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚里达古"
+          ],
+          "nameInChapter": true,
+          "context": "位亲爱忠心的兄弟阿尼西母同去。他也是你们那里的人。他们要把这里一切的事都告诉你们。10与我一同坐监的亚里达古问你们安。巴拿巴的表弟马可也问你们安。（说到这马可，你们已经受了吩咐。他若到了你们那里，你们就接待他。）11耶数又称为犹士都，也问你们安。奉割礼的人中，只有这三个人，是为神的国与我一同作工的。也是叫我心里得安慰的。12有你们那里的人，作基督耶稣仆人的以巴弗问你们安。他在祷"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "jesus_justus",
+      "name": "耶数 / 犹士都",
+      "refs": [
+        "歌罗西书4:11"
+      ],
+      "aliases": [
+        "耶数",
+        "犹士都"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/colossians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/51/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "耶数",
+            "犹士都"
+          ],
+          "nameInChapter": true,
+          "context": "。巴拿巴的表弟马可也问你们安。（说到这马可，你们已经受了吩咐。他若到了你们那里，你们就接待他。）11耶数又称为犹士都，也问你们安。奉割礼的人中，只有这三个人，是为神的国与我一同作工的。也是叫我心里得安慰的。12有你们那里的人，作基督耶稣仆人的以巴弗问你们安。他在祷告之间，常为你们竭力地祈求，愿你们在神一切的旨意上，得以完全。信心充足，能站立得稳。13他为你们和老底嘉并希拉波立的"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "nymphas",
+      "name": "宁法",
+      "refs": [
+        "歌罗西书4:15"
+      ],
+      "aliases": [
+        "宁法"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/colossians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/51/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "宁法"
+          ],
+          "nameInChapter": true,
+          "context": "兄，多多地劳苦。这是我可以给他作见证的。14所亲爱的医生路加，和底马问你们安。15请问老底嘉的弟兄和宁法，并他家里的教会安。16你们念了这书信，便交给老底嘉的教会，叫他们也念。你们也要念从老底嘉来的书信。17要对亚基布说，务要谨慎，尽你从主所受的职分。18我保罗亲笔问你们安。你们要记念我的捆锁。愿恩惠常与你们同在。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "archippus",
+      "name": "亚基布",
+      "refs": [
+        "歌罗西书4:17"
+      ],
+      "aliases": [
+        "亚基布"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/colossians/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/51/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚基布"
+          ],
+          "nameInChapter": true,
+          "context": "里的教会安。16你们念了这书信，便交给老底嘉的教会，叫他们也念。你们也要念从老底嘉来的书信。17要对亚基布说，务要谨慎，尽你从主所受的职分。18我保罗亲笔问你们安。你们要记念我的捆锁。愿恩惠常与你们同在。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "lois",
+      "name": "罗以",
+      "refs": [
+        "提摩太后书1:5"
+      ],
+      "aliases": [
+        "罗以"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "罗以"
+          ],
+          "nameInChapter": true,
+          "context": "想念你，4记念你的眼泪，昼夜切切地想要见你，好叫我满心快乐。5想到你心里无伪之信。这信是先在你外祖母罗以，和你母亲友尼基心里的。我深信也在你的心里。6为此我提醒你，使你将神借我按手所给你的恩赐，再如火挑旺起来。7因为神赐给我们，不是胆怯的心，乃是刚强，仁爱，谨守的心。8你不要以给我们的主作见证为耻，也不要以我这为主被囚的为耻。总要按神的能力，与我为福音同受苦难。9神救了我们，以"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "eunice",
+      "name": "友尼基",
+      "refs": [
+        "提摩太后书1:5"
+      ],
+      "aliases": [
+        "友尼基"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "友尼基"
+          ],
+          "nameInChapter": true,
+          "context": "你的眼泪，昼夜切切地想要见你，好叫我满心快乐。5想到你心里无伪之信。这信是先在你外祖母罗以，和你母亲友尼基心里的。我深信也在你的心里。6为此我提醒你，使你将神借我按手所给你的恩赐，再如火挑旺起来。7因为神赐给我们，不是胆怯的心，乃是刚强，仁爱，谨守的心。8你不要以给我们的主作见证为耻，也不要以我这为主被囚的为耻。总要按神的能力，与我为福音同受苦难。9神救了我们，以圣召召我们，不"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "onesiphorus",
+      "name": "阿尼色弗",
+      "refs": [
+        "提摩太后书1:16–18"
+      ],
+      "aliases": [
+        "阿尼色弗"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "阿尼色弗"
+          ],
+          "nameInChapter": true,
+          "context": "面的圣灵，牢牢地守着。15凡在亚西亚的人都离弃我，这是你知道的。其中有腓吉路和黑摩其尼。16愿主怜悯阿尼色弗一家的人。因他屡次使我畅快，不以我的锁链为耻。17反倒在罗马的时候，殷勤的找我，并且找着了。18愿主使他在那日得主的怜悯。他在以弗所怎样多多地服事我，是你明明知道的。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "hymenaeus",
+      "name": "许米乃",
+      "refs": [
+        "提摩太后书2:16–18"
+      ],
+      "aliases": [
+        "许米乃"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "许米乃"
+          ],
+          "nameInChapter": true,
+          "context": "的道。16但要远避世俗的虚谈。因为这等人必进到更不敬虔的地步。17他们的话如同毒疮，越烂越大。其中有许米乃和腓理徒。18他们偏离了真道，说复活的事已过，就败坏好些人的信心。19然而神坚固的根基立住了。上面有这印记说，主认识谁是他的人。又说，凡称呼主名的人，总要离开不义。20在大户人家，不但有金器银器，也有木器瓦器。有作为贵重的，有作为卑贱的。21人若自洁，脱离卑贱的事，就必作贵"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "philetus",
+      "name": "腓理徒",
+      "refs": [
+        "提摩太后书2:16–18"
+      ],
+      "aliases": [
+        "腓理徒"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/2.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/2.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "腓理徒"
+          ],
+          "nameInChapter": true,
+          "context": "6但要远避世俗的虚谈。因为这等人必进到更不敬虔的地步。17他们的话如同毒疮，越烂越大。其中有许米乃和腓理徒。18他们偏离了真道，说复活的事已过，就败坏好些人的信心。19然而神坚固的根基立住了。上面有这印记说，主认识谁是他的人。又说，凡称呼主名的人，总要离开不义。20在大户人家，不但有金器银器，也有木器瓦器。有作为贵重的，有作为卑贱的。21人若自洁，脱离卑贱的事，就必作贵重的器皿"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "demas",
+      "name": "底马",
+      "refs": [
+        "提摩太后书4:10"
+      ],
+      "aliases": [
+        "底马"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "底马"
+          ],
+          "nameInChapter": true,
+          "context": "公义审判的主到了那日要赐给我的。不但赐给我，也赐给凡爱慕他显现的人。9你要赶紧的到我这里来。10因为底马贪爱现今的世界，就离弃我往帖撒罗尼迦去了。革勒士往加拉太去。提多往挞马太去。11独有路加在我这里。你来的时候要把马可带来。因为他在传道的事上于我有益处。（传道或作服事我）12我已经打发推基古往以弗所去。13我在特罗亚留于加布的那件外衣，你来的时候可以带来。那些书也要带来。更要"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "alexander_coppersmith",
+      "name": "亚力山大（铜匠）",
+      "refs": [
+        "提摩太后书4:14–15"
+      ],
+      "aliases": [
+        "亚力山大"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "亚力山大"
+          ],
+          "nameInChapter": true,
+          "context": "。13我在特罗亚留于加布的那件外衣，你来的时候可以带来。那些书也要带来。更要紧的是那些皮卷。14铜匠亚力山大多多地害我。主必照他所行的报应他。15你也要防备他。因为他极力敌挡了我们的话。16我初次申诉，没有人前来帮助，竟都离弃我。但愿这罪不归与他们。17惟有主站在我旁边，加给我力量，使福音被我尽都传明，叫外邦人都听见。我也从狮子口里被救出来。18主必救我脱离诸般的凶恶，也必救我"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "trophimus",
+      "name": "特罗非摩",
+      "refs": [
+        "提摩太后书4:20"
+      ],
+      "aliases": [
+        "特罗非摩"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/2_timothy/4.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/55/4.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "特罗非摩"
+          ],
+          "nameInChapter": true,
+          "context": "耀归给他，直到永永远远。阿们。19问百基拉，亚居拉，和阿尼色弗一家的人安。20以拉都在哥林多住下了。特罗非摩病了，我就留他在米利都。21你要赶紧在冬天以前到我这里来。有友布罗，布田，利奴，革老底亚，和众弟兄，都问你安。22愿主与你的灵同在。愿恩惠常与你们同在。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "diotrephes",
+      "name": "丢特腓",
+      "refs": [
+        "约翰三书1:9–10"
+      ],
+      "aliases": [
+        "丢特腓"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/3_john/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/64/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "丢特腓"
+          ],
+          "nameInChapter": true,
+          "context": "8所以我们应该接待这样的人，叫我们与他们一同为真理作工。9我曾略略地写信给教会。但那在教会中好为首的丢特腓不接待我们。10所以我若去，必要提说他所行的事。就是他用恶言妄论我们。还不以此为足，他自己不接待弟兄，有人愿意接待，他也禁止，并且将接待弟兄的人赶出教会。11亲爱的兄弟啊，不要效法恶，只要效法善。行善的属乎神。行恶的未曾见过神。12低米丢行善有众人给他作见证。又有真理给他作"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    },
+    {
+      "id": "demetrius_3john",
+      "name": "低米丢（约翰三书）",
+      "refs": [
+        "约翰三书1:12"
+      ],
+      "aliases": [
+        "低米丢"
+      ],
+      "chapterNameVerified": true,
+      "checks": [
+        {
+          "url": "https://cnbible.com/cus/3_john/1.htm",
+          "resolvedUrl": "https://www.wordproject.org/bibles/gb/64/1.htm",
+          "downloadStatus": "cached",
+          "foundNames": [
+            "低米丢"
+          ],
+          "nameInChapter": true,
+          "context": "接待弟兄的人赶出教会。11亲爱的兄弟啊，不要效法恶，只要效法善。行善的属乎神。行恶的未曾见过神。12低米丢行善有众人给他作见证。又有真理给他作见证。就是我们也给他作见证。你也知道我们的见证是真的。13我原有许多事要写给你，却不愿意用笔墨写给你。14但盼望快快地见你，我们就当面谈论。15愿你平安。众位朋友都问你安。请你替我按着姓名问众位朋友安。"
+        }
+      ],
+      "verificationBoundary": "章节出现姓名的自动检查不能独自证明身份同一或事件摘要准确，特殊身份另列人工经文对照。"
+    }
+  ]
+}

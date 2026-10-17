@@ -1,0 +1,5464 @@
+{
+  "rootId": "judah",
+  "version": "2026-10-17",
+  "translation": "简体中文和合本",
+  "nodes": [
+    {
+      "id": "jesse",
+      "name": "耶西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:5–6",
+        "路得记4:22",
+        "历代志上2:12–15"
+      ],
+      "events": [],
+      "notes": "俄备得之子、大卫之父。代上2列七名儿子；撒上16与17称八个儿子，两份经文的列举数不同，不为第八位臆造姓名。姐妹洗鲁雅与亚比该单列亲属关系。"
+    },
+    {
+      "id": "david",
+      "name": "大卫",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:6",
+        "历代志上2:13–15",
+        "撒母耳记下12:24"
+      ],
+      "events": [],
+      "notes": "耶西之子。现展开代上3的具名儿女、撒下所记姊妹与外甥，以及具名妻子。母亲未明记的孩子不按名单顺序推定生母。太1主线继续所罗门，路3走拿单另一线。"
+    },
+    {
+      "id": "shelah_judah",
+      "name": "示拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12",
+        "历代志上4:21–23"
+      ],
+      "events": [],
+      "notes": "犹大与书亚之女所生的示拉，后裔见代上4:21–23；不与示拉之子珥、犹大长子珥混为一人。"
+    },
+    {
+      "id": "er_shelah",
+      "name": "珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shelah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:21–22"
+      ],
+      "events": [],
+      "notes": "示拉家族列名，不与犹大王室同名人物合并。"
+    },
+    {
+      "id": "laadah_shelah",
+      "name": "拉大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shelah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:21–22"
+      ],
+      "events": [],
+      "notes": "示拉家族列名，不与犹大王室同名人物合并。"
+    },
+    {
+      "id": "jokim_shelah",
+      "name": "约敬",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shelah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:21–22"
+      ],
+      "events": [],
+      "notes": "示拉家族列名，不与犹大王室同名人物合并。"
+    },
+    {
+      "id": "joash_shelah",
+      "name": "约阿施",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shelah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:21–22"
+      ],
+      "events": [],
+      "notes": "示拉家族列名，不与犹大王室同名人物合并。"
+    },
+    {
+      "id": "saraph_shelah",
+      "name": "萨拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shelah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:21–22"
+      ],
+      "events": [],
+      "notes": "示拉家族列名，不与犹大王室同名人物合并。"
+    },
+    {
+      "id": "ashbea_linen_families",
+      "name": "亚实比族织细麻布各家",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "族群／家族集合",
+      "refs": [
+        "历代志上4:21"
+      ],
+      "events": [],
+      "notes": "经文记族群和职业，不是一个名叫亚实比的直接儿子。",
+      "treeParentId": "shelah_judah",
+      "lineageKind": "tribal",
+      "lineageLabel": "族群／家族集合 · 非直接父子"
+    },
+    {
+      "id": "zimri_zerah",
+      "name": "心利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ethan_zerah",
+      "name": "以探",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "heman_zerah",
+      "name": "希幔",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "calcol_zerah",
+      "name": "甲各",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "dara_zerah",
+      "name": "大拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:6"
+      ],
+      "events": [],
+      "notes": "",
+      "aliases": [
+        "达大"
+      ]
+    },
+    {
+      "id": "azariah_ethan",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ethan_zerah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:8"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zabdi_zerah",
+      "name": "撒底",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerah_judah",
+      "relation": "儿子",
+      "refs": [
+        "约书亚记7:1"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "carmi_zabdi",
+      "name": "迦米",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zabdi_zerah",
+      "relation": "儿子",
+      "refs": [
+        "约书亚记7:1"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "achan_carmi",
+      "name": "亚干",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "carmi_zabdi",
+      "relation": "儿子",
+      "refs": [
+        "约书亚记7:1",
+        "历代志上2:7"
+      ],
+      "events": [],
+      "notes": "取当灭之物；不把代上2的心利与书7的撒底无注释强认同一人。"
+    },
+    {
+      "id": "jerahmeel_hezron",
+      "name": "耶拉篾",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hezron_perez",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:9",
+        "历代志上2:25"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "caleb_hezron",
+      "name": "迦勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hezron_perez",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:9",
+        "历代志上2:18–20"
+      ],
+      "events": [],
+      "notes": "希斯伦之子，耶拉篾的兄弟；代上2:9作基路拜。本档与耶孚尼之子迦勒分开。",
+      "aliases": [
+        "基路拜"
+      ]
+    },
+    {
+      "id": "abijah_hezron",
+      "name": "亚比雅",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:24"
+      ],
+      "events": [],
+      "notes": "希斯伦的妻，亚施户之母，不是犹大王亚比雅。"
+    },
+    {
+      "id": "machir_daughter_hezron",
+      "name": "玛吉之女（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:21"
+      ],
+      "events": [],
+      "notes": "希斯伦六十岁时娶的玛吉之女，西割之母；玛吉属玛拿西家，父家在约瑟支派中另见。",
+      "graphLabel": "玛吉之女",
+      "isUnnamed": true
+    },
+    {
+      "id": "segub_hezron",
+      "name": "西割",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hezron_perez",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jair_segub",
+      "name": "睚珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "segub_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:22–23"
+      ],
+      "events": [],
+      "notes": "在基列有城邑，母家为玛吉家；不将其与士师记10未说明相同身份的睚珥硬并。"
+    },
+    {
+      "id": "ashhur_hezron",
+      "name": "亚施户",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hezron_perez",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:24",
+        "历代志上4:5–7"
+      ],
+      "events": [],
+      "notes": "提哥亚之祖；提哥亚是地名，未画作人的儿子。"
+    },
+    {
+      "id": "helah_ashhur",
+      "name": "希拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上4:5–7"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "naarah_ashhur",
+      "name": "拿拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上4:5–6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ahuzzam_ashhur",
+      "name": "亚户撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ashhur_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hepher_ashhur",
+      "name": "希弗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ashhur_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "temeni_ashhur",
+      "name": "提米尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ashhur_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "haahashtari_ashhur",
+      "name": "哈辖斯他利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ashhur_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:6"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zereth_ashhur",
+      "name": "洗列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ashhur_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:7"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zohar_ashhur",
+      "name": "琐辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ashhur_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:7"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ethnan_ashhur",
+      "name": "伊提南",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ashhur_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:7"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ram_jerahmeel",
+      "name": "兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jerahmeel_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:25–26"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "bunah_jerahmeel",
+      "name": "布拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jerahmeel_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:25–26"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "oren_jerahmeel",
+      "name": "阿连",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jerahmeel_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:25–26"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ozem_jerahmeel",
+      "name": "阿鲜",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jerahmeel_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:25–26"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ahijah_jerahmeel",
+      "name": "亚希雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jerahmeel_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:25–26"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "onam_jerahmeel",
+      "name": "阿南",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jerahmeel_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:25–26"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "atarah_jerahmeel",
+      "name": "亚她拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:26"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "maaz_ram_j",
+      "name": "玛斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ram_jerahmeel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jamin_ram_j",
+      "name": "雅悯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ram_jerahmeel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "eker_ram_j",
+      "name": "以结",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ram_jerahmeel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shammai_onam",
+      "name": "沙买",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "onam_jerahmeel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:28"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jada_onam",
+      "name": "雅大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "onam_jerahmeel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:28"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nadab_shammai",
+      "name": "拿答",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shammai_onam",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:28"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "abishur_shammai",
+      "name": "亚比述",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shammai_onam",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:28"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "abihail_abishur",
+      "name": "亚比孩",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:29"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ahban_abishur",
+      "name": "亚办",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abishur_shammai",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:29"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "molid_abishur",
+      "name": "摩利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abishur_shammai",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:29"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "seled_nadab",
+      "name": "西列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nadab_shammai",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:30"
+      ],
+      "events": [],
+      "notes": "经文记他死了，没有儿子。"
+    },
+    {
+      "id": "appaim_nadab",
+      "name": "亚遍",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nadab_shammai",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:30"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ishi_appaim",
+      "name": "以示",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "appaim_nadab",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:31"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "sheshan_ishi",
+      "name": "示珊",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishi_appaim",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:31",
+        "历代志上2:34–35"
+      ],
+      "events": [],
+      "notes": "代上2:31列亚来，2:34又说没有儿子，只有女儿。经文有张力，本图分列原文而不把亚来无据认成女儿或女婿。"
+    },
+    {
+      "id": "ahlai_sheshan",
+      "name": "亚来",
+      "kind": "person",
+      "gender": "unknown",
+      "fatherId": "sheshan_ishi",
+      "relation": "后裔列名（身份待核）",
+      "refs": [
+        "历代志上2:31"
+      ],
+      "events": [],
+      "notes": "代上2:31列在示珊之后；2:34说示珊没有儿子，只有女儿。身份张力保留，不能断定就是嫁耶哈的未具名女儿。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "代上2:31列名 · 身份待核"
+    },
+    {
+      "id": "jether_jada",
+      "name": "益帖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jada_onam",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:32"
+      ],
+      "events": [],
+      "notes": "经文记他死了，没有儿子。"
+    },
+    {
+      "id": "jonathan_jada",
+      "name": "约拿单",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jada_onam",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:32"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "peleth_jonathan_j",
+      "name": "比勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jonathan_jada",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:33"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zaza_jonathan_j",
+      "name": "撒萨",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jonathan_jada",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:33"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "sheshan_daughter",
+      "name": "示珊之女（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "sheshan_ishi",
+      "relation": "女儿",
+      "refs": [
+        "历代志上2:34–35"
+      ],
+      "events": [],
+      "notes": "示珊把她嫁给埃及仆人耶哈；经文未直接说她就是2:31的亚来。",
+      "graphLabel": "示珊之女",
+      "isUnnamed": true
+    },
+    {
+      "id": "jarha_egyptian",
+      "name": "耶哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "女婿",
+      "refs": [
+        "历代志上2:34–35"
+      ],
+      "events": [],
+      "notes": "示珊的埃及仆人，成为女婿；其父亲未记名。",
+      "treeParentId": "sheshan_ishi",
+      "lineageKind": "family",
+      "lineageLabel": "女婿 · 非亲生儿子"
+    },
+    {
+      "id": "attai_jarha",
+      "name": "亚太",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jarha_egyptian",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "nathan_attai",
+      "name": "拿单",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "attai_jarha",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "zabad_nathan_attai",
+      "name": "撒拔",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nathan_attai",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "ephlal_zabad",
+      "name": "以弗拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zabad_nathan_attai",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "obed_ephlal",
+      "name": "俄备得",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ephlal_zabad",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "jehu_obed",
+      "name": "耶户",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed_ephlal",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "azariah_jehu_obed",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehu_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "helez_azariah",
+      "name": "希利斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "azariah_jehu_obed",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "eleasah_helez",
+      "name": "以利亚萨",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "helez_azariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "sismai_eleasah",
+      "name": "西斯买",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eleasah_helez",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "shallum_sismai",
+      "name": "沙龙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "sismai_eleasah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "jekamiah_shallum",
+      "name": "耶加米雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shallum_sismai",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "elishama_jekamiah",
+      "name": "以利沙玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jekamiah_shallum",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:35–41"
+      ],
+      "events": [],
+      "notes": "示珊女婿耶哈一线，与王室同名人物分开。"
+    },
+    {
+      "id": "azubah_caleb",
+      "name": "阿苏巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:18–19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jerioth_caleb",
+      "name": "耶略",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ephrath_caleb",
+      "name": "以法他",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ephah_caleb",
+      "name": "以法",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:46"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "maacah_caleb",
+      "name": "玛迦",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志上2:48–49"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jesher_caleb",
+      "name": "耶设",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shobab_caleb",
+      "name": "朔吧",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ardon_caleb",
+      "name": "押墩",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hur_caleb",
+      "name": "户珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:19–20",
+        "历代志上2:50"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "uri_hur",
+      "name": "乌利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hur_caleb",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:20"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "bezalel_uri",
+      "name": "比撒列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uri_hur",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:20",
+        "出埃及记31:2–5"
+      ],
+      "events": [],
+      "notes": "犹大支派，蒙召制作会幕器具。"
+    },
+    {
+      "id": "haran_caleb",
+      "name": "哈兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:46"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "moza_caleb",
+      "name": "摩撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:46"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "gazez_caleb",
+      "name": "迦谢",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:46"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "gazez_haran",
+      "name": "迦卸",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "haran_caleb",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:46"
+      ],
+      "events": [],
+      "notes": "经文所记哈兰之子；与哈兰的兄弟迦谢分别列档。"
+    },
+    {
+      "id": "sheber_caleb",
+      "name": "示别",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:48–49"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "tirhanah_caleb",
+      "name": "特哈拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:48–49"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shaaph_caleb",
+      "name": "沙亚弗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:48–49"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "sheva_caleb",
+      "name": "示法",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:48–49"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "achsah_caleb_hezron",
+      "name": "押撒",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "caleb_hezron",
+      "relation": "女儿",
+      "refs": [
+        "历代志上2:49"
+      ],
+      "events": [],
+      "notes": "代上2中希斯伦之子迦勒的女儿；书15耶孚尼之子迦勒也有同名女儿。本图分档，不强认两名父亲为一人。"
+    },
+    {
+      "id": "jadai_judah",
+      "name": "雅代",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派旁系（世代未接续）",
+      "refs": [
+        "历代志上2:47"
+      ],
+      "events": [],
+      "notes": "父系未交代，不能仅因插在迦勒段便画作迦勒亲生子。",
+      "treeParentId": "judah",
+      "lineageKind": "tribal",
+      "lineageLabel": "犹大支派 · 世代未接续"
+    },
+    {
+      "id": "regem_jadai",
+      "name": "利健",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jadai_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:47"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jotham_jadai",
+      "name": "约坦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jadai_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:47"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "geshan_jadai",
+      "name": "基珊",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jadai_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:47"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "pelet_jadai",
+      "name": "毗力",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jadai_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:47"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ephah_jadai",
+      "name": "以法",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jadai_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:47"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shaaph_jadai",
+      "name": "沙亚弗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jadai_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:47"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "mesha_caleb",
+      "name": "米沙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_hezron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:42"
+      ],
+      "events": [],
+      "notes": "长子、西弗之祖。西弗是地名，未当具名儿子。"
+    },
+    {
+      "id": "mareshah_caleb",
+      "name": "玛利沙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "家族列名（父系待核）",
+      "refs": [
+        "历代志上2:42"
+      ],
+      "events": [],
+      "notes": "原句在米沙、玛利沙、希伯仑的断句有歧义；仅按本节列档，不造确定生父。",
+      "treeParentId": "caleb_hezron",
+      "lineageKind": "tribal",
+      "lineageLabel": "迦勒家族列名 · 世代未定"
+    },
+    {
+      "id": "hebron_mareshah",
+      "name": "希伯仑",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "祖族列名",
+      "refs": [
+        "历代志上2:42–43"
+      ],
+      "events": [],
+      "notes": "本节为祖族/地名相关谱系列名，不把城邑的奠基身份自动当直接生父关系。",
+      "treeParentId": "mareshah_caleb",
+      "lineageKind": "tribal",
+      "lineageLabel": "希伯仑祖族 · 非确定亲父子"
+    },
+    {
+      "id": "korah_hebron_j",
+      "name": "可拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_mareshah",
+      "relation": "祖族后裔列名",
+      "refs": [
+        "历代志上2:43"
+      ],
+      "events": [],
+      "notes": "按代上2祖族谱列名，可能包含地族始祖，不等于每处皆可核的直接生物父系。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "代上2祖族列名"
+    },
+    {
+      "id": "tappuah_hebron",
+      "name": "他普亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_mareshah",
+      "relation": "祖族后裔列名",
+      "refs": [
+        "历代志上2:43"
+      ],
+      "events": [],
+      "notes": "按代上2祖族谱列名，可能包含地族始祖，不等于每处皆可核的直接生物父系。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "代上2祖族列名"
+    },
+    {
+      "id": "rekem_hebron",
+      "name": "利肯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_mareshah",
+      "relation": "祖族后裔列名",
+      "refs": [
+        "历代志上2:43"
+      ],
+      "events": [],
+      "notes": "按代上2祖族谱列名，可能包含地族始祖，不等于每处皆可核的直接生物父系。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "代上2祖族列名"
+    },
+    {
+      "id": "shema_hebron",
+      "name": "示玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hebron_mareshah",
+      "relation": "祖族后裔列名",
+      "refs": [
+        "历代志上2:43"
+      ],
+      "events": [],
+      "notes": "按代上2祖族谱列名，可能包含地族始祖，不等于每处皆可核的直接生物父系。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "代上2祖族列名"
+    },
+    {
+      "id": "raham_shema",
+      "name": "拉含",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shema_hebron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:44"
+      ],
+      "events": [],
+      "notes": "约干之祖，约干未另当人名子孙。"
+    },
+    {
+      "id": "shammai_rekem",
+      "name": "沙买",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rekem_hebron",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:44"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "maon_shammai",
+      "name": "玛云",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shammai_rekem",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:45"
+      ],
+      "events": [],
+      "notes": "伯夙之祖，未将伯夙另画作亲生子。"
+    },
+    {
+      "id": "shobal_hur",
+      "name": "朔巴",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hur_caleb",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:50–51"
+      ],
+      "events": [],
+      "notes": "代上2列为户珥子孙及城族之祖，不与大卫主线撒门等同。"
+    },
+    {
+      "id": "salma_hur",
+      "name": "萨玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hur_caleb",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:50–51"
+      ],
+      "events": [],
+      "notes": "代上2列为户珥子孙及城族之祖，不与大卫主线撒门等同。"
+    },
+    {
+      "id": "hareph_hur",
+      "name": "哈勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hur_caleb",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:50–51"
+      ],
+      "events": [],
+      "notes": "代上2列为户珥子孙及城族之祖，不与大卫主线撒门等同。"
+    },
+    {
+      "id": "haroeh_shobal",
+      "name": "哈罗以",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shobal_hur",
+      "relation": "后裔列名",
+      "refs": [
+        "历代志上2:52"
+      ],
+      "events": [],
+      "notes": "属于朔巴后裔；代上4:2另作利亚雅，未在此无注释等同。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "朔巴后裔列名"
+    },
+    {
+      "id": "shobal_manaheth_half",
+      "name": "一半米努哈人",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "族群／家族集合",
+      "refs": [
+        "历代志上2:52"
+      ],
+      "events": [],
+      "notes": "又称玛拿哈人，族群而非一名儿子。",
+      "treeParentId": "shobal_hur",
+      "lineageKind": "tribal",
+      "lineageLabel": "族群／家族集合 · 非直接父子"
+    },
+    {
+      "id": "kiriath_jearim_families",
+      "name": "基列耶琳诸族",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "族群／家族集合",
+      "refs": [
+        "历代志上2:50–53"
+      ],
+      "events": [],
+      "notes": "包括以帖人、布特人、舒玛人、密来人，从中又出琐拉人和以实陶人。",
+      "treeParentId": "shobal_hur",
+      "lineageKind": "tribal",
+      "lineageLabel": "族群／家族集合 · 非直接父子"
+    },
+    {
+      "id": "salma_families",
+      "name": "萨玛后裔诸族",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "族群／家族集合",
+      "refs": [
+        "历代志上2:54"
+      ],
+      "events": [],
+      "notes": "伯利恒人、尼陀法人、亚他绿伯约押人、一半玛拿哈人、琐利人。",
+      "treeParentId": "salma_hur",
+      "lineageKind": "tribal",
+      "lineageLabel": "族群／家族集合 · 非直接父子"
+    },
+    {
+      "id": "hammath_kenite",
+      "name": "哈末",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "基尼人相关家族起点",
+      "refs": [
+        "历代志上2:55"
+      ],
+      "events": [],
+      "notes": "基尼人利甲家之祖，记在犹大段不自动证明犹大血统。经文未接其父系，不把他当萨玛直接亲生子。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "基尼人相关家族 · 非确定犹大父系"
+    },
+    {
+      "id": "hammath_scribal_families",
+      "name": "雅比斯众文士家",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": null,
+      "relation": "族群／家族集合",
+      "refs": [
+        "历代志上2:55"
+      ],
+      "events": [],
+      "notes": "特拉人、示米押人、苏甲人。",
+      "treeParentId": "hammath_kenite",
+      "lineageKind": "context",
+      "lineageLabel": "基尼人文士家 · 族群集合"
+    },
+    {
+      "id": "reaiah_shobal",
+      "name": "利亚雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shobal_hur",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:2"
+      ],
+      "events": [],
+      "notes": "代上4:2朔巴之子；与代上2:52哈罗以的身份对应不在图中断言。"
+    },
+    {
+      "id": "jahath_reaiah",
+      "name": "雅哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reaiah_shobal",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:2"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ahumai_jahath",
+      "name": "亚户买",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jahath_reaiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:2"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "lahad_jahath",
+      "name": "拉哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jahath_reaiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:2"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "kenaz_othniel",
+      "name": "基纳斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派旁系（世代未接续）",
+      "refs": [
+        "历代志上4:13",
+        "约书亚记15:17"
+      ],
+      "events": [],
+      "notes": "俄陀聂之父；与以扫家族基纳斯及以拉之子基纳斯分档。未把他无据接成犹大某人的直接儿子。",
+      "treeParentId": "judah",
+      "lineageKind": "tribal",
+      "lineageLabel": "犹大支派 · 世代未接续"
+    },
+    {
+      "id": "othniel_kenaz",
+      "name": "俄陀聂",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kenaz_othniel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:13"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "seraiah_kenaz",
+      "name": "西莱雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "kenaz_othniel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:13"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hathath_othniel",
+      "name": "哈塔",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "othniel_kenaz",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:13"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "meonothai_judah",
+      "name": "悯挪太",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "家族列名（父系待核）",
+      "refs": [
+        "历代志上4:14"
+      ],
+      "events": [],
+      "notes": "代上4:14只明说悯挪太生俄弗拉，未明说悯挪太是俄陀聂之子。",
+      "treeParentId": "kenaz_othniel",
+      "lineageKind": "tribal",
+      "lineageLabel": "邻接家族列名 · 父系未接"
+    },
+    {
+      "id": "ophrah_meonothai",
+      "name": "俄弗拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meonothai_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:14"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "joab_seraiah_kenaz",
+      "name": "约押",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "seraiah_kenaz",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:14"
+      ],
+      "events": [],
+      "notes": "革夏纳欣人之祖，他们都是匠人；不是大卫的元帅约押。"
+    },
+    {
+      "id": "jephunneh_caleb",
+      "name": "耶孚尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派旁系（世代未接续）",
+      "refs": [
+        "历代志上4:15",
+        "民数记13:6"
+      ],
+      "events": [],
+      "notes": "迦勒的父亲；父系未逐代记到犹大。",
+      "treeParentId": "judah",
+      "lineageKind": "tribal",
+      "lineageLabel": "犹大支派 · 世代未接续"
+    },
+    {
+      "id": "caleb_jephunneh",
+      "name": "迦勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jephunneh_caleb",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:15",
+        "约书亚记15:13–19"
+      ],
+      "events": [],
+      "notes": "耶孚尼之子、犹大支派探子；与希斯伦之子迦勒分开。"
+    },
+    {
+      "id": "iru_caleb_j",
+      "name": "以路",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_jephunneh",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "elah_caleb_j",
+      "name": "以拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_jephunneh",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "naam_caleb_j",
+      "name": "拿安",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "caleb_jephunneh",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "kenaz_elah",
+      "name": "基纳斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elah_caleb_j",
+      "relation": "儿子",
+      "refs": [
+        "历代志上4:15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "achsah_caleb_jephunneh",
+      "name": "押撒",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "caleb_jephunneh",
+      "relation": "女儿",
+      "refs": [
+        "约书亚记15:16–19"
+      ],
+      "events": [],
+      "notes": "耶孚尼之子迦勒的女儿，嫁给俄陀聂，与代上2同名女儿分档。"
+    },
+    {
+      "id": "elimelech_ruth",
+      "name": "以利米勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派旁系（世代未接续）",
+      "refs": [
+        "路得记1:1–5"
+      ],
+      "events": [],
+      "notes": "犹大伯利恒的以法他人；家族未接到大卫祖系的某位直接父亲。",
+      "treeParentId": "judah",
+      "lineageKind": "tribal",
+      "lineageLabel": "犹大支派 · 世代未接续"
+    },
+    {
+      "id": "naomi",
+      "name": "拿俄米",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "路得记1:2–5",
+        "路得记4:16–17"
+      ],
+      "events": [],
+      "notes": "玛伦、基连之母；俄备得的养育者，不是其生母。"
+    },
+    {
+      "id": "mahlon",
+      "name": "玛伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elimelech_ruth",
+      "relation": "关联亲属",
+      "refs": [
+        "路得记1:2–5",
+        "路得记4:10"
+      ],
+      "events": [],
+      "notes": "以利米勒与拿俄米之子、路得的前夫；他死后路得嫁波阿斯。"
+    },
+    {
+      "id": "chilion_ruth",
+      "name": "基连",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elimelech_ruth",
+      "relation": "儿子",
+      "refs": [
+        "路得记1:2–5"
+      ],
+      "events": [],
+      "notes": "拿俄米的儿子，娶俄珥巴。"
+    },
+    {
+      "id": "orpah",
+      "name": "俄珥巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "路得记1:4",
+        "路得记1:14"
+      ],
+      "events": [],
+      "notes": "路得记4:10明确路得为玛伦之妻；据1:4两兄弟两妻对照，俄珥巴为基连妻。"
+    },
+    {
+      "id": "eliab_jesse",
+      "name": "以利押",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:13–15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "abinadab_jesse",
+      "name": "亚比拿达",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:13–15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shimea_jesse",
+      "name": "示米亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:13–15"
+      ],
+      "events": [],
+      "notes": "代上2:13作示米亚，撒上16:9作沙玛；与其他同名者分开。",
+      "aliases": [
+        "沙玛"
+      ]
+    },
+    {
+      "id": "nethanel_jesse",
+      "name": "拿坦业",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:13–15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "raddai_jesse",
+      "name": "拉代",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:13–15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ozem_jesse",
+      "name": "阿鲜",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:13–15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zeruiah_david_sister",
+      "name": "洗鲁雅",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "姐妹（母系关联）",
+      "refs": [
+        "历代志上2:16"
+      ],
+      "events": [],
+      "notes": "大卫及其兄弟的姐妹；本节未逐字说明其父名，不强填父亲。",
+      "treeParentId": "jesse",
+      "lineageKind": "family",
+      "lineageLabel": "大卫的姐妹 · 非确定父系"
+    },
+    {
+      "id": "nahash_abigail_father",
+      "name": "拿辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "撒母耳记下17:25"
+      ],
+      "events": [],
+      "notes": "撒下17:25称亚比该为拿辖女儿；不同于约沙法兄弟等同名人物，不与耶西硬认同一人。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "abigail_david_sister",
+      "name": "亚比该",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "nahash_abigail_father",
+      "relation": "女儿",
+      "refs": [
+        "历代志上2:16–17",
+        "撒母耳记下17:25"
+      ],
+      "events": [],
+      "notes": "大卫的姐妹、洗鲁雅的姐妹，亚玛撒之母；与大卫之妻同名亚比该分档。",
+      "treeParentId": "jesse",
+      "lineageKind": "family",
+      "lineageLabel": "大卫的姐妹 · 拿辖之女"
+    },
+    {
+      "id": "abishai_zeruiah",
+      "name": "亚比筛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "洗鲁雅之子（父未记名）",
+      "refs": [
+        "历代志上2:16"
+      ],
+      "events": [],
+      "notes": "洗鲁雅之子，父亲未具名。",
+      "treeParentId": "zeruiah_david_sister",
+      "lineageKind": "maternal",
+      "lineageLabel": "母系 · 洗鲁雅所生"
+    },
+    {
+      "id": "joab_zeruiah",
+      "name": "约押",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "洗鲁雅之子（父未记名）",
+      "refs": [
+        "历代志上2:16"
+      ],
+      "events": [],
+      "notes": "洗鲁雅之子，父亲未具名。",
+      "treeParentId": "zeruiah_david_sister",
+      "lineageKind": "maternal",
+      "lineageLabel": "母系 · 洗鲁雅所生"
+    },
+    {
+      "id": "asahel_zeruiah",
+      "name": "亚撒黑",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "洗鲁雅之子（父未记名）",
+      "refs": [
+        "历代志上2:16"
+      ],
+      "events": [],
+      "notes": "洗鲁雅之子，父亲未具名。",
+      "treeParentId": "zeruiah_david_sister",
+      "lineageKind": "maternal",
+      "lineageLabel": "母系 · 洗鲁雅所生"
+    },
+    {
+      "id": "jether_ishmaelite",
+      "name": "益帖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "历代志上2:17",
+        "撒母耳记下17:25"
+      ],
+      "events": [],
+      "notes": "亚玛撒之父，代上2作以实玛利人益帖；撒下17:25作以色列人以特拉，文字差异保留。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系",
+      "aliases": [
+        "以特拉"
+      ]
+    },
+    {
+      "id": "amasa_jether",
+      "name": "亚玛撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jether_ishmaelite",
+      "relation": "儿子",
+      "refs": [
+        "历代志上2:17",
+        "撒母耳记下17:25"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jonadab_shimea",
+      "name": "约拿达",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimea_jesse",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记下13:3"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jonathan_shimea",
+      "name": "约拿单",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shimea_jesse",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记下21:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ahinoam_david",
+      "name": "亚希暖",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下3:2",
+        "历代志上3:1"
+      ],
+      "events": [],
+      "notes": "大卫具名之妻，不与同名女性合并。"
+    },
+    {
+      "id": "abigail_david_wife",
+      "name": "亚比该",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记上25:3",
+        "撒母耳记上25:39–42",
+        "历代志上3:1"
+      ],
+      "events": [],
+      "notes": "大卫具名之妻，不与同名女性合并。"
+    },
+    {
+      "id": "maacah_david",
+      "name": "玛迦",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "talmai_geshur",
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下3:3",
+        "历代志上3:2"
+      ],
+      "events": [],
+      "notes": "基述王达买的女儿、大卫之妻，押沙龙之母。"
+    },
+    {
+      "id": "haggith_david",
+      "name": "哈及",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下3:4",
+        "历代志上3:2"
+      ],
+      "events": [],
+      "notes": "大卫具名之妻，不与同名女性合并。"
+    },
+    {
+      "id": "abital_david",
+      "name": "亚比他",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下3:4",
+        "历代志上3:3"
+      ],
+      "events": [],
+      "notes": "大卫具名之妻，不与同名女性合并。"
+    },
+    {
+      "id": "eglah_david",
+      "name": "以格拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下3:5",
+        "历代志上3:3"
+      ],
+      "events": [],
+      "notes": "大卫具名之妻，不与同名女性合并。"
+    },
+    {
+      "id": "nabal_carmelite",
+      "name": "拿八",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "支派旁系（世代未接续）",
+      "refs": [
+        "撒母耳记上25:2–3"
+      ],
+      "events": [],
+      "notes": "迦勒族人，亚比该前夫；不能把他接成任一迦勒的直接儿子。",
+      "treeParentId": "judah",
+      "lineageKind": "tribal",
+      "lineageLabel": "犹大支派 · 世代未接续"
+    },
+    {
+      "id": "ammihud_geshur",
+      "name": "亚米忽",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "撒母耳记下13:37"
+      ],
+      "events": [],
+      "notes": "基述王达买之父，相关外族家族，不是犹大支派。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "talmai_geshur",
+      "name": "达买",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ammihud_geshur",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记下3:3",
+        "撒母耳记下13:37"
+      ],
+      "events": [],
+      "notes": "基述王，玛迦之父。"
+    },
+    {
+      "id": "amnon_david",
+      "name": "暗嫩",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:1–4",
+        "撒母耳记下3:2–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "chileab_david",
+      "name": "但以利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:1–4",
+        "撒母耳记下3:2–5"
+      ],
+      "events": [],
+      "notes": "代上3:1作但以利，撒下3:3作基利押，不与先知但以理合并。",
+      "aliases": [
+        "基利押"
+      ]
+    },
+    {
+      "id": "absalom_david",
+      "name": "押沙龙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:1–4",
+        "撒母耳记下3:2–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "adonijah_david",
+      "name": "亚多尼雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:1–4",
+        "撒母耳记下3:2–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shephatiah_david",
+      "name": "示法提雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:1–4",
+        "撒母耳记下3:2–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ithream_david",
+      "name": "以特念",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:1–4",
+        "撒母耳记下3:2–5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shimea_david",
+      "name": "示米亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:5"
+      ],
+      "events": [],
+      "notes": "",
+      "aliases": [
+        "沙母亚"
+      ]
+    },
+    {
+      "id": "shobab_david",
+      "name": "朔吧",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nathan_david",
+      "name": "拿单",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:5"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ibhar_david",
+      "name": "益辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。"
+    },
+    {
+      "id": "elishama_david_first",
+      "name": "以利沙玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。",
+      "graphLabel": "以利沙玛（前列）"
+    },
+    {
+      "id": "eliphelet_david_first",
+      "name": "以利法列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。",
+      "graphLabel": "以利法列（前列）"
+    },
+    {
+      "id": "nogah_david",
+      "name": "挪迦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。"
+    },
+    {
+      "id": "nepheg_david",
+      "name": "尼斐",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。"
+    },
+    {
+      "id": "japhia_david",
+      "name": "雅非亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。"
+    },
+    {
+      "id": "elishama_david_second",
+      "name": "以利沙玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。",
+      "graphLabel": "以利沙玛（后列）"
+    },
+    {
+      "id": "eliada_david",
+      "name": "以利雅大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。"
+    },
+    {
+      "id": "eliphelet_david_second",
+      "name": "以利法列",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:6–8"
+      ],
+      "events": [],
+      "notes": "代上3列名；生母未具名，不把这九人自动归到拔示巴。两名以利沙玛、两名以利法列按本章分档保留。",
+      "graphLabel": "以利法列（后列）"
+    },
+    {
+      "id": "tamar_david",
+      "name": "他玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "david",
+      "relation": "女儿",
+      "refs": [
+        "历代志上3:9",
+        "撒母耳记下13:1",
+        "撒母耳记下13:20"
+      ],
+      "events": [],
+      "notes": "押沙龙的胞妹；与犹大儿妇他玛及押沙龙女儿同名他玛分档。"
+    },
+    {
+      "id": "tamar_absalom",
+      "name": "他玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "absalom_david",
+      "relation": "女儿",
+      "refs": [
+        "撒母耳记下14:27"
+      ],
+      "events": [],
+      "notes": "押沙龙女儿；经文记另有三个儿子，但未列名字，不填造名字。"
+    },
+    {
+      "id": "jerimoth_david",
+      "name": "耶利摩",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "历代志下11:18"
+      ],
+      "events": [],
+      "notes": "经文称大卫之子，未列在代上3:1–9的名单；不据此猜生母。"
+    },
+    {
+      "id": "ahithophel_gilonite",
+      "name": "亚希多弗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "撒母耳记下23:34"
+      ],
+      "events": [],
+      "notes": "基罗人，以连的父亲；这里只据实名亲子记录。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "eliam_bathsheba",
+      "name": "以连",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahithophel_gilonite",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记下11:3",
+        "撒母耳记下23:34"
+      ],
+      "events": [],
+      "notes": "拔示巴之父；代上3:5作亚米利。以连与亚米利作异名对照，父系身份仍按撒下文字。",
+      "aliases": [
+        "亚米利"
+      ]
+    },
+    {
+      "id": "bathsheba",
+      "name": "拔示巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "eliam_bathsheba",
+      "relation": "所罗门的母亲",
+      "refs": [
+        "马太福音1:6",
+        "撒母耳记下11:3",
+        "撒母耳记下11:26–27",
+        "撒母耳记下12:24",
+        "历代志上3:5"
+      ],
+      "events": [],
+      "notes": "以连之女、乌利亚的前妻，乌利亚死后成为大卫之妻，生示米亚、朔吧、拿单、所罗门。代上3:5作亚米利之女拔书亚。先前夭折的孩子未具名，不与所罗门合并。",
+      "aliases": [
+        "乌利亚的妻子",
+        "拔书亚"
+      ]
+    },
+    {
+      "id": "naamah_solomon",
+      "name": "拿玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪上14:21",
+        "列王纪上14:31"
+      ],
+      "events": [],
+      "notes": "亚扪女子，所罗门之子罗波安之母。"
+    },
+    {
+      "id": "mahalath_rehoboam",
+      "name": "玛哈拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "jerimoth_david",
+      "relation": "女儿",
+      "refs": [
+        "历代志下11:18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "abihail_rehoboam",
+      "name": "亚比孩",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "eliab_jesse",
+      "relation": "女儿",
+      "refs": [
+        "历代志下11:18"
+      ],
+      "events": [],
+      "notes": "耶西之子以利押的女儿，与亚比述之妻同名亚比孩分开。"
+    },
+    {
+      "id": "maacah_rehoboam",
+      "name": "玛迦",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "后裔列名（父系有异表）",
+      "refs": [
+        "历代志下11:20–22",
+        "历代志下13:2",
+        "列王纪上15:2",
+        "列王纪上15:10"
+      ],
+      "events": [],
+      "notes": "代下11/王上15称押沙龙的女儿，代下13:2称基比亚人乌列之女米该雅。保留异表，不自造乌列与押沙龙之女他玛婚姻来拼合；亚比雅之母、亚撒祖母。",
+      "aliases": [
+        "米该雅"
+      ],
+      "treeParentId": "absalom_david",
+      "lineageKind": "genealogy",
+      "lineageLabel": "押沙龙后裔列名 · 父系异表"
+    },
+    {
+      "id": "jeush_rehoboam",
+      "name": "耶乌施",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehoboam",
+      "relation": "儿子",
+      "refs": [
+        "历代志下11:18–19"
+      ],
+      "events": [],
+      "notes": "11:18同时列玛哈拉、亚比孩，19节“从他”指代在译本间有解释差异，未在图中给这三子强配唯一生母。"
+    },
+    {
+      "id": "shemariah_rehoboam",
+      "name": "示玛利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehoboam",
+      "relation": "儿子",
+      "refs": [
+        "历代志下11:18–19"
+      ],
+      "events": [],
+      "notes": "11:18同时列玛哈拉、亚比孩，19节“从他”指代在译本间有解释差异，未在图中给这三子强配唯一生母。"
+    },
+    {
+      "id": "zaham_rehoboam",
+      "name": "撒罕",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehoboam",
+      "relation": "儿子",
+      "refs": [
+        "历代志下11:18–19"
+      ],
+      "events": [],
+      "notes": "11:18同时列玛哈拉、亚比孩，19节“从他”指代在译本间有解释差异，未在图中给这三子强配唯一生母。"
+    },
+    {
+      "id": "attai_rehoboam",
+      "name": "亚太",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehoboam",
+      "relation": "儿子",
+      "refs": [
+        "历代志下11:20"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ziza_rehoboam",
+      "name": "细撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehoboam",
+      "relation": "儿子",
+      "refs": [
+        "历代志下11:20"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shelomith_rehoboam",
+      "name": "示罗密",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehoboam",
+      "relation": "儿子",
+      "refs": [
+        "历代志下11:20"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shilhi_azubah",
+      "name": "示利希",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪上22:42"
+      ],
+      "events": [],
+      "notes": "约沙法母亲阿苏巴之父；本节未记支派父系。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "azubah_asa",
+      "name": "阿苏巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "shilhi_azubah",
+      "relation": "女儿",
+      "refs": [
+        "列王纪上22:42"
+      ],
+      "events": [],
+      "notes": "约沙法母亲，与希斯伦之子迦勒之妻分开。"
+    },
+    {
+      "id": "azariah_jehoshaphat_first",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat",
+      "relation": "儿子",
+      "refs": [
+        "历代志下21:2–4"
+      ],
+      "events": [],
+      "notes": "约兰的兄弟，后来被约兰所杀；本章两次列亚撒利雅，不无据合并。",
+      "graphLabel": "亚撒利雅（前列）"
+    },
+    {
+      "id": "jehiel_jehoshaphat",
+      "name": "耶歇",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat",
+      "relation": "儿子",
+      "refs": [
+        "历代志下21:2–4"
+      ],
+      "events": [],
+      "notes": "约兰的兄弟，后来被约兰所杀；本章两次列亚撒利雅，不无据合并。"
+    },
+    {
+      "id": "zechariah_jehoshaphat",
+      "name": "撒迦利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat",
+      "relation": "儿子",
+      "refs": [
+        "历代志下21:2–4"
+      ],
+      "events": [],
+      "notes": "约兰的兄弟，后来被约兰所杀；本章两次列亚撒利雅，不无据合并。"
+    },
+    {
+      "id": "azariah_jehoshaphat_second",
+      "name": "亚撒利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat",
+      "relation": "儿子",
+      "refs": [
+        "历代志下21:2–4"
+      ],
+      "events": [],
+      "notes": "约兰的兄弟，后来被约兰所杀；本章两次列亚撒利雅，不无据合并。",
+      "graphLabel": "亚撒利雅（后列）"
+    },
+    {
+      "id": "michael_jehoshaphat",
+      "name": "米迦勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat",
+      "relation": "儿子",
+      "refs": [
+        "历代志下21:2–4"
+      ],
+      "events": [],
+      "notes": "约兰的兄弟，后来被约兰所杀；本章两次列亚撒利雅，不无据合并。"
+    },
+    {
+      "id": "shephatiah_jehoshaphat",
+      "name": "示法提雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat",
+      "relation": "儿子",
+      "refs": [
+        "历代志下21:2–4"
+      ],
+      "events": [],
+      "notes": "约兰的兄弟，后来被约兰所杀；本章两次列亚撒利雅，不无据合并。"
+    },
+    {
+      "id": "athaliah",
+      "name": "亚他利雅",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "ahab_israel",
+      "relation": "女儿",
+      "refs": [
+        "列王纪下8:18",
+        "列王纪下8:26",
+        "历代志下22:2"
+      ],
+      "events": [],
+      "notes": "亚哈之女、暗利孙女，犹大王约兰之妻与亚哈谢之母；经文未明确称她为耶洗别所生，不添加那条生母关系。"
+    },
+    {
+      "id": "jehosheba",
+      "name": "约示巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "jehoram_judah",
+      "relation": "女儿",
+      "refs": [
+        "历代志下22:11",
+        "列王纪下11:2"
+      ],
+      "events": [],
+      "notes": "亚哈谢的姐妹、祭司耶何耶大的妻，救出婴儿约阿施。经文未明记其母亲，不默认亚他利雅。"
+    },
+    {
+      "id": "jehoiada_priest",
+      "name": "耶何耶大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "历代志下22:11"
+      ],
+      "events": [],
+      "notes": "祭司，约示巴丈夫；不在本犹大树伪接其利未谱系。"
+    },
+    {
+      "id": "zibiah",
+      "name": "西比亚",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下12:1"
+      ],
+      "events": [],
+      "notes": "别是巴人。"
+    },
+    {
+      "id": "jehoaddan",
+      "name": "约耶但",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下14:2"
+      ],
+      "events": [],
+      "notes": "耶路撒冷人。"
+    },
+    {
+      "id": "jecoliah",
+      "name": "耶可利雅",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下15:2"
+      ],
+      "events": [],
+      "notes": "耶路撒冷人。"
+    },
+    {
+      "id": "jerusha",
+      "name": "耶路沙",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "zadok_jerusha",
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下15:33"
+      ],
+      "events": [],
+      "notes": "撒督的女儿。"
+    },
+    {
+      "id": "abi_hezekiah",
+      "name": "亚比",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "zechariah_abi_father",
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下18:2",
+        "历代志下29:1"
+      ],
+      "events": [],
+      "notes": "撒迦利雅的女儿，代下29:1作亚比雅。",
+      "aliases": [
+        "亚比雅"
+      ]
+    },
+    {
+      "id": "hephzibah",
+      "name": "协西巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下21:1"
+      ],
+      "events": [],
+      "notes": "玛拿西的母亲。"
+    },
+    {
+      "id": "meshullemeth",
+      "name": "米舒利密",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "haruz_meshullemeth",
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下21:19"
+      ],
+      "events": [],
+      "notes": "约提巴人哈鲁斯的女儿。"
+    },
+    {
+      "id": "jedidah",
+      "name": "耶底大",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "adaiah_jedidah",
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下22:1"
+      ],
+      "events": [],
+      "notes": "波斯加人亚大雅的女儿。"
+    },
+    {
+      "id": "zebidah",
+      "name": "西布大",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "pedaiah_zebidah",
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下23:36"
+      ],
+      "events": [],
+      "notes": "鲁玛人毗大雅的女儿。"
+    },
+    {
+      "id": "nehushta",
+      "name": "尼护施他",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "elnathan_nehushta",
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪下24:8"
+      ],
+      "events": [],
+      "notes": "耶路撒冷人以利拿单的女儿。"
+    },
+    {
+      "id": "zadok_jerusha",
+      "name": "撒督",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下15:33"
+      ],
+      "events": [],
+      "notes": "王室母家的具名父亲，未在此强接支派父系；同名人物独立。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "zechariah_abi_father",
+      "name": "撒迦利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下18:2"
+      ],
+      "events": [],
+      "notes": "王室母家的具名父亲，未在此强接支派父系；同名人物独立。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "haruz_meshullemeth",
+      "name": "哈鲁斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下21:19"
+      ],
+      "events": [],
+      "notes": "王室母家的具名父亲，未在此强接支派父系；同名人物独立。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "adaiah_jedidah",
+      "name": "亚大雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下22:1"
+      ],
+      "events": [],
+      "notes": "王室母家的具名父亲，未在此强接支派父系；同名人物独立。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "pedaiah_zebidah",
+      "name": "毗大雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下23:36"
+      ],
+      "events": [],
+      "notes": "王室母家的具名父亲，未在此强接支派父系；同名人物独立。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "elnathan_nehushta",
+      "name": "以利拿单",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下24:8"
+      ],
+      "events": [],
+      "notes": "王室母家的具名父亲，未在此强接支派父系；同名人物独立。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "johanan_josiah",
+      "name": "约哈难",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "josiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:15"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zedekiah_josiah",
+      "name": "西底家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "josiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:15",
+        "列王纪下24:17–18"
+      ],
+      "events": [],
+      "notes": "约西亚之子、约雅斤叔叔，原名玛探雅后被改名西底家；与代上3:16约雅敬之子同名西底家分开。",
+      "aliases": [
+        "玛探雅"
+      ]
+    },
+    {
+      "id": "shallum_josiah",
+      "name": "沙龙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "josiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:15",
+        "耶利米书22:11",
+        "列王纪下23:30–34"
+      ],
+      "events": [],
+      "notes": "约西亚之子，耶22:11作沙龙，王下23作约哈斯，非北国同名王。",
+      "aliases": [
+        "约哈斯"
+      ]
+    },
+    {
+      "id": "hamutal",
+      "name": "哈慕他",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "jeremiah_hamutal",
+      "relation": "女儿",
+      "refs": [
+        "列王纪下23:31",
+        "列王纪下24:18"
+      ],
+      "events": [],
+      "notes": "立拿人耶利米之女，约哈斯（沙龙）和西底家的母亲；其父不无据等同先知耶利米。"
+    },
+    {
+      "id": "jeremiah_hamutal",
+      "name": "耶利米",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下23:31",
+        "列王纪下24:18"
+      ],
+      "events": [],
+      "notes": "立拿人，哈慕他之父；与先知耶利米不强合并。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "zedekiah_jehoiakim",
+      "name": "西底家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoiakim",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:16"
+      ],
+      "events": [],
+      "notes": "代上3:16列约雅敬之子，不与约西亚之子、犹大末王西底家合并。"
+    },
+    {
+      "id": "malchiram_jeconiah",
+      "name": "玛基兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "pedaiah_jeconiah",
+      "name": "毗大雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shenazzar_jeconiah",
+      "name": "示拿萨",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jekamiah_jeconiah",
+      "name": "耶加米",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hoshamah_jeconiah",
+      "name": "何沙玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nedabiah_jeconiah",
+      "name": "尼大比雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shimei_pedaiah",
+      "name": "示每",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "pedaiah_jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "meshullam_zerubbabel",
+      "name": "米书兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hananiah_zerubbabel",
+      "name": "哈拿尼雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shelomith_zerubbabel",
+      "name": "示罗密",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "zerubbabel",
+      "relation": "女儿",
+      "refs": [
+        "历代志上3:19"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hashubah_meshullam",
+      "name": "哈舒巴",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshullam_zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:20"
+      ],
+      "events": [],
+      "notes": "简体和合本明确列米书兰五子；部分其他译本作所罗巴伯之子。本页依声明译本展示，不声称所有译本一致。"
+    },
+    {
+      "id": "ohel_meshullam",
+      "name": "阿黑",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshullam_zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:20"
+      ],
+      "events": [],
+      "notes": "简体和合本明确列米书兰五子；部分其他译本作所罗巴伯之子。本页依声明译本展示，不声称所有译本一致。"
+    },
+    {
+      "id": "berechiah_meshullam",
+      "name": "比利家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshullam_zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:20"
+      ],
+      "events": [],
+      "notes": "简体和合本明确列米书兰五子；部分其他译本作所罗巴伯之子。本页依声明译本展示，不声称所有译本一致。"
+    },
+    {
+      "id": "hasadiah_meshullam",
+      "name": "哈撒底",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshullam_zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:20"
+      ],
+      "events": [],
+      "notes": "简体和合本明确列米书兰五子；部分其他译本作所罗巴伯之子。本页依声明译本展示，不声称所有译本一致。"
+    },
+    {
+      "id": "jushabhesed_meshullam",
+      "name": "于沙希悉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "meshullam_zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:20"
+      ],
+      "events": [],
+      "notes": "简体和合本明确列米书兰五子；部分其他译本作所罗巴伯之子。本页依声明译本展示，不声称所有译本一致。"
+    },
+    {
+      "id": "pelatiah_hananiah",
+      "name": "毗拉提",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hananiah_zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jeshaiah_hananiah",
+      "name": "耶筛亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hananiah_zerubbabel",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "rephaiah_postexile",
+      "name": "利法雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "家族父祖列名",
+      "refs": [
+        "历代志上3:21"
+      ],
+      "events": [],
+      "notes": "经文为“还有某某的众子”；未明说四名父祖互为父子，亦未逐一明说都是哈拿尼雅直接之子，不造串线。",
+      "treeParentId": "hananiah_zerubbabel",
+      "lineageKind": "tribal",
+      "lineageLabel": "被掳后家族列名 · 世代未接"
+    },
+    {
+      "id": "arnan_postexile",
+      "name": "亚珥难",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "家族父祖列名",
+      "refs": [
+        "历代志上3:21"
+      ],
+      "events": [],
+      "notes": "经文为“还有某某的众子”；未明说四名父祖互为父子，亦未逐一明说都是哈拿尼雅直接之子，不造串线。",
+      "treeParentId": "hananiah_zerubbabel",
+      "lineageKind": "tribal",
+      "lineageLabel": "被掳后家族列名 · 世代未接"
+    },
+    {
+      "id": "obadiah_postexile",
+      "name": "俄巴底亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "家族父祖列名",
+      "refs": [
+        "历代志上3:21"
+      ],
+      "events": [],
+      "notes": "经文为“还有某某的众子”；未明说四名父祖互为父子，亦未逐一明说都是哈拿尼雅直接之子，不造串线。",
+      "treeParentId": "hananiah_zerubbabel",
+      "lineageKind": "tribal",
+      "lineageLabel": "被掳后家族列名 · 世代未接"
+    },
+    {
+      "id": "shecaniah_postexile",
+      "name": "示迦尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "家族父祖列名",
+      "refs": [
+        "历代志上3:21"
+      ],
+      "events": [],
+      "notes": "经文为“还有某某的众子”；未明说四名父祖互为父子，亦未逐一明说都是哈拿尼雅直接之子，不造串线。",
+      "treeParentId": "hananiah_zerubbabel",
+      "lineageKind": "tribal",
+      "lineageLabel": "被掳后家族列名 · 世代未接"
+    },
+    {
+      "id": "shemaiah_shecaniah",
+      "name": "示玛雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shecaniah_postexile",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:22"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hattush_shemaiah",
+      "name": "哈突",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_shecaniah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:22"
+      ],
+      "events": [],
+      "notes": "本节列五名却说共六人，计数有文本张力，不臆造第六位姓名。"
+    },
+    {
+      "id": "igal_shemaiah",
+      "name": "以甲",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_shecaniah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:22"
+      ],
+      "events": [],
+      "notes": "本节列五名却说共六人，计数有文本张力，不臆造第六位姓名。"
+    },
+    {
+      "id": "bariah_shemaiah",
+      "name": "巴利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_shecaniah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:22"
+      ],
+      "events": [],
+      "notes": "本节列五名却说共六人，计数有文本张力，不臆造第六位姓名。"
+    },
+    {
+      "id": "neariah_shemaiah",
+      "name": "尼利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_shecaniah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:22"
+      ],
+      "events": [],
+      "notes": "本节列五名却说共六人，计数有文本张力，不臆造第六位姓名。"
+    },
+    {
+      "id": "shaphat_shemaiah",
+      "name": "沙法",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shemaiah_shecaniah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:22"
+      ],
+      "events": [],
+      "notes": "本节列五名却说共六人，计数有文本张力，不臆造第六位姓名。"
+    },
+    {
+      "id": "elioenai_neariah",
+      "name": "以利约乃",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "neariah_shemaiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hezekiah_neariah",
+      "name": "希西家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "neariah_shemaiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "azrikam_neariah",
+      "name": "亚斯利干",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "neariah_shemaiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hodaviah_elioenai",
+      "name": "何大雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elioenai_neariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "eliashib_elioenai",
+      "name": "以利亚实",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elioenai_neariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "pelaiah_elioenai",
+      "name": "毗莱雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elioenai_neariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "akkub_elioenai",
+      "name": "阿谷",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elioenai_neariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "johanan_elioenai",
+      "name": "约哈难",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elioenai_neariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "delaiah_elioenai",
+      "name": "第莱雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elioenai_neariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "anani_elioenai",
+      "name": "阿拿尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elioenai_neariah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nebat_jeroboam",
+      "name": "尼八",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪上11:26"
+      ],
+      "events": [],
+      "notes": "北国耶罗波安之父；儿子明属以法莲支派，非犹大后裔。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "jeroboam_i",
+      "name": "耶罗波安",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nebat_jeroboam",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上11:26"
+      ],
+      "events": [],
+      "notes": "以法莲支派、北国王；与犹大王罗波安不是父子。"
+    },
+    {
+      "id": "zeruah_jeroboam",
+      "name": "洗鲁阿",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "列王纪上11:26"
+      ],
+      "events": [],
+      "notes": "耶罗波安之母，寡妇；不是大卫的姐妹洗鲁雅。"
+    },
+    {
+      "id": "abijah_jeroboam",
+      "name": "亚比雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeroboam_i",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上14:1",
+        "列王纪上14:20"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nadab_israel",
+      "name": "拿答",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeroboam_i",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上14:1",
+        "列王纪上14:20"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ahijah_baasha",
+      "name": "亚希雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪上15:27",
+        "列王纪上15:33"
+      ],
+      "events": [],
+      "notes": "以萨迦人、巴沙之父；不是示罗先知亚希雅。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "baasha_israel",
+      "name": "巴沙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahijah_baasha",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上15:27–33"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "elah_baasha",
+      "name": "以拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "baasha_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上16:6–8"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zimri_israel",
+      "name": "心利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪上16:9–18"
+      ],
+      "events": [],
+      "notes": "北国王，杀以拉夺位，父亲未记名；不以王位继承冒充父子，不与谢拉之子心利合并。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "omri_israel",
+      "name": "暗利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪上16:16–28"
+      ],
+      "events": [],
+      "notes": "北国元帅被立为王，父系未明记；与心利无父子记载。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "ahab_israel",
+      "name": "亚哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "omri_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上16:28–31"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ethbaal_sidonians",
+      "name": "谒巴力",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪上16:31"
+      ],
+      "events": [],
+      "notes": "西顿王、耶洗别之父，非犹大支派。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "jezebel",
+      "name": "耶洗别",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "ethbaal_sidonians",
+      "relation": "女儿",
+      "refs": [
+        "列王纪上16:31",
+        "列王纪下9:22"
+      ],
+      "events": [],
+      "notes": "亚哈之妻，约兰之母；未明说亚他利雅也是她所生。"
+    },
+    {
+      "id": "ahaziah_israel",
+      "name": "亚哈谢",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahab_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上22:40",
+        "列王纪下8:16"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "joram_israel",
+      "name": "约兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahab_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪上22:40",
+        "列王纪下8:16"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "nimshi_jehu",
+      "name": "宁示",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下9:2"
+      ],
+      "events": [],
+      "notes": "耶户的祖父；与犹大王族无父系记载。",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "jehoshaphat_jehu_father",
+      "name": "约沙法",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nimshi_jehu",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下9:2"
+      ],
+      "events": [],
+      "notes": "耶户之父，不是犹大王约沙法。"
+    },
+    {
+      "id": "jehu_israel",
+      "name": "耶户",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat_jehu_father",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下9:2"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jehoahaz_israel",
+      "name": "约哈斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehu_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下10:35"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jehoash_israel",
+      "name": "约阿施",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoahaz_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下13:9–10"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jeroboam_ii",
+      "name": "耶罗波安二世",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoash_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下14:16"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zechariah_israel",
+      "name": "撒迦利雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeroboam_ii",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下15:8"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jabesh_shallum",
+      "name": "雅比",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下15:10"
+      ],
+      "events": [],
+      "notes": "",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "shallum_israel",
+      "name": "沙龙",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jabesh_shallum",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下15:10–13"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "gadi_menahem",
+      "name": "迦底",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下15:14–17"
+      ],
+      "events": [],
+      "notes": "",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "menahem_israel",
+      "name": "米拿现",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gadi_menahem",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下15:14–17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "pekahiah_israel",
+      "name": "比加辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "menahem_israel",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下15:22–23"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "remaliah_pekah",
+      "name": "利玛利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下15:25"
+      ],
+      "events": [],
+      "notes": "",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "pekah_israel",
+      "name": "比加",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "remaliah_pekah",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下15:25–27"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "elah_hoshea",
+      "name": "以拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联家族起点（非犹大谱系）",
+      "refs": [
+        "列王纪下15:30",
+        "列王纪下17:1"
+      ],
+      "events": [],
+      "notes": "",
+      "treeParentId": "judah",
+      "lineageKind": "context",
+      "lineageLabel": "相关家族 · 非犹大谱系"
+    },
+    {
+      "id": "hoshea_israel",
+      "name": "何细亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "elah_hoshea",
+      "relation": "儿子",
+      "refs": [
+        "列王纪下15:30",
+        "列王纪下17:1"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "saul_king_context",
+      "name": "扫罗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下3:13–15"
+      ],
+      "events": [],
+      "notes": "便雅悯支派王，米甲之父；完整父家在便雅悯支派查看，不接入犹大生父谱系。"
+    },
+    {
+      "id": "michal_david",
+      "name": "米甲",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "saul_king_context",
+      "relation": "女儿",
+      "refs": [
+        "撒母耳记下3:13–16",
+        "撒母耳记下6:23"
+      ],
+      "events": [],
+      "notes": "扫罗之女、大卫之妻；后曾被给帕铁，再归还大卫。撒下6:23记至死无子，不能把大卫其他儿女归她。"
+    },
+    {
+      "id": "laish_palti",
+      "name": "拉亿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下3:15"
+      ],
+      "events": [],
+      "notes": "帕铁之父，未记支派父系。"
+    },
+    {
+      "id": "palti_laish",
+      "name": "帕铁",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "laish_palti",
+      "relation": "儿子",
+      "refs": [
+        "撒母耳记下3:15–16"
+      ],
+      "events": [],
+      "notes": "拉亿之子，米甲被接归大卫之前的丈夫。"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hezron_perez",
+      "target": "abijah_hezron",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:24"
+      ]
+    },
+    {
+      "source": "hezron_perez",
+      "target": "machir_daughter_hezron",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:21"
+      ]
+    },
+    {
+      "source": "machir_daughter_hezron",
+      "target": "segub_hezron",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:21"
+      ]
+    },
+    {
+      "source": "abijah_hezron",
+      "target": "ashhur_hezron",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:24"
+      ]
+    },
+    {
+      "source": "ashhur_hezron",
+      "target": "helah_ashhur",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上4:5"
+      ]
+    },
+    {
+      "source": "ashhur_hezron",
+      "target": "naarah_ashhur",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上4:5"
+      ]
+    },
+    {
+      "source": "naarah_ashhur",
+      "target": "ahuzzam_ashhur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上4:6"
+      ]
+    },
+    {
+      "source": "naarah_ashhur",
+      "target": "hepher_ashhur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上4:6"
+      ]
+    },
+    {
+      "source": "naarah_ashhur",
+      "target": "temeni_ashhur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上4:6"
+      ]
+    },
+    {
+      "source": "naarah_ashhur",
+      "target": "haahashtari_ashhur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上4:6"
+      ]
+    },
+    {
+      "source": "helah_ashhur",
+      "target": "zereth_ashhur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上4:7"
+      ]
+    },
+    {
+      "source": "helah_ashhur",
+      "target": "zohar_ashhur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上4:7"
+      ]
+    },
+    {
+      "source": "helah_ashhur",
+      "target": "ethnan_ashhur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上4:7"
+      ]
+    },
+    {
+      "source": "jerahmeel_hezron",
+      "target": "atarah_jerahmeel",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:26"
+      ]
+    },
+    {
+      "source": "atarah_jerahmeel",
+      "target": "onam_jerahmeel",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:26"
+      ]
+    },
+    {
+      "source": "abishur_shammai",
+      "target": "abihail_abishur",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:29"
+      ]
+    },
+    {
+      "source": "abihail_abishur",
+      "target": "ahban_abishur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:29"
+      ]
+    },
+    {
+      "source": "abihail_abishur",
+      "target": "molid_abishur",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:29"
+      ]
+    },
+    {
+      "source": "jarha_egyptian",
+      "target": "sheshan_daughter",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:35"
+      ]
+    },
+    {
+      "source": "sheshan_daughter",
+      "target": "attai_jarha",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:35"
+      ]
+    },
+    {
+      "source": "caleb_hezron",
+      "target": "azubah_caleb",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:18"
+      ]
+    },
+    {
+      "source": "caleb_hezron",
+      "target": "jerioth_caleb",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:18"
+      ]
+    },
+    {
+      "source": "caleb_hezron",
+      "target": "ephrath_caleb",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志上2:19"
+      ],
+      "note": "阿苏巴死后又娶以法他。"
+    },
+    {
+      "source": "caleb_hezron",
+      "target": "ephah_caleb",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "历代志上2:46"
+      ]
+    },
+    {
+      "source": "caleb_hezron",
+      "target": "maacah_caleb",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "历代志上2:48"
+      ]
+    },
+    {
+      "source": "azubah_caleb",
+      "target": "jesher_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:18"
+      ]
+    },
+    {
+      "source": "azubah_caleb",
+      "target": "shobab_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:18"
+      ]
+    },
+    {
+      "source": "azubah_caleb",
+      "target": "ardon_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:18"
+      ]
+    },
+    {
+      "source": "ephrath_caleb",
+      "target": "hur_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:19"
+      ]
+    },
+    {
+      "source": "ephah_caleb",
+      "target": "haran_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:46"
+      ]
+    },
+    {
+      "source": "ephah_caleb",
+      "target": "moza_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:46"
+      ]
+    },
+    {
+      "source": "ephah_caleb",
+      "target": "gazez_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:46"
+      ]
+    },
+    {
+      "source": "maacah_caleb",
+      "target": "sheber_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:48–49"
+      ]
+    },
+    {
+      "source": "maacah_caleb",
+      "target": "tirhanah_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:48–49"
+      ]
+    },
+    {
+      "source": "maacah_caleb",
+      "target": "shaaph_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:48–49"
+      ]
+    },
+    {
+      "source": "maacah_caleb",
+      "target": "sheva_caleb",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:48–49"
+      ]
+    },
+    {
+      "source": "othniel_kenaz",
+      "target": "achsah_caleb_jephunneh",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "约书亚记15:17"
+      ]
+    },
+    {
+      "source": "elimelech_ruth",
+      "target": "naomi",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "路得记1:2"
+      ]
+    },
+    {
+      "source": "naomi",
+      "target": "mahlon",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "路得记1:2"
+      ]
+    },
+    {
+      "source": "naomi",
+      "target": "chilion_ruth",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "路得记1:2"
+      ]
+    },
+    {
+      "source": "chilion_ruth",
+      "target": "orpah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "路得记1:2–5",
+        "路得记4:10"
+      ],
+      "note": "结合两兄弟两妻名单与4:10对照，非1:4逐一明指。"
+    },
+    {
+      "source": "zeruiah_david_sister",
+      "target": "abishai_zeruiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:16"
+      ]
+    },
+    {
+      "source": "zeruiah_david_sister",
+      "target": "joab_zeruiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:16"
+      ]
+    },
+    {
+      "source": "zeruiah_david_sister",
+      "target": "asahel_zeruiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:16"
+      ]
+    },
+    {
+      "source": "abigail_david_sister",
+      "target": "amasa_jether",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上2:17"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "ahinoam_david",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下3:2",
+        "历代志上3:1"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "abigail_david_wife",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记上25:3",
+        "撒母耳记上25:39–42",
+        "历代志上3:1"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "maacah_david",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下3:3",
+        "历代志上3:2"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "haggith_david",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下3:4",
+        "历代志上3:2"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "abital_david",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下3:4",
+        "历代志上3:3"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "eglah_david",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下3:5",
+        "历代志上3:3"
+      ]
+    },
+    {
+      "source": "nabal_carmelite",
+      "target": "abigail_david_wife",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记上25:3",
+        "撒母耳记上25:37–42"
+      ],
+      "note": "拿八死后，亚比该才成为大卫之妻。"
+    },
+    {
+      "source": "ahinoam_david",
+      "target": "amnon_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:1"
+      ]
+    },
+    {
+      "source": "abigail_david_wife",
+      "target": "chileab_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:1"
+      ]
+    },
+    {
+      "source": "maacah_david",
+      "target": "absalom_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:2"
+      ]
+    },
+    {
+      "source": "haggith_david",
+      "target": "adonijah_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:2"
+      ]
+    },
+    {
+      "source": "abital_david",
+      "target": "shephatiah_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:3"
+      ]
+    },
+    {
+      "source": "eglah_david",
+      "target": "ithream_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:3"
+      ]
+    },
+    {
+      "source": "bathsheba",
+      "target": "shimea_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:5"
+      ]
+    },
+    {
+      "source": "bathsheba",
+      "target": "shobab_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:5"
+      ]
+    },
+    {
+      "source": "bathsheba",
+      "target": "nathan_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志上3:5"
+      ]
+    },
+    {
+      "source": "maacah_david",
+      "target": "tamar_david",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "撒母耳记下13:20",
+        "历代志上3:2"
+      ]
+    },
+    {
+      "source": "naamah_solomon",
+      "target": "rehoboam",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪上14:21"
+      ]
+    },
+    {
+      "source": "rehoboam",
+      "target": "mahalath_rehoboam",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志下11:18"
+      ]
+    },
+    {
+      "source": "rehoboam",
+      "target": "abihail_rehoboam",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志下11:18"
+      ]
+    },
+    {
+      "source": "rehoboam",
+      "target": "maacah_rehoboam",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志下11:20"
+      ]
+    },
+    {
+      "source": "maacah_rehoboam",
+      "target": "abijah_king",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志下11:20"
+      ]
+    },
+    {
+      "source": "maacah_rehoboam",
+      "target": "attai_rehoboam",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志下11:20"
+      ]
+    },
+    {
+      "source": "maacah_rehoboam",
+      "target": "ziza_rehoboam",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志下11:20"
+      ]
+    },
+    {
+      "source": "maacah_rehoboam",
+      "target": "shelomith_rehoboam",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "历代志下11:20"
+      ]
+    },
+    {
+      "source": "azubah_asa",
+      "target": "jehoshaphat",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪上22:42"
+      ]
+    },
+    {
+      "source": "jehoram_judah",
+      "target": "athaliah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "列王纪下8:18",
+        "列王纪下8:26"
+      ]
+    },
+    {
+      "source": "athaliah",
+      "target": "ahaziah_judah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下8:26"
+      ]
+    },
+    {
+      "source": "jehoiada_priest",
+      "target": "jehosheba",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "历代志下22:11"
+      ]
+    },
+    {
+      "source": "zibiah",
+      "target": "joash_judah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下12:1"
+      ]
+    },
+    {
+      "source": "jehoaddan",
+      "target": "amaziah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下14:2"
+      ]
+    },
+    {
+      "source": "jecoliah",
+      "target": "uzziah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下15:2"
+      ]
+    },
+    {
+      "source": "jerusha",
+      "target": "jotham",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下15:33"
+      ]
+    },
+    {
+      "source": "abi_hezekiah",
+      "target": "hezekiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下18:2",
+        "历代志下29:1"
+      ]
+    },
+    {
+      "source": "hephzibah",
+      "target": "manasseh_king",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下21:1"
+      ]
+    },
+    {
+      "source": "meshullemeth",
+      "target": "amon",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下21:19"
+      ]
+    },
+    {
+      "source": "jedidah",
+      "target": "josiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下22:1"
+      ]
+    },
+    {
+      "source": "zebidah",
+      "target": "jehoiakim",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下23:36"
+      ]
+    },
+    {
+      "source": "nehushta",
+      "target": "jeconiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下24:8"
+      ]
+    },
+    {
+      "source": "hamutal",
+      "target": "shallum_josiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下23:31",
+        "列王纪下24:18"
+      ]
+    },
+    {
+      "source": "hamutal",
+      "target": "zedekiah_josiah",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下23:31",
+        "列王纪下24:18"
+      ]
+    },
+    {
+      "source": "pedaiah_jeconiah",
+      "target": "zerubbabel",
+      "type": "father-child",
+      "relation": "关联",
+      "refs": [
+        "历代志上3:19"
+      ],
+      "note": "代上3称所罗巴伯为毗大雅之子；图上的太1谱系仍接撒拉铁，不能把两者断为同一生父。"
+    },
+    {
+      "source": "zeruah_jeroboam",
+      "target": "jeroboam_i",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪上11:26"
+      ]
+    },
+    {
+      "source": "ahab_israel",
+      "target": "jezebel",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "列王纪上16:31"
+      ]
+    },
+    {
+      "source": "jezebel",
+      "target": "joram_israel",
+      "type": "mother-child",
+      "relation": "母子女",
+      "refs": [
+        "列王纪下9:22"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "michal_david",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下3:13–14"
+      ]
+    },
+    {
+      "source": "palti_laish",
+      "target": "michal_david",
+      "type": "spouse",
+      "relation": "原夫妻",
+      "refs": [
+        "撒母耳记下3:15–16"
+      ],
+      "note": "米甲后被接归大卫，不表示同时婚姻。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "历代志上2：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/2.htm"
+    },
+    {
+      "title": "历代志上3：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/3.htm"
+    },
+    {
+      "title": "历代志上4：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_chronicles/4.htm"
+    },
+    {
+      "title": "约书亚记7：简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/7.htm"
+    },
+    {
+      "title": "约书亚记15：简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/15.htm"
+    },
+    {
+      "title": "路得记1：简体中文和合本",
+      "url": "https://cnbible.com/cus/ruth/1.htm"
+    },
+    {
+      "title": "路得记4：简体中文和合本",
+      "url": "https://cnbible.com/cus/ruth/4.htm"
+    },
+    {
+      "title": "撒母耳记上25：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_samuel/25.htm"
+    },
+    {
+      "title": "撒母耳记下3：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/3.htm"
+    },
+    {
+      "title": "撒母耳记下5：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/5.htm"
+    },
+    {
+      "title": "撒母耳记下11：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/11.htm"
+    },
+    {
+      "title": "撒母耳记下13：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/13.htm"
+    },
+    {
+      "title": "撒母耳记下14：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/14.htm"
+    },
+    {
+      "title": "撒母耳记下17：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/17.htm"
+    },
+    {
+      "title": "撒母耳记下21：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/21.htm"
+    },
+    {
+      "title": "撒母耳记下23：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_samuel/23.htm"
+    },
+    {
+      "title": "列王纪上11：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_kings/11.htm"
+    },
+    {
+      "title": "列王纪上14：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_kings/14.htm"
+    },
+    {
+      "title": "列王纪上15：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_kings/15.htm"
+    },
+    {
+      "title": "列王纪上16：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_kings/16.htm"
+    },
+    {
+      "title": "列王纪上22：简体中文和合本",
+      "url": "https://cnbible.com/cus/1_kings/22.htm"
+    },
+    {
+      "title": "列王纪下8：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/8.htm"
+    },
+    {
+      "title": "列王纪下9：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/9.htm"
+    },
+    {
+      "title": "列王纪下10：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/10.htm"
+    },
+    {
+      "title": "列王纪下12：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/12.htm"
+    },
+    {
+      "title": "列王纪下13：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/13.htm"
+    },
+    {
+      "title": "列王纪下14：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/14.htm"
+    },
+    {
+      "title": "列王纪下15：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/15.htm"
+    },
+    {
+      "title": "列王纪下17：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/17.htm"
+    },
+    {
+      "title": "列王纪下18：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/18.htm"
+    },
+    {
+      "title": "列王纪下21：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/21.htm"
+    },
+    {
+      "title": "列王纪下22：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/22.htm"
+    },
+    {
+      "title": "列王纪下23：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/23.htm"
+    },
+    {
+      "title": "列王纪下24：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_kings/24.htm"
+    },
+    {
+      "title": "历代志下11：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_chronicles/11.htm"
+    },
+    {
+      "title": "历代志下13：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_chronicles/13.htm"
+    },
+    {
+      "title": "历代志下22：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_chronicles/22.htm"
+    },
+    {
+      "title": "历代志下29：简体中文和合本",
+      "url": "https://cnbible.com/cus/2_chronicles/29.htm"
+    },
+    {
+      "title": "耶利米书22：简体中文和合本",
+      "url": "https://cnbible.com/cus/jeremiah/22.htm"
+    },
+    {
+      "title": "历代志下21：Wordproject和合本",
+      "url": "https://www.wordproject.org/bibles/gb/14/21.htm"
+    },
+    {
+      "title": "历代志上3：Wordproject和合本交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/13/3.htm"
+    },
+    {
+      "title": "出埃及记31：比撒列身份",
+      "url": "https://cnbible.com/cus/exodus/31.htm"
+    },
+    {
+      "title": "民数记13：迦勒支派身份",
+      "url": "https://cnbible.com/cus/numbers/13.htm"
+    },
+    {
+      "title": "撒母耳记上16：耶西儿子数目异表",
+      "url": "https://cnbible.com/cus/1_samuel/16.htm"
+    },
+    {
+      "title": "撒母耳记下6：米甲至死无子",
+      "url": "https://cnbible.com/cus/2_samuel/6.htm"
+    }
+  ],
+  "scope": "按原图正面犹大区域扩展示拉、谢拉、希斯伦的旁支，大卫家庭、具名犹大王室母家、被掳后王族，同时完整保留既有马太1通向耶稣的42节点主线。另列原图北国王族为关联家族，非犹大血统；族源没有逐代记载者用关联线，不编父系。",
+  "lineageExplanation": [
+    {
+      "text": "本扩展新增的 fatherId 只用于经文明载父子女或本章明确列名；treeParentId 另用于母系、女婿、家族列名或相关家族，线旁会注明，不得把所有排版关系都读成生父。原有太1谱系和约瑟到耶稣的非生父语义继续保留。",
+      "refs": [
+        "历代志上2:16–17",
+        "历代志上2:34–35",
+        "马太福音1:16–25"
+      ]
+    },
+    {
+      "text": "代上3:20在本项目采用的简体和合本把哈舒巴等五人列作米书兰之子；其他译本常将他们列作所罗巴伯之子。这里依声明译本并保留差异，不从太1名单猜同一身份。",
+      "refs": [
+        "历代志上3:19–20"
+      ]
+    },
+    {
+      "text": "玛迦/米该雅父系在代下11:20与13:2不同；示珊之子亚来与2:34无儿子、示玛雅五名却共六人的计数，也保留原文张力，不造缺失人物或婚姻来抹平。",
+      "refs": [
+        "历代志下11:20",
+        "历代志下13:2",
+        "历代志上2:31–35",
+        "历代志上3:22"
+      ]
+    },
+    {
+      "text": "诸王具名母亲有母子经文而无明确婚姻称谓时，只添加母子关系，不把生育自动写成合法婚姻或妾。洗鲁阿与尼八亦仅按各为耶罗波安父母记录，不臆定婚姻。",
+      "refs": [
+        "列王纪上11:26",
+        "列王纪上22:42",
+        "列王纪下12:1",
+        "列王纪下18:2"
+      ]
+    }
+  ],
+  "imageCoverage": [
+    {
+      "section": "正面上部：犹大、示拉与谢拉支系",
+      "status": "corrected",
+      "note": "补示拉家族与谢拉五子；珥和书亚等同名/身份按经文分开，职业家族为族群节点。",
+      "refs": [
+        "历代志上2:3–8",
+        "历代志上4:21–23"
+      ]
+    },
+    {
+      "section": "正面左上：耶拉篾与示珊女婿世系",
+      "status": "corrected",
+      "note": "补代上2:25–41全列名；耶哈是女婿，图形关联不冒称示珊之子；亚来与2:34无儿子的张力保留。",
+      "refs": [
+        "历代志上2:25–41"
+      ]
+    },
+    {
+      "section": "正面上部：迦勒、户珥及基列耶琳诸族",
+      "status": "corrected",
+      "note": "户珥—乌利—比撒列及妻妾母系补全；雅代父系无记载，城族之祖与诸族不伪装直接生父关系。",
+      "refs": [
+        "历代志上2:18–24",
+        "历代志上2:42–55",
+        "历代志上4:2"
+      ]
+    },
+    {
+      "section": "正面旁支：基纳斯、俄陀聂与耶孚尼之子迦勒",
+      "status": "covered",
+      "note": "补基纳斯—俄陀聂/西莱雅及耶孚尼—迦勒—以路/以拉/拿安，押撒婚姻；不同迦勒不强并。",
+      "refs": [
+        "历代志上4:13–15",
+        "约书亚记15:13–19"
+      ]
+    },
+    {
+      "section": "正面中部：路得、拿俄米与以利米勒一家",
+      "status": "covered",
+      "note": "补两兄弟及前后婚姻，拿俄米抚育不误作生母。",
+      "refs": [
+        "路得记1:2–5",
+        "路得记4:10–17"
+      ]
+    },
+    {
+      "section": "正面中部：耶西、大卫兄弟姐妹及外甥",
+      "status": "corrected",
+      "note": "补六名兄弟与姐妹外甥；代上2七子/撒上16八子差异保留，亚比该父拿辖与耶西不强并。洗鲁雅子按母系线。",
+      "refs": [
+        "历代志上2:13–17",
+        "撒母耳记下13:3",
+        "撒母耳记下17:25",
+        "撒母耳记下21:21"
+      ]
+    },
+    {
+      "section": "正面左中：大卫妻子与儿女",
+      "status": "covered",
+      "note": "补希伯仑六子及生母、拔示巴四子、其余九名列名、女儿他玛、耶利摩与具名孙女。保留同章重复姓名，不推定无名生母。",
+      "refs": [
+        "历代志上3:1–9",
+        "撒母耳记下3:2–5",
+        "撒母耳记下14:27",
+        "历代志下11:18"
+      ]
+    },
+    {
+      "section": "正面左部：犹大王室、王后母家及王子",
+      "status": "corrected",
+      "note": "补诸王具名母亲、约沙法六兄弟、约示巴及约西亚诸子；亚撒的祖母玛迦不误作生母，玛迦/米该雅父系异表保留；两个西底家不混。",
+      "refs": [
+        "历代志上3:10–16",
+        "历代志下11:18–22",
+        "历代志下13:2",
+        "历代志下21:2–4",
+        "历代志下22:11",
+        "列王纪上15:10",
+        "列王纪下23:31–36",
+        "列王纪下24:8–18"
+      ]
+    },
+    {
+      "section": "正面王室主线旁：被掳后所罗巴伯诸家",
+      "status": "corrected",
+      "note": "补代上3:17–24全部具名旁支；毗大雅之父子关系另注，不替换太1撒拉铁谱系；五子归米书兰依和合本，并注其他译本异文；3:21众子不强串代。",
+      "refs": [
+        "历代志上3:17–24",
+        "马太福音1:12–13"
+      ]
+    },
+    {
+      "section": "正面“以色列国诸王”栏",
+      "status": "corrected",
+      "note": "按尼八、巴沙、暗利、耶户等真实家族分开；篡位与继位不画成亲父子。列为政治/婚姻关联家族，绝不标犹大血统；北国王与犹大同名王分档。",
+      "refs": [
+        "列王纪上11:26",
+        "列王纪上15:27–33",
+        "列王纪上16:9–31",
+        "列王纪下9:2",
+        "列王纪下15:8–30"
+      ]
+    },
+    {
+      "section": "正面黄色路3家谱栏",
+      "status": "corrected",
+      "note": "太1主线完整保留；路3从犹大经大卫、拿单至耶稣的53个谱位已在“路加·拿单一线”独立对照页列出，不强拼太1，也不采用图中“希里可能是马利亚父亲”的推测作确定父系。",
+      "refs": [
+        "路加福音3:23–31",
+        "马太福音1:6–16"
+      ]
+    },
+    {
+      "section": "原图小字、地名与族名",
+      "status": "corrected",
+      "note": "原图繁简与个别异体按简体和合本核对；关系以经文为准，不以图线强连。提哥亚、西弗、伯夙、基列耶琳等“某地之祖”不当作其直接生下一个城市人物。",
+      "refs": [
+        "历代志上2:42–55",
+        "历代志上4:21–23"
+      ]
+    }
+  ]
+}

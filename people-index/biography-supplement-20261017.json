@@ -1,0 +1,2506 @@
+[
+  {
+    "id": "hosea_prophet",
+    "name": "何西阿（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "何西阿书1:1–3"
+    ],
+    "timeline": [
+      "奉命娶滴拉音的女儿歌篾。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "备利的儿子，领受耶和华话语的先知。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：何西阿书1:1–3",
+        "url": "https://cnbible.com/cus/hosea/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "joel_prophet",
+    "name": "约珥（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "约珥书1:1"
+    ],
+    "timeline": [
+      "耶和华的话临到他。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "毗土珥的儿子，约珥书开篇记名的先知。",
+    "note": "不与家谱中的其他约珥合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约珥书1:1",
+        "url": "https://cnbible.com/cus/joel/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "amos_prophet",
+    "name": "阿摩司（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "阿摩司书1:1"
+    ],
+    "timeline": [
+      "在乌西雅和耶罗波安在位时得默示论以色列。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "提哥亚牧人中的阿摩司。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：阿摩司书1:1",
+        "url": "https://cnbible.com/cus/amos/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "obadiah_prophet",
+    "name": "俄巴底亚（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "俄巴底亚书1:1"
+    ],
+    "timeline": [
+      "领受有关以东的信息。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "俄巴底亚书所记得默示者。",
+    "note": "不据同名推定他就是亚哈家宰或其他家谱中的俄巴底亚。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：俄巴底亚书1:1",
+        "url": "https://cnbible.com/cus/obadiah/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "micah_prophet",
+    "name": "弥迦（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "弥迦书1:1"
+    ],
+    "timeline": [
+      "在约坦、亚哈斯、希西家在位时得默示论撒玛利亚和耶路撒冷。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "摩利沙人弥迦。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：弥迦书1:1",
+        "url": "https://cnbible.com/cus/micah/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "nahum_prophet",
+    "name": "那鸿（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "那鸿书1:1"
+    ],
+    "timeline": [
+      "领受有关尼尼微的默示。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "伊勒歌斯人那鸿。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：那鸿书1:1",
+        "url": "https://cnbible.com/cus/nahum/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "habakkuk_prophet",
+    "name": "哈巴谷（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "哈巴谷书1:1–4"
+    ],
+    "timeline": [
+      "向耶和华诉说强暴与不公的困惑。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "哈巴谷书开篇记名的先知。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：哈巴谷书1:1–4",
+        "url": "https://cnbible.com/cus/habakkuk/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "zephaniah_prophet",
+    "name": "西番雅（先知）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "先知"
+    ],
+    "refs": [
+      "西番雅书1:1"
+    ],
+    "timeline": [
+      "西番雅书开篇记载他的家系与受启示的时代。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "古示的儿子，在约西亚在位时领受耶和华话语。",
+    "note": "不与可拉家谱中的西番雅合并；本条不推定开篇的希西家必为犹大王希西家。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：西番雅书1:1",
+        "url": "https://cnbible.com/cus/zephaniah/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "othniel_judge",
+    "name": "俄陀聂（士师）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "士师"
+    ],
+    "refs": [
+      "士师记3:9–11"
+    ],
+    "timeline": [
+      "胜过古珊利萨田后，国中太平四十年。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "基纳斯的儿子，以色列的士师。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记3:9–11",
+        "url": "https://cnbible.com/cus/judges/3.htm"
+      }
+    ]
+  },
+  {
+    "id": "ehud_judge",
+    "name": "以笏（士师）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "士师"
+    ],
+    "refs": [
+      "士师记3:15–30"
+    ],
+    "timeline": [
+      "刺杀摩押王伊矶伦，率以色列人制伏摩押。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "便雅悯人基拉的儿子，左手便利。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记3:15–30",
+        "url": "https://cnbible.com/cus/judges/3.htm"
+      }
+    ]
+  },
+  {
+    "id": "shamgar_judge",
+    "name": "珊迦（亚拿之子）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "拯救以色列者"
+    ],
+    "refs": [
+      "士师记3:31"
+    ],
+    "timeline": [
+      "用赶牛的棍子击杀六百非利士人。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "亚拿的儿子，士师记所记拯救以色列者。",
+    "note": "经文未交代其支派，不推接到某一支派家谱。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记3:31",
+        "url": "https://cnbible.com/cus/judges/3.htm"
+      }
+    ]
+  },
+  {
+    "id": "tola_judge",
+    "name": "陀拉（士师）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "士师"
+    ],
+    "refs": [
+      "士师记10:1–2"
+    ],
+    "timeline": [
+      "住在沙密，作以色列士师二十三年。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "以萨迦人普瓦的儿子、朵多的孙子。",
+    "note": "与以萨迦之子陀拉分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记10:1–2",
+        "url": "https://cnbible.com/cus/judges/10.htm"
+      }
+    ]
+  },
+  {
+    "id": "jair_judge",
+    "name": "睚珥（士师）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "士师"
+    ],
+    "refs": [
+      "士师记10:3–5"
+    ],
+    "timeline": [
+      "作以色列士师二十二年，有三十个儿子。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "基列人睚珥。",
+    "note": "不因地名和姓名相同自动合并到西割之子睚珥。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记10:3–5",
+        "url": "https://cnbible.com/cus/judges/10.htm"
+      }
+    ]
+  },
+  {
+    "id": "ibzan_judge",
+    "name": "以比赞（士师）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "士师"
+    ],
+    "refs": [
+      "士师记12:8–10"
+    ],
+    "timeline": [
+      "作士师七年，有三十个儿子和三十个女儿。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "伯利恒人以比赞。",
+    "note": "本段没有说明该伯利恒属于犹大或西布伦，不据此断定支派。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记12:8–10",
+        "url": "https://cnbible.com/cus/judges/12.htm"
+      }
+    ]
+  },
+  {
+    "id": "elon_judge",
+    "name": "以伦（士师）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "士师"
+    ],
+    "refs": [
+      "士师记12:11–12"
+    ],
+    "timeline": [
+      "作以色列士师十年。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "西布伦人以伦。",
+    "note": "不与创世记中的同名家谱人物自动合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记12:11–12",
+        "url": "https://cnbible.com/cus/judges/12.htm"
+      }
+    ]
+  },
+  {
+    "id": "abdon_judge",
+    "name": "押顿（士师）",
+    "testament": "旧约",
+    "era": "士师时期",
+    "roles": [
+      "士师"
+    ],
+    "refs": [
+      "士师记12:13–15"
+    ],
+    "timeline": [
+      "作士师八年，有四十个儿子和三十个孙子。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "比拉顿人希列的儿子。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：士师记12:13–15",
+        "url": "https://cnbible.com/cus/judges/12.htm"
+      }
+    ]
+  },
+  {
+    "id": "eliphaz_job",
+    "name": "以利法（约伯友人）",
+    "testament": "旧约",
+    "era": "智慧时期",
+    "roles": [
+      "约伯友人"
+    ],
+    "refs": [
+      "约伯记2:11–13"
+    ],
+    "timeline": [
+      "得知约伯受苦后前来，与他同坐七天七夜。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "提幔人，约伯的三位友人之一。",
+    "note": "不与以扫的儿子以利法合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约伯记2:11–13",
+        "url": "https://cnbible.com/cus/job/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "bildad_job",
+    "name": "比勒达（约伯友人）",
+    "testament": "旧约",
+    "era": "智慧时期",
+    "roles": [
+      "约伯友人"
+    ],
+    "refs": [
+      "约伯记2:11–13"
+    ],
+    "timeline": [
+      "前来为约伯悲伤并安慰他。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "书亚人，约伯的三位友人之一。",
+    "note": "“书亚人”不能直接证明其父亲就是亚伯拉罕之子书亚。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约伯记2:11–13",
+        "url": "https://cnbible.com/cus/job/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "zophar_job",
+    "name": "琐法（约伯友人）",
+    "testament": "旧约",
+    "era": "智慧时期",
+    "roles": [
+      "约伯友人"
+    ],
+    "refs": [
+      "约伯记2:11–13"
+    ],
+    "timeline": [
+      "前来探望受苦的约伯。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "拿玛人，约伯的三位友人之一。",
+    "note": "与亚设支派中的同名琐法分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约伯记2:11–13",
+        "url": "https://cnbible.com/cus/job/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "elihu_job",
+    "name": "以利户（约伯记发言者）",
+    "testament": "旧约",
+    "era": "智慧时期",
+    "roles": [
+      "约伯记发言者"
+    ],
+    "refs": [
+      "约伯记32:2–6"
+    ],
+    "timeline": [
+      "等年长者说完后，开始回应约伯和三位友人。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "布西人兰族巴拉迦的儿子。",
+    "note": "不与历代志中的同名以利户合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约伯记32:2–6",
+        "url": "https://cnbible.com/cus/job/32.htm"
+      }
+    ]
+  },
+  {
+    "id": "ahasuerus_esther",
+    "name": "亚哈随鲁（以斯帖记之王）",
+    "testament": "旧约",
+    "era": "波斯归回时期",
+    "roles": [
+      "波斯王"
+    ],
+    "refs": [
+      "以斯帖记1:1–3"
+    ],
+    "timeline": [
+      "在书珊城设宴，召集各省权贵。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "以斯帖记记载统管一百二十七省的王。",
+    "note": "本条只用以斯帖记身份，不与其他经卷同名王自动合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：以斯帖记1:1–3",
+        "url": "https://cnbible.com/cus/esther/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "vashti_queen",
+    "name": "瓦实提（王后）",
+    "testament": "旧约",
+    "era": "波斯归回时期",
+    "roles": [
+      "王后"
+    ],
+    "refs": [
+      "以斯帖记1:9–22"
+    ],
+    "timeline": [
+      "拒绝按王命赴宴后，被撤去王后位分。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "亚哈随鲁王的王后。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：以斯帖记1:9–22",
+        "url": "https://cnbible.com/cus/esther/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "haman_agagite",
+    "name": "哈曼（亚甲族）",
+    "testament": "旧约",
+    "era": "波斯归回时期",
+    "roles": [
+      "宫廷权臣"
+    ],
+    "refs": [
+      "以斯帖记3:1–6"
+    ],
+    "timeline": [
+      "被王高举后，因末底改不跪拜而谋害犹大人。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "亚甲族哈米大他的儿子。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：以斯帖记3:1–6",
+        "url": "https://cnbible.com/cus/esther/3.htm"
+      }
+    ]
+  },
+  {
+    "id": "belshazzar_king",
+    "name": "伯沙撒（迦勒底王）",
+    "testament": "旧约",
+    "era": "被掳时期",
+    "roles": [
+      "王"
+    ],
+    "refs": [
+      "但以理书5:1–5"
+    ],
+    "timeline": [
+      "宴中见到墙上显出的字迹。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "但以理书所记摆设盛宴、取圣殿器皿饮酒的王。",
+    "note": "不与但以理的巴比伦名字“伯提沙撒”混同；不据“父”字强补直接生父。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：但以理书5:1–5",
+        "url": "https://cnbible.com/cus/daniel/5.htm"
+      }
+    ]
+  },
+  {
+    "id": "darius_mede",
+    "name": "大利乌（玛代人）",
+    "testament": "旧约",
+    "era": "被掳时期",
+    "roles": [
+      "王"
+    ],
+    "refs": [
+      "但以理书5:31；6:1–3"
+    ],
+    "timeline": [
+      "设立总督和总长，但以理是三位总长之一。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "但以理书所记取了迦勒底国的玛代人大利乌。",
+    "note": "与以斯拉记中的波斯王大利乌分开；不补未经本文确立的历史身份。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：但以理书5:31；6:1–3",
+        "url": "https://cnbible.com/cus/daniel/6.htm"
+      }
+    ]
+  },
+  {
+    "id": "cyrus_persia",
+    "name": "古列（波斯王）",
+    "testament": "旧约",
+    "era": "波斯归回时期",
+    "roles": [
+      "波斯王"
+    ],
+    "refs": [
+      "以斯拉记1:1–4"
+    ],
+    "timeline": [
+      "发布有关耶路撒冷圣殿的诏令。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "以斯拉记所记准许犹大人归回建殿的波斯王。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：以斯拉记1:1–4",
+        "url": "https://cnbible.com/cus/ezra/1.htm"
+      },
+      {
+        "title": "以斯拉记1：和合本交叉核对（Wordproject）",
+        "url": "https://www.wordproject.org/bibles/gb/15/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "artaxerxes_ezra",
+    "name": "亚达薛西（以斯拉记7章之王）",
+    "testament": "旧约",
+    "era": "波斯归回时期",
+    "roles": [
+      "波斯王"
+    ],
+    "refs": [
+      "以斯拉记7:11–26"
+    ],
+    "timeline": [
+      "允许甘心归回者同行，并安排圣殿所需资源。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "赐诏令给文士以斯拉的波斯王。",
+    "note": "不把以斯拉记所有同王号的提及未经核对便合为一条历史身份。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：以斯拉记7:11–26",
+        "url": "https://cnbible.com/cus/ezra/7.htm"
+      }
+    ]
+  },
+  {
+    "id": "baruch_neriah",
+    "name": "巴录（尼利亚之子）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "文士"
+    ],
+    "refs": [
+      "耶利米书36:4–8"
+    ],
+    "timeline": [
+      "将耶利米口述的话写成书卷，并在殿中宣读。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "为耶利米记录和宣读信息的尼利亚之子。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：耶利米书36:4–8",
+        "url": "https://cnbible.com/cus/jeremiah/36.htm"
+      }
+    ]
+  },
+  {
+    "id": "ebed_melech",
+    "name": "以伯米勒（古实人）",
+    "testament": "旧约",
+    "era": "先知时期",
+    "roles": [
+      "宫廷太监"
+    ],
+    "refs": [
+      "耶利米书38:7–13"
+    ],
+    "timeline": [
+      "向王求情并带人将耶利米从淤泥牢狱中拉上来。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "西底家宫中的古实太监。",
+    "note": "简体和合本此名作“以伯米勒”，搜索别名可另收“以便米勒”。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：耶利米书38:7–13",
+        "url": "https://cnbible.com/cus/jeremiah/38.htm"
+      }
+    ]
+  },
+  {
+    "id": "gedaliah_ahikam",
+    "name": "基大利（亚希甘之子）",
+    "testament": "旧约",
+    "era": "被掳时期",
+    "roles": [
+      "犹大治理者"
+    ],
+    "refs": [
+      "耶利米书40:5–10"
+    ],
+    "timeline": [
+      "巴比伦王委任他治理犹大地留下的百姓。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "亚希甘的儿子、沙番的孙子。",
+    "note": "与祭司、乐师家谱中的同名者分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：耶利米书40:5–10",
+        "url": "https://cnbible.com/cus/jeremiah/40.htm"
+      }
+    ]
+  },
+  {
+    "id": "jethro_midian",
+    "name": "叶忒罗（摩西岳父）",
+    "testament": "旧约",
+    "era": "出埃及与旷野",
+    "roles": [
+      "米甸祭司"
+    ],
+    "refs": [
+      "出埃及记18:1–12"
+    ],
+    "timeline": [
+      "带摩西的妻子和两个儿子来见摩西，听他述说出埃及的经历。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "米甸祭司，摩西的岳父。",
+    "note": "本条不把流珥、何巴等名字之间的解释写成已确定的单一身份。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：出埃及记18:1–12",
+        "url": "https://cnbible.com/cus/exodus/18.htm"
+      }
+    ]
+  },
+  {
+    "id": "balak_zippor",
+    "name": "巴勒（摩押王）",
+    "testament": "旧约",
+    "era": "出埃及与旷野",
+    "roles": [
+      "摩押王"
+    ],
+    "refs": [
+      "民数记22:2–6"
+    ],
+    "timeline": [
+      "差遣使者请巴兰来咒诅以色列。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "西拨的儿子，摩押王。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：民数记22:2–6",
+        "url": "https://cnbible.com/cus/numbers/22.htm"
+      }
+    ]
+  },
+  {
+    "id": "balaam_beor",
+    "name": "巴兰（比珥之子）",
+    "testament": "旧约",
+    "era": "出埃及与旷野",
+    "roles": [
+      "受邀咒诅者"
+    ],
+    "refs": [
+      "民数记22:5–13"
+    ],
+    "timeline": [
+      "求问神后，第一次拒绝随摩押使者前去。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "比珥的儿子，巴勒差人召来的巴兰。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：民数记22:5–13",
+        "url": "https://cnbible.com/cus/numbers/22.htm"
+      }
+    ]
+  },
+  {
+    "id": "simeon_temple",
+    "name": "西面（圣殿迎见婴孩者）",
+    "testament": "新约",
+    "era": "耶稣降生与预备",
+    "roles": [
+      "圣殿见证者"
+    ],
+    "refs": [
+      "路加福音2:25–35"
+    ],
+    "timeline": [
+      "在圣殿抱过婴孩耶稣，称颂神并给父母祝福。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "在耶路撒冷盼望以色列得安慰的人。",
+    "note": "不与西门彼得、使徒西门或其他同名者合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：路加福音2:25–35",
+        "url": "https://cnbible.com/cus/luke/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "anna_prophetess",
+    "name": "亚拿（女先知）",
+    "testament": "新约",
+    "era": "耶稣降生与预备",
+    "roles": [
+      "女先知"
+    ],
+    "refs": [
+      "路加福音2:36–38"
+    ],
+    "timeline": [
+      "见到婴孩耶稣后称谢神，并向盼望救赎的人讲说。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "亚设支派法内力的女儿，常在圣殿事奉。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：路加福音2:36–38",
+        "url": "https://cnbible.com/cus/luke/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "joanna_chuza",
+    "name": "约亚拿（苦撒之妻）",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "跟随耶稣的妇女"
+    ],
+    "refs": [
+      "路加福音8:1–3"
+    ],
+    "timeline": [
+      "与其他妇女用自己的财物供给耶稣和门徒。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "希律家宰苦撒的妻子。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：路加福音8:1–3",
+        "url": "https://cnbible.com/cus/luke/8.htm"
+      }
+    ]
+  },
+  {
+    "id": "susanna_gospels",
+    "name": "苏撒拿（跟随耶稣者）",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "跟随耶稣的妇女"
+    ],
+    "refs": [
+      "路加福音8:1–3"
+    ],
+    "timeline": [
+      "与其他妇女用财物供给耶稣和门徒。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "路加福音所记支持耶稣传道的妇女之一。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：路加福音8:1–3",
+        "url": "https://cnbible.com/cus/luke/8.htm"
+      }
+    ]
+  },
+  {
+    "id": "jairus_synagogue",
+    "name": "睚鲁（管会堂者）",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "管会堂者"
+    ],
+    "refs": [
+      "路加福音8:41–42、49–56"
+    ],
+    "timeline": [
+      "为独生女求耶稣到家中，女儿随后被耶稣唤起。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "向耶稣求救的管会堂者。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：路加福音8:41–42、49–56",
+        "url": "https://cnbible.com/cus/luke/8.htm"
+      }
+    ]
+  },
+  {
+    "id": "bartimaeus",
+    "name": "巴底买（底买之子）",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "蒙医治者"
+    ],
+    "refs": [
+      "马可福音10:46–52"
+    ],
+    "timeline": [
+      "求耶稣怜悯，恢复视力后在路上跟随他。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶利哥路旁求告耶稣的瞎眼乞丐。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：马可福音10:46–52",
+        "url": "https://cnbible.com/cus/mark/10.htm"
+      }
+    ]
+  },
+  {
+    "id": "joseph_arimathea",
+    "name": "约瑟（亚利马太人）",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "耶稣的门徒"
+    ],
+    "refs": [
+      "马太福音27:57–60"
+    ],
+    "timeline": [
+      "向彼拉多求耶稣的身体，安放在自己的新坟墓里。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "亚利马太来的财主，也是耶稣的门徒。",
+    "note": "不与马利亚丈夫约瑟或巴拿巴本名约瑟合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：马太福音27:57–60",
+        "url": "https://cnbible.com/cus/matthew/27.htm"
+      }
+    ]
+  },
+  {
+    "id": "simon_cyrene",
+    "name": "西门（古利奈人）",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "背十字架者"
+    ],
+    "refs": [
+      "马太福音27:32"
+    ],
+    "timeline": [
+      "被兵丁勉强背耶稣的十字架。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶稣受难路上遇见的古利奈人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：马太福音27:32",
+        "url": "https://cnbible.com/cus/matthew/27.htm"
+      }
+    ]
+  },
+  {
+    "id": "barabbas",
+    "name": "巴拉巴",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "囚犯"
+    ],
+    "refs": [
+      "马太福音27:15–26"
+    ],
+    "timeline": [
+      "众人要求释放他，彼拉多便释放了他。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶稣受审时被提及的出名囚犯。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：马太福音27:15–26",
+        "url": "https://cnbible.com/cus/matthew/27.htm"
+      }
+    ]
+  },
+  {
+    "id": "malchus",
+    "name": "马勒古",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "大祭司的仆人"
+    ],
+    "refs": [
+      "约翰福音18:10–11"
+    ],
+    "timeline": [
+      "被彼得削掉右耳。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶稣被捕时在场的大祭司仆人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约翰福音18:10–11",
+        "url": "https://cnbible.com/cus/john/18.htm"
+      }
+    ]
+  },
+  {
+    "id": "annas_high_priest",
+    "name": "亚那（该亚法岳父）",
+    "testament": "新约",
+    "era": "福音书",
+    "roles": [
+      "祭司家族人物"
+    ],
+    "refs": [
+      "约翰福音18:12–13、19–24"
+    ],
+    "timeline": [
+      "被捕的耶稣先被带到他面前，随后被送往该亚法那里。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "该亚法的岳父。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约翰福音18:12–13、19–24",
+        "url": "https://cnbible.com/cus/john/18.htm"
+      }
+    ]
+  },
+  {
+    "id": "ananias_sapphira",
+    "name": "亚拿尼亚（撒非喇丈夫）",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "耶路撒冷教会人物"
+    ],
+    "refs": [
+      "使徒行传5:1–6"
+    ],
+    "timeline": [
+      "隐瞒部分价银，被彼得责问后倒下断气。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "与撒非喇一同卖田产的人。",
+    "note": "与大马士革门徒亚拿尼亚及大祭司亚拿尼亚分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传5:1–6",
+        "url": "https://cnbible.com/cus/acts/5.htm"
+      }
+    ]
+  },
+  {
+    "id": "sapphira",
+    "name": "撒非喇",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "耶路撒冷教会人物"
+    ],
+    "refs": [
+      "使徒行传5:1–11"
+    ],
+    "timeline": [
+      "三小时后到使徒面前，受彼得责问后倒下断气。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "亚拿尼亚的妻子，知道隐瞒田价的事。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传5:1–11",
+        "url": "https://cnbible.com/cus/acts/5.htm"
+      }
+    ]
+  },
+  {
+    "id": "ananias_damascus",
+    "name": "亚拿尼亚（大马士革门徒）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "门徒"
+    ],
+    "refs": [
+      "使徒行传9:10–18"
+    ],
+    "timeline": [
+      "照主指示为扫罗按手，扫罗恢复视力并受洗。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "住在大马士革的门徒。",
+    "note": "与撒非喇丈夫及大祭司亚拿尼亚分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传9:10–18",
+        "url": "https://cnbible.com/cus/acts/9.htm"
+      }
+    ]
+  },
+  {
+    "id": "gamaliel_teacher",
+    "name": "迦玛列（教法师）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "教法师"
+    ],
+    "refs": [
+      "使徒行传5:34–40"
+    ],
+    "timeline": [
+      "在公会劝众人谨慎处理使徒，免得敌挡神。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "受百姓敬重的法利赛教法师。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传5:34–40",
+        "url": "https://cnbible.com/cus/acts/5.htm"
+      }
+    ]
+  },
+  {
+    "id": "prochorus",
+    "name": "伯罗哥罗",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "七位被选服事者之一"
+    ],
+    "refs": [
+      "使徒行传6:1–6"
+    ],
+    "timeline": [
+      "与其他被选者站在使徒面前，接受祷告和按手。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶路撒冷教会为处理日常供给而选出的七人之一。",
+    "note": "本段没有记载其后完整生平，不用后世传说补写。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传6:1–6",
+        "url": "https://cnbible.com/cus/acts/6.htm"
+      }
+    ]
+  },
+  {
+    "id": "nicanor",
+    "name": "尼迦挪",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "七位被选服事者之一"
+    ],
+    "refs": [
+      "使徒行传6:1–6"
+    ],
+    "timeline": [
+      "与其他被选者站在使徒面前，接受祷告和按手。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶路撒冷教会为处理日常供给而选出的七人之一。",
+    "note": "本段没有记载其后完整生平，不用后世传说补写。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传6:1–6",
+        "url": "https://cnbible.com/cus/acts/6.htm"
+      }
+    ]
+  },
+  {
+    "id": "timon",
+    "name": "提门",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "七位被选服事者之一"
+    ],
+    "refs": [
+      "使徒行传6:1–6"
+    ],
+    "timeline": [
+      "与其他被选者站在使徒面前，接受祷告和按手。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶路撒冷教会为处理日常供给而选出的七人之一。",
+    "note": "本段没有记载其后完整生平，不用后世传说补写。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传6:1–6",
+        "url": "https://cnbible.com/cus/acts/6.htm"
+      }
+    ]
+  },
+  {
+    "id": "parmenas",
+    "name": "巴米拿",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "七位被选服事者之一"
+    ],
+    "refs": [
+      "使徒行传6:1–6"
+    ],
+    "timeline": [
+      "与其他被选者站在使徒面前，接受祷告和按手。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶路撒冷教会为处理日常供给而选出的七人之一。",
+    "note": "本段没有记载其后完整生平，不用后世传说补写。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传6:1–6",
+        "url": "https://cnbible.com/cus/acts/6.htm"
+      }
+    ]
+  },
+  {
+    "id": "nicolaus_antioch",
+    "name": "尼哥拉（安提阿人）",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "七位被选服事者之一"
+    ],
+    "refs": [
+      "使徒行传6:1–6"
+    ],
+    "timeline": [
+      "与其他被选者站在使徒面前，接受祷告和按手。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "耶路撒冷教会为处理日常供给而选出的七人之一。",
+    "note": "本段没有记载其后完整生平，不用后世传说补写。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传6:1–6",
+        "url": "https://cnbible.com/cus/acts/6.htm"
+      }
+    ]
+  },
+  {
+    "id": "tabitha_dorcas",
+    "name": "大比大 / 多加",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "女门徒"
+    ],
+    "refs": [
+      "使徒行传9:36–42"
+    ],
+    "timeline": [
+      "患病去世后，彼得为她祷告，她又活了。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "约帕的女门徒，素来多行善事。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传9:36–42",
+        "url": "https://cnbible.com/cus/acts/9.htm"
+      }
+    ]
+  },
+  {
+    "id": "aeneas_lydda",
+    "name": "以尼雅",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "蒙医治者"
+    ],
+    "refs": [
+      "使徒行传9:32–35"
+    ],
+    "timeline": [
+      "彼得奉耶稣基督的名宣告医治，他便起来。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "在吕大瘫痪卧床八年的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传9:32–35",
+        "url": "https://cnbible.com/cus/acts/9.htm"
+      }
+    ]
+  },
+  {
+    "id": "rhoda",
+    "name": "罗大",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "使女"
+    ],
+    "refs": [
+      "使徒行传12:12–16"
+    ],
+    "timeline": [
+      "听见获释彼得的声音，欢喜得没有立刻开门。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "马可母亲马利亚家中的使女。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传12:12–16",
+        "url": "https://cnbible.com/cus/acts/12.htm"
+      }
+    ]
+  },
+  {
+    "id": "mary_mark_mother",
+    "name": "马利亚（马可母亲）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "教会接待者"
+    ],
+    "refs": [
+      "使徒行传12:12"
+    ],
+    "timeline": [
+      "许多人在她家聚集，为彼得祷告。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "约翰马可的母亲。",
+    "note": "不与耶稣母亲、抹大拉马利亚或伯大尼马利亚合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传12:12",
+        "url": "https://cnbible.com/cus/acts/12.htm"
+      }
+    ]
+  },
+  {
+    "id": "sergius_paulus",
+    "name": "士求保罗",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "方伯"
+    ],
+    "refs": [
+      "使徒行传13:6–12"
+    ],
+    "timeline": [
+      "召巴拿巴和扫罗听神的道，看见所发生的事后信主。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "居比路的方伯。",
+    "note": "与使徒保罗是不同人物。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传13:6–12",
+        "url": "https://cnbible.com/cus/acts/13.htm"
+      }
+    ]
+  },
+  {
+    "id": "bar_jesus_elymas",
+    "name": "巴耶稣 / 以吕马",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "术士"
+    ],
+    "refs": [
+      "使徒行传13:6–11"
+    ],
+    "timeline": [
+      "敌挡扫罗所传的信息，随后暂时眼瞎。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "在方伯士求保罗身边的犹太假先知和术士。",
+    "note": "本段同一术士先称巴耶稣、后称以吕马，按段落上下文合收。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传13:6–11",
+        "url": "https://cnbible.com/cus/acts/13.htm"
+      }
+    ]
+  },
+  {
+    "id": "dionysius_areopagus",
+    "name": "丢尼修（亚略巴古官）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "信主者"
+    ],
+    "refs": [
+      "使徒行传17:34"
+    ],
+    "timeline": [
+      "听保罗讲论后，与其他人贴近他并相信。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "雅典亚略巴古的官。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传17:34",
+        "url": "https://cnbible.com/cus/acts/17.htm"
+      }
+    ]
+  },
+  {
+    "id": "damaris",
+    "name": "大马哩",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "信主者"
+    ],
+    "refs": [
+      "使徒行传17:34"
+    ],
+    "timeline": [
+      "与丢尼修及其他人一同相信。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "雅典听保罗讲论后信主的妇女。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传17:34",
+        "url": "https://cnbible.com/cus/acts/17.htm"
+      }
+    ]
+  },
+  {
+    "id": "titius_justus",
+    "name": "提多犹士都",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "接待者"
+    ],
+    "refs": [
+      "使徒行传18:7"
+    ],
+    "timeline": [
+      "保罗离开会堂后到他家中。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "在哥林多敬拜神的人，家靠近会堂。",
+    "note": "不与保罗同工提多、歌罗西书中的耶数犹士都合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传18:7",
+        "url": "https://cnbible.com/cus/acts/18.htm"
+      }
+    ]
+  },
+  {
+    "id": "crispus_corinth",
+    "name": "基利司布",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "管会堂者"
+    ],
+    "refs": [
+      "使徒行传18:8"
+    ],
+    "timeline": [
+      "与全家都信了主。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "哥林多管会堂的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传18:8",
+        "url": "https://cnbible.com/cus/acts/18.htm"
+      }
+    ]
+  },
+  {
+    "id": "sosthenes_acts",
+    "name": "所提尼（管会堂者）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "管会堂者"
+    ],
+    "refs": [
+      "使徒行传18:17"
+    ],
+    "timeline": [
+      "众人把他拉到公堂前殴打。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "迦流任内在公堂前被打的管会堂者。",
+    "note": "经文未直接证明就是哥林多前书1:1的所提尼，本条分开保留。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传18:17",
+        "url": "https://cnbible.com/cus/acts/18.htm"
+      }
+    ]
+  },
+  {
+    "id": "demetrius_silversmith",
+    "name": "底米丢（银匠）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "银匠"
+    ],
+    "refs": [
+      "使徒行传19:24–28"
+    ],
+    "timeline": [
+      "召同行聚集，反对保罗所传的信息。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "以弗所制作亚底米神龛的银匠。",
+    "note": "与约翰三书中的低米丢分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传19:24–28",
+        "url": "https://cnbible.com/cus/acts/19.htm"
+      }
+    ]
+  },
+  {
+    "id": "sceva",
+    "name": "士基瓦",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "犹太祭司长"
+    ],
+    "refs": [
+      "使徒行传19:13–16"
+    ],
+    "timeline": [
+      "他的儿子借用耶稣之名赶鬼，反遭恶鬼所附之人攻击。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "使徒行传记载其七个儿子尝试赶鬼的犹太祭司长。",
+    "note": "经文只记其儿子所作之事，不补他们的名字。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传19:13–16",
+        "url": "https://cnbible.com/cus/acts/19.htm"
+      }
+    ]
+  },
+  {
+    "id": "felix_governor",
+    "name": "腓力斯（巡抚）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "巡抚"
+    ],
+    "refs": [
+      "使徒行传24:22–27"
+    ],
+    "timeline": [
+      "多次听保罗谈论，离任时仍把保罗留在监里。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "在该撒利亚审理保罗案件的巡抚。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传24:22–27",
+        "url": "https://cnbible.com/cus/acts/24.htm"
+      }
+    ]
+  },
+  {
+    "id": "drusilla",
+    "name": "土西拉",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "巡抚之妻"
+    ],
+    "refs": [
+      "使徒行传24:24"
+    ],
+    "timeline": [
+      "与腓力斯同听保罗讲论信基督耶稣的道。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "腓力斯的妻子，是犹太女子。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传24:24",
+        "url": "https://cnbible.com/cus/acts/24.htm"
+      }
+    ]
+  },
+  {
+    "id": "festus_governor",
+    "name": "非斯都（巡抚）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "巡抚"
+    ],
+    "refs": [
+      "使徒行传25:1–12"
+    ],
+    "timeline": [
+      "在保罗上告该撒后，决定将他送往该撒那里。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "接任腓力斯的巡抚。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传25:1–12",
+        "url": "https://cnbible.com/cus/acts/25.htm"
+      }
+    ]
+  },
+  {
+    "id": "agrippa_acts25",
+    "name": "亚基帕王（使徒行传25章）",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "王"
+    ],
+    "refs": [
+      "使徒行传25:13–22"
+    ],
+    "timeline": [
+      "听非斯都介绍保罗案件，表示愿意听保罗。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "与百尼基来该撒利亚的亚基帕王。",
+    "note": "本条按经文所在段落标识，不把其他称希律的王合并进来。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传25:13–22",
+        "url": "https://cnbible.com/cus/acts/25.htm"
+      }
+    ]
+  },
+  {
+    "id": "bernice",
+    "name": "百尼基",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "宫廷人物"
+    ],
+    "refs": [
+      "使徒行传25:13、23"
+    ],
+    "timeline": [
+      "与亚基帕进入公厅，听保罗申辩。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "与亚基帕一起来到该撒利亚的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传25:13、23",
+        "url": "https://cnbible.com/cus/acts/25.htm"
+      }
+    ]
+  },
+  {
+    "id": "publius_malta",
+    "name": "部百流",
+    "testament": "新约",
+    "era": "使徒行传",
+    "roles": [
+      "岛上的首领"
+    ],
+    "refs": [
+      "使徒行传28:7–10"
+    ],
+    "timeline": [
+      "接待保罗等人；他的父亲随后蒙保罗祷告医治。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "米利大岛上的首领。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：使徒行传28:7–10",
+        "url": "https://cnbible.com/cus/acts/28.htm"
+      }
+    ]
+  },
+  {
+    "id": "phoebe",
+    "name": "非比",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "坚革哩教会女执事"
+    ],
+    "refs": [
+      "罗马书16:1–2"
+    ],
+    "timeline": [
+      "曾帮助许多人，也帮助保罗。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗向罗马信徒举荐的姊妹。",
+    "note": "身份用简体和合本译法；经文未明说她就是书信送信人。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:1–2",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "andronicus",
+    "name": "安多尼古",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "保罗的亲属及同囚者"
+    ],
+    "refs": [
+      "罗马书16:7"
+    ],
+    "timeline": [
+      "比保罗更早在基督里。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗问安并称为亲属、一同坐监者。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:7",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "junia",
+    "name": "犹尼亚",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "保罗的亲属及同囚者"
+    ],
+    "refs": [
+      "罗马书16:7"
+    ],
+    "timeline": [
+      "比保罗更早在基督里。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "与安多尼古同受保罗问安。",
+    "note": "本条不把关于性别和“使徒中有名望”的解释争议扩写成定论。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:7",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "mary_romans16",
+    "name": "马利亚（罗马书16章）",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "教会服事者"
+    ],
+    "refs": [
+      "罗马书16:6"
+    ],
+    "timeline": [
+      "为罗马信徒多受劳苦。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗在罗马书问安的人。",
+    "note": "与其他马利亚分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:6",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "rufus_romans16",
+    "name": "鲁孚（罗马书16章）",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "受问安者"
+    ],
+    "refs": [
+      "罗马书16:13"
+    ],
+    "timeline": [
+      "与母亲同受保罗问安。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗称为在主里蒙拣选的人。",
+    "note": "经文未直接证明就是马可福音15:21古利奈西门之子鲁孚。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:13",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "tertius_scribe",
+    "name": "德丢",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "书信代笔者"
+    ],
+    "refs": [
+      "罗马书16:22"
+    ],
+    "timeline": [
+      "在信中向收信者问安。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "罗马书中自称代笔写信的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:22",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "gaius_romans16",
+    "name": "该犹（罗马书16章）",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "教会接待者"
+    ],
+    "refs": [
+      "罗马书16:23"
+    ],
+    "timeline": [
+      "经保罗的书信向罗马信徒问安。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "接待保罗，也接待全教会的人。",
+    "note": "不把使徒行传、哥林多前书、约翰三书所有该犹自动视为同一个人。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:23",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "erastus_romans16",
+    "name": "以拉都（罗马书16章）",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "城内管银库者"
+    ],
+    "refs": [
+      "罗马书16:23–24"
+    ],
+    "timeline": [
+      "向罗马信徒问安。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "罗马书结尾提及的城内管银库者。",
+    "note": "和合本网页对23–24节分段不同，故并列两节；不与其他以拉都未经核对即合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：罗马书16:23–24",
+        "url": "https://cnbible.com/cus/romans/16.htm"
+      }
+    ]
+  },
+  {
+    "id": "euodia",
+    "name": "友阿爹",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "福音同工"
+    ],
+    "refs": [
+      "腓立比书4:2–3"
+    ],
+    "timeline": [
+      "与循都基一同受劝，要在主里同心。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "曾与保罗在福音上同劳的妇女。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：腓立比书4:2–3",
+        "url": "https://cnbible.com/cus/philippians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "syntyche",
+    "name": "循都基",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "福音同工"
+    ],
+    "refs": [
+      "腓立比书4:2–3"
+    ],
+    "timeline": [
+      "与友阿爹一同受劝，要在主里同心。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "曾与保罗在福音上同劳的妇女。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：腓立比书4:2–3",
+        "url": "https://cnbible.com/cus/philippians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "clement_philippians",
+    "name": "革利免（腓立比书）",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "福音同工"
+    ],
+    "refs": [
+      "腓立比书4:3"
+    ],
+    "timeline": [
+      "与其他同工一同被记为名字在生命册上。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗在腓立比书中提及的同工。",
+    "note": "本条不据后世传统认定其为罗马主教革利免。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：腓立比书4:3",
+        "url": "https://cnbible.com/cus/philippians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "epaphroditus",
+    "name": "以巴弗提",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "腓立比教会使者"
+    ],
+    "refs": [
+      "腓立比书2:25–30"
+    ],
+    "timeline": [
+      "为作基督的工几乎病死，后来被保罗打发回去。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "腓立比信徒差遣去供给保罗需用的人。",
+    "note": "不与以巴弗合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：腓立比书2:25–30",
+        "url": "https://cnbible.com/cus/philippians/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "epaphras",
+    "name": "以巴弗",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "基督的仆人"
+    ],
+    "refs": [
+      "歌罗西书4:12–13"
+    ],
+    "timeline": [
+      "常在祷告中为信徒竭力祈求。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "为歌罗西等地信徒劳苦的基督仆人。",
+    "note": "不与以巴弗提合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：歌罗西书4:12–13",
+        "url": "https://cnbible.com/cus/colossians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "tychicus",
+    "name": "推基古",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "同工"
+    ],
+    "refs": [
+      "歌罗西书4:7–8"
+    ],
+    "timeline": [
+      "被差遣去告诉信徒保罗的光景，并安慰他们。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗称为亲爱兄弟、忠心执事和同作主仆的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：歌罗西书4:7–8",
+        "url": "https://cnbible.com/cus/colossians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "aristarchus",
+    "name": "亚里达古",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "保罗同囚者"
+    ],
+    "refs": [
+      "歌罗西书4:10"
+    ],
+    "timeline": [
+      "在歌罗西书结尾向信徒问安。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "与保罗一同坐监的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：歌罗西书4:10",
+        "url": "https://cnbible.com/cus/colossians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "jesus_justus",
+    "name": "耶数 / 犹士都",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "同工"
+    ],
+    "refs": [
+      "歌罗西书4:11"
+    ],
+    "timeline": [
+      "与其他同工一起向歌罗西信徒问安。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "又称犹士都的耶数，是保罗为神国一同做工者。",
+    "note": "与使徒行传18章的提多犹士都分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：歌罗西书4:11",
+        "url": "https://cnbible.com/cus/colossians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "nymphas",
+    "name": "宁法",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "教会接待者"
+    ],
+    "refs": [
+      "歌罗西书4:15"
+    ],
+    "timeline": [
+      "他的家被记为有教会聚集。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗向其本人和家中教会问安。",
+    "note": "不同译本和抄本有姓名与代词差异；本条随和合本显示，不额外推定性别。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：歌罗西书4:15",
+        "url": "https://cnbible.com/cus/colossians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "archippus",
+    "name": "亚基布",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "服事者"
+    ],
+    "refs": [
+      "歌罗西书4:17"
+    ],
+    "timeline": [
+      "被提醒要谨慎尽所受的职分。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "从主领受职分的服事者。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：歌罗西书4:17",
+        "url": "https://cnbible.com/cus/colossians/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "lois",
+    "name": "罗以",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "提摩太外祖母"
+    ],
+    "refs": [
+      "提摩太后书1:5"
+    ],
+    "timeline": [
+      "她心中无伪的信受到保罗记念。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "提摩太的外祖母。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书1:5",
+        "url": "https://cnbible.com/cus/2_timothy/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "eunice",
+    "name": "友尼基",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "提摩太母亲"
+    ],
+    "refs": [
+      "提摩太后书1:5"
+    ],
+    "timeline": [
+      "她心中无伪的信受到保罗记念。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "提摩太的母亲。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书1:5",
+        "url": "https://cnbible.com/cus/2_timothy/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "onesiphorus",
+    "name": "阿尼色弗",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "保罗同工"
+    ],
+    "refs": [
+      "提摩太后书1:16–18"
+    ],
+    "timeline": [
+      "在罗马殷勤寻找保罗，并找到了他。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "不以保罗的锁链为耻、常使他畅快的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书1:16–18",
+        "url": "https://cnbible.com/cus/2_timothy/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "hymenaeus",
+    "name": "许米乃",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "被警戒的教导者"
+    ],
+    "refs": [
+      "提摩太后书2:16–18"
+    ],
+    "timeline": [
+      "声称复活的事已过，败坏一些人的信心。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "与腓理徒同被指为偏离真道者。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书2:16–18",
+        "url": "https://cnbible.com/cus/2_timothy/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "philetus",
+    "name": "腓理徒",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "被警戒的教导者"
+    ],
+    "refs": [
+      "提摩太后书2:16–18"
+    ],
+    "timeline": [
+      "传讲复活已经过去的错误说法。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "与许米乃同被指为偏离真道者。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书2:16–18",
+        "url": "https://cnbible.com/cus/2_timothy/2.htm"
+      }
+    ]
+  },
+  {
+    "id": "demas",
+    "name": "底马",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "曾同行者"
+    ],
+    "refs": [
+      "提摩太后书4:10"
+    ],
+    "timeline": [
+      "因贪爱现今的世界，往帖撒罗尼迦去。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "提摩太后书所记离开保罗的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书4:10",
+        "url": "https://cnbible.com/cus/2_timothy/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "alexander_coppersmith",
+    "name": "亚力山大（铜匠）",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "铜匠"
+    ],
+    "refs": [
+      "提摩太后书4:14–15"
+    ],
+    "timeline": [
+      "多多害保罗，并极力敌挡所传的话。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗提醒提摩太防备的铜匠。",
+    "note": "与以弗所骚乱中被推出的亚力山大、提摩太前书1:20许米乃同列的亚力山大不自动合并。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书4:14–15",
+        "url": "https://cnbible.com/cus/2_timothy/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "trophimus",
+    "name": "特罗非摩",
+    "testament": "新约",
+    "era": "保罗与同工",
+    "roles": [
+      "保罗同行者"
+    ],
+    "refs": [
+      "提摩太后书4:20"
+    ],
+    "timeline": [
+      "因病被留在米利都。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "保罗在书信结尾提及的同行者。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：提摩太后书4:20",
+        "url": "https://cnbible.com/cus/2_timothy/4.htm"
+      }
+    ]
+  },
+  {
+    "id": "diotrephes",
+    "name": "丢特腓",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "教会人物"
+    ],
+    "refs": [
+      "约翰三书1:9–10"
+    ],
+    "timeline": [
+      "不接待来访的弟兄，还阻止愿意接待者。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "约翰三书所记好为首的人。",
+    "note": "本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约翰三书1:9–10",
+        "url": "https://cnbible.com/cus/3_john/1.htm"
+      }
+    ]
+  },
+  {
+    "id": "demetrius_3john",
+    "name": "低米丢（约翰三书）",
+    "testament": "新约",
+    "era": "初代教会",
+    "roles": [
+      "受称许者"
+    ],
+    "refs": [
+      "约翰三书1:12"
+    ],
+    "timeline": [
+      "在书信中被正面推荐。"
+    ],
+    "relations": [],
+    "themes": [],
+    "summary": "约翰三书中获众人和真理见证的人。",
+    "note": "与以弗所银匠底米丢分开。 本条仅整理所列经文中的身份与事件，不声称记载完整一生；同名人物不自动合并。",
+    "sources": [
+      {
+        "title": "简体中文和合本：约翰三书1:12",
+        "url": "https://cnbible.com/cus/3_john/1.htm"
+      }
+    ]
+  }
+]

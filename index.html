@@ -161,7 +161,7 @@
     <div class="hero">
       <div class="eyebrow">人物 · 经卷 · 关系 · 一生经历</div>
       <h1>圣经人物知识库</h1>
-      <div class="theme">122位人物 · 旧约77 · 新约45</div>
+      <div class="theme" id="peopleCoverage">人物导读与圣经家谱</div>
     </div>
     <details class="card genealogyCard" id="genealogyPanel" open>
       <summary class="sectionTitle">圣经家谱 · 交互树与原图</summary>
@@ -169,11 +169,19 @@
         <button class="genealogyView" data-genealogy="adam" aria-pressed="true">亚当 → 挪亚</button>
         <button class="genealogyView" data-genealogy="noah" aria-pressed="false">挪亚 → 亚伯拉罕</button>
         <button class="genealogyView" data-genealogy="abraham" aria-pressed="false">亚伯拉罕 → 雅各</button>
+        <button class="genealogyView" data-genealogy="tribes" aria-pressed="false">雅各十二子 · 十二支派</button>
+        <button class="genealogyView" data-genealogy="judah" aria-pressed="false">犹大 → 耶稣</button>
+        <button class="genealogyView" data-genealogy="luke" aria-pressed="false">拿单支路 · 路加家谱</button>
         <button class="genealogyView" data-genealogy="original" aria-pressed="false">原图 · 正背面</button>
         <a class="genealogyFull" id="genealogyFull" href="./family-tree/index.html?tree=adam-noah">全屏查看 ↗</a>
       </div>
       <iframe class="genealogyFrame" id="genealogyFrame" src="./family-tree/index.html?tree=adam-noah&amp;embed=1" title="亚当到挪亚交互家谱，可展开旁支及查看经文" loading="lazy"></iframe>
     </details>
+    <div class="card" id="coverageCard">
+      <div class="sectionTitle">收录范围与经文核查</div>
+      <p class="taskDesc">家谱分为17个视图，默认竖向、全部展开。人物导读与家谱均按各自范围收录，尚不能称为全圣经人物全集；同名人物、未具名角色与族群分别保留。</p>
+      <a href="./people-index/index.html">查看人物与经文索引 ↗</a>
+    </div>
     <div class="card">
       <div class="peopleSearch"><input id="peopleSearch" type="search" placeholder="搜索：大卫 / 彼得 / 撒母耳记 / 金钱 / 十二门徒"></div>
       <div class="peopleFilters" id="peopleFilters">
@@ -279,7 +287,7 @@
   </div>
 </nav>
 
-<script src="./people-data.js"></script>
+<script src="./people-data.js?v=15"></script>
 <script>
 const PEOPLE=window.BIBLE_PEOPLE||[];
 const PLAN = [
@@ -407,6 +415,7 @@ function renderNotes(){
 let peopleState={filter:'全部',era:'全部',theme:'全部',q:'',selected:null};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function initPeople(){
+  document.getElementById('peopleCoverage').textContent=`${PEOPLE.length}份人物导读 · 17个家谱视图`;
   const eras=[...new Set(PEOPLE.map(p=>p.era))];
   const themes=[...new Set(PEOPLE.flatMap(p=>p.themes||[]))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
   peopleEra.innerHTML='<option value="全部">全部时期</option>'+eras.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
@@ -448,15 +457,15 @@ function getFilteredPeople(){
   return arr;
 }
 function renderPeople(){
-  const arr=getFilteredPeople(); peopleCount.textContent=`找到 ${arr.length} 位人物 · 可直接搜索经卷、主题或关系人物`;
+  const arr=getFilteredPeople(); peopleCount.textContent=`找到 ${arr.length} 份人物导读 · 可直接搜索经卷、主题或关系人物`;
   peopleList.innerHTML=arr.length?arr.map(p=>`<button class="personCard" data-person-id="${esc(p.id)}"><div class="personName">${esc(p.name)}</div><div class="personMeta">${esc(p.testament)} · ${esc(p.era)} · ${(p.roles||[]).map(esc).join(' / ')}</div><div class="tagRow">${(p.themes||[]).slice(0,4).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="personSummary">${esc(p.summary)}</div></button>`).join(''):'<div class="emptyState">没有找到匹配人物。可以换人物名、经卷名或主题搜索。</div>';
 }
 function renderPeopleTree(){
   const tests=['旧约','新约']; let out='';
   tests.forEach(test=>{
     const ps=PEOPLE.filter(p=>p.testament===test); const eras=[...new Set(ps.map(p=>p.era))];
-    out+=`<details ${test==='新约'?'open':''}><summary>${test} · ${ps.length}位</summary>`;
-    eras.forEach(era=>{const xs=ps.filter(p=>p.era===era);out+=`<details><summary>${esc(era)} · ${xs.length}位</summary><div class="treeNames">${xs.map(x=>`<button class="treePerson" data-tree-person="${esc(x.id)}">${esc(x.name)}</button>`).join('')}</div></details>`;});
+    out+=`<details ${test==='新约'?'open':''}><summary>${test} · ${ps.length}份导读</summary>`;
+    eras.forEach(era=>{const xs=ps.filter(p=>p.era===era);out+=`<details><summary>${esc(era)} · ${xs.length}份导读</summary><div class="treeNames">${xs.map(x=>`<button class="treePerson" data-tree-person="${esc(x.id)}">${esc(x.name)}</button>`).join('')}</div></details>`;});
     out+='</details>';
   }); peopleTree.innerHTML=out;
 }
@@ -466,9 +475,9 @@ function openPerson(id){
   const related=rels.map(r=>{const found=findPersonByName(r.name);return `<button class="relationNode" ${found?`data-related-name="${esc(r.name)}"`:''}><span class="relationType">${esc(r.type)}</span><span class="relationName">${esc(r.name)}</span></button>`;}).join('');
   personDetail.innerHTML=`<div class="detailTitle"><div><div class="eyebrow">${esc(p.testament)} · ${esc(p.era)}</div><h2>${esc(p.name)}</h2></div><span class="detailBadge">${(p.roles||[]).map(esc).join(' · ')}</span></div><div class="detailIntro">${esc(p.summary)}</div>
   <details class="mindBranch" open><summary>📖 主要经卷</summary><div class="branchBody"><div class="refList">${(p.refs||[]).map(x=>`<span class="refPill">${esc(x)}</span>`).join('')}</div>${p.note?`<div class="taskDesc" style="margin-top:10px">注：${esc(p.note)}</div>`:''}</div></details>
-  <details class="mindBranch" open><summary>🧭 一生经历</summary><div class="branchBody"><ol class="timelineList">${(p.timeline||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div></details>
+  <details class="mindBranch" open><summary>🧭 经文记载的经历</summary><div class="branchBody"><ol class="timelineList">${(p.timeline||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div></details>
   <details class="mindBranch" open><summary>👥 人物关系</summary><div class="branchBody"><div class="relationMap"><div class="relationCenter">${esc(p.name)}</div><div class="relationGrid">${related||'<div class="muted">暂无关键关系记录</div>'}</div></div></div></details>
-  <details class="mindBranch" open><summary>💡 导读重点</summary><div class="branchBody"><div class="tagRow">${(p.themes||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div style="margin-top:10px">${esc(p.summary)}</div></div></details>`;
+  <details class="mindBranch" open><summary>💡 导读重点</summary><div class="branchBody"><div class="tagRow">${(p.themes||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div style="margin-top:10px">${esc(p.summary)}</div>${(p.sources||[]).map(s=>`<p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a></p>`).join('')}</div></details>`;
   personDetail.style.display='block';
   requestAnimationFrame(()=>personDetail.scrollIntoView({behavior:'smooth',block:'start'}));
 }
@@ -479,6 +488,9 @@ const genealogyViews={
   adam:{url:"./family-tree/index.html?tree=adam-noah",title:"亚当到挪亚交互家谱，可展开旁支及查看经文"},
   noah:{url:"./family-tree/index.html?tree=noah-abraham",title:"挪亚到亚伯拉罕交互家谱，可展开旁支及查看经文"},
   abraham:{url:"./family-tree/index.html?tree=abraham-jacob",title:"亚伯拉罕到雅各交互家谱，可查看母亲、配偶与经文出处"},
+  tribes:{url:"./family-tree/index.html?tree=jacob-tribes",title:"雅各十二子与十二支派，可单独查看每一支派"},
+  judah:{url:"./family-tree/index.html?tree=judah-jesus",title:"犹大旁支与马太福音家谱，主线通往耶稣"},
+  luke:{url:"./family-tree/index.html?tree=judah-luke",title:"路加福音拿单支路，另附马利亚母系家谱的释经说明"},
   original:{url:"./genealogy-images.html",title:"圣经家谱正面与背面，可切换、拖动和放大查看"}
 };
 document.querySelectorAll("[data-genealogy]").forEach(button=>button.onclick=()=>{
@@ -492,11 +504,13 @@ document.querySelectorAll("[data-genealogy]").forEach(button=>button.onclick=()=
 window.addEventListener("message",event=>{
   const frame=document.getElementById("genealogyFrame");
   if(event.origin!==location.origin||event.source!==frame.contentWindow||event.data?.type!=="bible-family-tree")return;
-  const key={"adam-noah":"adam","noah-abraham":"noah","abraham-jacob":"abraham"}[event.data.tree];
+  const tree=event.data.tree;
+  const key={"adam-noah":"adam","noah-abraham":"noah","abraham-jacob":"abraham","jacob-tribes":"tribes","judah-jesus":"judah","judah-luke":"luke"}[tree]||(typeof tree==="string"&&/^tribe-(reuben|simeon|levi|dan|naphtali|gad|asher|issachar|zebulun|joseph|benjamin)$/.test(tree)?"tribes":null);
   if(!key)return;
   const view=genealogyViews[key];
   document.querySelectorAll("[data-genealogy]").forEach(item=>item.setAttribute("aria-pressed",String(item.dataset.genealogy===key)));
   const url=new URL(view.url,location.href);
+  url.searchParams.set("tree",tree);
   if(typeof event.data.person==="string"&&/^[a-z0-9_]+$/.test(event.data.person))url.searchParams.set("person",event.data.person);
   document.getElementById("genealogyFull").href=url.href;
   frame.title=view.title;
@@ -527,6 +541,8 @@ moneyNextBtn.onclick=()=>{state.money.current=clamp((state.money.current||0)+1,0
 
 if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}))}
 initPeople();
+const initialPerson=new URLSearchParams(location.search).get('person');
+if(initialPerson&&PEOPLE.some(p=>p.id===initialPerson)){switchPage('pagePeople');openPerson(initialPerson);}
 render();
 </script>
 </body>

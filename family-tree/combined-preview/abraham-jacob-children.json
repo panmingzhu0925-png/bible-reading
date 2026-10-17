@@ -1,0 +1,1949 @@
+{
+  "title": "亚伯拉罕、以扫与雅各诸子：十二支派来源预览",
+  "version": "2026-10-16",
+  "translation": "简体中文和合本",
+  "scope": "在原60条列祖家庭与以扫旁支资料上，新增雅各十二子及女儿底拿，按利亚、拉结、辟拉、悉帕四位生母标明；再补约瑟之妻亚西纳及两子玛拿西、以法莲。原以扫三妻、五子、十名明确孙辈及妻名异文说明保留。主线仍为亚伯拉罕→以撒→雅各；不继续展开各支派后世全谱。雅各十二子是支派源头；土地分配中利未另有安排，约瑟后裔则列玛拿西与以法莲两支。",
+  "rootId": "abraham",
+  "mainPath": [
+    "abraham",
+    "isaac",
+    "jacob"
+  ],
+  "treeNodeIds": [
+    "abraham",
+    "ishmael",
+    "isaac",
+    "zimran",
+    "jokshan",
+    "medan",
+    "midian",
+    "ishbak",
+    "shuah",
+    "sheba_jokshan",
+    "dedan_jokshan",
+    "asshurim_dedan",
+    "letushim_dedan",
+    "leummim_dedan",
+    "ephah_midian",
+    "epher_midian",
+    "hanoch_midian",
+    "abida_midian",
+    "eldaah_midian",
+    "nebaioth_ishmael",
+    "kedar_ishmael",
+    "adbeel_ishmael",
+    "mibsam_ishmael",
+    "mishma_ishmael",
+    "dumah_ishmael",
+    "massa_ishmael",
+    "hadad_ishmael",
+    "tema_ishmael",
+    "jetur_ishmael",
+    "naphish_ishmael",
+    "kedemah_ishmael",
+    "esau",
+    "jacob",
+    "basemath_esau",
+    "eliphaz_esau",
+    "reuel_esau",
+    "jeush_esau",
+    "jalam_esau",
+    "korah_esau",
+    "teman_eliphaz",
+    "omar_eliphaz",
+    "zepho_eliphaz",
+    "gatam_eliphaz",
+    "kenaz_eliphaz",
+    "amalek_eliphaz",
+    "nahath_reuel",
+    "zerah_reuel",
+    "shammah_reuel",
+    "mizzah_reuel",
+    "reuben",
+    "simeon",
+    "levi",
+    "judah",
+    "dan",
+    "naphtali",
+    "gad",
+    "asher",
+    "issachar",
+    "zebulun",
+    "joseph_patriarch",
+    "benjamin",
+    "dinah",
+    "manasseh",
+    "ephraim"
+  ],
+  "nodeKindExplanation": "73条为人物记录，3条为底但的子孙族群。族群连线表示族源；十二支派先祖标记仅给雅各十二子，底拿不计入十二子。玛拿西、以法莲作为约瑟两子另列，不能增加成雅各第十三、十四个亲生儿子。",
+  "fatherIdExplanation": "父系按经文保留。十二位女性父家不在此分段展开，通过婚姻关系连接；以实玛利之女巴实抹已有父系位置。玛拿西、以法莲的生父为约瑟，雅各的归名与祝福另作经历说明。",
+  "sources": [
+    {
+      "title": "创世记16：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/16.htm"
+    },
+    {
+      "title": "创世记17：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/17.htm"
+    },
+    {
+      "title": "创世记21：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/21.htm"
+    },
+    {
+      "title": "创世记25：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/25.htm"
+    },
+    {
+      "title": "创世记26：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/26.htm"
+    },
+    {
+      "title": "创世记28：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/28.htm"
+    },
+    {
+      "title": "创世记29：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/29.htm"
+    },
+    {
+      "title": "创世记30：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/30.htm"
+    },
+    {
+      "title": "创世记35：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/35.htm"
+    },
+    {
+      "title": "创世记36：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/36.htm"
+    },
+    {
+      "title": "创世记25：和合本交叉核对（Wordproject）",
+      "url": "https://www.wordproject.org/bibles/gb/01/25.htm"
+    },
+    {
+      "title": "创世记36：和合本交叉核对（Wordproject）",
+      "url": "https://www.wordproject.org/bibles/gb/01/36.htm"
+    },
+    {
+      "title": "创世记41，CNBible简体和合本",
+      "url": "https://cnbible.com/cus/genesis/41.htm"
+    },
+    {
+      "title": "创世记48，CNBible简体和合本",
+      "url": "https://cnbible.com/cus/genesis/48.htm"
+    },
+    {
+      "title": "创世记49，CNBible简体和合本",
+      "url": "https://cnbible.com/cus/genesis/49.htm"
+    },
+    {
+      "title": "创世记29，Wordproject和合本交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/01/29.htm"
+    },
+    {
+      "title": "创世记30，Wordproject和合本交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/01/30.htm"
+    },
+    {
+      "title": "创世记35，Wordproject和合本母亲名单交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/01/35.htm"
+    },
+    {
+      "title": "申命记10，CNBible利未产业说明",
+      "url": "https://cnbible.com/cus/deuteronomy/10.htm"
+    },
+    {
+      "title": "约书亚记14，CNBible约瑟两支与利未分地说明",
+      "url": "https://cnbible.com/cus/joshua/14.htm"
+    }
+  ],
+  "counts": {
+    "nodes": 76,
+    "personRecords": 73,
+    "groupRecords": 3,
+    "treeNodes": 64,
+    "spouseOnly": 12,
+    "parentEdges": 63,
+    "crossRelations": 44,
+    "spouseRelations": 9,
+    "motherChildRelations": 31,
+    "mainPathNodes": 3,
+    "abrahamNamedSons": 8,
+    "ishmaelNamedSons": 12,
+    "esauNamedSons": 5,
+    "esauExplicitGrandsons": 10,
+    "jacobChildrenInThisStage": 13,
+    "concubineRelations": 4,
+    "jacobNamedSons": 12,
+    "jacobNamedDaughters": 1,
+    "josephNamedSons": 2,
+    "originalRecordsPreserved": 60,
+    "addedRecords": 16,
+    "tribeOriginSons": 12
+  },
+  "nodes": [
+    {
+      "id": "abraham",
+      "name": "亚伯拉罕",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "起点",
+      "refs": [
+        "创世记17:5",
+        "创世记21:1–5",
+        "创世记25:1–9"
+      ],
+      "events": [
+        {
+          "text": "原名亚伯兰，蒙赐名为亚伯拉罕。",
+          "refs": [
+            "创世记17:5"
+          ]
+        },
+        {
+          "text": "撒拉给他生以撒；生以撒时年一百岁。",
+          "refs": [
+            "创世记21:1–5"
+          ]
+        },
+        {
+          "text": "将产业给以撒，并将财物分给庶出的众子。",
+          "refs": [
+            "创世记25:5–6"
+          ]
+        },
+        {
+          "text": "寿数一百七十五年，由以撒和以实玛利安葬。",
+          "refs": [
+            "创世记25:7–9"
+          ]
+        }
+      ],
+      "notes": "本图从亚伯拉罕开始。撒拉是以撒的母亲，夏甲是以实玛利的母亲，基土拉生了另外六子；主线经以撒至雅各。",
+      "aliases": [
+        "亚伯兰"
+      ]
+    },
+    {
+      "id": "sarai",
+      "name": "撒拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记16:1",
+        "创世记17:15–19",
+        "创世记21:1–7"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕之妻，原名撒莱，以撒的母亲。其父家与亲属见上一段家谱。",
+      "aliases": [
+        "撒莱"
+      ],
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "sarai",
+          "label": "查看父家与亲属"
+        }
+      ]
+    },
+    {
+      "id": "hagar",
+      "name": "夏甲",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妾",
+      "refs": [
+        "创世记16:1–4",
+        "创世记16:15–16",
+        "创世记21:14–21"
+      ],
+      "events": [
+        {
+          "text": "给亚伯兰生以实玛利。",
+          "refs": [
+            "创世记16:15–16"
+          ]
+        },
+        {
+          "text": "带以实玛利离开亚伯拉罕家，在旷野蒙看顾；后来为儿子从埃及娶妻，妻子未具名。",
+          "refs": [
+            "创世记21:14–21"
+          ]
+        }
+      ],
+      "notes": "埃及人，撒莱的使女，被给亚伯兰为妾。以实玛利的母亲；本段不补其未具名父母。"
+    },
+    {
+      "id": "keturah",
+      "name": "基土拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记25:1–4"
+      ],
+      "events": [],
+      "notes": "创世记25:1称亚伯拉罕又娶的一妻。本段仅按此记载，不把她与夏甲合为一人。"
+    },
+    {
+      "id": "ishmael",
+      "name": "以实玛利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记16:15–16",
+        "创世记25:12–17"
+      ],
+      "events": [
+        {
+          "text": "十二个具名儿子成为十二族的族长。",
+          "refs": [
+            "创世记25:13–16"
+          ]
+        },
+        {
+          "text": "寿数一百三十七年。",
+          "refs": [
+            "创世记25:17"
+          ]
+        }
+      ],
+      "notes": "亚伯拉罕与夏甲之子。本段列创25的十二个具名儿子，并按创36另列女儿巴实抹；十二子不等于全部具名子女。其未具名埃及妻子不虚构姓名。"
+    },
+    {
+      "id": "isaac",
+      "name": "以撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记21:1–5",
+        "创世记25:19–26"
+      ],
+      "events": [
+        {
+          "text": "四十岁娶利百加为妻；为不生育的妻子祈求，利百加后来怀双生子。",
+          "refs": [
+            "创世记25:20–24"
+          ]
+        },
+        {
+          "text": "利百加生以扫与雅各时，以撒六十岁。",
+          "refs": [
+            "创世记25:25–26"
+          ]
+        },
+        {
+          "text": "寿数一百八十年，由以扫和雅各安葬。",
+          "refs": [
+            "创世记35:28–29"
+          ]
+        }
+      ],
+      "notes": "亚伯拉罕与撒拉之子，妻为利百加，儿子以扫和雅各为双生子。"
+    },
+    {
+      "id": "zimran",
+      "name": "心兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕与基土拉的具名儿子。"
+    },
+    {
+      "id": "jokshan",
+      "name": "约珊",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕与基土拉的具名儿子。"
+    },
+    {
+      "id": "medan",
+      "name": "米但",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕与基土拉的具名儿子。"
+    },
+    {
+      "id": "midian",
+      "name": "米甸",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕与基土拉的具名儿子。"
+    },
+    {
+      "id": "ishbak",
+      "name": "伊施巴",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "events": [],
+      "notes": "亚伯拉罕与基土拉的具名儿子。"
+    },
+    {
+      "id": "shuah",
+      "name": "书亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abraham",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "events": [],
+      "notes": "基土拉所生的书亚；不能与创世记38:2犹大岳父书亚仅按同名合并。"
+    },
+    {
+      "id": "sheba_jokshan",
+      "name": "示巴",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jokshan",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:3"
+      ],
+      "events": [],
+      "notes": "本记录为约珊的儿子，与其他族源段落中的同名人物分开，不凭名字自动合并。"
+    },
+    {
+      "id": "dedan_jokshan",
+      "name": "底但",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jokshan",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:3"
+      ],
+      "events": [],
+      "notes": "本记录为约珊的儿子，与其他族源段落中的同名人物分开，不凭名字自动合并。"
+    },
+    {
+      "id": "asshurim_dedan",
+      "name": "亚书利族",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": "dedan_jokshan",
+      "relation": "子孙族群",
+      "refs": [
+        "创世记25:3"
+      ],
+      "events": [],
+      "notes": "经文称底但的子孙族群；不是一位具名亲生儿子，连线表示族源／后裔联系，不确定中间代数。"
+    },
+    {
+      "id": "letushim_dedan",
+      "name": "利都是族",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": "dedan_jokshan",
+      "relation": "子孙族群",
+      "refs": [
+        "创世记25:3"
+      ],
+      "events": [],
+      "notes": "经文称底但的子孙族群；不是一位具名亲生儿子，连线表示族源／后裔联系，不确定中间代数。"
+    },
+    {
+      "id": "leummim_dedan",
+      "name": "利乌米族",
+      "kind": "group",
+      "gender": "unknown",
+      "fatherId": "dedan_jokshan",
+      "relation": "子孙族群",
+      "refs": [
+        "创世记25:3"
+      ],
+      "events": [],
+      "notes": "经文称底但的子孙族群；不是一位具名亲生儿子，连线表示族源／后裔联系，不确定中间代数。"
+    },
+    {
+      "id": "ephah_midian",
+      "name": "以法",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "midian",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:4"
+      ],
+      "events": [],
+      "notes": "创世记25:4列为米甸之子；母亲在本段未具名，不补母亲姓名。"
+    },
+    {
+      "id": "epher_midian",
+      "name": "以弗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "midian",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:4"
+      ],
+      "events": [],
+      "notes": "创世记25:4列为米甸之子；母亲在本段未具名，不补母亲姓名。"
+    },
+    {
+      "id": "hanoch_midian",
+      "name": "哈诺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "midian",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:4"
+      ],
+      "events": [],
+      "notes": "创世记25:4列为米甸之子；母亲在本段未具名，不补母亲姓名。"
+    },
+    {
+      "id": "abida_midian",
+      "name": "亚比大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "midian",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:4"
+      ],
+      "events": [],
+      "notes": "创世记25:4列为米甸之子；母亲在本段未具名，不补母亲姓名。"
+    },
+    {
+      "id": "eldaah_midian",
+      "name": "以勒大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "midian",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:4"
+      ],
+      "events": [],
+      "notes": "创世记25:4列为米甸之子；母亲在本段未具名，不补母亲姓名。"
+    },
+    {
+      "id": "nebaioth_ishmael",
+      "name": "尼拜约",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:13",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "以实玛利的长子；创世记36:3称巴实抹为他的妹子。本段不为十二子推定各自未具名的母亲。"
+    },
+    {
+      "id": "kedar_ishmael",
+      "name": "基达",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:13",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "adbeel_ishmael",
+      "name": "亚德别",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:13",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "mibsam_ishmael",
+      "name": "米比衫",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:13",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "mishma_ishmael",
+      "name": "米施玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:14",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "dumah_ishmael",
+      "name": "度玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:14",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "massa_ishmael",
+      "name": "玛撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:14",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "hadad_ishmael",
+      "name": "哈大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:15",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "tema_ishmael",
+      "name": "提玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:15",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "jetur_ishmael",
+      "name": "伊突",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:15",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "naphish_ishmael",
+      "name": "拿非施",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:15",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "kedemah_ishmael",
+      "name": "基底玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ishmael",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:15",
+        "创世记25:16"
+      ],
+      "events": [],
+      "notes": "创世记25:13–16中以实玛利的十二个具名儿子之一，称为十二族的族长；不为其母补名。"
+    },
+    {
+      "id": "rebecca",
+      "name": "利百加",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记25:20–26"
+      ],
+      "events": [],
+      "notes": "彼土利之女、拉班之妹，以撒之妻，以扫与雅各之母。其父家与亲属见上一段家谱。",
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "rebecca",
+          "label": "查看父家与亲属"
+        }
+      ]
+    },
+    {
+      "id": "esau",
+      "name": "以扫",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "isaac",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:24–26",
+        "创世记25:30",
+        "创世记36:1–14"
+      ],
+      "events": [
+        {
+          "text": "把长子的名分卖给雅各。",
+          "refs": [
+            "创世记25:29–34"
+          ]
+        },
+        {
+          "text": "因兄弟双方财物群畜多，离开雅各，迁居西珥。",
+          "refs": [
+            "创世记36:6–8"
+          ]
+        }
+      ],
+      "notes": "以撒与利百加的双生子，先于雅各出生，又称以东。本页以创36:1–19为其家族主记录。创26:34和28:9的妻名与父家表述不同，相关名字只在说明保留，既不擅自认定为同人，也不据此加算为确定不同的另外三妻。",
+      "aliases": [
+        "以东"
+      ]
+    },
+    {
+      "id": "jacob",
+      "name": "雅各",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "isaac",
+      "relation": "儿子",
+      "refs": [
+        "创世记25:24–26",
+        "创世记28:1–5",
+        "创世记29:23–30",
+        "创世记35:9–12",
+        "创世记35:22–26",
+        "创世记49:28"
+      ],
+      "events": [
+        {
+          "text": "受父亲差遣前往巴旦亚兰，在母舅拉班的女儿中娶妻。",
+          "refs": [
+            "创世记28:1–5"
+          ]
+        },
+        {
+          "text": "先后与利亚、拉结成婚，又有辟拉、悉帕两位妾。",
+          "refs": [
+            "创世记29:23–30",
+            "创世记30:3–4",
+            "创世记30:9"
+          ]
+        },
+        {
+          "text": "被赐名以色列。",
+          "refs": [
+            "创世记35:9–12"
+          ]
+        }
+      ],
+      "notes": "本页主线由亚伯拉罕、以撒到雅各，完整列出雅各十二子及具名女儿底拿，并补约瑟的妻子和两子以说明支派。十二子与后世土地分配的支派名单不可机械等同。",
+      "aliases": [
+        "以色列"
+      ]
+    },
+    {
+      "id": "leah",
+      "name": "利亚",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记29:16",
+        "创世记29:23–28",
+        "创世记29:32–35",
+        "创世记30:17–21",
+        "创世记35:23"
+      ],
+      "events": [],
+      "notes": "拉班的大女儿、拉结的姐姐，雅各之妻。生流便、西缅、利未、犹大、以萨迦、西布伦六子及女儿底拿；悉帕所生的迦得、亚设不改为她亲生。",
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "leah",
+          "label": "查看父家与亲属"
+        }
+      ]
+    },
+    {
+      "id": "rachel",
+      "name": "拉结",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记29:16",
+        "创世记29:28–30",
+        "创世记30:22–24",
+        "创世记35:16–19",
+        "创世记35:24"
+      ],
+      "events": [],
+      "notes": "拉班的小女儿、利亚的妹妹，雅各之妻。生约瑟和便雅悯，生便雅悯时去世；辟拉所生的但、拿弗他利不改为她亲生。",
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "rachel",
+          "label": "查看父家与亲属"
+        }
+      ]
+    },
+    {
+      "id": "bilhah",
+      "name": "辟拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妾",
+      "refs": [
+        "创世记29:29",
+        "创世记30:3–4",
+        "创世记30:5–8",
+        "创世记35:25"
+      ],
+      "events": [],
+      "notes": "拉班给拉结的使女，后来被拉结给雅各为妾。她是但、拿弗他利的生母；拉结为其子命名、认领的叙述不改变生母身份。"
+    },
+    {
+      "id": "zilpah",
+      "name": "悉帕",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妾",
+      "refs": [
+        "创世记29:24",
+        "创世记30:9",
+        "创世记30:10–13",
+        "创世记35:26"
+      ],
+      "events": [],
+      "notes": "拉班给利亚的使女，后来被利亚给雅各为妾。她是迦得、亚设的生母；利亚为其子命名的叙述不改变生母身份。"
+    },
+    {
+      "id": "adah_esau",
+      "name": "亚大",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记36:2",
+        "创世记36:4",
+        "创世记36:10"
+      ],
+      "events": [],
+      "notes": "按创世记36:2为赫人以伦之女，以扫之妻，以利法之母。创26:34把以伦之女记为巴实抹，本记录不擅自给亚大增加该别名，也不据此调和两段的妻名。与该隐支系拉麦之妻亚大不是同一记录。"
+    },
+    {
+      "id": "basemath_esau",
+      "name": "巴实抹",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "ishmael",
+      "relation": "女儿",
+      "refs": [
+        "创世记36:3–4",
+        "创世记36:10"
+      ],
+      "events": [],
+      "notes": "本记录严格采用创世记36:3：以实玛利之女、尼拜约之妹、以扫之妻、流珥之母。创28:9记以实玛利之女玛哈拉，身份关系不在本页强行调和；创26:34同名巴实抹的父亲为以伦，不可只按名字并入本记录。"
+    },
+    {
+      "id": "oholibamah_esau",
+      "name": "阿何利巴玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记36:2",
+        "创世记36:5",
+        "创世记36:14"
+      ],
+      "events": [],
+      "notes": "以扫之妻，亚拿之女、祭便之孙女；母亲未具名。其父家仅在说明保留，不在本页展开何利人全谱。创36:41同名族长不直接等同为此女性。"
+    },
+    {
+      "id": "eliphaz_esau",
+      "name": "以利法",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:4",
+        "创世记36:10–12",
+        "创世记36:15–16"
+      ],
+      "events": [],
+      "notes": "以扫与亚大之子，本章称为以扫长子。创36:11–12明确列出六个儿子；只有亚玛力的母亲亭纳被具名，其余五子不挂为亭纳所生。创36:16在此支的族长名录另记可拉，不据此增造一位确定的亲生儿子，也不擅自并入以扫之子可拉。"
+    },
+    {
+      "id": "reuel_esau",
+      "name": "流珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:4",
+        "创世记36:10",
+        "创世记36:13"
+      ],
+      "events": [],
+      "notes": "以扫与巴实抹之子；不因同名与其他经卷中的流珥合并。"
+    },
+    {
+      "id": "jeush_esau",
+      "name": "耶乌施",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:5",
+        "创世记36:14",
+        "创世记36:18"
+      ],
+      "events": [],
+      "notes": "以扫与阿何利巴玛之子，后在本章族长名单再次列名，不另建一个重复人物。"
+    },
+    {
+      "id": "jalam_esau",
+      "name": "雅兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:5",
+        "创世记36:14",
+        "创世记36:18"
+      ],
+      "events": [],
+      "notes": "以扫与阿何利巴玛之子，后在本章族长名单再次列名，不另建一个重复人物。"
+    },
+    {
+      "id": "korah_esau",
+      "name": "可拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:5",
+        "创世记36:14",
+        "创世记36:18"
+      ],
+      "events": [],
+      "notes": "以扫与阿何利巴玛之子。创36:16归于以利法支的同名可拉族长不与本记录强行合并。"
+    },
+    {
+      "id": "teman_eliphaz",
+      "name": "提幔",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliphaz_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:11",
+        "创世记36:15–16"
+      ],
+      "events": [],
+      "notes": "创世记36:11列为以利法之子；母亲在本段未具名，不将其记为亭纳所生。族长名单再次出现不重复建人。"
+    },
+    {
+      "id": "omar_eliphaz",
+      "name": "阿抹",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliphaz_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:11",
+        "创世记36:15–16"
+      ],
+      "events": [],
+      "notes": "创世记36:11列为以利法之子；母亲在本段未具名，不将其记为亭纳所生。族长名单再次出现不重复建人。"
+    },
+    {
+      "id": "zepho_eliphaz",
+      "name": "洗玻",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliphaz_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:11",
+        "创世记36:15–16"
+      ],
+      "events": [],
+      "notes": "创世记36:11列为以利法之子；母亲在本段未具名，不将其记为亭纳所生。族长名单再次出现不重复建人。"
+    },
+    {
+      "id": "gatam_eliphaz",
+      "name": "迦坦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliphaz_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:11",
+        "创世记36:15–16"
+      ],
+      "events": [],
+      "notes": "创世记36:11列为以利法之子；母亲在本段未具名，不将其记为亭纳所生。族长名单再次出现不重复建人。"
+    },
+    {
+      "id": "kenaz_eliphaz",
+      "name": "基纳斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliphaz_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:11",
+        "创世记36:15–16"
+      ],
+      "events": [],
+      "notes": "创世记36:11列为以利法之子；母亲在本段未具名，不将其记为亭纳所生。族长名单再次出现不重复建人。"
+    },
+    {
+      "id": "timna_eliphaz",
+      "name": "亭纳",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妾",
+      "refs": [
+        "创世记36:12"
+      ],
+      "events": [],
+      "notes": "创世记36:12记她是以利法的妾、亚玛力的母亲。创36:22另记罗坍的妹妹也叫亭纳，本页不只凭同名认定两处身份相同；何利父家未在本段展开。"
+    },
+    {
+      "id": "amalek_eliphaz",
+      "name": "亚玛力",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliphaz_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:12",
+        "创世记36:16"
+      ],
+      "events": [],
+      "notes": "以利法与妾亭纳之子；本记录是具名人物，不另把后来的整个亚玛力族群当作一个人的生平。"
+    },
+    {
+      "id": "nahath_reuel",
+      "name": "拿哈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuel_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:13",
+        "创世记36:17"
+      ],
+      "events": [],
+      "notes": "流珥之子；母亲在本段未具名。族长名单再次出现不重复建人；不同父系中的同名人物不自动合并。"
+    },
+    {
+      "id": "zerah_reuel",
+      "name": "谢拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuel_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:13",
+        "创世记36:17"
+      ],
+      "events": [],
+      "notes": "流珥之子；母亲在本段未具名。族长名单再次出现不重复建人；不同父系中的同名人物不自动合并。"
+    },
+    {
+      "id": "shammah_reuel",
+      "name": "沙玛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuel_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:13",
+        "创世记36:17"
+      ],
+      "events": [],
+      "notes": "流珥之子；母亲在本段未具名。族长名单再次出现不重复建人；不同父系中的同名人物不自动合并。"
+    },
+    {
+      "id": "mizzah_reuel",
+      "name": "米撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuel_esau",
+      "relation": "儿子",
+      "refs": [
+        "创世记36:13",
+        "创世记36:17"
+      ],
+      "events": [],
+      "notes": "流珥之子；母亲在本段未具名。族长名单再次出现不重复建人；不同父系中的同名人物不自动合并。"
+    },
+    {
+      "id": "reuben",
+      "name": "流便",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "长子",
+      "refs": [
+        "创世记29:32",
+        "创世记35:22–23",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与利亚的长子；创35:23和49:3明确记为长子。",
+      "sonOrder": 1,
+      "tribeOrigin": true
+    },
+    {
+      "id": "simeon",
+      "name": "西缅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记29:33",
+        "创世记35:22–23",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与利亚所生，按创29–30、35出生叙述列为十二子中的第2位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 2,
+      "tribeOrigin": true
+    },
+    {
+      "id": "levi",
+      "name": "利未",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记29:34",
+        "创世记35:22–23",
+        "创世记49:28"
+      ],
+      "events": [
+        {
+          "text": "利未人被分别事奉，产业安排与其他支派不同。",
+          "refs": [
+            "申命记10:8–9",
+            "约书亚记14:3–4"
+          ]
+        }
+      ],
+      "notes": "雅各与利亚所生。利未属于十二子之列；其后利未人没有与弟兄相同的土地份额，不能据分地名单省略利未这位儿子。",
+      "sonOrder": 3,
+      "tribeOrigin": true
+    },
+    {
+      "id": "judah",
+      "name": "犹大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记29:35",
+        "创世记35:22–23",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与利亚所生，按创29–30、35出生叙述列为十二子中的第4位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 4,
+      "tribeOrigin": true
+    },
+    {
+      "id": "dan",
+      "name": "但",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:5–6",
+        "创世记35:22–25",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与辟拉所生，按创29–30、35出生叙述列为十二子中的第5位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 5,
+      "tribeOrigin": true
+    },
+    {
+      "id": "naphtali",
+      "name": "拿弗他利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:7–8",
+        "创世记35:22–25",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与辟拉所生，按创29–30、35出生叙述列为十二子中的第6位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 6,
+      "tribeOrigin": true
+    },
+    {
+      "id": "gad",
+      "name": "迦得",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:10–11",
+        "创世记35:22–26",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与悉帕所生，按创29–30、35出生叙述列为十二子中的第7位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 7,
+      "tribeOrigin": true
+    },
+    {
+      "id": "asher",
+      "name": "亚设",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:12–13",
+        "创世记35:22–26",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与悉帕所生，按创29–30、35出生叙述列为十二子中的第8位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 8,
+      "tribeOrigin": true
+    },
+    {
+      "id": "issachar",
+      "name": "以萨迦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:17–18",
+        "创世记35:22–23",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与利亚所生，按创29–30、35出生叙述列为十二子中的第9位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 9,
+      "tribeOrigin": true
+    },
+    {
+      "id": "zebulun",
+      "name": "西布伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:19–20",
+        "创世记35:22–23",
+        "创世记49:28"
+      ],
+      "events": [],
+      "notes": "雅各与利亚所生，按创29–30、35出生叙述列为十二子中的第10位；不以创35按母亲分组的列名次序改排出生次序。",
+      "sonOrder": 10,
+      "tribeOrigin": true
+    },
+    {
+      "id": "joseph_patriarch",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:22–24",
+        "创世记35:22–24",
+        "创世记49:28"
+      ],
+      "events": [
+        {
+          "text": "在埃及受任治理，并娶亚西纳。",
+          "refs": [
+            "创世记41:41–45"
+          ]
+        },
+        {
+          "text": "荒年前与亚西纳生玛拿西、以法莲。",
+          "refs": [
+            "创世记41:50–52"
+          ]
+        },
+        {
+          "text": "雅各将其两子归在自己名下祝福；分地时约瑟后裔分为玛拿西、以法莲两支。",
+          "refs": [
+            "创世记48:5–6",
+            "约书亚记14:4"
+          ]
+        }
+      ],
+      "notes": "雅各与拉结所生，为雅各第十一子；不是其他时代的同名约瑟。其妻亚西纳生玛拿西、以法莲，两子后来分别成为约瑟后裔的两支；两子的生父仍是约瑟。",
+      "sonOrder": 11,
+      "tribeOrigin": true
+    },
+    {
+      "id": "benjamin",
+      "name": "便雅悯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记35:16–18",
+        "创世记35:22–24",
+        "创世记49:28"
+      ],
+      "events": [
+        {
+          "text": "母亲难产时为他起名便俄尼，父亲改称便雅悯。",
+          "refs": [
+            "创世记35:16–18"
+          ]
+        }
+      ],
+      "notes": "雅各与拉结所生，为雅各第十二子。拉结临终称他便俄尼，父亲给他起名便雅悯；出生地点按创35:16–19在迦南往以法他的路上，不据35:26合并记法说他生于巴旦亚兰。",
+      "sonOrder": 12,
+      "tribeOrigin": true,
+      "aliases": [
+        "便俄尼"
+      ]
+    },
+    {
+      "id": "dinah",
+      "name": "底拿",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "jacob",
+      "relation": "女儿",
+      "refs": [
+        "创世记30:19–21"
+      ],
+      "events": [],
+      "notes": "雅各与利亚所生的具名女儿。她不计入十二个儿子，也不标作十二支派先祖；未将后世支派人物补入本次范围。",
+      "tribeOrigin": false
+    },
+    {
+      "id": "asenath",
+      "name": "亚西纳",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记41:45",
+        "创世记41:50"
+      ],
+      "events": [],
+      "notes": "约瑟之妻，安城祭司波提非拉之女，玛拿西、以法莲的母亲。本次不另展开父亲人物；波提非拉不与其他同名近音人物强并。",
+      "originNote": "安城祭司波提非拉的女儿"
+    },
+    {
+      "id": "manasseh",
+      "name": "玛拿西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joseph_patriarch",
+      "relation": "长子",
+      "refs": [
+        "创世记41:50–51",
+        "创世记48:5",
+        "约书亚记14:4"
+      ],
+      "events": [],
+      "notes": "约瑟与亚西纳的长子。雅各将他与以法莲归在自己名下受祝福，不改变生父约瑟；此人物不是后世犹大同名君王。约瑟后裔在分地时列为两支，玛拿西是其中一支。"
+    },
+    {
+      "id": "ephraim",
+      "name": "以法莲",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joseph_patriarch",
+      "relation": "次子",
+      "refs": [
+        "创世记41:50",
+        "创世记41:52",
+        "创世记48:5",
+        "约书亚记14:4"
+      ],
+      "events": [],
+      "notes": "约瑟与亚西纳的次子。雅各将他与玛拿西归在自己名下受祝福，不改变生父约瑟；约瑟后裔在分地时列为两支，以法莲是其中一支。"
+    }
+  ],
+  "relations": [
+    {
+      "source": "abraham",
+      "target": "sarai",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记16:1",
+        "创世记17:15"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "abraham",
+      "target": "hagar",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "创世记16:3"
+      ],
+      "notes": "本节称夏甲被给亚伯兰为妾；与撒拉不是同一人。"
+    },
+    {
+      "source": "abraham",
+      "target": "keturah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记25:1"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "hagar",
+      "target": "ishmael",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记16:15",
+        "创世记25:12"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "sarai",
+      "target": "isaac",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记21:2–3"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "keturah",
+      "target": "zimran",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "keturah",
+      "target": "jokshan",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "keturah",
+      "target": "medan",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "keturah",
+      "target": "midian",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "keturah",
+      "target": "ishbak",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "keturah",
+      "target": "shuah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "isaac",
+      "target": "rebecca",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记25:20"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "rebecca",
+      "target": "esau",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:21–26"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "rebecca",
+      "target": "jacob",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记25:21–26"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jacob",
+      "target": "leah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记29:23–28"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jacob",
+      "target": "rachel",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记29:28–30"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jacob",
+      "target": "bilhah",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "创世记30:3–4"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jacob",
+      "target": "zilpah",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "创世记30:9"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "esau",
+      "target": "adah_esau",
+      "type": "spouse",
+      "relation": "夫妻（按创36列名）",
+      "refs": [
+        "创世记36:2"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "esau",
+      "target": "basemath_esau",
+      "type": "spouse",
+      "relation": "夫妻（按创36列名）",
+      "refs": [
+        "创世记36:3"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "esau",
+      "target": "oholibamah_esau",
+      "type": "spouse",
+      "relation": "夫妻（按创36列名）",
+      "refs": [
+        "创世记36:2",
+        "创世记36:14"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "adah_esau",
+      "target": "eliphaz_esau",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记36:4",
+        "创世记36:10"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "basemath_esau",
+      "target": "reuel_esau",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记36:4",
+        "创世记36:10"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "oholibamah_esau",
+      "target": "jeush_esau",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记36:5",
+        "创世记36:14"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "oholibamah_esau",
+      "target": "jalam_esau",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记36:5",
+        "创世记36:14"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "oholibamah_esau",
+      "target": "korah_esau",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记36:5",
+        "创世记36:14"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "eliphaz_esau",
+      "target": "timna_eliphaz",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "创世记36:12"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "timna_eliphaz",
+      "target": "amalek_eliphaz",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记36:12"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "leah",
+      "target": "reuben",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:32",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "simeon",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:33",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "levi",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:34",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:35",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "bilhah",
+      "target": "dan",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:5–6",
+        "创世记35:22–25"
+      ]
+    },
+    {
+      "source": "bilhah",
+      "target": "naphtali",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:7–8",
+        "创世记35:22–25"
+      ]
+    },
+    {
+      "source": "zilpah",
+      "target": "gad",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:10–11",
+        "创世记35:22–26"
+      ]
+    },
+    {
+      "source": "zilpah",
+      "target": "asher",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:12–13",
+        "创世记35:22–26"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "issachar",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:17–18",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "zebulun",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:19–20",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "rachel",
+      "target": "joseph_patriarch",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:22–24",
+        "创世记35:22–24"
+      ]
+    },
+    {
+      "source": "rachel",
+      "target": "benjamin",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记35:16–18",
+        "创世记35:22–24"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "dinah",
+      "type": "mother-child",
+      "relation": "母女",
+      "refs": [
+        "创世记30:19–21"
+      ]
+    },
+    {
+      "source": "joseph_patriarch",
+      "target": "asenath",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记41:45"
+      ],
+      "notes": "亚西纳是安城祭司波提非拉的女儿。"
+    },
+    {
+      "source": "asenath",
+      "target": "manasseh",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记41:50–51"
+      ]
+    },
+    {
+      "source": "asenath",
+      "target": "ephraim",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记41:50",
+        "创世记41:52"
+      ]
+    }
+  ],
+  "tribeExplanation": [
+    {
+      "text": "创49对雅各诸子祝福后，以十二支派概括这一家系；本预览保留十二子与底拿的区别。",
+      "refs": [
+        "创世记49:28"
+      ]
+    },
+    {
+      "text": "约瑟之子玛拿西、以法莲归在雅各名下受祝福，但生父仍是约瑟。",
+      "refs": [
+        "创世记48:5–6"
+      ]
+    },
+    {
+      "text": "利未人的产业另有安排；分地时约瑟后裔为玛拿西、以法莲两支。不能把家谱十二子与每处支派清单机械当作同一名单。",
+      "refs": [
+        "申命记10:8–9",
+        "约书亚记14:3–4"
+      ]
+    }
+  ]
+}

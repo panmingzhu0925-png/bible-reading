@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f4ee"><title>人物与经文索引 · 圣经阅读</title>
+<link rel="stylesheet" href="./app.css?v=15">
+</head>
+<body>
+<main>
+<header><a href="../index.html#pagePeople">← 返回人物知识库</a><h1>人物与经文索引</h1><p>从名字找到经文，再进入人物导读或家谱。</p></header>
+<section class="scope"><strong>收录范围</strong><p id="coverage">正在读取索引…</p><p>家谱档案包含跨页重复记录；未具名角色和群体另有标记。原名索引按来源区分同名人物，不把推测的身份、父母关系或一生经历自动补入家谱。</p><details><summary>来源与核查方法</summary><p>中文导读与家谱的出处列在每条资料中。全经具名索引依据 <a href="https://www.stepbible.org/" target="_blank" rel="noopener noreferrer">STEP Bible</a> （Tyndale House Cambridge）的 TIPNR，筛选本项目采用的66卷经文及具名人物类别。原名保留来源写法；中文译名与人物身份仍需逐条核对。未具名角色未系统收录，少数按称谓保留；族群、神与灵体称号、地点与人物不明的条目另列排除说明。经文编号沿用来源，部分译本的章节与诗篇题注编号可能不同。索引提供查经线索，不等同于已逐条人工复核的中文全集。</p><p>数据许可：<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>。转换：按66卷过滤、提取名字／类别／经文、改为本页格式；未导入来源的AI人物描述和关系推论。</p><p><a href="./SOURCE.md">查看数据版本与处理说明</a> · <a href="./coverage-report.json">下载覆盖统计</a></p></details></section>
+<nav id="modes" aria-label="选择索引范围"><button data-mode="local" aria-pressed="true">中文导读与家谱</button><button data-mode="scripture" aria-pressed="false">全经具名索引 · 原名</button></nav>
+<section class="tools"><label for="search">查找名字或经卷</label><input type="search" id="search" placeholder="例如：弥迦、拿单、创世记、Paul" autocomplete="off"><div class="filters"><label for="kind">资料类型</label><select id="kind"><option value="all">全部中文资料</option><option value="bio">人物导读</option><option value="tree">家谱档案</option></select><label for="book">经卷</label><select id="book"><option value="all">全部经卷</option></select></div></section>
+<p id="resultCount" role="status" aria-live="polite"></p>
+<section id="personDetail" class="detail" aria-label="所选人物" hidden></section>
+<section id="list" aria-label="人物索引结果"></section>
+<nav class="pagination" aria-label="结果分页"><button id="previous">上一页</button><span id="page"></span><button id="next">下一页</button></nav>
+<p class="footer">人物同名不等于同一人。引用经文请以圣经正文和上下文为准。</p>
+</main>
+<script src="./data.js?v=15" defer></script><script src="./local-data.js?v=15" defer></script><script src="./app.js?v=15" defer></script>
+</body></html>

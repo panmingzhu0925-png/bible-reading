@@ -1,0 +1,39 @@
+(() => {
+'use strict';
+const scripture=window.BIBLE_PERSON_INDEX,local=window.BIBLE_LOCAL_PERSON_INDEX;
+const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const bookRows=[
+['Gen','创世记','创','genesis'],['Exo','出埃及记','出','exodus'],['Lev','利未记','利','leviticus'],['Num','民数记','民','numbers'],['Deu','申命记','申','deuteronomy'],['Jos','约书亚记','书','joshua'],['Jdg','士师记','士','judges'],['Rut','路得记','得','ruth'],['1Sa','撒母耳记上','撒上','1_samuel'],['2Sa','撒母耳记下','撒下','2_samuel'],['1Ki','列王纪上','王上','1_kings'],['2Ki','列王纪下','王下','2_kings'],['1Ch','历代志上','代上','1_chronicles'],['2Ch','历代志下','代下','2_chronicles'],['Ezr','以斯拉记','拉','ezra'],['Neh','尼希米记','尼','nehemiah'],['Est','以斯帖记','斯','esther'],['Job','约伯记','伯','job'],['Psa','诗篇','诗','psalms'],['Pro','箴言','箴','proverbs'],['Ecc','传道书','传','ecclesiastes'],['Sng','雅歌','歌','songs'],['Isa','以赛亚书','赛','isaiah'],['Jer','耶利米书','耶','jeremiah'],['Lam','耶利米哀歌','哀','lamentations'],['Ezk','以西结书','结','ezekiel'],['Dan','但以理书','但','daniel'],['Hos','何西阿书','何','hosea'],['Jol','约珥书','珥','joel'],['Amo','阿摩司书','摩','amos'],['Oba','俄巴底亚书','俄','obadiah'],['Jon','约拿书','拿','jonah'],['Mic','弥迦书','弥','micah'],['Nam','那鸿书','鸿','nahum'],['Hab','哈巴谷书','哈','habakkuk'],['Zep','西番雅书','番','zephaniah'],['Hag','哈该书','该','haggai'],['Zec','撒迦利亚书','亚','zechariah'],['Mal','玛拉基书','玛','malachi'],['Mat','马太福音','太','matthew'],['Mrk','马可福音','可','mark'],['Luk','路加福音','路','luke'],['Jhn','约翰福音','约','john'],['Act','使徒行传','徒','acts'],['Rom','罗马书','罗','romans'],['1Co','哥林多前书','林前','1_corinthians'],['2Co','哥林多后书','林后','2_corinthians'],['Gal','加拉太书','加','galatians'],['Eph','以弗所书','弗','ephesians'],['Php','腓立比书','腓','philippians'],['Col','歌罗西书','西','colossians'],['1Th','帖撒罗尼迦前书','帖前','1_thessalonians'],['2Th','帖撒罗尼迦后书','帖后','2_thessalonians'],['1Ti','提摩太前书','提前','1_timothy'],['2Ti','提摩太后书','提后','2_timothy'],['Tit','提多书','多','titus'],['Phm','腓利门书','门','philemon'],['Heb','希伯来书','来','hebrews'],['Jas','雅各书','雅','james'],['1Pe','彼得前书','彼前','1_peter'],['2Pe','彼得后书','彼后','2_peter'],['1Jn','约翰一书','约一','1_john'],['2Jn','约翰二书','约二','2_john'],['3Jn','约翰三书','约三','3_john'],['Jud','犹大书','犹','jude'],['Rev','启示录','启','revelation']];
+const books=new Map(bookRows.map(b=>[b[0],{code:b[0],name:b[1],short:b[2],slug:b[3]}]));
+const state={mode:'local',q:'',kind:'all',book:'all',page:0},size=40;
+let filtered=[];
+if(!scripture||!local){$('coverage').textContent='资料未能加载，请联网刷新本页。';return;}
+function bookFor(ref){if(typeof ref==='object')return books.get(ref.book);const s=String(ref);return [...books.values()].sort((a,b)=>b.name.length-a.name.length).find(b=>s.startsWith(b.name))||[...books.values()].sort((a,b)=>b.short.length-a.short.length).find(b=>s.startsWith(b.short));}
+function refText(ref){if(typeof ref==='string')return ref;const b=bookFor(ref);return (b?.name||ref.book)+ref.chapter+(ref.verse===0?'篇题注':':'+ref.verse);}
+function refURL(ref){const b=bookFor(ref);if(!b)return null;const single=['Oba','Phm','2Jn','3Jn','Jud'].includes(b.code);const ch=typeof ref==='object'?ref.chapter:single&&!String(ref).includes(':')?1:Number(String(ref).match(/\d+/)?.[0]||1);return 'https://cnbible.com/cus/'+b.slug+'/'+ch+'.htm';}
+function refsHTML(refs,limit=8){return '<div class="refs">'+(refs||[]).slice(0,limit).map(r=>{const url=refURL(r);return url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(refText(r))} ↗</a>`:`<span>${esc(refText(r))}</span>`;}).join('')+'</div>';}
+function kindName(r){return r.kind==='bio'?'人物导读':r.kind==='tree'?'家谱档案':'具名索引';}
+function displayName(r){return r.name||r.englishName||r.id;}
+function textFor(r){return [displayName(r),r.englishName,...(r.aliases||[]),r.context,r.summary,r.testament,...(r.refs||[]).map(refText),...(r.refs||[]).map(x=>typeof x==='object'?x.book:'')].join(' ').toLowerCase();}
+const scriptRecords=scripture.records||[];
+const nameIndex=new Map(local.records.map(r=>[r.id,r]));for(const r of scriptRecords)nameIndex.set(r.id,r);
+for(const r of [...local.records,...scriptRecords])r.searchText=textFor(r);
+$('coverage').textContent=`中文：${local.metadata.biographies}份人物导读、${local.metadata.treeViews}个家谱视图的${local.metadata.treeRecords}条档案。全经具名索引：${scriptRecords.length}条来源记录，附经文出处。尚未完成所有原名与中文译名的逐条对应核查。`;
+$('book').innerHTML='<option value="all">全部经卷</option>'+bookRows.map(b=>`<option value="${b[0]}">${b[1]}</option>`).join('');
+function render(){
+ const src=state.mode==='local'?local.records:scriptRecords,q=state.q.trim().toLowerCase();
+ filtered=src.filter(r=>(state.mode!=='local'||state.kind==='all'||r.kind===state.kind)&&(!q||r.searchText.includes(q))&&(state.book==='all'||(r.refs||[]).some(x=>bookFor(x)?.code===state.book)));
+ if(q)filtered.sort((a,b)=>{const score=r=>displayName(r).toLowerCase()===q?0:displayName(r).toLowerCase().startsWith(q)?1:2;return score(a)-score(b);});
+ state.page=Math.min(state.page,Math.max(0,Math.ceil(filtered.length/size)-1));const start=state.page*size;
+ $('resultCount').textContent=`找到 ${filtered.length} 条${state.mode==='local'?'中文资料（按档案计数）':'具名人物来源记录'} · 每页${size}条`;
+ $('list').innerHTML=filtered.slice(start,start+size).map(r=>`<article class="entry"><h2><button class="person-button" data-person="${esc(r.id)}">${esc(displayName(r))}</button><span class="tag">${kindName(r)}</span>${r.type==='group'?'<span class="tag">群体</span>':r.isUnnamed?'<span class="tag">未具名角色</span>':''}</h2><div class="meta">${esc(r.context||r.sourceKey||'')}${r.testament?' · '+esc(r.testament):''}${r.englishName&&r.englishName!==r.name?' · '+esc(r.englishName):''}</div>${r.summary?'<p>'+esc(r.summary)+'</p>':''}${refsHTML(r.refs,4)}${r.url?`<a href="${esc(r.url)}">${r.kind==='tree'?'进入此页家谱':'阅读人物导读'} ↗</a>`:'<p class="meta">保留来源原名；点击名字查看经文及同名识别码。</p>'}</article>`).join('')||'<div class="empty">未找到匹配资料。原名索引暂需使用来源的英文名或经卷筛选；未匹配不表示圣经没有此人。</div>';
+ $('page').textContent=`${filtered.length?state.page+1:0} / ${Math.ceil(filtered.length/size)}`;$('previous').disabled=state.page===0;$('next').disabled=start+size>=filtered.length;
+}
+function openPerson(id){const r=nameIndex.get(id);if(!r)return;const d=$('personDetail');d.innerHTML=`<button class="close-detail" id="closeDetail">关闭</button><h2>${esc(displayName(r))}</h2><p class="meta">${esc(r.context||r.source||'STEPBible TIPNR')} · ${esc(r.sourceKey||r.id)}</p>${r.summary?'<p>'+esc(r.summary)+'</p>':''}${r.notes?'<p>'+esc(r.notes)+'</p>':''}${r.identityNote?'<p>'+esc(r.identityNote)+'</p>':''}${r.aliases?.length?'<p>其他名称：'+r.aliases.map(esc).join('、')+'</p>':''}${r.url?`<p><a href="${esc(r.url)}">${r.kind==='tree'?'进入家谱查看关系':'进入人物导读'} ↗</a></p>`:'<p>此条用于定位人物及其经文，沿用来源编者的身份归并。所列同名经文未必能单凭名字确定为同一人；中文译名请在经文中核对，不自动推定家谱身份。</p>'}<strong>经文出处 · ${(r.refs||[]).length}条</strong>${refsHTML(r.refs,16)}${(r.refs||[]).length>16?'<details><summary>展开其余经文</summary>'+refsHTML(r.refs.slice(16),r.refs.length)+'</details>':''}`;d.hidden=false;$('closeDetail').onclick=()=>d.hidden=true;d.scrollIntoView({behavior:'smooth',block:'start'});}
+$('list').addEventListener('click',e=>{const b=e.target.closest('[data-person]');if(b)openPerson(b.dataset.person);});
+$('modes').addEventListener('click',e=>{const b=e.target.closest('[data-mode]');if(!b)return;state.mode=b.dataset.mode;state.page=0;$('personDetail').hidden=true;$('kind').disabled=state.mode!=='local';document.querySelectorAll('[data-mode]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));render();});
+$('search').addEventListener('input',e=>{state.q=e.target.value;state.page=0;render();});
+for(const id of ['kind','book'])$(id).addEventListener('change',e=>{state[id]=e.target.value;state.page=0;render();});
+$('previous').onclick=()=>{state.page--;render();$('resultCount').scrollIntoView({block:'start'});};$('next').onclick=()=>{state.page++;render();$('resultCount').scrollIntoView({block:'start'});};
+render();
+})();

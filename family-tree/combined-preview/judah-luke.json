@@ -1,0 +1,1402 @@
+{
+  "title": "犹大至耶稣：路加家谱独立对照",
+  "version": "2026-10-17",
+  "translation": "简体中文和合本",
+  "rootId": "judah",
+  "mainPath": [
+    "judah",
+    "perez",
+    "hezron_perez",
+    "ram",
+    "amminadab",
+    "nahshon",
+    "salmon",
+    "boaz",
+    "obed",
+    "jesse",
+    "david",
+    "nathan_david",
+    "luke_40",
+    "luke_39",
+    "luke_38",
+    "luke_37",
+    "luke_36",
+    "luke_35",
+    "luke_34",
+    "luke_33",
+    "luke_32",
+    "luke_31",
+    "luke_30",
+    "luke_29",
+    "luke_28",
+    "luke_27",
+    "luke_26",
+    "luke_25",
+    "luke_24",
+    "luke_23",
+    "luke_22",
+    "shealtiel",
+    "zerubbabel",
+    "luke_19",
+    "luke_18",
+    "luke_17",
+    "luke_16",
+    "luke_15",
+    "luke_14",
+    "luke_13",
+    "luke_12",
+    "luke_11",
+    "luke_10",
+    "luke_09",
+    "luke_08",
+    "luke_07",
+    "luke_06",
+    "luke_05",
+    "luke_04",
+    "luke_03",
+    "luke_02",
+    "joseph_husband_mary",
+    "jesus"
+  ],
+  "quickFocus": [
+    "judah",
+    "david",
+    "nathan_david",
+    "zerubbabel",
+    "joseph_husband_mary",
+    "jesus"
+  ],
+  "treeNodeIds": [
+    "judah",
+    "perez",
+    "hezron_perez",
+    "ram",
+    "amminadab",
+    "nahshon",
+    "salmon",
+    "boaz",
+    "obed",
+    "jesse",
+    "david",
+    "nathan_david",
+    "luke_40",
+    "luke_39",
+    "luke_38",
+    "luke_37",
+    "luke_36",
+    "luke_35",
+    "luke_34",
+    "luke_33",
+    "luke_32",
+    "luke_31",
+    "luke_30",
+    "luke_29",
+    "luke_28",
+    "luke_27",
+    "luke_26",
+    "luke_25",
+    "luke_24",
+    "luke_23",
+    "luke_22",
+    "shealtiel",
+    "zerubbabel",
+    "luke_19",
+    "luke_18",
+    "luke_17",
+    "luke_16",
+    "luke_15",
+    "luke_14",
+    "luke_13",
+    "luke_12",
+    "luke_11",
+    "luke_10",
+    "luke_09",
+    "luke_08",
+    "luke_07",
+    "luke_06",
+    "luke_05",
+    "luke_04",
+    "luke_03",
+    "luke_02",
+    "joseph_husband_mary",
+    "jesus"
+  ],
+  "nodes": [
+    {
+      "id": "jesus",
+      "name": "耶稣",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joseph_husband_mary",
+      "relation": "家谱承接（非生父）",
+      "refs": [
+        "路加福音3:23",
+        "马太福音1:16–25",
+        "马太福音1:1"
+      ],
+      "events": [],
+      "notes": "马利亚所生的耶稣基督。父系绘图位置沿太1的约瑟家谱承接，约瑟不是生父。路3另有家谱名单，不能因此虚构马利亚父亲或把两线硬接为同一条。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "aliases": [
+        "耶稣基督",
+        "基督",
+        "以马内利"
+      ],
+      "lineageKind": "household",
+      "lineageLabel": "依人看来 · 约瑟非生父",
+      "crossPageLinks": [
+        {
+          "tree": "judah-jesus",
+          "personId": "jesus",
+          "label": "对照马太主线与犹大旁支"
+        }
+      ]
+    },
+    {
+      "id": "joseph_husband_mary",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "luke_02",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:23",
+        "马太福音1:16",
+        "马太福音1:18–25"
+      ],
+      "events": [],
+      "notes": "马利亚的丈夫，太1按雅各—约瑟列家谱。太1:16转说耶稣从马利亚生；太1:18、20、25明确说明怀孕与同房的情况，不能把图上约瑟—耶稣的承接理解为生父关系。与旧约雅各之子约瑟分开。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。 路3将约瑟列于希里之下，太1列于雅各之下；希里与马利亚的父女关系作为常见释经解释另注，不作经文明记。",
+      "graphLabel": "约瑟 · 路3:23",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3列在希里之下",
+      "crossPageLinks": [
+        {
+          "tree": "judah-jesus",
+          "personId": "joseph_husband_mary",
+          "label": "对照马太主线与犹大旁支"
+        }
+      ]
+    },
+    {
+      "id": "luke_02",
+      "name": "希里",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。 本段经文未直接称希里是马利亚的父亲。",
+      "fatherId": "luke_03",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:24"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_03",
+      "name": "玛塔",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_04",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:24"
+      ],
+      "graphLabel": "玛塔 · 路3:24",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_04",
+      "name": "利未",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_05",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:24"
+      ],
+      "graphLabel": "利未 · 路3:24",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_05",
+      "name": "麦基",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_06",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:24"
+      ],
+      "graphLabel": "麦基 · 路3:24",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_06",
+      "name": "雅拿",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_07",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:24"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_07",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_08",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:25"
+      ],
+      "graphLabel": "约瑟 · 路3:24",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_08",
+      "name": "玛他提亚",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_09",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:25"
+      ],
+      "graphLabel": "玛他提亚 · 路3:25",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_09",
+      "name": "亚摩斯",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_10",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:25"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_10",
+      "name": "拿鸿",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_11",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:25"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_11",
+      "name": "以斯利",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_12",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:25"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_12",
+      "name": "拿该",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_13",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:26"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_13",
+      "name": "玛押",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_14",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:26"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_14",
+      "name": "玛他提亚",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_15",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:26"
+      ],
+      "graphLabel": "玛他提亚 · 路3:26",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_15",
+      "name": "西美",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_16",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:26"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_16",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_17",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:26"
+      ],
+      "graphLabel": "约瑟 · 路3:26",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_17",
+      "name": "犹大",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_18",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:27"
+      ],
+      "graphLabel": "犹大 · 路3:26",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_18",
+      "name": "约亚拿",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_19",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:27"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_19",
+      "name": "利撒",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "zerubbabel",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:27"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "zerubbabel",
+      "name": "所罗巴伯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shealtiel",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:27",
+        "马太福音1:12–13",
+        "历代志上3:17–19"
+      ],
+      "events": [],
+      "notes": "太1:12按撒拉铁—所罗巴伯列家谱；代上3:19却记毗大雅的儿子所罗巴伯。这里只展示太1的谱系承接，不擅自断定生父、收养或立嗣原因，也不把毗大雅与撒拉铁当成一人。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。 路3后接利撒，太1后接亚比玉；代上3又另列其家族，不将各表静默合并。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "shealtiel",
+      "name": "撒拉铁",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "luke_22",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:27",
+        "马太福音1:12",
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": "太1与代上3列为耶哥尼雅之子；路3:27另将同名撒拉铁接于尼利，不在本图合并两套名单。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。 路3置于尼利之下，太1置于耶哥尼雅之下；分别保留文本名单，不自行补立嗣或生父结论。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_22",
+      "name": "尼利",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_23",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:27"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_23",
+      "name": "麦基",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_24",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:28"
+      ],
+      "graphLabel": "麦基 · 路3:27",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_24",
+      "name": "亚底",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_25",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:28"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_25",
+      "name": "哥桑",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_26",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:28"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_26",
+      "name": "以摩当",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_27",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:28"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_27",
+      "name": "珥",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_28",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:28"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_28",
+      "name": "约细",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_29",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:29"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_29",
+      "name": "以利以谢",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_30",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:29"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_30",
+      "name": "约令",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_31",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:29"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_31",
+      "name": "玛塔",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_32",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:29"
+      ],
+      "graphLabel": "玛塔 · 路3:29",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_32",
+      "name": "利未",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_33",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:30"
+      ],
+      "graphLabel": "利未 · 路3:29",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_33",
+      "name": "西缅",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_34",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:30"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_34",
+      "name": "犹大",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_35",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:30"
+      ],
+      "graphLabel": "犹大 · 路3:30",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_35",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_36",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:30"
+      ],
+      "graphLabel": "约瑟 · 路3:30",
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_36",
+      "name": "约南",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_37",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:30"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_37",
+      "name": "以利亚敬",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_38",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:31"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_38",
+      "name": "米利亚",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_39",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:31"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_39",
+      "name": "买南",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "luke_40",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:31"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "luke_40",
+      "name": "玛达他",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "fatherId": "nathan_david",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:31"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "nathan_david",
+      "name": "拿单",
+      "kind": "person",
+      "gender": "male",
+      "events": [],
+      "notes": "本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。 此拿单是大卫之子，与先知拿单分开。",
+      "fatherId": "david",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:31",
+        "历代志上3:5"
+      ],
+      "lineageKind": "genealogy",
+      "lineageLabel": "路3谱系列名"
+    },
+    {
+      "id": "david",
+      "name": "大卫",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:32",
+        "马太福音1:6",
+        "历代志上2:13–15",
+        "撒母耳记下12:24"
+      ],
+      "events": [],
+      "notes": "耶西之子。这里沿所罗门一线继续太1家谱，不展开大卫全部儿女与婚姻；代上3:1–9另记其他妻与儿女。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "crossPageLinks": [
+        {
+          "tree": "judah-jesus",
+          "personId": "david",
+          "label": "对照马太主线与犹大旁支"
+        }
+      ]
+    },
+    {
+      "id": "jesse",
+      "name": "耶西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:32",
+        "马太福音1:5–6",
+        "路得记4:22",
+        "历代志上2:12–15"
+      ],
+      "events": [],
+      "notes": "俄备得之子、大卫之父。本页只继续大卫主线，不声称大卫是他唯一的孩子。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。"
+    },
+    {
+      "id": "obed",
+      "name": "俄备得",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "boaz",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:32",
+        "马太福音1:5",
+        "路得记4:13–17",
+        "路得记4:21–22"
+      ],
+      "events": [],
+      "notes": "波阿斯与路得之子，耶西之父；路得是生母，不将拿俄米的抚育身份写成生母。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。"
+    },
+    {
+      "id": "boaz",
+      "name": "波阿斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "salmon",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:32",
+        "马太福音1:5",
+        "路得记4:13",
+        "路得记4:21"
+      ],
+      "events": [],
+      "notes": "撒门与喇合之子，后来娶路得，生俄备得。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。"
+    },
+    {
+      "id": "salmon",
+      "name": "撒门",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nahshon",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:32",
+        "马太福音1:4–5",
+        "路得记4:20–21",
+        "历代志上2:11"
+      ],
+      "events": [],
+      "notes": "太1:5记他从喇合生波阿斯；本页据此列父母关系，不另外断言经文未明说的婚姻细节。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。"
+    },
+    {
+      "id": "nahshon",
+      "name": "拿顺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amminadab",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:33",
+        "马太福音1:4",
+        "路得记4:20",
+        "历代志上2:10–11"
+      ],
+      "events": [],
+      "notes": "亚米拿达之子，犹大人的首领。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。"
+    },
+    {
+      "id": "amminadab",
+      "name": "亚米拿达",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ram",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:33",
+        "马太福音1:4",
+        "路得记4:19–20",
+        "历代志上2:10"
+      ],
+      "events": [],
+      "notes": "亚兰（兰）之后、拿顺之父。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。"
+    },
+    {
+      "id": "ram",
+      "name": "亚兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hezron_perez",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:33",
+        "马太福音1:3–4",
+        "路得记4:19",
+        "历代志上2:9–10"
+      ],
+      "events": [],
+      "notes": "太1作亚兰，得4及代上2作兰；此处沿太1主线列名，不与耶拉篾之子同名兰混为一人。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "aliases": [
+        "兰"
+      ]
+    },
+    {
+      "id": "hezron_perez",
+      "name": "希斯仑",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "perez",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:33",
+        "创世记46:12",
+        "路得记4:18–19",
+        "历代志上2:5",
+        "马太福音1:3"
+      ],
+      "events": [],
+      "notes": "法勒斯之子；与流便之子同名希斯伦分别记载。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "aliases": [
+        "希斯仑",
+        "希斯伦"
+      ]
+    },
+    {
+      "id": "perez",
+      "name": "法勒斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "谱系列名（按路加福音3章）",
+      "refs": [
+        "路加福音3:33",
+        "创世记46:12",
+        "创世记38:27–29",
+        "马太福音1:3",
+        "历代志上2:4–5"
+      ],
+      "events": [],
+      "notes": "犹大与他玛所生，谢拉的双生兄弟，希斯伦、哈母勒之父；不把他玛改画作犹大的妻子。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。"
+    },
+    {
+      "id": "judah",
+      "name": "犹大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "本段起点",
+      "refs": [
+        "路加福音3:33",
+        "创世记29:35",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": "雅各与利亚之子。书亚之女生珥、俄南、示拉；他玛生法勒斯、谢拉。珥、俄南在迦南已死。 本页按路加福音3:23–33的次序单独列记，不把与马太福音不同的谱位强行解释成同一条直接生父链。",
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "犹大支派",
+        "ancestralRefs": [
+          "创世记49:8–12",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记15:1–12",
+          "约书亚记15:20"
+        ],
+        "note": "人物犹大的家谱与后世犹大支派的疆界分别说明。"
+      },
+      "crossPageLinks": [
+        {
+          "tree": "jacob-tribes",
+          "personId": "judah",
+          "label": "返回十二支派总览"
+        },
+        {
+          "tree": "judah-jesus",
+          "personId": "judah",
+          "label": "对照马太主线与犹大旁支"
+        }
+      ],
+      "originFatherId": "jacob",
+      "originNote": "雅各与利亚之子；此页从犹大支派单独展开。",
+      "graphLabel": "犹大 · 路3:33"
+    },
+    {
+      "id": "leah",
+      "name": "利亚",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "犹大的母亲",
+      "refs": [
+        "创世记29:16",
+        "创世记29:23–28",
+        "创世记29:32–35",
+        "创世记30:17–21",
+        "创世记35:23"
+      ],
+      "events": [],
+      "notes": "雅各之妻、犹大之母。父家与雅各其他儿女见前面的家谱分段。",
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "leah",
+          "label": "查看父家与亲属"
+        }
+      ],
+      "relatedOnly": true
+    },
+    {
+      "id": "tamar",
+      "name": "他玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "创世记38:6",
+        "创世记38:18",
+        "创世记38:27–30"
+      ],
+      "events": [],
+      "notes": "珥的妻子、犹大的儿妇，后从犹大怀孕生法勒斯与谢拉。经文没有将她称为犹大的妻子；没有嫁给示拉，见创38:14。她的父亲未具名。",
+      "relatedOnly": true
+    },
+    {
+      "id": "rahab",
+      "name": "喇合",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "波阿斯的母亲",
+      "refs": [
+        "马太福音1:5"
+      ],
+      "events": [],
+      "notes": "太1:5列为撒门所生波阿斯的母亲。本页不补写其父家，也不凭推算加未记载的儿女。",
+      "relatedOnly": true
+    },
+    {
+      "id": "ruth",
+      "name": "路得",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "俄备得的母亲",
+      "refs": [
+        "马太福音1:5",
+        "路得记1:4–5",
+        "路得记4:10",
+        "路得记4:13–17"
+      ],
+      "events": [],
+      "notes": "摩押女子，原为玛伦的妻子；玛伦死后与拿俄米归回，后来嫁给波阿斯并生俄备得。",
+      "relatedOnly": true
+    },
+    {
+      "id": "bathsheba",
+      "name": "拔示巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "所罗门的母亲",
+      "refs": [
+        "马太福音1:6",
+        "撒母耳记下11:3",
+        "撒母耳记下11:26–27",
+        "撒母耳记下12:24",
+        "历代志上3:5"
+      ],
+      "events": [],
+      "notes": "太1未直呼其名，而称乌利亚的妻子。撒下记其名拔示巴；乌利亚死后成为大卫之妻，后来生所罗门。代上3:5作拔书亚。所罗门的父亲是大卫，母亲是拔示巴。",
+      "aliases": [
+        "乌利亚的妻子",
+        "拔书亚"
+      ],
+      "relatedOnly": true
+    },
+    {
+      "id": "mary",
+      "name": "马利亚",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "耶稣的母亲",
+      "refs": [
+        "马太福音1:16",
+        "马太福音1:18–25"
+      ],
+      "events": [],
+      "notes": "耶稣的母亲、约瑟的妻子。太1与路3没有直接列出她父亲的名字；本页不把希里填作她父亲。",
+      "relatedOnly": true
+    },
+    {
+      "id": "judah_wife_shua_daughter",
+      "name": "书亚之女（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻（未具名）",
+      "refs": [
+        "创世记38:2–5",
+        "创世记38:12"
+      ],
+      "events": [],
+      "notes": "犹大的妻子，珥、俄南、示拉的母亲；她未具名。书亚是她父亲的名字，不是她的名字；其后去世，见创38:12。",
+      "isUnnamed": true,
+      "originNote": "迦南人书亚的女儿",
+      "graphLabel": "书亚之女",
+      "relatedOnly": true
+    },
+    {
+      "id": "jacob",
+      "name": "雅各",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "本段起点",
+      "refs": [
+        "创世记25:24–26",
+        "创世记28:1–5",
+        "创世记29:23–30",
+        "创世记35:9–12",
+        "创世记35:22–26",
+        "创世记49:28",
+        "创世记46:8"
+      ],
+      "events": [
+        {
+          "text": "受父亲差遣前往巴旦亚兰，在母舅拉班的女儿中娶妻。",
+          "refs": [
+            "创世记28:1–5"
+          ]
+        },
+        {
+          "text": "先后与利亚、拉结成婚，又有辟拉、悉帕两位妾。",
+          "refs": [
+            "创世记29:23–30",
+            "创世记30:3–4",
+            "创世记30:9"
+          ]
+        },
+        {
+          "text": "被赐名以色列。",
+          "refs": [
+            "创世记35:9–12"
+          ]
+        }
+      ],
+      "notes": "雅各又名以色列，犹大是他与利亚所生的儿子。本页根从犹大起，雅各只作为父亲关联档案，不计入犹大主线。",
+      "aliases": [
+        "以色列"
+      ],
+      "crossPageLinks": [
+        {
+          "tree": "jacob-tribes",
+          "personId": "jacob",
+          "label": "查看雅各十二子总览"
+        }
+      ],
+      "relatedOnly": true
+    },
+    {
+      "id": "mahlon",
+      "name": "玛伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "路得记1:2–5",
+        "路得记4:10"
+      ],
+      "events": [],
+      "notes": "路得的前夫；他死后路得后来嫁给波阿斯。本段不继续展开以利米勒与拿俄米一家，也不把他接入俄备得父系。",
+      "relatedOnly": true
+    },
+    {
+      "id": "uriah_hittite",
+      "name": "乌利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下11:3",
+        "撒母耳记下11:17",
+        "撒母耳记下11:26–27"
+      ],
+      "events": [],
+      "notes": "赫人乌利亚，拔示巴的前夫，在战事中被杀。本页不把他接入所罗门父系。",
+      "relatedOnly": true
+    }
+  ],
+  "relations": [
+    {
+      "source": "leah",
+      "target": "judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:35",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "judah",
+      "target": "judah_wife_shua_daughter",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记38:2"
+      ]
+    },
+    {
+      "source": "tamar",
+      "target": "perez",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:18",
+        "创世记38:27–29"
+      ]
+    },
+    {
+      "source": "rahab",
+      "target": "boaz",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "马太福音1:5"
+      ]
+    },
+    {
+      "source": "boaz",
+      "target": "ruth",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "路得记4:10",
+        "路得记4:13"
+      ]
+    },
+    {
+      "source": "mahlon",
+      "target": "ruth",
+      "type": "spouse",
+      "relation": "原夫妻",
+      "refs": [
+        "路得记4:10"
+      ],
+      "note": "玛伦已死，之后路得嫁给波阿斯；不表示同时婚姻。"
+    },
+    {
+      "source": "ruth",
+      "target": "obed",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "马太福音1:5",
+        "路得记4:13–17"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "bathsheba",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下11:26–27",
+        "撒母耳记下12:24"
+      ]
+    },
+    {
+      "source": "uriah_hittite",
+      "target": "bathsheba",
+      "type": "spouse",
+      "relation": "原夫妻",
+      "refs": [
+        "撒母耳记下11:3",
+        "撒母耳记下11:26"
+      ],
+      "note": "乌利亚死后，拔示巴成为大卫之妻。"
+    },
+    {
+      "source": "joseph_husband_mary",
+      "target": "mary",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "马太福音1:16",
+        "马太福音1:24"
+      ]
+    },
+    {
+      "source": "mary",
+      "target": "jesus",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "马太福音1:16",
+        "马太福音1:18–25"
+      ]
+    },
+    {
+      "source": "bathsheba",
+      "target": "nathan_david",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "历代志上3:5"
+      ]
+    }
+  ],
+  "subtitle": "《路加福音》3:23–33 · 大卫之子拿单一线",
+  "previewNote": "本页单列路加的拿单支路；马利亚母系的常见解释另列说明，解释连接用虚线，约瑟至耶稣也不表示生父。",
+  "scope": "从犹大至大卫采用路3:32–33共同名单，再经拿单接至约瑟、耶稣，按祖先在上调整阅读方向。只列本段家谱及必要母亲、妻子档案，不在本页复制犹大其他旁支。与太1、代上3的差异分别保留，马利亚母系解释与经文明记关系分别注明。",
+  "lineageExplanation": [
+    {
+      "text": "路3经大卫之子拿单，太1经所罗门；两条名单分开查看。将路3理解为马利亚母系的常见解释另有说明，希里与马利亚之间用解释虚线区别于经文明记关系。",
+      "refs": [
+        "路加福音3:23–31",
+        "马太福音1:6–16"
+      ]
+    },
+    {
+      "text": "路3说耶稣依人看来是约瑟的儿子；约瑟列于希里之下。太1称约瑟为马利亚的丈夫，并称耶稣从马利亚生。",
+      "refs": [
+        "路加福音3:23",
+        "马太福音1:16–25"
+      ]
+    },
+    {
+      "text": "路3将撒拉铁列于尼利之下，太1将其列于耶哥尼雅之下；所罗巴伯以下的利撒与亚比玉名单也不同。这里保留各文献名单，不强行证明某一种生父、收养或婚姻解释。",
+      "refs": [
+        "路加福音3:27",
+        "马太福音1:12–13",
+        "历代志上3:17–19"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "路加福音3：简体中文和合本",
+      "url": "https://cnbible.com/cus/luke/3.htm"
+    },
+    {
+      "title": "马太福音1：另谱对照",
+      "url": "https://cnbible.com/cus/matthew/1.htm"
+    },
+    {
+      "title": "历代志上3：大卫诸子及后代",
+      "url": "https://cnbible.com/cus/1_chronicles/3.htm"
+    }
+  ],
+  "imageCoverage": [
+    {
+      "section": "正面黄色路加家谱：犹大至耶稣",
+      "status": "corrected",
+      "note": "名单按路3独立列出；原图中的马利亚母系解释另以虚线说明，不冒作经文明记关系。",
+      "refs": [
+        "路加福音3:23–33",
+        "马太福音1:16–25"
+      ]
+    }
+  ]
+}

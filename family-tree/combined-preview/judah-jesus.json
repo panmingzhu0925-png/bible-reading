@@ -1,0 +1,1347 @@
+{
+  "title": "犹大、大卫到耶稣：马太家谱主线",
+  "version": "2026-10-17",
+  "translation": "简体中文和合本",
+  "rootId": "judah",
+  "mainPath": [
+    "judah",
+    "perez",
+    "hezron_perez",
+    "ram",
+    "amminadab",
+    "nahshon",
+    "salmon",
+    "boaz",
+    "obed",
+    "jesse",
+    "david",
+    "solomon",
+    "rehoboam",
+    "abijah_king",
+    "asa",
+    "jehoshaphat",
+    "jehoram_judah",
+    "ahaziah_judah",
+    "joash_judah",
+    "amaziah",
+    "uzziah",
+    "jotham",
+    "ahaz",
+    "hezekiah",
+    "manasseh_king",
+    "amon",
+    "josiah",
+    "jehoiakim",
+    "jeconiah",
+    "shealtiel",
+    "zerubbabel",
+    "abiud",
+    "eliakim_matthew",
+    "azor",
+    "zadok_matthew",
+    "achim",
+    "eliud",
+    "eleazar_matthew",
+    "matthan",
+    "jacob_matthew",
+    "joseph_husband_mary",
+    "jesus"
+  ],
+  "quickFocus": [
+    "judah",
+    "david",
+    "solomon",
+    "jeconiah",
+    "joseph_husband_mary",
+    "jesus"
+  ],
+  "scope": "本页独立展开犹大支派中通向大卫、所罗门、约瑟与耶稣的马太1家谱主线；保留犹大五子、法勒斯两子及太1提及的五位女性，另保留利亚与未具名的书亚之女。旧约明确的中间四代补回并注明太1省略；不是犹大支派所有后裔、全部君王婚姻或新约所有人物的总谱。马太家谱的谱系列名不自动等于每一代都是直接生父；所罗巴伯异表与约瑟非生父特别标明。其他十一支派分开查看。",
+  "treeNodeIds": [
+    "judah",
+    "er_judah",
+    "onan_judah",
+    "shelah_judah",
+    "perez",
+    "zerah_judah",
+    "hezron_perez",
+    "hamul_perez",
+    "ram",
+    "amminadab",
+    "nahshon",
+    "salmon",
+    "boaz",
+    "obed",
+    "jesse",
+    "david",
+    "solomon",
+    "rehoboam",
+    "abijah_king",
+    "asa",
+    "jehoshaphat",
+    "jehoram_judah",
+    "ahaziah_judah",
+    "joash_judah",
+    "amaziah",
+    "uzziah",
+    "jotham",
+    "ahaz",
+    "hezekiah",
+    "manasseh_king",
+    "amon",
+    "josiah",
+    "jehoiakim",
+    "jeconiah",
+    "shealtiel",
+    "zerubbabel",
+    "abiud",
+    "eliakim_matthew",
+    "azor",
+    "zadok_matthew",
+    "achim",
+    "eliud",
+    "eleazar_matthew",
+    "matthan",
+    "jacob_matthew",
+    "joseph_husband_mary",
+    "jesus"
+  ],
+  "nodeKindExplanation": "条目都是人物档案。女性及前夫作为关联亲属，不画成主线人物的儿子。书亚之女未具名，不以父亲书亚作她的名字。",
+  "fatherIdExplanation": "fatherId是本树排版的上级连接，不统一断言直接生父。lineageKind=genealogy表示依太1谱系承接；lineageKind=household用于约瑟到耶稣，明确非生父。其余主线与犹大家族依所列旧约父子资料；没有补造经文未记的父母。",
+  "lineageExplanation": [
+    {
+      "text": "太1:8约兰至乌西亚之间，按代上3补亚哈谢、约阿施、亚玛谢三代；太1:11约西亚至耶哥尼雅之间补约雅敬一代。四处标注太1省略本代，因此本页节点数不能当成太1:17的十四代计数。",
+      "refs": [
+        "马太福音1:8",
+        "马太福音1:11",
+        "马太福音1:17",
+        "历代志上3:11–16"
+      ]
+    },
+    {
+      "text": "撒拉铁—所罗巴伯依太1连为谱系；代上3:19将所罗巴伯列作毗大雅之子。本页保留差异，不声称已经证明了生父、收养或立嗣的解释。",
+      "refs": [
+        "马太福音1:12",
+        "历代志上3:17–19"
+      ]
+    },
+    {
+      "text": "马利亚是耶稣的母亲，约瑟是马利亚的丈夫。约瑟—耶稣的图线只表示家谱承接，不能读成约瑟是耶稣生父。",
+      "refs": [
+        "马太福音1:16–25",
+        "路加福音3:23"
+      ]
+    },
+    {
+      "text": "路3在大卫之后走拿单一线，太1走所罗门一线；约瑟上一代等名单也不同。路3没有直接称这是马利亚家谱，本页不强行合并或把希里说成马利亚父亲。",
+      "refs": [
+        "马太福音1:6–16",
+        "路加福音3:23–31"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "马太福音1：简体中文和合本，主线与五位女性",
+      "url": "https://cnbible.com/cus/matthew/1.htm"
+    },
+    {
+      "title": "马太福音1：Wordproject和合本交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/40/1.htm"
+    },
+    {
+      "title": "历代志上2：犹大起初家族与大卫前的谱系",
+      "url": "https://cnbible.com/cus/1_chronicles/2.htm"
+    },
+    {
+      "title": "历代志上3：犹大王室实际中间世代与所罗巴伯异表",
+      "url": "https://cnbible.com/cus/1_chronicles/3.htm"
+    },
+    {
+      "title": "创世记38：他玛及犹大五子",
+      "url": "https://cnbible.com/cus/genesis/38.htm"
+    },
+    {
+      "title": "创世记46：犹大、法勒斯两子",
+      "url": "https://cnbible.com/cus/genesis/46.htm"
+    },
+    {
+      "title": "创世记29：利亚生犹大",
+      "url": "https://cnbible.com/cus/genesis/29.htm"
+    },
+    {
+      "title": "创世记35：雅各儿子的母亲",
+      "url": "https://cnbible.com/cus/genesis/35.htm"
+    },
+    {
+      "title": "创世记49：犹大祝福与支派",
+      "url": "https://cnbible.com/cus/genesis/49.htm"
+    },
+    {
+      "title": "约书亚记15：犹大支派分地",
+      "url": "https://cnbible.com/cus/joshua/15.htm"
+    },
+    {
+      "title": "路得记1：玛伦与路得",
+      "url": "https://cnbible.com/cus/ruth/1.htm"
+    },
+    {
+      "title": "路得记4：路得、波阿斯及法勒斯至大卫",
+      "url": "https://cnbible.com/cus/ruth/4.htm"
+    },
+    {
+      "title": "撒母耳记下11：乌利亚与拔示巴婚姻先后",
+      "url": "https://cnbible.com/cus/2_samuel/11.htm"
+    },
+    {
+      "title": "撒母耳记下12：所罗门及生母拔示巴",
+      "url": "https://cnbible.com/cus/2_samuel/12.htm"
+    },
+    {
+      "title": "列王纪下15：乌西雅即亚撒利雅",
+      "url": "https://cnbible.com/cus/2_kings/15.htm"
+    },
+    {
+      "title": "列王纪下24：约雅敬与约雅斤、被掳转折",
+      "url": "https://cnbible.com/cus/2_kings/24.htm"
+    },
+    {
+      "title": "路加福音3：另一份家谱，仅对照而不合并",
+      "url": "https://cnbible.com/cus/luke/3.htm"
+    },
+    {
+      "title": "耶利米书22：哥尼雅、耶哥尼雅同名号对应",
+      "url": "https://cnbible.com/cus/jeremiah/22.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "judah",
+      "name": "犹大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "本段起点",
+      "refs": [
+        "创世记29:35",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": "雅各与利亚之子。书亚之女生珥、俄南、示拉；他玛生法勒斯、谢拉。珥、俄南在迦南已死。",
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "犹大支派",
+        "ancestralRefs": [
+          "创世记49:8–12",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记15:1–12",
+          "约书亚记15:20"
+        ],
+        "note": "人物犹大的家谱与后世犹大支派的疆界分别说明。"
+      },
+      "crossPageLinks": [
+        {
+          "tree": "jacob-tribes",
+          "personId": "judah",
+          "label": "返回雅各十二子与犹大家族"
+        }
+      ],
+      "originFatherId": "jacob",
+      "originNote": "雅各与利亚之子；此页从犹大支派单独展开。"
+    },
+    {
+      "id": "er_judah",
+      "name": "珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [
+        {
+          "text": "在迦南已死。",
+          "refs": [
+            "创世记38:6–7",
+            "创世记46:12"
+          ]
+        }
+      ],
+      "notes": "犹大长子，生母为书亚之女。他死于迦南，创46:12明确回顾此事，不能把他算作活着同行下埃及的人。",
+      "treeNote": "已死于迦南"
+    },
+    {
+      "id": "onan_judah",
+      "name": "俄南",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [
+        {
+          "text": "在迦南已死。",
+          "refs": [
+            "创世记38:8–10",
+            "创世记46:12"
+          ]
+        }
+      ],
+      "notes": "犹大之子，生母为书亚之女。他死于迦南，创46:12明确记载；没有给他补出未记名的儿女。",
+      "treeNote": "已死于迦南"
+    },
+    {
+      "id": "shelah_judah",
+      "name": "示拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "perez",
+      "name": "法勒斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12",
+        "创世记38:27–29",
+        "马太福音1:3",
+        "历代志上2:4–5"
+      ],
+      "events": [],
+      "notes": "犹大与他玛所生，谢拉的双生兄弟，希斯伦、哈母勒之父；不把他玛改画作犹大的妻子。"
+    },
+    {
+      "id": "zerah_judah",
+      "name": "谢拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12",
+        "创世记38:27–30"
+      ],
+      "events": [],
+      "notes": "犹大与他玛所生，法勒斯的双生兄弟；不与西缅支系民26的同名谢拉混为一人。"
+    },
+    {
+      "id": "hezron_perez",
+      "name": "希斯伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "perez",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12",
+        "路得记4:18–19",
+        "历代志上2:5",
+        "马太福音1:3"
+      ],
+      "events": [],
+      "notes": "法勒斯之子；与流便之子同名希斯伦分别记载。",
+      "aliases": [
+        "希斯仑"
+      ]
+    },
+    {
+      "id": "hamul_perez",
+      "name": "哈母勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "perez",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "leah",
+      "name": "利亚",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "犹大的母亲",
+      "refs": [
+        "创世记29:16",
+        "创世记29:23–28",
+        "创世记29:32–35",
+        "创世记30:17–21",
+        "创世记35:23"
+      ],
+      "events": [],
+      "notes": "雅各之妻、犹大之母。父家与雅各其他儿女见前面的家谱分段。",
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "leah",
+          "label": "查看父家与亲属"
+        }
+      ]
+    },
+    {
+      "id": "tamar",
+      "name": "他玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "创世记38:6",
+        "创世记38:18",
+        "创世记38:27–30"
+      ],
+      "events": [],
+      "notes": "珥的妻子、犹大的儿妇，后从犹大怀孕生法勒斯与谢拉。经文没有将她称为犹大的妻子；没有嫁给示拉，见创38:14。她的父亲未具名。"
+    },
+    {
+      "id": "judah_wife_shua_daughter",
+      "name": "书亚之女（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻（未具名）",
+      "refs": [
+        "创世记38:2–5",
+        "创世记38:12"
+      ],
+      "events": [],
+      "notes": "犹大的妻子，珥、俄南、示拉的母亲；她未具名。书亚是她父亲的名字，不是她的名字；其后去世，见创38:12。",
+      "isUnnamed": true,
+      "originNote": "迦南人书亚的女儿",
+      "graphLabel": "书亚之女"
+    },
+    {
+      "id": "ram",
+      "name": "亚兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hezron_perez",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:3–4",
+        "路得记4:19",
+        "历代志上2:9–10"
+      ],
+      "events": [],
+      "notes": "太1作亚兰，得4及代上2作兰；此处沿太1主线列名，不与耶拉篾之子同名兰混为一人。",
+      "aliases": [
+        "兰"
+      ]
+    },
+    {
+      "id": "amminadab",
+      "name": "亚米拿达",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ram",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:4",
+        "路得记4:19–20",
+        "历代志上2:10"
+      ],
+      "events": [],
+      "notes": "亚兰（兰）之后、拿顺之父。"
+    },
+    {
+      "id": "nahshon",
+      "name": "拿顺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amminadab",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:4",
+        "路得记4:20",
+        "历代志上2:10–11"
+      ],
+      "events": [],
+      "notes": "亚米拿达之子，犹大人的首领。"
+    },
+    {
+      "id": "salmon",
+      "name": "撒门",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "nahshon",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:4–5",
+        "路得记4:20–21",
+        "历代志上2:11"
+      ],
+      "events": [],
+      "notes": "太1:5记他从喇合生波阿斯；本页据此列父母关系，不另外断言经文未明说的婚姻细节。"
+    },
+    {
+      "id": "boaz",
+      "name": "波阿斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "salmon",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:5",
+        "路得记4:13",
+        "路得记4:21"
+      ],
+      "events": [],
+      "notes": "撒门与喇合之子，后来娶路得，生俄备得。"
+    },
+    {
+      "id": "obed",
+      "name": "俄备得",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "boaz",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:5",
+        "路得记4:13–17",
+        "路得记4:21–22"
+      ],
+      "events": [],
+      "notes": "波阿斯与路得之子，耶西之父；路得是生母，不将拿俄米的抚育身份写成生母。"
+    },
+    {
+      "id": "jesse",
+      "name": "耶西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "obed",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:5–6",
+        "路得记4:22",
+        "历代志上2:12–15"
+      ],
+      "events": [],
+      "notes": "俄备得之子、大卫之父。本页只继续大卫主线，不声称大卫是他唯一的孩子。"
+    },
+    {
+      "id": "david",
+      "name": "大卫",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jesse",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:6",
+        "历代志上2:13–15",
+        "撒母耳记下12:24"
+      ],
+      "events": [],
+      "notes": "耶西之子。这里沿所罗门一线继续太1家谱，不展开大卫全部儿女与婚姻；代上3:1–9另记其他妻与儿女。"
+    },
+    {
+      "id": "solomon",
+      "name": "所罗门",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "david",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:6–7",
+        "撒母耳记下12:24–25",
+        "历代志上3:5",
+        "历代志上3:10"
+      ],
+      "events": [],
+      "notes": "大卫与拔示巴之子。太1以乌利亚的妻子提及其母；所罗门不是撒下12章先前夭折的那个孩子。",
+      "aliases": [
+        "耶底底亚"
+      ]
+    },
+    {
+      "id": "rehoboam",
+      "name": "罗波安",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "solomon",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:7",
+        "历代志上3:10"
+      ],
+      "events": [],
+      "notes": "所罗门之子。"
+    },
+    {
+      "id": "abijah_king",
+      "name": "亚比雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "rehoboam",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:7",
+        "历代志上3:10"
+      ],
+      "events": [],
+      "notes": "罗波安之子。"
+    },
+    {
+      "id": "asa",
+      "name": "亚撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abijah_king",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:7–8",
+        "历代志上3:10"
+      ],
+      "events": [],
+      "notes": "亚比雅之子。"
+    },
+    {
+      "id": "jehoshaphat",
+      "name": "约沙法",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asa",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:8",
+        "历代志上3:10–11"
+      ],
+      "events": [],
+      "notes": "亚撒之子。"
+    },
+    {
+      "id": "jehoram_judah",
+      "name": "约兰",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoshaphat",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:8",
+        "历代志上3:11"
+      ],
+      "events": [],
+      "notes": "犹大王约沙法之子；太1在约兰之后直接列乌西亚，中间三代按代上3补回。"
+    },
+    {
+      "id": "ahaziah_judah",
+      "name": "亚哈谢",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoram_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:11"
+      ],
+      "events": [],
+      "notes": "约兰之子、约阿施之父；太1:8没有列这一代。",
+      "treeNote": "太1省略本代",
+      "matthewOmitted": true
+    },
+    {
+      "id": "joash_judah",
+      "name": "约阿施",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahaziah_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:11–12"
+      ],
+      "events": [],
+      "notes": "亚哈谢之子、亚玛谢之父；太1:8没有列这一代。",
+      "treeNote": "太1省略本代",
+      "matthewOmitted": true
+    },
+    {
+      "id": "amaziah",
+      "name": "亚玛谢",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joash_judah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:12"
+      ],
+      "events": [],
+      "notes": "约阿施之子、亚撒利雅（乌西雅）之父；太1:8没有列这一代。",
+      "treeNote": "太1省略本代",
+      "matthewOmitted": true
+    },
+    {
+      "id": "uzziah",
+      "name": "乌西雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amaziah",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:8–9",
+        "历代志上3:12",
+        "列王纪下15:1–2",
+        "列王纪下15:13"
+      ],
+      "events": [],
+      "notes": "又名亚撒利雅，太1作乌西亚。本页按代上3接亚玛谢，不把他画成约兰的直接亲生儿子。",
+      "aliases": [
+        "乌西亚",
+        "亚撒利雅"
+      ]
+    },
+    {
+      "id": "jotham",
+      "name": "约坦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "uzziah",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:9",
+        "历代志上3:12–13",
+        "列王纪下15:32"
+      ],
+      "events": [],
+      "notes": "乌西雅之子。"
+    },
+    {
+      "id": "ahaz",
+      "name": "亚哈斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jotham",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:9",
+        "历代志上3:13"
+      ],
+      "events": [],
+      "notes": "约坦之子。"
+    },
+    {
+      "id": "hezekiah",
+      "name": "希西家",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "ahaz",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:9–10",
+        "历代志上3:13"
+      ],
+      "events": [],
+      "notes": "亚哈斯之子。"
+    },
+    {
+      "id": "manasseh_king",
+      "name": "玛拿西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "hezekiah",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:10",
+        "历代志上3:13"
+      ],
+      "events": [],
+      "notes": "犹大王希西家之子；与约瑟之子、支派先祖玛拿西分别建档。"
+    },
+    {
+      "id": "amon",
+      "name": "亚们",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "manasseh_king",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:10",
+        "历代志上3:14"
+      ],
+      "events": [],
+      "notes": "玛拿西之子。"
+    },
+    {
+      "id": "josiah",
+      "name": "约西亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "amon",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:10–11",
+        "历代志上3:14–15"
+      ],
+      "events": [],
+      "notes": "亚们之子；太1列约西亚至耶哥尼雅，本页补上代上3记载的约雅敬。"
+    },
+    {
+      "id": "jehoiakim",
+      "name": "约雅敬",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "josiah",
+      "relation": "儿子",
+      "refs": [
+        "历代志上3:15–16",
+        "列王纪下24:6"
+      ],
+      "events": [],
+      "notes": "约西亚之子、耶哥尼雅（约雅斤）之父；太1:11没有列这一代。",
+      "treeNote": "太1省略本代",
+      "matthewOmitted": true
+    },
+    {
+      "id": "jeconiah",
+      "name": "耶哥尼雅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jehoiakim",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:11–12",
+        "历代志上3:16–17",
+        "列王纪下24:6",
+        "列王纪下24:12–15",
+        "耶利米书22:24"
+      ],
+      "events": [],
+      "notes": "约雅敬之子，又称约雅斤，被掳至巴比伦。太1把他放在被掳时期的转折位置。",
+      "aliases": [
+        "约雅斤",
+        "哥尼雅"
+      ]
+    },
+    {
+      "id": "shealtiel",
+      "name": "撒拉铁",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jeconiah",
+      "relation": "儿子",
+      "refs": [
+        "马太福音1:12",
+        "历代志上3:17–18"
+      ],
+      "events": [],
+      "notes": "太1与代上3列为耶哥尼雅之子；路3:27另将同名撒拉铁接于尼利，不在本图合并两套名单。"
+    },
+    {
+      "id": "zerubbabel",
+      "name": "所罗巴伯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "shealtiel",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:12–13",
+        "历代志上3:17–19"
+      ],
+      "events": [],
+      "notes": "太1:12按撒拉铁—所罗巴伯列家谱；代上3:19却记毗大雅的儿子所罗巴伯。这里只展示太1的谱系承接，不擅自断定生父、收养或立嗣原因，也不把毗大雅与撒拉铁当成一人。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系 · 撒拉铁之后"
+    },
+    {
+      "id": "abiud",
+      "name": "亚比玉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zerubbabel",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:13"
+      ],
+      "events": [],
+      "notes": "太1家谱列名；代上3记所罗巴伯后裔的名单不同，不能无经文依据把亚比玉等同米书兰或哈拿尼雅。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "eliakim_matthew",
+      "name": "以利亚敬",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "abiud",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:13"
+      ],
+      "events": [],
+      "notes": "太1家谱列名，不与旧约其他同名人物混为一人。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "azor",
+      "name": "亚所",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliakim_matthew",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:13–14"
+      ],
+      "events": [],
+      "notes": "太1家谱列名；除该段关系外，不补写经文未记的生平。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "zadok_matthew",
+      "name": "撒督",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "azor",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:14"
+      ],
+      "events": [],
+      "notes": "太1家谱列名，不与大卫时期的祭司撒督混为一人。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "achim",
+      "name": "亚金",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zadok_matthew",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:14"
+      ],
+      "events": [],
+      "notes": "太1家谱列名。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "eliud",
+      "name": "以律",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "achim",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:14–15"
+      ],
+      "events": [],
+      "notes": "太1家谱列名。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "eleazar_matthew",
+      "name": "以利亚撒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eliud",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:15"
+      ],
+      "events": [],
+      "notes": "太1家谱列名，不与亚伦之子以利亚撒混为一人。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "matthan",
+      "name": "马但",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "eleazar_matthew",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:15"
+      ],
+      "events": [],
+      "notes": "太1家谱列名。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "jacob_matthew",
+      "name": "雅各",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "matthan",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:15–16"
+      ],
+      "events": [],
+      "notes": "太1中约瑟的父亲；与十二支派先祖雅各分别建档。路3:23记约瑟为希里之子，此处不擅自将希里说成马利亚的父亲，也不合并两套名单。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "joseph_husband_mary",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob_matthew",
+      "relation": "谱系承接（太1列名）",
+      "refs": [
+        "马太福音1:16",
+        "马太福音1:18–25"
+      ],
+      "events": [],
+      "notes": "马利亚的丈夫，太1按雅各—约瑟列家谱。太1:16转说耶稣从马利亚生；太1:18、20、25明确说明怀孕与同房的情况，不能把图上约瑟—耶稣的承接理解为生父关系。与旧约雅各之子约瑟分开。",
+      "lineageKind": "genealogy",
+      "lineageLabel": "太1谱系列名"
+    },
+    {
+      "id": "jesus",
+      "name": "耶稣",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joseph_husband_mary",
+      "relation": "家谱承接（非生父）",
+      "refs": [
+        "马太福音1:16–25",
+        "马太福音1:1",
+        "路加福音3:23"
+      ],
+      "events": [],
+      "notes": "马利亚所生的耶稣基督。父系绘图位置沿太1的约瑟家谱承接，约瑟不是生父。路3另有家谱名单，不能因此虚构马利亚父亲或把两线硬接为同一条。",
+      "aliases": [
+        "耶稣基督",
+        "基督",
+        "以马内利"
+      ],
+      "lineageKind": "household",
+      "lineageLabel": "约瑟家谱承接 · 非生父"
+    },
+    {
+      "id": "rahab",
+      "name": "喇合",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "波阿斯的母亲",
+      "refs": [
+        "马太福音1:5"
+      ],
+      "events": [],
+      "notes": "太1:5列为撒门所生波阿斯的母亲。本页不补写其父家，也不凭推算加未记载的儿女。"
+    },
+    {
+      "id": "ruth",
+      "name": "路得",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "俄备得的母亲",
+      "refs": [
+        "马太福音1:5",
+        "路得记1:4–5",
+        "路得记4:10",
+        "路得记4:13–17"
+      ],
+      "events": [],
+      "notes": "摩押女子，原为玛伦的妻子；玛伦死后与拿俄米归回，后来嫁给波阿斯并生俄备得。"
+    },
+    {
+      "id": "bathsheba",
+      "name": "拔示巴",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "所罗门的母亲",
+      "refs": [
+        "马太福音1:6",
+        "撒母耳记下11:3",
+        "撒母耳记下11:26–27",
+        "撒母耳记下12:24",
+        "历代志上3:5"
+      ],
+      "events": [],
+      "notes": "太1未直呼其名，而称乌利亚的妻子。撒下记其名拔示巴；乌利亚死后成为大卫之妻，后来生所罗门。代上3:5作拔书亚。所罗门的父亲是大卫，母亲是拔示巴。",
+      "aliases": [
+        "乌利亚的妻子",
+        "拔书亚"
+      ]
+    },
+    {
+      "id": "mary",
+      "name": "马利亚",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "耶稣的母亲",
+      "refs": [
+        "马太福音1:16",
+        "马太福音1:18–25"
+      ],
+      "events": [],
+      "notes": "耶稣的母亲、约瑟的妻子。太1与路3没有直接列出她父亲的名字；本页不把希里填作她父亲。"
+    },
+    {
+      "id": "uriah_hittite",
+      "name": "乌利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "撒母耳记下11:3",
+        "撒母耳记下11:17",
+        "撒母耳记下11:26–27"
+      ],
+      "events": [],
+      "notes": "赫人乌利亚，拔示巴的前夫，在战事中被杀。本页不把他接入所罗门父系。"
+    },
+    {
+      "id": "mahlon",
+      "name": "玛伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "路得记1:2–5",
+        "路得记4:10"
+      ],
+      "events": [],
+      "notes": "路得的前夫；他死后路得后来嫁给波阿斯。本段不继续展开以利米勒与拿俄米一家，也不把他接入俄备得父系。"
+    },
+    {
+      "id": "jacob",
+      "name": "雅各",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "本段起点",
+      "refs": [
+        "创世记25:24–26",
+        "创世记28:1–5",
+        "创世记29:23–30",
+        "创世记35:9–12",
+        "创世记35:22–26",
+        "创世记49:28",
+        "创世记46:8"
+      ],
+      "events": [
+        {
+          "text": "受父亲差遣前往巴旦亚兰，在母舅拉班的女儿中娶妻。",
+          "refs": [
+            "创世记28:1–5"
+          ]
+        },
+        {
+          "text": "先后与利亚、拉结成婚，又有辟拉、悉帕两位妾。",
+          "refs": [
+            "创世记29:23–30",
+            "创世记30:3–4",
+            "创世记30:9"
+          ]
+        },
+        {
+          "text": "被赐名以色列。",
+          "refs": [
+            "创世记35:9–12"
+          ]
+        }
+      ],
+      "notes": "雅各又名以色列，犹大是他与利亚所生的儿子。本页根从犹大起，雅各只作为父亲关联档案，不计入犹大主线。",
+      "aliases": [
+        "以色列"
+      ],
+      "crossPageLinks": [
+        {
+          "tree": "jacob-tribes",
+          "personId": "jacob",
+          "label": "查看雅各十二子总览"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "leah",
+      "target": "judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:35",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "judah",
+      "target": "judah_wife_shua_daughter",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记38:2"
+      ]
+    },
+    {
+      "source": "er_judah",
+      "target": "tamar",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记38:6"
+      ]
+    },
+    {
+      "source": "judah_wife_shua_daughter",
+      "target": "er_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:2–3"
+      ]
+    },
+    {
+      "source": "judah_wife_shua_daughter",
+      "target": "onan_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:2",
+        "创世记38:4"
+      ]
+    },
+    {
+      "source": "judah_wife_shua_daughter",
+      "target": "shelah_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:2",
+        "创世记38:5"
+      ]
+    },
+    {
+      "source": "tamar",
+      "target": "perez",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:18",
+        "创世记38:27–29"
+      ]
+    },
+    {
+      "source": "tamar",
+      "target": "zerah_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:18",
+        "创世记38:27–30"
+      ]
+    },
+    {
+      "source": "rahab",
+      "target": "boaz",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "马太福音1:5"
+      ]
+    },
+    {
+      "source": "boaz",
+      "target": "ruth",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "路得记4:10",
+        "路得记4:13"
+      ]
+    },
+    {
+      "source": "mahlon",
+      "target": "ruth",
+      "type": "spouse",
+      "relation": "原夫妻",
+      "refs": [
+        "路得记4:10"
+      ],
+      "note": "玛伦已死，之后路得嫁给波阿斯；不表示同时婚姻。"
+    },
+    {
+      "source": "ruth",
+      "target": "obed",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "马太福音1:5",
+        "路得记4:13–17"
+      ]
+    },
+    {
+      "source": "david",
+      "target": "bathsheba",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "撒母耳记下11:26–27",
+        "撒母耳记下12:24"
+      ]
+    },
+    {
+      "source": "uriah_hittite",
+      "target": "bathsheba",
+      "type": "spouse",
+      "relation": "原夫妻",
+      "refs": [
+        "撒母耳记下11:3",
+        "撒母耳记下11:26"
+      ],
+      "note": "乌利亚死后，拔示巴成为大卫之妻。"
+    },
+    {
+      "source": "bathsheba",
+      "target": "solomon",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "撒母耳记下12:24",
+        "马太福音1:6"
+      ]
+    },
+    {
+      "source": "joseph_husband_mary",
+      "target": "mary",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "马太福音1:16",
+        "马太福音1:24"
+      ]
+    },
+    {
+      "source": "mary",
+      "target": "jesus",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "马太福音1:16",
+        "马太福音1:18–25"
+      ]
+    }
+  ]
+}

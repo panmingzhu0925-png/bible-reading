@@ -1,0 +1,2015 @@
+{
+  "title": "雅各十二子、十二支派与起初家族",
+  "version": "2026-10-17",
+  "translation": "简体中文和合本",
+  "rootId": "jacob",
+  "mainPath": [
+    "jacob"
+  ],
+  "scope": "以创世记46:8–25的记名家谱为固定父系切面，展开雅各十二子起初家族，保留底拿、西拉及必要的生母身份；约瑟之妻亚西纳、玛拿西与以法莲沿用既有资料。犹大家庭补他玛与未具名的书亚之女，西缅之子扫罗的生母明确标为未具名迦南女子。支派与分地另附创49、民1/26及书13–21的说明；不把宗族普查名单改接为同代亲生儿子，不继续加入摩西、亚伦及各支后世全谱。80条人物记录含已故者与配偶，不能当作创46同行下埃及人数。",
+  "treeNodeIds": [
+    "jacob",
+    "reuben",
+    "simeon",
+    "levi",
+    "judah",
+    "dan",
+    "naphtali",
+    "gad",
+    "asher",
+    "issachar",
+    "zebulun",
+    "joseph_patriarch",
+    "benjamin",
+    "dinah",
+    "manasseh",
+    "ephraim",
+    "hanoch_reuben",
+    "pallu_reuben",
+    "hezron_reuben",
+    "carmi_reuben",
+    "jemuel_simeon",
+    "jamin_simeon",
+    "ohad_simeon",
+    "jachin_simeon",
+    "zohar_simeon",
+    "shaul_simeon",
+    "gershon_levi",
+    "kohath_levi",
+    "merari_levi",
+    "er_judah",
+    "onan_judah",
+    "shelah_judah",
+    "perez",
+    "zerah_judah",
+    "hezron_perez",
+    "hamul_perez",
+    "tola_issachar",
+    "puah_issachar",
+    "job_issachar",
+    "shimron_issachar",
+    "sered_zebulun",
+    "elon_zebulun",
+    "jahleel_zebulun",
+    "ziphion_gad",
+    "haggi_gad",
+    "shuni_gad",
+    "ezbon_gad",
+    "eri_gad",
+    "arodi_gad",
+    "areli_gad",
+    "imnah_asher",
+    "ishvah_asher",
+    "ishvi_asher",
+    "beriah_asher",
+    "serah_asher",
+    "heber_beriah",
+    "malchiel_beriah",
+    "bela_benjamin",
+    "becher_benjamin",
+    "ashbel_benjamin",
+    "gera_benjamin",
+    "naaman_benjamin",
+    "ehi_benjamin",
+    "rosh_benjamin",
+    "muppim_benjamin",
+    "huppim_benjamin",
+    "ard_benjamin",
+    "hushim_dan",
+    "jahzeel_naphtali",
+    "guni_naphtali",
+    "jezer_naphtali",
+    "shillem_naphtali"
+  ],
+  "nodeKindExplanation": "全部为人物档案；支派身份和分地保存在各先祖的说明中，不把族群、城邑或疆界另画成亲生儿子。两位未具名女性仅用经文所述身份标识，不编名字。",
+  "fatherIdExplanation": "本段从雅各起。祖先父家在此分段之外，不能将妻妾补作雅各女儿；父系固定依创46列名。创46与民26的名字、代次差异放在说明中，尤其不改接便雅悯、比拉、亚勒及乃幔。",
+  "tribeMapping": [
+    {
+      "personId": "reuben",
+      "motherId": "leah"
+    },
+    {
+      "personId": "simeon",
+      "motherId": "leah"
+    },
+    {
+      "personId": "levi",
+      "motherId": "leah"
+    },
+    {
+      "personId": "judah",
+      "motherId": "leah"
+    },
+    {
+      "personId": "dan",
+      "motherId": "bilhah"
+    },
+    {
+      "personId": "naphtali",
+      "motherId": "bilhah"
+    },
+    {
+      "personId": "gad",
+      "motherId": "zilpah"
+    },
+    {
+      "personId": "asher",
+      "motherId": "zilpah"
+    },
+    {
+      "personId": "issachar",
+      "motherId": "leah"
+    },
+    {
+      "personId": "zebulun",
+      "motherId": "leah"
+    },
+    {
+      "personId": "joseph_patriarch",
+      "motherId": "rachel"
+    },
+    {
+      "personId": "benjamin",
+      "motherId": "rachel"
+    }
+  ],
+  "tribeExplanation": [
+    {
+      "text": "十二子家系是十二支派的来源；底拿是女儿，不能增加算作一个儿子。",
+      "refs": [
+        "创世记49:28",
+        "创世记30:21"
+      ]
+    },
+    {
+      "text": "民1军队普查另列约瑟两支，利未不在相同的军队总数内；这不等于利未从家谱消失。",
+      "refs": [
+        "民数记1:10",
+        "民数记1:47–53"
+      ]
+    },
+    {
+      "text": "民26列宗族的时代、范围与创46不同；此处只交叉说明，不混接亲子代次。",
+      "refs": [
+        "民数记26:2",
+        "创世记46:8"
+      ]
+    },
+    {
+      "text": "利未有城邑及郊野；约瑟后裔在分地时分为玛拿西、以法莲两支，生父关系仍保持。",
+      "refs": [
+        "约书亚记14:3–4",
+        "约书亚记21:41–42",
+        "创世记48:5–6"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 80,
+    "personRecords": 80,
+    "groupRecords": 0,
+    "treeNodes": 72,
+    "relatedOnly": 8,
+    "parentEdges": 71,
+    "crossRelations": 28,
+    "spouseRelations": 5,
+    "concubineRelations": 2,
+    "motherChildRelations": 21,
+    "mainPathNodes": 1,
+    "jacobNamedSons": 12,
+    "jacobNamedDaughters": 1,
+    "genesis46AdditionalNamedDescendants": 56,
+    "unnamedRoleRecords": 2,
+    "tribeMappingEntries": 12,
+    "tribeInfoEntries": 14
+  },
+  "sources": [
+    {
+      "title": "创世记25：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/25.htm"
+    },
+    {
+      "title": "创世记28：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/28.htm"
+    },
+    {
+      "title": "创世记29：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/29.htm"
+    },
+    {
+      "title": "创世记30：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/30.htm"
+    },
+    {
+      "title": "创世记35：简体中文和合本（CNBible）",
+      "url": "https://cnbible.com/cus/genesis/35.htm"
+    },
+    {
+      "title": "创世记25：和合本交叉核对（Wordproject）",
+      "url": "https://www.wordproject.org/bibles/gb/01/25.htm"
+    },
+    {
+      "title": "创世记41，CNBible简体和合本",
+      "url": "https://cnbible.com/cus/genesis/41.htm"
+    },
+    {
+      "title": "创世记48，CNBible简体和合本",
+      "url": "https://cnbible.com/cus/genesis/48.htm"
+    },
+    {
+      "title": "创世记49，CNBible简体和合本",
+      "url": "https://cnbible.com/cus/genesis/49.htm"
+    },
+    {
+      "title": "创世记29，Wordproject和合本交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/01/29.htm"
+    },
+    {
+      "title": "创世记30，Wordproject和合本交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/01/30.htm"
+    },
+    {
+      "title": "创世记35，Wordproject和合本母亲名单交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/01/35.htm"
+    },
+    {
+      "title": "申命记10，CNBible利未产业说明",
+      "url": "https://cnbible.com/cus/deuteronomy/10.htm"
+    },
+    {
+      "title": "约书亚记14，CNBible约瑟两支与利未分地说明",
+      "url": "https://cnbible.com/cus/joshua/14.htm"
+    },
+    {
+      "title": "创世记38，简体中文和合本",
+      "url": "https://cnbible.com/cus/genesis/38.htm"
+    },
+    {
+      "title": "创世记46，简体中文和合本",
+      "url": "https://cnbible.com/cus/genesis/46.htm"
+    },
+    {
+      "title": "民数记1，简体中文和合本",
+      "url": "https://cnbible.com/cus/numbers/1.htm"
+    },
+    {
+      "title": "民数记26，简体中文和合本",
+      "url": "https://cnbible.com/cus/numbers/26.htm"
+    },
+    {
+      "title": "约书亚记13，简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/13.htm"
+    },
+    {
+      "title": "约书亚记15，简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/15.htm"
+    },
+    {
+      "title": "约书亚记16，简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/16.htm"
+    },
+    {
+      "title": "约书亚记17，简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/17.htm"
+    },
+    {
+      "title": "约书亚记18，简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/18.htm"
+    },
+    {
+      "title": "约书亚记19，简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/19.htm"
+    },
+    {
+      "title": "约书亚记21，简体中文和合本",
+      "url": "https://cnbible.com/cus/joshua/21.htm"
+    },
+    {
+      "title": "创世记46，Wordproject和合本名单交叉核对",
+      "url": "https://www.wordproject.org/bibles/gb/01/46.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "jacob",
+      "name": "雅各",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": null,
+      "relation": "本段起点",
+      "refs": [
+        "创世记25:24–26",
+        "创世记28:1–5",
+        "创世记29:23–30",
+        "创世记35:9–12",
+        "创世记35:22–26",
+        "创世记49:28",
+        "创世记46:8"
+      ],
+      "events": [
+        {
+          "text": "受父亲差遣前往巴旦亚兰，在母舅拉班的女儿中娶妻。",
+          "refs": [
+            "创世记28:1–5"
+          ]
+        },
+        {
+          "text": "先后与利亚、拉结成婚，又有辟拉、悉帕两位妾。",
+          "refs": [
+            "创世记29:23–30",
+            "创世记30:3–4",
+            "创世记30:9"
+          ]
+        },
+        {
+          "text": "被赐名以色列。",
+          "refs": [
+            "创世记35:9–12"
+          ]
+        }
+      ],
+      "notes": "本页从雅各及其十二子展开，以创46的记名家谱为父系切面，保留底拿、西拉等女性。珥、俄南已死及约瑟两子生于埃及的情况分别说明，记录总数不是到埃及的同行人数。",
+      "aliases": [
+        "以色列"
+      ],
+      "crossPageLinks": [
+        {
+          "tree": "abraham-jacob",
+          "personId": "jacob",
+          "label": "查看雅各的父家与婚姻"
+        }
+      ]
+    },
+    {
+      "id": "leah",
+      "name": "利亚",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记29:16",
+        "创世记29:23–28",
+        "创世记29:32–35",
+        "创世记30:17–21",
+        "创世记35:23"
+      ],
+      "events": [],
+      "notes": "雅各之妻，利亚一支的家族见创46:8–15；生六子及女儿底拿。图中的孙辈不是利亚亲生子女。",
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "leah",
+          "label": "查看父家与亲属"
+        }
+      ]
+    },
+    {
+      "id": "rachel",
+      "name": "拉结",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记29:16",
+        "创世记29:28–30",
+        "创世记30:22–24",
+        "创世记35:16–19",
+        "创世记35:24"
+      ],
+      "events": [],
+      "notes": "雅各之妻，约瑟与便雅悯的生母；其子孙名单见创46:19–22。她在便雅悯出生时去世，不作为本段下埃及的同行者。",
+      "crossPageLinks": [
+        {
+          "tree": "noah-abraham",
+          "personId": "rachel",
+          "label": "查看父家与亲属"
+        }
+      ]
+    },
+    {
+      "id": "bilhah",
+      "name": "辟拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妾",
+      "refs": [
+        "创世记29:29",
+        "创世记30:3–4",
+        "创世记30:5–8",
+        "创世记35:25"
+      ],
+      "events": [],
+      "notes": "拉结的使女、雅各的妾，但与拿弗他利的生母；其子孙名单见创46:23–25。"
+    },
+    {
+      "id": "zilpah",
+      "name": "悉帕",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妾",
+      "refs": [
+        "创世记29:24",
+        "创世记30:9",
+        "创世记30:10–13",
+        "创世记35:26"
+      ],
+      "events": [],
+      "notes": "利亚的使女、雅各的妾，迦得与亚设的生母；其子孙名单见创46:16–18。"
+    },
+    {
+      "id": "reuben",
+      "name": "流便",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "长子",
+      "refs": [
+        "创世记29:32",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:8–9"
+      ],
+      "events": [],
+      "notes": "雅各与利亚的长子；本页列其四个具名儿子。",
+      "sonOrder": 1,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "流便支派",
+        "ancestralRefs": [
+          "创世记49:3–4",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河东分地",
+        "landRefs": [
+          "约书亚记13:15–23"
+        ],
+        "note": "本页人物流便是家族先祖；河东地业是后世流便支派的分地。"
+      }
+    },
+    {
+      "id": "simeon",
+      "name": "西缅",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记29:33",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:10"
+      ],
+      "events": [],
+      "notes": "雅各与利亚之子；本页列六个具名儿子，其中扫罗的生母是迦南女子。",
+      "sonOrder": 2,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "西缅支派",
+        "ancestralRefs": [
+          "创世记49:5–7",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "犹大地业内分地",
+        "landRefs": [
+          "约书亚记19:1–9"
+        ],
+        "note": "西缅支派的分地位于犹大所得地业之内；与创46记名先祖的代际不同。"
+      }
+    },
+    {
+      "id": "levi",
+      "name": "利未",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记29:34",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:11"
+      ],
+      "events": [
+        {
+          "text": "利未人被分别事奉，产业安排与其他支派不同。",
+          "refs": [
+            "申命记10:8–9",
+            "约书亚记14:3–4"
+          ]
+        }
+      ],
+      "notes": "雅各与利亚之子；本页列革顺、哥辖、米拉利，不继续展开更后世的祭司家谱。",
+      "sonOrder": 3,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "利未支派",
+        "ancestralRefs": [
+          "创世记49:5–7",
+          "创世记49:28"
+        ],
+        "landMode": "levitical-cities",
+        "landLabel": "无成片支派地业，分得城邑与郊野",
+        "landRefs": [
+          "约书亚记14:3–4",
+          "约书亚记21:1–3",
+          "约书亚记21:41–42"
+        ],
+        "note": "利未没有和其他支派相同的成片地业，但有居住城邑和郊野，不能概括成没有土地或产业。"
+      }
+    },
+    {
+      "id": "judah",
+      "name": "犹大",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记29:35",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": "雅各与利亚之子。书亚之女生珥、俄南、示拉；他玛生法勒斯、谢拉。珥、俄南在迦南已死。",
+      "sonOrder": 4,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "犹大支派",
+        "ancestralRefs": [
+          "创世记49:8–12",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记15:1–12",
+          "约书亚记15:20"
+        ],
+        "note": "人物犹大的家谱与后世犹大支派的疆界分别说明。"
+      }
+    },
+    {
+      "id": "dan",
+      "name": "但",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:5–6",
+        "创世记35:22–25",
+        "创世记49:28",
+        "创世记46:23"
+      ],
+      "events": [],
+      "notes": "雅各与辟拉之子；创46列其子户伸。",
+      "sonOrder": 5,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "但支派",
+        "ancestralRefs": [
+          "创世记49:16–18",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "河西分地；后得利善并改名但",
+        "landRefs": [
+          "约书亚记19:40–48"
+        ],
+        "note": "书19记拈阄所得地业，也记攻取利善、改名但的叙述。"
+      }
+    },
+    {
+      "id": "naphtali",
+      "name": "拿弗他利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:7–8",
+        "创世记35:22–25",
+        "创世记49:28",
+        "创世记46:24"
+      ],
+      "events": [],
+      "notes": "雅各与辟拉之子；本页列雅薛、沽尼、耶色、示冷四子。",
+      "sonOrder": 6,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "拿弗他利支派",
+        "ancestralRefs": [
+          "创世记49:21",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记19:32–39"
+        ],
+        "note": "这里的分地属于后世支派，不是把疆界城邑画成先祖亲生子女。"
+      }
+    },
+    {
+      "id": "gad",
+      "name": "迦得",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:10–11",
+        "创世记35:22–26",
+        "创世记49:28",
+        "创世记46:16"
+      ],
+      "events": [],
+      "notes": "雅各与悉帕之子；本页列创46所记七名儿子。",
+      "sonOrder": 7,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "迦得支派",
+        "ancestralRefs": [
+          "创世记49:19",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河东分地",
+        "landRefs": [
+          "约书亚记13:24–28"
+        ],
+        "note": "迦得在约旦河东所得地业见书13。"
+      }
+    },
+    {
+      "id": "asher",
+      "name": "亚设",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:12–13",
+        "创世记35:22–26",
+        "创世记49:28",
+        "创世记46:17"
+      ],
+      "events": [],
+      "notes": "雅各与悉帕之子；本页列四子及女儿西拉，并列比利亚的两子。",
+      "sonOrder": 8,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "亚设支派",
+        "ancestralRefs": [
+          "创世记49:20",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记19:24–31"
+        ],
+        "note": "亚设之女西拉保留为人物，不另增作第十三个雅各儿子或支派。"
+      }
+    },
+    {
+      "id": "issachar",
+      "name": "以萨迦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:17–18",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:13"
+      ],
+      "events": [],
+      "notes": "雅各与利亚之子；本页列陀拉、普瓦、约伯、伸仑四子。",
+      "sonOrder": 9,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "以萨迦支派",
+        "ancestralRefs": [
+          "创世记49:14–15",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记19:17–23"
+        ],
+        "note": "家族先祖与后世支派分地的记载各附出处。"
+      }
+    },
+    {
+      "id": "zebulun",
+      "name": "西布伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:19–20",
+        "创世记35:22–23",
+        "创世记49:28",
+        "创世记46:14"
+      ],
+      "events": [],
+      "notes": "雅各与利亚之子；本页列西烈、以伦、雅利三子。",
+      "sonOrder": 10,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "西布伦支派",
+        "ancestralRefs": [
+          "创世记49:13",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记19:10–16"
+        ],
+        "note": "家谱名称与后世分地名单相互参照，不扩充未列出的父母。"
+      }
+    },
+    {
+      "id": "joseph_patriarch",
+      "name": "约瑟",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记30:22–24",
+        "创世记35:22–24",
+        "创世记49:28",
+        "创世记46:19–20"
+      ],
+      "events": [
+        {
+          "text": "在埃及受任治理，并娶亚西纳。",
+          "refs": [
+            "创世记41:41–45"
+          ]
+        },
+        {
+          "text": "荒年前与亚西纳生玛拿西、以法莲。",
+          "refs": [
+            "创世记41:50–52"
+          ]
+        },
+        {
+          "text": "雅各将其两子归在自己名下祝福；分地时约瑟后裔分为玛拿西、以法莲两支。",
+          "refs": [
+            "创世记48:5–6",
+            "约书亚记14:4"
+          ]
+        }
+      ],
+      "notes": "雅各与拉结之子，亚西纳之夫，玛拿西与以法莲的父亲。两子生于埃及；后世分别成为约瑟后裔的两支。",
+      "sonOrder": 11,
+      "tribeOrigin": true,
+      "tribeInfo": {
+        "ancestralLabel": "约瑟后裔",
+        "ancestralRefs": [
+          "创世记49:22–26",
+          "创世记49:28"
+        ],
+        "landMode": "joseph-two-tribes",
+        "landLabel": "玛拿西、以法莲两支",
+        "landRefs": [
+          "创世记48:5–6",
+          "约书亚记14:4",
+          "约书亚记16:4"
+        ],
+        "note": "约瑟两子归在雅各名下受祝福，生父仍是约瑟；后世分地分别列两支。",
+        "landBranches": [
+          "manasseh",
+          "ephraim"
+        ]
+      }
+    },
+    {
+      "id": "benjamin",
+      "name": "便雅悯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "jacob",
+      "relation": "儿子",
+      "refs": [
+        "创世记35:16–18",
+        "创世记35:22–24",
+        "创世记49:28",
+        "创世记46:21",
+        "民数记26:38–40"
+      ],
+      "events": [
+        {
+          "text": "母亲难产时为他起名便俄尼，父亲改称便雅悯。",
+          "refs": [
+            "创世记35:16–18"
+          ]
+        }
+      ],
+      "notes": "本页保留创46:21在便雅悯儿子项下列出的十名。民26:38–40的宗族名单采用另一列法，并将亚勒、乃幔列在比拉之下；两份名单的代次不静默拼接。出生地及便俄尼别名仍按创35:16–18。",
+      "sonOrder": 12,
+      "tribeOrigin": true,
+      "aliases": [
+        "便俄尼"
+      ],
+      "tribeInfo": {
+        "ancestralLabel": "便雅悯支派",
+        "ancestralRefs": [
+          "创世记49:27",
+          "创世记49:28"
+        ],
+        "landMode": "territory",
+        "landLabel": "在犹大与约瑟子孙之间分地",
+        "landRefs": [
+          "约书亚记18:11–28"
+        ],
+        "note": "分地位置见书18；家谱父系按创46，另注民26代次异记。"
+      }
+    },
+    {
+      "id": "dinah",
+      "name": "底拿",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "jacob",
+      "relation": "女儿",
+      "refs": [
+        "创世记30:19–21"
+      ],
+      "events": [],
+      "notes": "雅各与利亚所生的具名女儿。她不计入十二个儿子，也不标作十二支派先祖；未将后世支派人物补入本次范围。",
+      "tribeOrigin": false
+    },
+    {
+      "id": "asenath",
+      "name": "亚西纳",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻",
+      "refs": [
+        "创世记41:45",
+        "创世记41:50"
+      ],
+      "events": [],
+      "notes": "约瑟之妻，安城祭司波提非拉之女，玛拿西、以法莲的母亲。本次不另展开父亲人物；波提非拉不与其他同名近音人物强并。",
+      "originNote": "安城祭司波提非拉的女儿"
+    },
+    {
+      "id": "manasseh",
+      "name": "玛拿西",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joseph_patriarch",
+      "relation": "长子",
+      "refs": [
+        "创世记41:50–51",
+        "创世记48:5",
+        "约书亚记14:4",
+        "创世记46:20"
+      ],
+      "events": [],
+      "notes": "约瑟与亚西纳的长子。雅各将他与以法莲归在自己名下受祝福，不改变生父约瑟；此人物不是后世犹大同名君王。约瑟后裔在分地时列为两支，玛拿西是其中一支。",
+      "tribeInfo": {
+        "ancestralLabel": "玛拿西支派",
+        "ancestralRefs": [
+          "创世记48:5–6"
+        ],
+        "landMode": "territory",
+        "landLabel": "半支派在河东，半支派在河西",
+        "landRefs": [
+          "约书亚记13:29–31",
+          "约书亚记17:1–13"
+        ],
+        "note": "约瑟的长子；河东、河西是同一玛拿西支派的两半，不是另外两位人物。"
+      }
+    },
+    {
+      "id": "ephraim",
+      "name": "以法莲",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "joseph_patriarch",
+      "relation": "次子",
+      "refs": [
+        "创世记41:50",
+        "创世记41:52",
+        "创世记48:5",
+        "约书亚记14:4",
+        "创世记46:20"
+      ],
+      "events": [],
+      "notes": "约瑟与亚西纳的次子。雅各将他与玛拿西归在自己名下受祝福，不改变生父约瑟；约瑟后裔在分地时列为两支，以法莲是其中一支。",
+      "tribeInfo": {
+        "ancestralLabel": "以法莲支派",
+        "ancestralRefs": [
+          "创世记48:5–6"
+        ],
+        "landMode": "territory",
+        "landLabel": "约旦河西分地",
+        "landRefs": [
+          "约书亚记16:5–10"
+        ],
+        "note": "约瑟的次子，仍保留约瑟为生父；作为后世分地的一支另列说明。"
+      }
+    },
+    {
+      "id": "hanoch_reuben",
+      "name": "哈诺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuben",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:9"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "pallu_reuben",
+      "name": "法路",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuben",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:9"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "hezron_reuben",
+      "name": "希斯伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuben",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:9"
+      ],
+      "events": [],
+      "notes": "流便之子；与法勒斯之子同名希斯伦分别记载。"
+    },
+    {
+      "id": "carmi_reuben",
+      "name": "迦米",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "reuben",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:9"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jemuel_simeon",
+      "name": "耶母利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "simeon",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:10",
+        "民数记26:12"
+      ],
+      "events": [],
+      "notes": "创46称耶母利；民26:12的西缅宗族名单另记尼母利。保留两处异记，不增加一个同代儿子，也不宣称经文记了改名。"
+    },
+    {
+      "id": "jamin_simeon",
+      "name": "雅悯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "simeon",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:10"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ohad_simeon",
+      "name": "阿辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "simeon",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:10",
+        "民数记26:12–14"
+      ],
+      "events": [],
+      "notes": "创46:10明确列名；民26:12–14的西缅宗族名单未列阿辖，未列不等于经文说明他死亡。"
+    },
+    {
+      "id": "jachin_simeon",
+      "name": "雅斤",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "simeon",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:10"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "zohar_simeon",
+      "name": "琐辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "simeon",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:10",
+        "民数记26:13"
+      ],
+      "events": [],
+      "notes": "创46称琐辖；民26:13的西缅宗族名单另记谢拉。本页保留创46称呼，异记不作强制身份合并。"
+    },
+    {
+      "id": "shaul_simeon",
+      "name": "扫罗",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "simeon",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:10"
+      ],
+      "events": [],
+      "notes": "西缅之子，生母是未具名的迦南女子。此处扫罗不是后世便雅悯支派的扫罗王。"
+    },
+    {
+      "id": "gershon_levi",
+      "name": "革顺",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "levi",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "kohath_levi",
+      "name": "哥辖",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "levi",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "merari_levi",
+      "name": "米拉利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "levi",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:11"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "er_judah",
+      "name": "珥",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [
+        {
+          "text": "在迦南已死。",
+          "refs": [
+            "创世记38:6–7",
+            "创世记46:12"
+          ]
+        }
+      ],
+      "notes": "犹大长子，生母为书亚之女。他死于迦南，创46:12明确回顾此事，不能把他算作活着同行下埃及的人。",
+      "treeNote": "已死于迦南"
+    },
+    {
+      "id": "onan_judah",
+      "name": "俄南",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [
+        {
+          "text": "在迦南已死。",
+          "refs": [
+            "创世记38:8–10",
+            "创世记46:12"
+          ]
+        }
+      ],
+      "notes": "犹大之子，生母为书亚之女。他死于迦南，创46:12明确记载；没有给他补出未记名的儿女。",
+      "treeNote": "已死于迦南"
+    },
+    {
+      "id": "shelah_judah",
+      "name": "示拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "perez",
+      "name": "法勒斯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12",
+        "创世记38:27–29"
+      ],
+      "events": [],
+      "notes": "犹大与他玛所生，谢拉的双生兄弟，希斯伦、哈母勒之父；不把他玛改画作犹大的妻子。"
+    },
+    {
+      "id": "zerah_judah",
+      "name": "谢拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "judah",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12",
+        "创世记38:27–30"
+      ],
+      "events": [],
+      "notes": "犹大与他玛所生，法勒斯的双生兄弟；不与西缅支系民26的同名谢拉混为一人。"
+    },
+    {
+      "id": "hezron_perez",
+      "name": "希斯伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "perez",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": "法勒斯之子；与流便之子同名希斯伦分别记载。"
+    },
+    {
+      "id": "hamul_perez",
+      "name": "哈母勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "perez",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:12"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "tola_issachar",
+      "name": "陀拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "issachar",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:13"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "puah_issachar",
+      "name": "普瓦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "issachar",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:13"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "job_issachar",
+      "name": "约伯",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "issachar",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:13",
+        "民数记26:24"
+      ],
+      "events": [],
+      "notes": "创46称约伯；民26:24的以萨迦宗族名单另记雅述。此处不与约伯记的同名人物合并，也不新增另一位同代儿子。"
+    },
+    {
+      "id": "shimron_issachar",
+      "name": "伸仑",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "issachar",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:13"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "sered_zebulun",
+      "name": "西烈",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zebulun",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:14"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "elon_zebulun",
+      "name": "以伦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zebulun",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:14"
+      ],
+      "events": [],
+      "notes": "西布伦之子；不与以扫妻子亚大之父、赫人以伦合并。"
+    },
+    {
+      "id": "jahleel_zebulun",
+      "name": "雅利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "zebulun",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:14"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ziphion_gad",
+      "name": "洗非芸",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gad",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:16",
+        "民数记26:15"
+      ],
+      "events": [],
+      "notes": "创46采用洗非芸，民数记26:15的宗族名单另记洗分；这里只说明名单异记，不拼成两位同代儿子，也不把两处写成明确改名。"
+    },
+    {
+      "id": "haggi_gad",
+      "name": "哈基",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gad",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:16"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shuni_gad",
+      "name": "书尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gad",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:16"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ezbon_gad",
+      "name": "以斯本",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gad",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:16",
+        "民数记26:16"
+      ],
+      "events": [],
+      "notes": "创46采用以斯本，民数记26:16的宗族名单另记阿斯尼；这里只说明名单异记，不拼成两位同代儿子，也不把两处写成明确改名。"
+    },
+    {
+      "id": "eri_gad",
+      "name": "以利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gad",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:16"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "arodi_gad",
+      "name": "亚罗底",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gad",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:16",
+        "民数记26:17"
+      ],
+      "events": [],
+      "notes": "创46采用亚罗底，民数记26:17的宗族名单另记亚律；这里只说明名单异记，不拼成两位同代儿子，也不把两处写成明确改名。"
+    },
+    {
+      "id": "areli_gad",
+      "name": "亚列利",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "gad",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:16"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "imnah_asher",
+      "name": "音拿",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asher",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ishvah_asher",
+      "name": "亦施瓦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asher",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:17",
+        "民数记26:44–46"
+      ],
+      "events": [],
+      "notes": "创46:17列亦施瓦；民26:44–46未另列其宗族，不能据此推定死亡或删除此人。"
+    },
+    {
+      "id": "ishvi_asher",
+      "name": "亦施韦",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asher",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "beriah_asher",
+      "name": "比利亚",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "asher",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "serah_asher",
+      "name": "西拉",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": "asher",
+      "relation": "女儿",
+      "refs": [
+        "创世记46:17",
+        "民数记26:46"
+      ],
+      "events": [],
+      "notes": "亚设之女，创46:17记为四兄弟的妹子；母亲未在这些经文具名。"
+    },
+    {
+      "id": "heber_beriah",
+      "name": "希别",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "beriah_asher",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "malchiel_beriah",
+      "name": "玛结",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "beriah_asher",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:17"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "bela_benjamin",
+      "name": "比拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21",
+        "民数记26:38–40"
+      ],
+      "events": [],
+      "notes": "本页以创46为切面，仅记为便雅悯之子；民26:40在比拉之下列亚勒、乃幔，此处不混入另一份名单改变既有父系。"
+    },
+    {
+      "id": "becher_benjamin",
+      "name": "比结",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ashbel_benjamin",
+      "name": "亚实别",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "gera_benjamin",
+      "name": "基拉",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "naaman_benjamin",
+      "name": "乃幔",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "子孙（按创46列名）",
+      "refs": [
+        "创世记46:21",
+        "民数记26:40"
+      ],
+      "events": [],
+      "notes": "创46:21将乃幔列于便雅悯儿子项下；民26:40则列在比拉之子项下。本页固定采用创46父系，不将两处代次硬接或把此人复制两次。"
+    },
+    {
+      "id": "ehi_benjamin",
+      "name": "以希",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "rosh_benjamin",
+      "name": "罗实",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "muppim_benjamin",
+      "name": "母平",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "huppim_benjamin",
+      "name": "户平",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:21"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "ard_benjamin",
+      "name": "亚勒",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "benjamin",
+      "relation": "子孙（按创46列名）",
+      "refs": [
+        "创世记46:21",
+        "民数记26:40"
+      ],
+      "events": [],
+      "notes": "创46:21将亚勒列于便雅悯儿子项下；民26:40则列在比拉之子项下。本页固定采用创46父系，不将两处代次硬接或把此人复制两次。"
+    },
+    {
+      "id": "hushim_dan",
+      "name": "户伸",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "dan",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:23",
+        "民数记26:42–43"
+      ],
+      "events": [],
+      "notes": "创46称户伸；民26:42–43的但支派名单另记书含。异记另作说明，不新增第二个创46直系儿子。"
+    },
+    {
+      "id": "jahzeel_naphtali",
+      "name": "雅薛",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "naphtali",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "guni_naphtali",
+      "name": "沽尼",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "naphtali",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "jezer_naphtali",
+      "name": "耶色",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "naphtali",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "shillem_naphtali",
+      "name": "示冷",
+      "kind": "person",
+      "gender": "male",
+      "fatherId": "naphtali",
+      "relation": "儿子",
+      "refs": [
+        "创世记46:24"
+      ],
+      "events": [],
+      "notes": ""
+    },
+    {
+      "id": "judah_wife_shua_daughter",
+      "name": "书亚之女（未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "妻（未具名）",
+      "refs": [
+        "创世记38:2–5",
+        "创世记38:12"
+      ],
+      "events": [],
+      "notes": "犹大的妻子，珥、俄南、示拉的母亲；她未具名。书亚是她父亲的名字，不是她的名字；其后去世，见创38:12。",
+      "isUnnamed": true,
+      "originNote": "迦南人书亚的女儿",
+      "graphLabel": "书亚之女"
+    },
+    {
+      "id": "tamar",
+      "name": "他玛",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "关联亲属",
+      "refs": [
+        "创世记38:6",
+        "创世记38:18",
+        "创世记38:27–30"
+      ],
+      "events": [],
+      "notes": "珥的妻子、犹大的儿妇，后从犹大怀孕生法勒斯与谢拉。经文没有将她称为犹大的妻子；没有嫁给示拉，见创38:14。她的父亲未具名。"
+    },
+    {
+      "id": "shaul_simeon_mother",
+      "name": "扫罗的母亲（迦南女子，未具名）",
+      "kind": "person",
+      "gender": "female",
+      "fatherId": null,
+      "relation": "生母（未具名）",
+      "refs": [
+        "创世记46:10"
+      ],
+      "events": [],
+      "notes": "西缅之子扫罗的生母，未具名，其父母也未记。经文只记其生母身份，本页不另加她与西缅的夫妻关系，也不将她直接接为族祖迦南的女儿。",
+      "isUnnamed": true,
+      "graphLabel": "迦南女子"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jacob",
+      "target": "leah",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记29:23–28"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jacob",
+      "target": "rachel",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记29:28–30"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jacob",
+      "target": "bilhah",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "创世记30:3–4"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "jacob",
+      "target": "zilpah",
+      "type": "concubine",
+      "relation": "妾",
+      "refs": [
+        "创世记30:9"
+      ],
+      "notes": ""
+    },
+    {
+      "source": "leah",
+      "target": "reuben",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:32",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "simeon",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:33",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "levi",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:34",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记29:35",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "bilhah",
+      "target": "dan",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:5–6",
+        "创世记35:22–25"
+      ]
+    },
+    {
+      "source": "bilhah",
+      "target": "naphtali",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:7–8",
+        "创世记35:22–25"
+      ]
+    },
+    {
+      "source": "zilpah",
+      "target": "gad",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:10–11",
+        "创世记35:22–26"
+      ]
+    },
+    {
+      "source": "zilpah",
+      "target": "asher",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:12–13",
+        "创世记35:22–26"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "issachar",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:17–18",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "zebulun",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:19–20",
+        "创世记35:22–23"
+      ]
+    },
+    {
+      "source": "rachel",
+      "target": "joseph_patriarch",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记30:22–24",
+        "创世记35:22–24"
+      ]
+    },
+    {
+      "source": "rachel",
+      "target": "benjamin",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记35:16–18",
+        "创世记35:22–24"
+      ]
+    },
+    {
+      "source": "leah",
+      "target": "dinah",
+      "type": "mother-child",
+      "relation": "母女",
+      "refs": [
+        "创世记30:19–21"
+      ]
+    },
+    {
+      "source": "joseph_patriarch",
+      "target": "asenath",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记41:45"
+      ],
+      "notes": "亚西纳是安城祭司波提非拉的女儿。"
+    },
+    {
+      "source": "asenath",
+      "target": "manasseh",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记41:50–51"
+      ]
+    },
+    {
+      "source": "asenath",
+      "target": "ephraim",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记41:50",
+        "创世记41:52"
+      ]
+    },
+    {
+      "source": "judah",
+      "target": "judah_wife_shua_daughter",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记38:2"
+      ]
+    },
+    {
+      "source": "er_judah",
+      "target": "tamar",
+      "type": "spouse",
+      "relation": "夫妻",
+      "refs": [
+        "创世记38:6"
+      ]
+    },
+    {
+      "source": "judah_wife_shua_daughter",
+      "target": "er_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:2–3"
+      ]
+    },
+    {
+      "source": "judah_wife_shua_daughter",
+      "target": "onan_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:2",
+        "创世记38:4"
+      ]
+    },
+    {
+      "source": "judah_wife_shua_daughter",
+      "target": "shelah_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:2",
+        "创世记38:5"
+      ]
+    },
+    {
+      "source": "tamar",
+      "target": "perez",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:18",
+        "创世记38:27–29"
+      ]
+    },
+    {
+      "source": "tamar",
+      "target": "zerah_judah",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记38:18",
+        "创世记38:27–30"
+      ]
+    },
+    {
+      "source": "shaul_simeon_mother",
+      "target": "shaul_simeon",
+      "type": "mother-child",
+      "relation": "母子",
+      "refs": [
+        "创世记46:10"
+      ]
+    }
+  ]
+}

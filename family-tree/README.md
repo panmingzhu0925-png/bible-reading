@@ -1,15 +1,33 @@
 # 圣经交互家谱
 
-主网站“圣经家谱”中切换三份树及原有正背面图片。共享查看器：
+正式查看器为 `family-tree/index.html`，在主网站“圣经家谱”中嵌入，也可全屏查看。保留原有正背面图片入口、人物列表和主网站的历史时期阅读入口。
 
-- `index.html?tree=adam-noah`：亚当到挪亚，27位具名人物。父系树24节点，夏娃、亚大、洗拉3位配偶蓝字旁列，夫妻不是父子关系。
-- `index.html?tree=noah-abraham`：挪亚到亚伯拉罕，110项记录，含89项人物记录（其中2位未具名角色）及21项族群。保留闪、含、雅弗三支，补齐拿鹤十二名子女、利百加及拉班两女、罗得两女与摩押／便亚米族源。
-- `index.html?tree=abraham-jacob`：亚伯拉罕到雅各，60项记录。主线止于雅各，展开亚伯拉罕八子、基土拉旁支、以实玛利十二子及以扫家庭；雅各的子女留待下一阶段。
+当前共有 17 套分段资料：
 
-默认全部展开。点击姓名看经文与亲属；“母：”显示母亲，蓝字旁列妻妾，◇及虚线表示族源。点击“＋数字”可展开收起的旁支。手机默认竖向，较宽屏幕默认横向。可搜索、平移、缩放和切换方向，同名人物在标签中附父名区分。分段与人物详情有跨页入口，可用查询参数 `person=人物ID` 定位。
+- `?tree=adam-noah`：亚当至挪亚，含该隐、塞特两支与具名配偶。
+- `?tree=noah-abraham`：挪亚三子至亚伯拉罕，并列拿鹤、哈兰及相关家庭。
+- `?tree=abraham-jacob`：亚伯拉罕、以实玛利、以撒、以扫家庭，雅各十二子、底拿，以及约瑟两子。
+- `?tree=jacob-tribes`：雅各十二子与十二支派总览；支派选择器分别打开各家族。
+- 11 个分支页面：`tribe-reuben`、`tribe-simeon`、`tribe-levi`、`tribe-dan`、`tribe-naphtali`、`tribe-gad`、`tribe-asher`、`tribe-issachar`、`tribe-zebulun`、`tribe-joseph`、`tribe-benjamin`。
+- `?tree=judah-jesus`：犹大旁支、王室家庭与《马太福音》主线，旧约补列的省略世代另标。
+- `?tree=judah-luke`：《路加福音》经大卫之子拿单的独立对照家谱。
 
-`data/`中的三份JSON是资料源，audit.md是经文核对说明。每个关系与经历均附出处，同名人物必须保留独立ID。母亲关系方向为source母亲→target孩子；合读结论要保留说明，未具名人物不可补造。妻与妾分别使用spouse与concubine类型，不放入丈夫的子女列表。
+以上是现有家谱收录范围，不表示圣经全部人物均已收录。档案中分别保留具名人物、未具名角色、族群及班次；跨页存在重复人物，档案数不能作为不同人物总数。
 
-更新资料后运行 `node family-tree/build-data.cjs` 生成 `data.js`。`index.html`、`app.css`、`app.js`是共享展示代码；ECharts 5.6.0使用本地库，保留Apache-2.0许可声明。页面不依赖外部CDN，运行数据使用同目录脚本加载。
+所有页面默认竖向从上至下、全部展开。主线居中，同胞按母亲分组；只有一位具名妻妾时在父亲旁标注，多位时在子女旁标出生母。单列页面不会擅自认定没有列出的配偶或儿女不存在。点击姓名看经历、出处、关系性质和跨页入口；可使用“单看这支家谱”、搜索、平移、缩放及横竖切换。
 
-部署于GitHub Pages子目录时保持相对路径。更新运行文件后同时增加根目录sw.js的缓存版本及所需预缓存清单，以更新离线资源。原图片页面及图片文件继续保留。
+`person=人物ID` 可定位档案，`family=人物ID` 可单看图中该支，`embed=1` 用于主网页内嵌。`explain=mary` 展开马利亚与拿单支系的释经说明。约瑟至耶稣明确标记家庭身份，不作为生父关系；希里至马利亚仅列常见释经解释，未填为经文明记的父女关系。
+
+## 资料与构建
+
+`combined-preview/` 是当前已审阅查看器和扩展资料的源目录，原始三段资料仍在 `data/`。主要资料包括 `abraham-jacob-children.json`、`jacob-tribes.json`、`judah-jesus.json`、`judah-luke.json`、`mary-nathan-note.json` 及 `tribe-expansions/`。各审核说明记录相应经文和名单差异。不同同名人物保留独立 ID；妻妾、母系、收养、族源、支派归属及有争议谱系不可一律改成父子。
+
+运行 `node family-tree/build-viewer.cjs` 复用 `combined-preview/build-tree-data.cjs`，生成正式 `index.html`、`style.css`、`app.js`、`compact-layout.js`、`tree-data.js`，同时修正相对路径和生产资源版本。不要手改生成的 `tree-data.js`，也不要使用旧 `build-data.cjs` 的三段产物覆盖它。旧 `data.js` 暂存兼容，正式查看器不再加载该文件。
+
+`app.css` 为共享基础样式，`style.css` 为本轮人物树扩展样式；预览仍引用相同基础样式。ECharts 5.6.0 位于 `vendor/`，保留 Apache-2.0 许可，不依赖外部 CDN；资料通过本地 JavaScript 载入，避免额外 JSON 请求导致子目录路径问题。
+
+必要核验：`node family-tree/check-viewer.cjs`、`node family-tree/combined-preview/check-expanded-tribes.cjs`，以及各扩展资料的校验脚本和浏览器手机布局检查。静态检查不代替经文逐条人工复核。
+
+## 部署
+
+GitHub Pages 项目路径下使用相对地址。当前生产资源版本为 v15；更新运行文件时，应同步更新主网站 `sw.js` 的缓存版本与清单，预缓存两个 CSS、三个运行脚本、本地 ECharts 和查看器页面。原图片页面及两张图片继续保留。发布后检查正式子目录中的内嵌、全屏、跨页定位及离线缓存更新。
