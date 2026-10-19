@@ -11,11 +11,12 @@
   const RADIUS = 4, DISTANCE = 4, MARGIN = 14;
 
   function layout(options) {
-    const {rootId, children, box, direction = 'TB', siblingGap = 14, generationGap = 22, preferredChild, compactMainRows = false} = options || {};
+    const {rootId, children, box, direction = 'TB', siblingGap = 14, generationGap = 22, branchGap, preferredChild, compactMainRows = false} = options || {};
     if (rootId === undefined || rootId === null) throw new TypeError('rootId is required');
     if (typeof children !== 'function' || typeof box !== 'function') throw new TypeError('children and box must be functions');
     if (direction !== 'TB' && direction !== 'LR') throw new TypeError('direction must be TB or LR');
     if (preferredChild !== undefined && typeof preferredChild !== 'function') throw new TypeError('preferredChild must be a function');
+    if (branchGap !== undefined && typeof branchGap !== 'function') throw new TypeError('branchGap must be a function');
     if (typeof compactMainRows !== 'boolean') throw new TypeError('compactMainRows must be a boolean');
     for (const [key, value] of Object.entries({siblingGap, generationGap})) {
       if (!Number.isFinite(value) || value < 0) throw new TypeError(key + ' must be finite and nonnegative');
@@ -43,8 +44,11 @@
         const child = pack(childId, depth + 1);
         let offset = 0;
         if (branches.length) {
+          const requestedGap = branchGap ? branchGap(id, branches[branches.length - 1].node.id, childId) : siblingGap;
+          if (!Number.isFinite(requestedGap) || requestedGap < 0) throw new TypeError('branchGap must return a finite nonnegative number');
+          const gap = Math.max(siblingGap, requestedGap);
           for (let level = 0; level < Math.min(right.length, child.left.length); level++) {
-            offset = Math.max(offset, right[level] + siblingGap - child.left[level]);
+            offset = Math.max(offset, right[level] + gap - child.left[level]);
           }
         }
         branches.push({node: child, offset});
@@ -101,7 +105,31 @@
     for (const point of positions.values()) {
       point.x += MARGIN - minX; point.y += MARGIN - minY;
     }
-    return {positions, width: maxX - minX + MARGIN * 2, height: maxY - minY + MARGIN * 2};
+    // Route through the empty band between generations, ending before the
+    // child's label. A sloping curve can pass through a sibling's name even
+    // when the label rectangles themselves do not overlap.
+    const edges = [];
+    function connect(node) {
+      const p = positions.get(node.id), parentBox = boxes.get(node.id);
+      for (const branch of node.branches) {
+        const child = branch.node, c = positions.get(child.id), childBox = boxes.get(child.id);
+        let points;
+        if (direction === 'TB') {
+          const start = p.y + RADIUS, end = c.y - childBox.height - DISTANCE - 2;
+          const fork = start + Math.max(0, generationGap - RADIUS - 2) / 2;
+          points = [[p.x, start], [p.x, fork], [c.x, fork], [c.x, end]];
+        } else {
+          const start = p.x + parentBox.width / 2 + 2, end = c.x - childBox.width / 2 - 2;
+          const fork = p.x + maxWidths[node.depth] / 2 + generationGap / 2;
+          const py = p.y - parentBox.height / 2 - DISTANCE, cy = c.y - childBox.height / 2 - DISTANCE;
+          points = [[start, py], [fork, py], [fork, cy], [end, cy]];
+        }
+        edges.push({parentId: node.id, childId: child.id, points});
+        connect(child);
+      }
+    }
+    connect(packed);
+    return {positions, edges, width: maxX - minX + MARGIN * 2, height: maxY - minY + MARGIN * 2};
   }
   return {layout};
 });

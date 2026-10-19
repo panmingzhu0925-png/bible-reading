@@ -24,7 +24,7 @@ check('正式脚本可解析且页面依赖均位于当前项目', () => {
     const file = decodeURIComponent(url.split(/[?#]/)[0]);
     assert.ok(fs.existsSync(path.resolve(__dirname, file)), url);
   }
-  assert.ok(read('style.css').startsWith("@import url('./app.css?v=16');"));
+  assert.ok(read('style.css').startsWith("@import url('./app.css?v=17');"));
   assert.ok(!html.includes('combined-preview') && !html.includes('../../'));
 });
 check('竖向全展开、支派和双家谱导航与原图片入口保留', () => {
@@ -42,6 +42,14 @@ check('所有跨页入口均指向可解析的分段和人物', () => {
     assert.ok(data[link.tree], key + ':' + person.id + ' → ' + link.tree);
     assert.ok(data[link.tree].nodes.some(n => n.id === link.personId), key + ':' + person.id + ' → ' + link.personId);
   }
+});
+check('主要家族整体展开，正交连线保留各自谱系样式', () => {
+  assert.match(app, /compactMainRows:false/);
+  assert.match(app, /branchGap:/);
+  assert.match(app, /const edges=geometry.edges.map/);
+  assert.match(app, /type:'polyline',silent:true/);
+  assert.match(app, /lineDash:kind\|\|n.lineageKind/);
+  assert.match(app, /\['noah','ham','shem','japheth',\.\.\.baseFocus\]/);
 });
 check('母系释经说明未改造成明文生父链', () => {
   for (const key of ['judah-jesus', 'judah-luke']) {

@@ -227,5 +227,9 @@ test('Invalid dimensions, cycles, shared children and unsupported directions fai
   assert.throws(() => layout({...base, siblingGap: -1}), /siblingGap/);
   assert.throws(() => layout({...base, preferredChild: 'root'}), /preferredChild/);
   assert.throws(() => layout({...base, compactMainRows: 'true'}), /compactMainRows/);
+  assert.throws(() => layout({...base, branchGap: 56}), /branchGap/);
+  const branch = {...base, children: id => id === 'root' ? ['a', 'b'] : []};
+  for (const value of [-1, NaN, Infinity, undefined]) assert.throws(() => layout({...branch, branchGap: () => value}), /branchGap/);
+  assert.deepEqual(layout(branch), layout({...branch, branchGap: () => 0}));
 });
 console.log('\n' + passed + ' geometry checks passed (including 680 randomized orientation layouts).');

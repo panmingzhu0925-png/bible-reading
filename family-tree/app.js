@@ -222,7 +222,7 @@
     const {name:nodeName,ref:nodeRef,tribe,lineage,exegesis,mother,partners}=labelContent(id);
     return {id,name:n.name,collapsed:!!closed,children:cs.map(tree),symbol:kind?'diamond':'circle',symbolSize:(primary?8:7)/labelScale,
       itemStyle:{color:closed?color:'#fff',borderColor:color,borderWidth:id===selected?3:1.6},
-      lineStyle:{color:n.lineageKind==='maternal'?'#7296b6':n.lineageKind?'#a17a48':primary?'#b64c40':female?'#7296b6':kind?'#a4b3a8':'#bfcbc1',width:primary?2:1.1,type:kind||n.lineageKind?'dashed':'solid'},
+      lineStyle:{opacity:0},
       label:{
         color,fontFamily:labelFont,fontSize:14/labelScale,lineHeight:18/labelScale,
         position:'top',distance:4/labelScale,
@@ -250,11 +250,17 @@
     // Clear the previous tree view before replacing branches. ECharts 5's
     // removal diff can otherwise retain edges from collapsed parent nodes.
     chart.clear();
-    chart.setOption({animation:false,tooltip:{show:false},series:[{id:'genealogy-tree-preview',type:'tree',data:[tree(viewRoot)],orient:direction,
+    const edges=geometry.edges.map(edge=>{
+      const n=byId.get(edge.childId),primary=mainPath.has(n.id),female=women.has(n.id),kind=n.kind==='group';
+      return {id:'family-edge-'+edge.childId,type:'polyline',silent:true,z:0,
+        shape:{points:edge.points.map(point=>point.map(value=>value/labelScale))},
+        style:{fill:null,stroke:n.lineageKind==='maternal'?'#7296b6':n.lineageKind?'#a17a48':primary?'#b64c40':female?'#7296b6':kind?'#a4b3a8':'#bfcbc1',lineWidth:(primary?2:1.1)/labelScale,lineDash:kind||n.lineageKind?[5/labelScale,4/labelScale]:null}};
+    });
+    chart.setOption({animation:false,tooltip:{show:false},graphic:{elements:edges},series:[{id:'genealogy-tree-preview',type:'tree',data:[tree(viewRoot)],orient:direction,
       left:0,right:0,top:0,bottom:0,
       edgeShape:'curve',edgeForkPosition:'50%',initialTreeDepth:-1,expandAndCollapse:false,roam:false,
       emphasis:{focus:'none'},animationDuration:0,animationDurationUpdate:0,silent:false,
-      lineStyle:{curveness:.5}}]}, {notMerge:true});
+      lineStyle:{opacity:0}}]}, {notMerge:true});
     decorateNodes();
   }
   function decorateNodes() {
@@ -282,7 +288,12 @@
   function markRelative(text,id){text.setAttribute('data-spouse',id);text.setAttribute('role','button');text.setAttribute('tabindex','0');text.setAttribute('aria-label',`查看${displayName(byId.get(id))}的经文与亲属`);}
   function render(fit=false) {
     if(viewport.clientWidth===0||viewport.clientHeight===0)return;
-    geometry=window.CompactTreeLayout.layout({rootId:viewRoot,children:id=>expanded.has(id)?ordered(id):[],box:labelSize,direction,siblingGap:14,generationGap:direction==='TB'?56:34,compactMainRows:true,preferredChild:id=>mainPath.has(id)?ordered(id).find(child=>mainPath.has(child)):null});
+    const majorFamilies=new Set(['noah','abraham','isaac']);
+    if(children.get(viewRoot).length<=6)majorFamilies.add(viewRoot);
+    const hasOpenChildren=id=>expanded.has(id)&&children.get(id).length>0;
+    geometry=window.CompactTreeLayout.layout({rootId:viewRoot,children:id=>expanded.has(id)?ordered(id):[],box:labelSize,direction,siblingGap:14,generationGap:direction==='TB'?56:34,compactMainRows:false,
+      branchGap:(parent,left,right)=>majorFamilies.has(parent)&&(hasOpenChildren(left)||hasOpenChildren(right))?(direction==='TB'?56:34):14,
+      preferredChild:id=>mainPath.has(id)?ordered(id).find(child=>mainPath.has(child)):null});
     visibleIds=[...geometry.positions.keys()];
     const nominalWidth=geometry.width,nominalHeight=geometry.height;
     if(fit) {
@@ -399,7 +410,8 @@
   let resizeTimer,lastSize='';
   if('ResizeObserver' in window)new ResizeObserver(()=>{const size=viewport.clientWidth+':'+viewport.clientHeight;if(size===lastSize)return;lastSize=size;render(true);}).observe(viewport);
   else window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>render(true),150);});
-  const focusIds=isRelatedFamily?[rootId]:db.quickFocus||page.focus||(isJudah?[rootId]:treeKey==='abraham-jacob'?['abraham','ishmael','isaac','esau','jacob','joseph_patriarch']:treeKey==='noah-abraham'?['noah','terah','nahor_brother','haran_person','laban']:[]);
+  const baseFocus=isRelatedFamily?[rootId]:db.quickFocus||page.focus||(isJudah?[rootId]:treeKey==='abraham-jacob'?['abraham','ishmael','isaac','esau','jacob','joseph_patriarch']:treeKey==='noah-abraham'?['noah','terah','nahor_brother','haran_person','laban']:[]);
+  const focusIds=[...new Set(treeKey==='noah-abraham'?['noah','ham','shem','japheth',...baseFocus]:baseFocus)];
   const quickFocus=document.getElementById('quickFocus');
   if(focusIds.length){quickFocus.hidden=false;quickFocus.innerHTML='<span>定位</span>'+focusIds.filter(id=>byId.has(id)).map(id=>`<button data-focus="${id}">${esc(labelName(byId.get(id)))}</button>`).join('');quickFocus.addEventListener('click',e=>{const b=e.target.closest('[data-focus]');if(b)select(b.dataset.focus,true);});}
   const initialId=byId.has(params.get('person'))?params.get('person'):viewRoot;

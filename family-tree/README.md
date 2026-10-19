@@ -16,6 +16,10 @@
 
 所有页面默认竖向从上至下、全部展开。主线居中，同胞按母亲分组；只有一位具名妻妾时在父亲旁标注，多位时在子女旁标出生母。单列页面不会擅自认定没有列出的配偶或儿女不存在。点击姓名看经历、出处、关系性质和跨页入口；可使用“单看这支家谱”、搜索、平移、缩放及横竖切换。
 
+v17 使用整家子树的轮廓安排父节点，不再把父节点单独压到主线旁。普通同胞保持紧凑；挪亚、亚伯拉罕、以撒等多支展开家族增加有限间隔，收起后按可见后代重新布局。主线仍对齐，亚伯拉罕图的以实玛利在左、以撒在中。挪亚页增加含、闪、雅弗的快速定位入口。
+
+`compact-layout.js` 返回人物坐标及每条可见父子／关联边的正交路径。竖向在代际空白处分叉，再从子女标签上方接入；横向在代际空白处转折。`app.js` 用独立 graphic 路径绘制，保留每条关系的主线红色、母系蓝色与谱系差异虚线，隐藏 ECharts 原生曲线。节点和边都使用相同的标签缩放比例；收起及单支视图只绘制可见关系。
+
 `person=人物ID` 可定位档案，`family=人物ID` 可单看图中该支，`embed=1` 用于主网页内嵌。`explain=mary` 展开马利亚与拿单支系的释经说明。约瑟至耶稣明确标记家庭身份，不作为生父关系；希里至马利亚仅列常见释经解释，未填为经文明记的父女关系。
 
 犹大页提供“相关家族 · 单独查看”选择器。`?tree=judah-jesus&related=家族根ID` 单独展示北国王族、相关母家及姻亲等23组家族；这些家族不接在犹大根节点下。完整360条档案及原经文保留，主图266条图面记录，妻子、生母仍可点击；亚玛撒在主图按经文明记的母系与亚比该连接，另在益帖父家保留父系显示。“相关家族”不表示所有成员已被证明不属犹大支派，支派未明仍作未确定。
@@ -28,8 +32,8 @@
 
 `app.css` 为共享基础样式，`style.css` 为本轮人物树扩展样式；预览仍引用相同基础样式。ECharts 5.6.0 位于 `vendor/`，保留 Apache-2.0 许可，不依赖外部 CDN；资料通过本地 JavaScript 载入，避免额外 JSON 请求导致子目录路径问题。
 
-必要核验：`node family-tree/check-viewer.cjs`、`node family-tree/combined-preview/check-expanded-tribes.cjs`、`node family-tree/combined-preview/check-judah-related.cjs`，以及各扩展资料的校验脚本和浏览器手机布局检查。静态检查不代替经文逐条人工复核。
+必要核验：`node family-tree/check-viewer.cjs`、`node family-tree/combined-preview/check-expanded-tribes.cjs`、`node family-tree/combined-preview/check-judah-related.cjs`，以及各扩展资料的校验脚本和浏览器手机布局检查。`branch-spacing.test.cjs` 检查展开家族轮廓间隔、主线对齐与紧凑叶子；`branch-routes.test.cjs` 检查17图的TB/LR路径及折叠状态，使用近似标签模型；实际SVG路径仍须与真实标签包围盒核对。静态检查不代替经文逐条人工复核。
 
 ## 部署
 
-GitHub Pages 项目路径下使用相对地址。当前生产资源版本为 v16；更新运行文件时，应同步更新主网站 `sw.js` 的缓存版本与清单，预缓存两个 CSS、三个运行脚本、本地 ECharts 和查看器页面。原图片页面及两张图片继续保留。发布后检查正式子目录中的内嵌、全屏、跨页定位及离线缓存更新。
+GitHub Pages 项目路径下使用相对地址。当前生产资源版本为 v17，缓存键为 `bible-reading-v17-family-branch-spacing`；更新运行文件时，应同步更新主网站 `sw.js` 的缓存版本与清单，预缓存两个 CSS、三个运行脚本、本地 ECharts 和查看器页面。原图片页面及两张图片继续保留。发布前运行 `node image-work/check-family-integration-v17.cjs` 与 `node image-work/build-publish-list-v17.cjs`，发布后检查正式子目录中的内嵌、全屏、跨页定位及离线缓存更新。

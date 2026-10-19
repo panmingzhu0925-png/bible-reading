@@ -2,7 +2,7 @@
 
 ## 部署到 GitHub Pages
 1. 新建一个 GitHub 仓库，例如 `bible-reading`
-2. 上传网站运行文件与对应维护源；本项目的发布清单由 `node image-work/build-publish-list-v16.cjs` 生成，请勿直接上传整个工作目录中的临时文件
+2. 上传网站运行文件与对应维护源；本项目的发布清单由 `node image-work/build-publish-list-v17.cjs` 生成，请勿直接上传整个工作目录中的临时文件
 3. GitHub 仓库进入 Settings → Pages
 4. Build and deployment 选择 `Deploy from a branch`
 5. Branch 选择 `main`，目录选择 `/ (root)`，保存
@@ -39,6 +39,8 @@
 - `people-data.json` 是维护源数据，便于以后交给 Codex 批量增补；网页运行使用 `people-data.js`，可完全离线。
 - `node build-people-data.cjs` 从维护源生成运行文件。
 - `family-tree/` 提供17个家谱视图，默认竖向、全部展开；十二支派分别查看，马太与路加家谱分别保留。原两张图片保留。
+- v17（2026-10-19）按整家后代的实际轮廓定位父亲，含、闪、雅弗及以撒两支等展开家族适当分开；连线在代际空白处分叉，从人物标签上方接入，避免斜线穿过其他人物的姓名和出处。主线居中、妻母标注与单支查看保留。
 - `people-index/` 可检索中文导读、家谱档案，以及 STEP Bible TIPNR 的2995条具名／称谓人物原名索引。仅提取标识、名字、类别和经文，不导入其AI描述或推测血缘；许可与排除项目见 `people-index/SOURCE.md`。
 - **目前不声称收齐所有人物的中文资料或完整家谱**。原名与中文译名尚未逐人核对；未具名角色、灵体、群体及人地不明条目范围另列。家谱跨页档案数也不是独立人数。
 - 更新顺序：编辑资料 → `node build-people-data.cjs` → `node family-tree/build-viewer.cjs` → `node people-index/build-local.cjs` → 核验 → 更新SW及资源版本后部署。
+- 当前生产资源版本为 v17，缓存键为 `bible-reading-v17-family-branch-spacing`。发布前运行 `node image-work/check-family-integration-v17.cjs`；静态与SW Mock核验不能代替真实浏览器或iPhone Safari实机测试。
