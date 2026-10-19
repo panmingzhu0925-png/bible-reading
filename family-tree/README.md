@@ -36,4 +36,4 @@ v18 将已确认的整家子树布局统一用于全部17个视图与23个独立
 
 ## 部署
 
-GitHub Pages 项目路径下使用相对地址。当前生产资源版本为 v18，缓存键为 `bible-reading-v18-all-family-branches`；更新运行文件时，应同步更新主网站 `sw.js` 的缓存版本与清单，预缓存两个 CSS、三个运行脚本、本地 ECharts 和查看器页面。原图片页面及两张图片继续保留。发布前运行 `node image-work/check-family-integration-v18.cjs` 与 `node image-work/build-publish-list-v18.cjs`，发布后检查正式子目录中的内嵌、全屏、跨页定位及离线缓存更新。
+GitHub Pages 项目路径下使用相对地址。当前生产资源版本为 v19，缓存键为 `bible-reading-v19-parenting-topic`；更新运行文件时，应同步更新主网站 `sw.js` 的缓存版本与清单，预缓存两个 CSS、三个运行脚本、本地 ECharts 和查看器页面。原图片页面及两张图片继续保留。发布前运行 `node image-work/check-family-integration-v19.cjs` 与 `node image-work/build-publish-list-v19.cjs`，发布后检查正式子目录中的内嵌、全屏、跨页定位及离线缓存更新。

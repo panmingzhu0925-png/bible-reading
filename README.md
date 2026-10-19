@@ -2,7 +2,7 @@
 
 ## 部署到 GitHub Pages
 1. 新建一个 GitHub 仓库，例如 `bible-reading`
-2. 上传网站运行文件与对应维护源；本项目的发布清单由 `node image-work/build-publish-list-v18.cjs` 生成，请勿直接上传整个工作目录中的临时文件
+2. 上传网站运行文件与对应维护源；本项目的发布清单由 `node image-work/build-publish-list-v19.cjs` 生成，请勿直接上传整个工作目录中的临时文件
 3. GitHub 仓库进入 Settings → Pages
 4. Build and deployment 选择 `Deploy from a branch`
 5. Branch 选择 `main`，目录选择 `/ (root)`，保存
@@ -26,8 +26,10 @@
 
 ## 新增专题
 - 30天《圣经金钱观》专题
+- 30天《按圣经教养子女》专题：围绕基督徒父母的本分、榜样、日常教导、倾听、管教与和好、品格和祷告，按经文上下文逐日学习，并附每日实践。
 - 每天经文、主题、反思问题
-- 独立完成状态与灵修笔记
+- 两个专题分别保存独立完成状态与灵修笔记；保留已有金钱专题进度，切换专题不会混用打卡和笔记。
+- `topics/money-30-days.json`、`topics/parenting-30-days.json` 为维护来源；运行 `node topics/build-topics.cjs` 生成网页资料，再运行 `node topics/check-topics.cjs` 核验。
 
 
 ## 圣经人物知识库（2026-10-17）
@@ -43,4 +45,4 @@
 - `people-index/` 可检索中文导读、家谱档案，以及 STEP Bible TIPNR 的2995条具名／称谓人物原名索引。仅提取标识、名字、类别和经文，不导入其AI描述或推测血缘；许可与排除项目见 `people-index/SOURCE.md`。
 - **目前不声称收齐所有人物的中文资料或完整家谱**。原名与中文译名尚未逐人核对；未具名角色、灵体、群体及人地不明条目范围另列。家谱跨页档案数也不是独立人数。
 - 更新顺序：编辑资料 → `node build-people-data.cjs` → `node family-tree/build-viewer.cjs` → `node people-index/build-local.cjs` → 核验 → 更新SW及资源版本后部署。
-- 当前生产资源版本为 v18，缓存键为 `bible-reading-v18-all-family-branches`。发布前运行 `node image-work/check-family-integration-v18.cjs`；静态与SW Mock核验不能代替真实浏览器或iPhone Safari实机测试。
+- 当前生产资源版本为 v19，缓存键为 `bible-reading-v19-parenting-topic`。发布前运行 `node image-work/check-family-integration-v19.cjs`；静态与SW Mock核验不能代替真实浏览器或iPhone Safari实机测试。
