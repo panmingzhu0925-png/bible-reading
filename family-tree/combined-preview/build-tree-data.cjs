@@ -1,5 +1,6 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path');
+const {applyJudahRelatedFamilies}=require('./judah-related-families.cjs');
 const read=file=>JSON.parse(fs.readFileSync(path.join(__dirname,file),'utf8'));
 const clone=value=>JSON.parse(JSON.stringify(value));
 const tribePages=[
@@ -163,6 +164,13 @@ function buildData({includeExpansions=true}={}){
       db.quickFocus=[...new Set([...(db.quickFocus||[]).filter(id=>id!=='jesus'),'mary','jesus'])];
       db.lineageExplanation.push({text:guide.summary+' '+guide.boundary,refs:clone(guide.refs)});
       db.sources.push(clone(guide.interpretationSource));
+    }
+    if(data['judah-jesus']){
+      const separated=applyJudahRelatedFamilies(data['judah-jesus']);
+      const reached=new Set([separated.rootId]);let changed=true;
+      while(changed){changed=false;for(const n of separated.nodes){const parent=n.relatedOnly?null:n.treeParentId||n.fatherId;if(reached.has(parent)&&!reached.has(n.id)){reached.add(n.id);changed=true;}}}
+      separated.treeNodeIds=separated.nodes.filter(n=>reached.has(n.id)).map(n=>n.id);
+      data['judah-jesus']=recount(separated);
     }
   }
   return data;

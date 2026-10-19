@@ -287,7 +287,7 @@
   </div>
 </nav>
 
-<script src="./people-data.js?v=15"></script>
+<script src="./people-data.js?v=16"></script>
 <script>
 const PEOPLE=window.BIBLE_PEOPLE||[];
 const PLAN = [
@@ -512,6 +512,7 @@ window.addEventListener("message",event=>{
   const url=new URL(view.url,location.href);
   url.searchParams.set("tree",tree);
   if(typeof event.data.person==="string"&&/^[a-z0-9_]+$/.test(event.data.person))url.searchParams.set("person",event.data.person);
+  if(tree==="judah-jesus"&&typeof event.data.related==="string"&&/^[a-z0-9_]+$/.test(event.data.related))url.searchParams.set("related",event.data.related);
   document.getElementById("genealogyFull").href=url.href;
   frame.title=view.title;
 });

@@ -18,6 +18,8 @@
 
 `person=人物ID` 可定位档案，`family=人物ID` 可单看图中该支，`embed=1` 用于主网页内嵌。`explain=mary` 展开马利亚与拿单支系的释经说明。约瑟至耶稣明确标记家庭身份，不作为生父关系；希里至马利亚仅列常见释经解释，未填为经文明记的父女关系。
 
+犹大页提供“相关家族 · 单独查看”选择器。`?tree=judah-jesus&related=家族根ID` 单独展示北国王族、相关母家及姻亲等23组家族；这些家族不接在犹大根节点下。完整360条档案及原经文保留，主图266条图面记录，妻子、生母仍可点击；亚玛撒在主图按经文明记的母系与亚比该连接，另在益帖父家保留父系显示。“相关家族”不表示所有成员已被证明不属犹大支派，支派未明仍作未确定。
+
 ## 资料与构建
 
 `combined-preview/` 是当前已审阅查看器和扩展资料的源目录，原始三段资料仍在 `data/`。主要资料包括 `abraham-jacob-children.json`、`jacob-tribes.json`、`judah-jesus.json`、`judah-luke.json`、`mary-nathan-note.json` 及 `tribe-expansions/`。各审核说明记录相应经文和名单差异。不同同名人物保留独立 ID；妻妾、母系、收养、族源、支派归属及有争议谱系不可一律改成父子。
@@ -26,8 +28,8 @@
 
 `app.css` 为共享基础样式，`style.css` 为本轮人物树扩展样式；预览仍引用相同基础样式。ECharts 5.6.0 位于 `vendor/`，保留 Apache-2.0 许可，不依赖外部 CDN；资料通过本地 JavaScript 载入，避免额外 JSON 请求导致子目录路径问题。
 
-必要核验：`node family-tree/check-viewer.cjs`、`node family-tree/combined-preview/check-expanded-tribes.cjs`，以及各扩展资料的校验脚本和浏览器手机布局检查。静态检查不代替经文逐条人工复核。
+必要核验：`node family-tree/check-viewer.cjs`、`node family-tree/combined-preview/check-expanded-tribes.cjs`、`node family-tree/combined-preview/check-judah-related.cjs`，以及各扩展资料的校验脚本和浏览器手机布局检查。静态检查不代替经文逐条人工复核。
 
 ## 部署
 
-GitHub Pages 项目路径下使用相对地址。当前生产资源版本为 v15；更新运行文件时，应同步更新主网站 `sw.js` 的缓存版本与清单，预缓存两个 CSS、三个运行脚本、本地 ECharts 和查看器页面。原图片页面及两张图片继续保留。发布后检查正式子目录中的内嵌、全屏、跨页定位及离线缓存更新。
+GitHub Pages 项目路径下使用相对地址。当前生产资源版本为 v16；更新运行文件时，应同步更新主网站 `sw.js` 的缓存版本与清单，预缓存两个 CSS、三个运行脚本、本地 ECharts 和查看器页面。原图片页面及两张图片继续保留。发布后检查正式子目录中的内嵌、全屏、跨页定位及离线缓存更新。

@@ -2,7 +2,7 @@
 
 ## 部署到 GitHub Pages
 1. 新建一个 GitHub 仓库，例如 `bible-reading`
-2. 上传网站运行文件与对应维护源；本项目的发布清单由 `node image-work/build-publish-list-v15.cjs` 生成，请勿直接上传整个工作目录中的临时文件
+2. 上传网站运行文件与对应维护源；本项目的发布清单由 `node image-work/build-publish-list-v16.cjs` 生成，请勿直接上传整个工作目录中的临时文件
 3. GitHub 仓库进入 Settings → Pages
 4. Build and deployment 选择 `Deploy from a branch`
 5. Branch 选择 `main`，目录选择 `/ (root)`，保存

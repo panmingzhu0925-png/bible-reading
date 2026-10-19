@@ -118,9 +118,12 @@
     "judah-jesus": {
       "title": "犹大、大卫到耶稣：马太家谱主线",
       "records": 360,
-      "treeNodes": 323,
+      "treeNodes": 266,
       "persons": 355,
-      "groups": 5
+      "groups": 5,
+      "relatedFamilies": 23,
+      "relatedFamilyMemberships": 59,
+      "note": "主图与相关外家、北国王族分开显示，档案和原经文保留，母系亚玛撒仍在主图。"
     },
     "judah-luke": {
       "title": "犹大至耶稣：路加家谱独立对照",
@@ -188,5 +191,6 @@
     "distinctChapters": 48,
     "identityReviews": 48,
     "scope": "章内姓名命中加特殊身份人工对照，不等于逐人生平所有叙述无争议。"
-  }
+  },
+  "updated": "2026-10-19"
 }

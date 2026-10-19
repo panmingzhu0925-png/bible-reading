@@ -6,7 +6,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { buildData } = require('./combined-preview/build-tree-data.cjs');
 const preview = path.join(__dirname, 'combined-preview');
-const version = '15';
+const version = '16';
 const read = file => fs.readFileSync(path.join(preview, file), 'utf8');
 const write = (file, source) => fs.writeFileSync(path.join(__dirname, file), source);
 
@@ -30,7 +30,7 @@ for (const [from, to] of [
 ]) html = replace(html, from, to);
 write('index.html', html);
 write('style.css', replace(read('style.css'), "@import url('../app.css?v=14');", `@import url('./app.css?v=${version}');`));
-write('app.js', replace(read('app.js'), "document.title=page.title+' · 人物树预览';", "document.title=page.title+' · 圣经人物家谱';"));
+write('app.js', replace(read('app.js'), "+' · 人物树预览';", "+' · 圣经人物家谱';"));
 write('compact-layout.js', read('compact-layout.js'));
 
 const data = buildData();

@@ -1,5 +1,5 @@
-const CACHE="bible-reading-v15-scripture-people";
-const ASSETS=["./","./index.html","./genealogy-images.html","./family-tree/index.html","./family-tree/app.css?v=15","./family-tree/style.css?v=15","./family-tree/app.js?v=15","./family-tree/compact-layout.js?v=15","./family-tree/tree-data.js?v=15","./family-tree/vendor/echarts.min.js","./manifest.webmanifest","./people-data.js?v=15","./people-data.json","./people-index/index.html","./people-index/app.css?v=15","./people-index/app.js?v=15","./people-index/data.js?v=15","./people-index/local-data.js?v=15","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./assets/genealogy-front-transparent.png","./assets/genealogy-back-transparent.png"];
+const CACHE="bible-reading-v16-separated-judah-families";
+const ASSETS=["./","./index.html","./genealogy-images.html","./family-tree/index.html","./family-tree/app.css?v=16","./family-tree/style.css?v=16","./family-tree/app.js?v=16","./family-tree/compact-layout.js?v=16","./family-tree/tree-data.js?v=16","./family-tree/vendor/echarts.min.js","./manifest.webmanifest","./people-data.js?v=16","./people-data.json","./people-index/index.html","./people-index/app.css?v=16","./people-index/app.js?v=16","./people-index/data.js?v=16","./people-index/local-data.js?v=16","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./assets/genealogy-front-transparent.png","./assets/genealogy-back-transparent.png"];
 const assetURL=path=>new URL(path,self.location.href).href;
 
 self.addEventListener("install",event=>{

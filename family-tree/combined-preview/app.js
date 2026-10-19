@@ -9,8 +9,31 @@
   const lukePage={...tribePages.find(p=>p.root==='judah'),key:'judah-luke',title:'犹大家谱 · 路加对照',heading:'犹大 — 耶稣（路加记载）'};
   const page=[...pages,...tribePages,lukePage].find(p=>p.key===params.get('tree'))||pages[2];
   const treeKey=page.key;
-  const db=window.BIBLE_FAMILY_TREES?.[treeKey];
-  if(!db || !window.echarts || !window.CompactTreeLayout){document.getElementById('chart').innerHTML='<p class="error">家谱资料暂时无法加载，请联网后刷新。</p>';return;}
+  const sourceDb=window.BIBLE_FAMILY_TREES?.[treeKey];
+  if(!sourceDb || !window.echarts || !window.CompactTreeLayout){document.getElementById('chart').innerHTML='<p class="error">家谱资料暂时无法加载，请联网后刷新。</p>';return;}
+  const relatedFamilies=sourceDb.relatedFamilies||[];
+  const mainTreeIds=new Set(sourceDb.treeNodeIds);
+  const familyForPerson=id=>relatedFamilies.find(f=>f.nodeIds.includes(id));
+  const mainAnchorFor=id=>sourceDb.relations.filter(r=>['spouse','concubine'].includes(r.type)&&(r.source===id||r.target===id)||r.type==='mother-child'&&r.source===id).map(r=>r.source===id?r.target:r.source).find(p=>mainTreeIds.has(p));
+  let relatedFamily=relatedFamilies.find(f=>f.rootId===params.get('related'));
+  const requestedPerson=params.get('person');
+  if(!relatedFamily&&requestedPerson&&!mainTreeIds.has(requestedPerson)&&!mainAnchorFor(requestedPerson))relatedFamily=familyForPerson(requestedPerson);
+  const isRelatedFamily=!!relatedFamily;
+  const familyCategoryLabels={'northern-kingdom':'北国以色列王族','kenite-family':'基尼人相关家族','associated-family':'婚姻与相关父家'};
+  const relatedIds=new Set(relatedFamily?.nodeIds||[]);
+  // Keep the complete archive for detail links. Only the chosen family's graph
+  // is isolated; its father links retain the original Scripture identities.
+  const db=isRelatedFamily?{...sourceDb,rootId:relatedFamily.rootId,mainPath:[relatedFamily.rootId],nodes:sourceDb.nodes.map(n=>{
+    const copy={...n};
+    if(!relatedIds.has(n.id)){copy.relatedOnly=true;return copy;}
+    delete copy.relatedOnly;
+    if(n.id===relatedFamily.rootId){delete copy.treeParentId;return copy;}
+    if(relatedIds.has(n.fatherId)){
+      delete copy.treeParentId;
+      if(n.lineageKind==='maternal'){delete copy.lineageKind;delete copy.lineageLabel;}
+    }
+    return copy;
+  })}:sourceDb;
   const rootId=db.rootId||'noah';
   const byId = new Map(db.nodes.map(n => [n.id, n]));
   const diagramParent=n=>n.relatedOnly?null:n.treeParentId||n.fatherId;
@@ -39,17 +62,17 @@
   const isJudah=treeKey==='judah-jesus';
   const hasLineage=db.nodes.some(n=>n.lineageKind);
   if(isTribes||page.tribe){document.documentElement.classList.add('tribes-page');document.querySelector('.preview-note').textContent=db.previewNote||(isJudah?'按《马太福音》1章展开，旧约补列的世代另有标记；虚线旁注明谱系差异。约瑟为马利亚的丈夫，非耶稣生父。':isTribes?'下方选择支派，单独查看各支家族。约瑟后裔列玛拿西、以法莲两支；利未人另得城邑与郊野。':'本页单列这一支的《创世记》46章家族。选择其他支派可切换；犹大支派已继续接到耶稣。');}
-  document.title=page.title+' · 人物树预览';
-  document.getElementById('treeTitle').textContent=db.expansionApplied&&!isJudah?byId.get(rootId).name+'支派 — 家谱与人物':page.heading;
-  document.getElementById('treeSubtitle').textContent=db.subtitle||page.subtitle;
-  document.getElementById('mainLegend').textContent=page.legend;
+  document.title=(relatedFamily?relatedFamily.title:page.title)+' · 人物树预览';
+  document.getElementById('treeTitle').textContent=relatedFamily?relatedFamily.title:db.expansionApplied&&!isJudah?byId.get(rootId).name+'支派 — 家谱与人物':page.heading;
+  document.getElementById('treeSubtitle').textContent=relatedFamily?(familyCategoryLabels[relatedFamily.category]||'相关家族')+' · 各家独立显示，点击姓名查看经文':db.subtitle||page.subtitle;
+  document.getElementById('mainLegend').textContent=isRelatedFamily?'本家族起点':page.legend;
   document.getElementById('overview').textContent=page.overviewTitle||'支系概览';
   document.getElementById('groupLegend').hidden=!db.nodes.some(n=>n.kind==='group');
   document.getElementById('tribeLegend').hidden=!db.nodes.some(n=>n.tribeInfo);
   document.getElementById('lineageLegend').hidden=!hasLineage;
   if(hasLineage)document.getElementById('sourcesToggle').textContent='家谱差异与来源';
-  document.getElementById('scopeCount').textContent=`依据《圣经》和合本，收录 ${db.nodes.length} 个条目。蓝字妻妾／母亲可点击；同胞按母亲分组。`;
-  document.getElementById('chart').setAttribute('aria-label',page.title+'家谱，可点击姓名查看经文出处');
+  document.getElementById('scopeCount').textContent=relatedFamily?`本家族 ${relatedFamily.nodeIds.length} 条图面记录，已与犹大家谱分开显示；点击姓名查看经文及相关亲属。`:`依据《圣经》和合本，收录 ${db.nodes.length} 个档案${relatedFamilies.length?`；${relatedFamilies.length}组相关家族单独查看`:''}。蓝字妻妾／母亲可点击；同胞按母亲分组。`;
+  document.getElementById('chart').setAttribute('aria-label',(relatedFamily?relatedFamily.title:page.title)+'家谱，可点击姓名查看经文出处');
   document.getElementById('orientation').value=direction;
   // Run after ECharts 5.6.0's tree layout. Keep its tree renderer and events,
   // replacing uniform leaf slots with measured, compact family positions.
@@ -80,7 +103,7 @@
   const refLinks = refs => `<div class="refs">${(refs || []).map(refLink).join('')}</div>`;
   const personButton = (id, text) => `<button class="person-link" data-person="${id}">${esc(text || displayName(byId.get(id)))}</button>`;
   function relationLabel(r,id){if(['mother-child','father-child'].includes(r.type))return r.source===id?(women.has(r.target)?'女儿':byId.get(r.target).gender==='unknown'?'子女':'儿子'):r.type==='mother-child'?'母亲':'父亲';if(r.type==='concubine')return r.source===id?'妾':'婚姻关系';return r.relation;}
-  function treeURL(tree,personId){const url=new URL('./index.html',location.href);url.searchParams.set('tree',tree);if(personId)url.searchParams.set('person',personId);if(params.get('embed')==='1')url.searchParams.set('embed','1');return url.href;}
+  function treeURL(tree,personId,relatedRoot){const url=new URL('./index.html',location.href);url.searchParams.set('tree',tree);if(personId)url.searchParams.set('person',personId);if(relatedRoot)url.searchParams.set('related',relatedRoot);if(params.get('embed')==='1')url.searchParams.set('embed','1');return url.href;}
   document.getElementById('pageNav').innerHTML=pages.map(p=>`<a href="${esc(treeURL(p.key))}"${p.key===treeKey?' aria-current="page"':''}>${esc(p.title)}</a>`).join('');
   const tribeNav=document.getElementById('tribeNav');
   tribeNav.hidden=!(isTribes||page.tribe);
@@ -92,11 +115,20 @@
     document.getElementById('tribeOverview').href=treeURL('jacob-tribes');
   }
   const gospelNav=document.getElementById('gospelNav');
-  gospelNav.hidden=page.root!=='judah';
+  gospelNav.hidden=page.root!=='judah'||isRelatedFamily;
   if(!gospelNav.hidden)gospelNav.innerHTML='<span>家谱对照</span>'+[['judah-jesus','马太主线与犹大旁支'],['judah-luke','路加 · 拿单一线']].map(([key,label])=>`<a href="${esc(treeURL(key))}"${key===treeKey?' aria-current="page"':''}>${label}</a>`).join('');
+  const relatedNav=document.getElementById('relatedFamilyNav');
+  relatedNav.hidden=!relatedFamilies.length;
+  if(relatedFamilies.length){
+    const mainLink=document.getElementById('judahFamilyLink');mainLink.href=treeURL(treeKey);if(!isRelatedFamily)mainLink.setAttribute('aria-current','page');
+    const picker=document.getElementById('relatedFamilyPicker');
+    picker.innerHTML='<option value="">选择相关家族…</option>'+[...new Set(relatedFamilies.map(f=>f.category))].map(category=>`<optgroup label="${esc(familyCategoryLabels[category]||category)}">${relatedFamilies.filter(f=>f.category===category).map(f=>`<option value="${f.rootId}">${esc(f.title)}</option>`).join('')}</optgroup>`).join('');
+    picker.value=relatedFamily?.rootId||'';picker.addEventListener('change',()=>{location.href=treeURL(treeKey,undefined,picker.value);});
+    if(isRelatedFamily){const url=new URL(location.href);url.searchParams.set('related',relatedFamily.rootId);history.replaceState({},'',url);document.querySelector('.preview-note').textContent='本家族单独展示；与犹大家属的婚姻及母系关系保留在人物详情，支派未明者仍注明未确定。';}
+  }
   const maternalGuide=document.getElementById('maternalGuide');
-  maternalGuide.hidden=!db.maryNathanGuide;
-  if(db.maryNathanGuide){
+  maternalGuide.hidden=!db.maryNathanGuide||isRelatedFamily;
+  if(db.maryNathanGuide&&!isRelatedFamily){
     const g=db.maryNathanGuide;
     maternalGuide.querySelector('summary').textContent=g.title;
     maternalGuide.open=params.get('explain')==='mary';
@@ -129,12 +161,17 @@
     const parent = byId.get(n.fatherId||n.originFatherId);
     const otherRelations = db.relations.filter(r => r.source===id || r.target===id);
     const relationNotesSeen=new Set();
+    const childRelation=/^(?:儿子|女儿|长子|次子|三子|幼子|子女)$/.test(n.relation)?n.relation:n.gender==='female'?'女儿':n.gender==='male'?'儿子':'子女';
     const relationNote=r=>{const note=r.notes||r.note;if(!note||relationNotesSeen.has(note))return '';relationNotesSeen.add(note);return `<p class="note">${esc(note)}</p>`;};
     let connection = n.originNote?esc(n.originNote):id===rootId?'本段家谱的起点':'本段单列的亲属，父家信息以所附经文为准';
-    if(parent) connection = n.originFatherId&&id===rootId?`${personButton(parent.id)}的${women.has(id)?'女儿':'儿子'} · 本段起点`:n.kind === 'group' ? `${personButton(parent.id)} → ${esc(n.relation)}（族源联系）` : n.lineageKind==='household'?`${personButton(parent.id)} → ${esc(displayName(n))}（家谱承接，非生父）`:`${personButton(parent.id)}的${esc(n.relation)}`;
+    if(isRelatedFamily&&id===rootId)connection='本家族独立起点；与犹大家谱分开显示，具体联系见经文说明。';
+    else if(parent) connection = n.originFatherId&&id===rootId?`${personButton(parent.id)}的${women.has(id)?'女儿':'儿子'} · 本段起点`:n.kind === 'group' ? `${personButton(parent.id)} → ${esc(n.relation)}（族源联系）` : n.lineageKind==='household'?`${personButton(parent.id)} → ${esc(displayName(n))}（家谱承接，非生父）`:n.lineageKind==='genealogy'?`${personButton(parent.id)} → ${esc(displayName(n))}（${esc(n.relation)}）`:`${personButton(parent.id)}的${esc(childRelation)}`;
     else if(n.lineageKind==='maternal'&&n.treeParentId)connection=`${personButton(n.treeParentId)}的${women.has(id)?'女儿':'儿子'}（母系连接）`;
     else if(n.treeParentId)connection=`${personButton(n.treeParentId)} → ${esc(displayName(n))}（${n.lineageKind==='tribal'?'支派／宗族归属':'经文关联'}，非直接父子）`;
-    detail.innerHTML = `<button class="close-detail" aria-label="关闭人物详情">×</button><div class="eyebrow">${mainPath.has(id)?'主线人物':!treeIds.has(id)?'关联亲属':'支系记录'}</div><h2>${esc(displayName(n))}${n.kind==='group'?'<span class="kind">族群</span>':''}</h2><div class="connection">${connection}</div>${refLinks(n.refs)}${n.lineageKind?`<p class="selected-fact">${esc(n.lineageLabel||n.relation)}</p>`:''}${(n.relation||'').includes('合读')?'<p class="selected-fact">此父女关系根据不同章节合读，详见下方说明。</p>':''}<div class="selection-path">${hasLineage?'经文家族路径：':''}${ancestors(id,false).map(i=>esc(byId.get(i).name)).join(' › ')}</div>`;
+    detail.innerHTML = `<button class="close-detail" aria-label="关闭人物详情">×</button><div class="eyebrow">${mainPath.has(id)?isRelatedFamily?'本家族起点':'主线人物':!treeIds.has(id)?'关联档案':'支系记录'}</div><h2>${esc(displayName(n))}${n.kind==='group'?'<span class="kind">族群</span>':''}</h2><div class="connection">${connection}</div>${refLinks(n.refs)}${n.lineageKind?`<p class="selected-fact">${esc(n.lineageLabel||n.relation)}</p>`:''}${(n.relation||'').includes('合读')?'<p class="selected-fact">此父女关系根据不同章节合读，详见下方说明。</p>':''}<div class="selection-path">${hasLineage?'经文家族路径：':''}${ancestors(id,false).map(i=>esc(byId.get(i).name)).join(' › ')}</div>`;
+    const externalFamily=familyForPerson(id);
+    if(externalFamily&&externalFamily.rootId!==relatedFamily?.rootId)detail.innerHTML+=`<div class="cross-page"><a href="${esc(treeURL(treeKey,id,externalFamily.rootId))}">单独查看${esc(externalFamily.title)} ↗</a></div>`;
+    if(isRelatedFamily&&(mainTreeIds.has(id)||mainAnchorFor(id)))detail.innerHTML+=`<div class="cross-page"><a href="${esc(treeURL(treeKey,id))}">在犹大家谱查看 ↗</a></div>`;
     detail.scrollTop=0;
     if (otherRelations.length) detail.innerHTML += `<h3>亲属关系</h3>${otherRelations.map(r=>`<div class="event"><p>${esc(relationLabel(r,id))}：${personButton(r.source===id?r.target:r.source)}</p>${refLinks(r.refs)}${relationNote(r)}</div>`).join('')}`;
     if(n.tribeInfo){const t=n.tribeInfo;detail.innerHTML+=`<h3>支派与分地</h3><div class="event"><p class="tribe-label">${esc(t.ancestralLabel)}</p>${refLinks(t.ancestralRefs)}<p>${esc(t.landLabel)}</p>${refLinks(t.landRefs)}${t.note?`<p class="note">${esc(t.note)}</p>`:''}</div>`;}
@@ -263,7 +300,7 @@
       ty=Math.max(12,(r.height-height*scale)/2);
     }
     drawLabels();transform();
-    document.getElementById('count').textContent=viewRoot===rootId?`显示 ${visibleIds.length} / ${treeIds.size} 条目${relatedOnly.length?` · 另有 ${relatedOnly.length} 位关联亲属`:''}`:`当前支系 ${visibleIds.length} / ${descendants(viewRoot)+1} 条目 · 全图 ${treeIds.size} 条目`;
+    document.getElementById('count').textContent=viewRoot===rootId?`显示 ${visibleIds.length} / ${treeIds.size} 条目${isRelatedFamily?' · 相关家族独立图':relatedOnly.length?` · 另有 ${relatedOnly.length} 条关联档案`:''}`:`当前支系 ${visibleIds.length} / ${descendants(viewRoot)+1} 条目 · 全图 ${treeIds.size} 条目`;
     const branchScope=document.getElementById('branchScope');branchScope.hidden=viewRoot===rootId;branchScope.querySelector('span').textContent='当前支系：'+displayName(byId.get(viewRoot));
     ['mainline','overview','all'].forEach(mode=>document.getElementById(mode).classList.toggle('active',mode===lastMode));
     if(fit)focusNode(selected,true);
@@ -288,6 +325,10 @@
   }
   function select(id, focus=false) {
     const anchor=treeIds.has(id)?id:db.relations.filter(r=>['spouse','concubine'].includes(r.type)&&(r.source===id||r.target===id)||r.type==='mother-child'&&r.source===id).map(r=>r.source===id?r.target:r.source).find(p=>treeIds.has(p));
+    if(!anchor){
+      if(isRelatedFamily&&(mainTreeIds.has(id)||mainAnchorFor(id))){location.href=treeURL(treeKey,id);return;}
+      const target=familyForPerson(id);if(target&&target.rootId!==relatedFamily?.rootId){location.href=treeURL(treeKey,id,target.rootId);return;}
+    }
     if(anchor&&!ancestors(anchor).includes(viewRoot)){viewRoot=rootId;updateScopeURL();}
     if(anchor)reveal(anchor);showDetails(id);lastMode='';render(false);if(focus)focusNode(id,true);
   }
@@ -358,10 +399,10 @@
   let resizeTimer,lastSize='';
   if('ResizeObserver' in window)new ResizeObserver(()=>{const size=viewport.clientWidth+':'+viewport.clientHeight;if(size===lastSize)return;lastSize=size;render(true);}).observe(viewport);
   else window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>render(true),150);});
-  const focusIds=db.quickFocus||page.focus||(isJudah?[rootId]:treeKey==='abraham-jacob'?['abraham','ishmael','isaac','esau','jacob','joseph_patriarch']:treeKey==='noah-abraham'?['noah','terah','nahor_brother','haran_person','laban']:[]);
+  const focusIds=isRelatedFamily?[rootId]:db.quickFocus||page.focus||(isJudah?[rootId]:treeKey==='abraham-jacob'?['abraham','ishmael','isaac','esau','jacob','joseph_patriarch']:treeKey==='noah-abraham'?['noah','terah','nahor_brother','haran_person','laban']:[]);
   const quickFocus=document.getElementById('quickFocus');
   if(focusIds.length){quickFocus.hidden=false;quickFocus.innerHTML='<span>定位</span>'+focusIds.filter(id=>byId.has(id)).map(id=>`<button data-focus="${id}">${esc(labelName(byId.get(id)))}</button>`).join('');quickFocus.addEventListener('click',e=>{const b=e.target.closest('[data-focus]');if(b)select(b.dataset.focus,true);});}
   const initialId=byId.has(params.get('person'))?params.get('person'):viewRoot;
   showDetails(initialId,false);render(true);
-  if(window.parent!==window)window.parent.postMessage({type:'bible-family-tree',tree:treeKey,person:params.get('person')||''},location.origin);
+  if(window.parent!==window)window.parent.postMessage({type:'bible-family-tree',tree:treeKey,person:params.get('person')||'',related:relatedFamily?.rootId||''},location.origin);
 })();
