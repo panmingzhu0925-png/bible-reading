@@ -103,6 +103,7 @@
     .topicChoice[aria-pressed=true]{border-color:var(--accent);background:var(--soft);box-shadow:inset 0 0 0 1px var(--accent)}
     .topicDay{display:block;width:100%;text-align:left;margin-bottom:7px;cursor:pointer}.topicScripture{font-size:20px;font-weight:700;line-height:1.7;overflow-wrap:anywhere}.topicScripture a{color:var(--accent);text-underline-offset:4px}
     .topicContext{font-size:12px;color:var(--accent);margin:10px 0 0}.topicSummary{line-height:1.7;font-size:14px;color:var(--muted)}
+    .topicReference+.topicReference{margin-top:14px}.topicRefActions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:7px;font-size:13px;font-weight:400}.topicRefActions a{display:inline-flex;align-items:center;min-height:42px;padding:6px 10px}.topicRefActions .openBible{border:1px solid var(--line);border-radius:10px;background:var(--soft);text-decoration:none}
     #pageTopic button:disabled{opacity:.45;cursor:default}#pageTopic [hidden]{display:none}
     @media(max-width:420px){.topicChoices{gap:8px}.topicChoice{padding:12px 10px}.topicChoice strong{font-size:15px}#topicTitle{font-size:25px;line-height:1.4}}
   </style>
@@ -235,6 +236,7 @@
     <div class="card">
       <div class="sectionTitle">今日经文</div>
       <div class="topicScripture" id="topicScripture"></div>
+      <p class="taskDesc" id="topicAppHint" hidden>手机已安装微读圣经时，可点“微读打开”；未能打开时，可选“网页阅读”。</p>
       <p class="topicContext" id="topicCategory" hidden></p>
       <div class="taskDesc" id="topicFocus" style="margin-top:8px" hidden></div>
     </div>
@@ -308,9 +310,9 @@
   </div>
 </nav>
 
-<script src="./people-data.js?v=19"></script>
-<script src="./topics/data.js?v=19"></script>
-<script src="./topics/app.js?v=19"></script>
+<script src="./people-data.js?v=20"></script>
+<script src="./topics/data.js?v=20"></script>
+<script src="./topics/app.js?v=20"></script>
 <script>
 const PEOPLE=window.BIBLE_PEOPLE||[];
 const PLAN = [

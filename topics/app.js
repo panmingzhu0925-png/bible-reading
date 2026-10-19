@@ -68,7 +68,8 @@
       $('topicTheme').textContent=`第 ${i+1} 天 · ${item.title}`;
       $('topicDayNo').textContent=i+1;$('topicLength').textContent=topic.days.length;
       $('topicProgressBar').style.width=status.percent+'%';$('topicProgressText').textContent=status.percent+'%';$('topicDoneDays').textContent=status.done;
-      $('topicScripture').innerHTML=item.refs?.length?item.refs.map(ref=>`<a href="${escape(ref.url)}" target="_blank" rel="noopener noreferrer">${escape(ref.label)}</a>`).join(' · '):escape(item.scripture);
+      $('topicScripture').innerHTML=item.readers?.length?item.readers.map(ref=>`<div class="topicReference"><div>${escape(ref.label)}</div><div class="topicRefActions"><a class="openBible" href="${escape(ref.appUrl)}" aria-label="用微读圣经打开${escape(ref.label)}">微读打开 ↗</a><a href="${escape(ref.webUrl)}" target="_blank" rel="noopener noreferrer" aria-label="在网页阅读${escape(ref.label)}">网页阅读</a></div></div>`).join(''):item.refs?.length?item.refs.map(ref=>`<a href="${escape(ref.url)}" target="_blank" rel="noopener noreferrer">${escape(ref.label)}</a>`).join(' · '):escape(item.scripture);
+      $('topicAppHint').hidden=!item.readers?.length;
       $('topicCategory').hidden=!item.category;$('topicCategory').textContent=item.category==='家庭应用'?'家庭应用 · 将本段教导带入亲子生活':item.category==='父母教导'?'经文中的父母与家庭教导':'';
       $('topicFocus').hidden=!item.focus;$('topicFocus').textContent=item.focus||'';
       $('topicQuestion').textContent=item.question;

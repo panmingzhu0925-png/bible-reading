@@ -1,5 +1,6 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path');
+const {parseScripture}=require('./reading-links.cjs');
 const files=['money-30-days.json','parenting-30-days.json'];
 function build(){
   return files.map(file=>{
@@ -13,7 +14,11 @@ function build(){
         for(const ref of day.refs)if(!ref.label||!/^https:\/\/cnbible\.com\/cus\/[a-z0-9_]+\/\d+\.htm$/.test(ref.url))throw new Error(`${file} day ${i+1}: invalid Scripture reference`);
       }
     });
-    return topic;
+    return {...topic,days:topic.days.map((day,i)=>{
+      const readers=parseScripture(day.scripture,day.refs);
+      if(!readers.length)throw new Error(`${file} day ${i+1}: unsupported Scripture link`);
+      return {...day,readers};
+    })};
   });
 }
 if(require.main===module){const data=build();fs.writeFileSync(path.join(__dirname,'data.js'),'window.BIBLE_TOPICS='+JSON.stringify(data).replace(/</g,'\\u003c')+';\n');console.log('Generated '+data.length+' topics / '+data.reduce((n,t)=>n+t.days.length,0)+' readings.');}

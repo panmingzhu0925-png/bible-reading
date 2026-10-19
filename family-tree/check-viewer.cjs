@@ -24,7 +24,7 @@ check('正式脚本可解析且页面依赖均位于当前项目', () => {
     const file = decodeURIComponent(url.split(/[?#]/)[0]);
     assert.ok(fs.existsSync(path.resolve(__dirname, file)), url);
   }
-  assert.ok(read('style.css').startsWith("@import url('./app.css?v=19');"));
+  assert.ok(read('style.css').startsWith("@import url('./app.css?v=20');"));
   assert.ok(!html.includes('combined-preview') && !html.includes('../../'));
 });
 check('竖向全展开、支派和双家谱导航与原图片入口保留', () => {
