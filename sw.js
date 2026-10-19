@@ -1,5 +1,5 @@
-const CACHE="bible-reading-v17-family-branch-spacing";
-const ASSETS=["./","./index.html","./genealogy-images.html","./family-tree/index.html","./family-tree/app.css?v=17","./family-tree/style.css?v=17","./family-tree/app.js?v=17","./family-tree/compact-layout.js?v=17","./family-tree/tree-data.js?v=17","./family-tree/vendor/echarts.min.js","./manifest.webmanifest","./people-data.js?v=17","./people-data.json","./people-index/index.html","./people-index/app.css?v=17","./people-index/app.js?v=17","./people-index/data.js?v=17","./people-index/local-data.js?v=17","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./assets/genealogy-front-transparent.png","./assets/genealogy-back-transparent.png"];
+const CACHE="bible-reading-v18-all-family-branches";
+const ASSETS=["./","./index.html","./genealogy-images.html","./family-tree/index.html","./family-tree/app.css?v=18","./family-tree/style.css?v=18","./family-tree/app.js?v=18","./family-tree/compact-layout.js?v=18","./family-tree/tree-data.js?v=18","./family-tree/vendor/echarts.min.js","./manifest.webmanifest","./people-data.js?v=18","./people-data.json","./people-index/index.html","./people-index/app.css?v=18","./people-index/app.js?v=18","./people-index/data.js?v=18","./people-index/local-data.js?v=18","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./assets/genealogy-front-transparent.png","./assets/genealogy-back-transparent.png"];
 const assetURL=path=>new URL(path,self.location.href).href;
 
 self.addEventListener("install",event=>{

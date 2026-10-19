@@ -1,19 +1,10 @@
 'use strict';
 const assert=require('node:assert/strict');
-const {layout}=require('./compact-layout.js');
-const {buildData}=require('./build-tree-data.cjs');
-const {model}=require('./diagnose-branch-layout.cjs');
-const EPS=1e-6,data=buildData();let passed=0;
+const {scene:familyScene,fixtures,data}=require('./branch-spacing.test.cjs');
+const EPS=1e-6;let passed=0;
 const near=(a,b,message)=>assert.ok(Math.abs(a-b)<EPS,`${message}: ${a} != ${b}`);
 function test(name,run){run();passed++;console.log('PASS: '+name);}
-function scene(key,direction='TB',collapsed=[]){
-  const db=data[key],m=model(db),major=new Set(['noah','abraham','isaac']),folded=new Set(collapsed);
-  const children=id=>folded.has(id)?[]:m.children(id);
-  if(children(db.rootId).length<=6)major.add(db.rootId);
-  const branchGap=(parent,left,right)=>major.has(parent)&&(children(left).length||children(right).length)?direction==='TB'?56:34:14;
-  const result=layout({rootId:db.rootId,children,box:m.box,direction,siblingGap:14,generationGap:direction==='TB'?56:34,compactMainRows:false,preferredChild:id=>children(id).includes(m.preferredChild(id))?m.preferredChild(id):null,branchGap});
-  return {...m,db,children,result};
-}
+const scene=(keyOrDb,direction='TB',collapsed=[])=>familyScene(keyOrDb,undefined,direction,collapsed);
 function labelRect(point,box){return {left:point.x-box.width/2,right:point.x+box.width/2,top:point.y-box.height-4,bottom:point.y-4};}
 function segmentHitsInterior(a,b,r){
   if(Math.abs(a[0]-b[0])<EPS)return a[0]>r.left+EPS&&a[0]<r.right-EPS&&Math.max(Math.min(a[1],b[1]),r.top)<Math.min(Math.max(a[1],b[1]),r.bottom)-EPS;
@@ -33,6 +24,12 @@ function validateRoutes(key,direction,s){
   assert.equal(result.edges.length,visible.size-1,key+' must return exactly one edge per non-root visible node');
   const expected=new Set([...visible].flatMap(parent=>s.children(parent).map(child=>parent+'\0'+child))),seen=new Set();
   const rects=new Map([...result.positions].map(([id,p])=>[id,labelRect(p,s.box(id))]));
+  const labels=[...rects];
+  for(let i=0;i<labels.length;i++)for(let j=i+1;j<labels.length;j++){
+    const [a,ar]=labels[i],[b,br]=labels[j];
+    const width=Math.min(ar.right,br.right)-Math.max(ar.left,br.left),height=Math.min(ar.bottom,br.bottom)-Math.max(ar.top,br.top);
+    assert.ok(width<=EPS||height<=EPS,`${key}/${direction}: label boxes ${a} and ${b} must not overlap`);
+  }
   for(const edge of result.edges){
     const identity=edge.parentId+'\0'+edge.childId;
     assert.ok(expected.has(identity),key+' routed edge is not in the visible tree: '+identity);
@@ -72,26 +69,30 @@ function validateRoutes(key,direction,s){
   }
 }
 function runTests(){
-test('All 17 real genealogy datasets have complete orthogonal routes clear of unrelated labels in TB and LR',()=>{
+test('All 17 genealogy views and 23 related families have isolated orthogonal routes and non-overlapping labels in TB and LR',()=>{
   assert.equal(Object.keys(data).length,17,'Audit scope must include every current genealogy view');
-  for(const key of Object.keys(data))for(const direction of ['TB','LR'])validateRoutes(key,direction,scene(key,direction));
+  assert.equal(fixtures.filter(f=>f.family).length,23,'Audit scope must include every isolated related family');
+  for(const {key,db}of fixtures)for(const direction of ['TB','LR']){
+    const s=scene(db,direction);validateRoutes(key,direction,s);
+    assert.deepEqual(new Set(s.result.positions.keys()),new Set(db.treeNodeIds),key+' must show its complete intended family only');
+  }
 });
-test('Collapsing Ham, Japheth, Isaac or Jacob removes every hidden descendant route without dangling endpoints',()=>{
-  for(const [key,folded]of [['noah-abraham',['ham']],['noah-abraham',['ham','japheth']],['abraham-jacob',['isaac']],['abraham-jacob',['jacob']]])for(const direction of ['TB','LR']){
+test('Collapsing Noah, patriarchal and other tribal branches removes hidden routes without dangling endpoints or collisions',()=>{
+  for(const [key,folded]of [['noah-abraham',['ham']],['noah-abraham',['ham','japheth']],['abraham-jacob',['isaac']],['abraham-jacob',['jacob']],['tribe-levi',['kohath_levi']],['tribe-joseph',['manasseh']],['tribe-benjamin',['bela_benjamin']],['judah-jesus',['david']]])for(const direction of ['TB','LR']){
     const s=scene(key,direction,folded);validateRoutes(key,direction,s);
     for(const id of folded){assert.ok(s.result.positions.has(id),'Collapsed root itself must remain visible');for(const child of s.children(id))assert.fail('Collapsed visible children must be absent: '+child);}
     assert.ok(s.result.positions.size<data[key].treeNodeIds.length,'Fixture must actually hide descendants');
   }
 });
-test('Collapsing the root leaves one label and no edges; expanding restores each exact parent-child route',()=>{
-  for(const key of ['noah-abraham','abraham-jacob'])for(const direction of ['TB','LR']){
-    const collapsed=scene(key,direction,[data[key].rootId]);validateRoutes(key,direction,collapsed);
+test('Every view collapses to one family root and expands back to its exact parent-child routes',()=>{
+  for(const {key,db}of fixtures)for(const direction of ['TB','LR']){
+    const collapsed=scene(db,direction,[db.rootId]);validateRoutes(key,direction,collapsed);
     assert.equal(collapsed.result.positions.size,1);assert.deepEqual(collapsed.result.edges,[]);
-    const reopened=scene(key,direction);validateRoutes(key,direction,reopened);
-    assert.equal(reopened.result.positions.size,data[key].treeNodeIds.length);
+    const reopened=scene(db,direction);validateRoutes(key,direction,reopened);
+    assert.deepEqual(new Set(reopened.result.positions.keys()),new Set(db.treeNodeIds));
   }
 });
-console.log(`\n${passed} real-data route audit groups passed (17 full views, TB/LR, and collapse/reopen states).`);
+console.log(`\n${passed} real-data route audit groups passed (17 views + 23 related families, TB/LR, and collapse/reopen states).`);
 }
 if(require.main===module)runTests();
 module.exports={scene,labelRect,segmentHitsInterior,segmentsMeet,validateRoutes,runTests};

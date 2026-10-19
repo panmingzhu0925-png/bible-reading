@@ -6,7 +6,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { buildData } = require('./combined-preview/build-tree-data.cjs');
 const preview = path.join(__dirname, 'combined-preview');
-const version = '17';
+const version = '18';
 const read = file => fs.readFileSync(path.join(preview, file), 'utf8');
 const write = (file, source) => fs.writeFileSync(path.join(__dirname, file), source);
 

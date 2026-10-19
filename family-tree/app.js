@@ -288,11 +288,12 @@
   function markRelative(text,id){text.setAttribute('data-spouse',id);text.setAttribute('role','button');text.setAttribute('tabindex','0');text.setAttribute('aria-label',`查看${displayName(byId.get(id))}的经文与亲属`);}
   function render(fit=false) {
     if(viewport.clientWidth===0||viewport.clientHeight===0)return;
-    const majorFamilies=new Set(['noah','abraham','isaac']);
-    if(children.get(viewRoot).length<=6)majorFamilies.add(viewRoot);
+    // Give every expanded family the same separation, including deeper
+    // generations and independently selected related families. Leaf-only
+    // siblings keep their compact gap so the whole chart stays manageable.
     const hasOpenChildren=id=>expanded.has(id)&&children.get(id).length>0;
     geometry=window.CompactTreeLayout.layout({rootId:viewRoot,children:id=>expanded.has(id)?ordered(id):[],box:labelSize,direction,siblingGap:14,generationGap:direction==='TB'?56:34,compactMainRows:false,
-      branchGap:(parent,left,right)=>majorFamilies.has(parent)&&(hasOpenChildren(left)||hasOpenChildren(right))?(direction==='TB'?56:34):14,
+      branchGap:(_parent,left,right)=>(hasOpenChildren(left)||hasOpenChildren(right))?(direction==='TB'?56:34):14,
       preferredChild:id=>mainPath.has(id)?ordered(id).find(child=>mainPath.has(child)):null});
     visibleIds=[...geometry.positions.keys()];
     const nominalWidth=geometry.width,nominalHeight=geometry.height;
